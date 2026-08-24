@@ -1,5 +1,5 @@
 <section xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>MTH 110-33 Syllabus</title>
+  <title>MTH 304-01 Syllabus</title>
 
  <!-- <introduction>
     <p>
@@ -13,8 +13,8 @@
     <title>Course Information</title>
 
     <p>
-      This is the syllabus for <term> (MTH 110-33)</term> 
-      for Fall 2026. It is a 4-credit course.
+      This is the syllabus for Analysis of Differential Equations <term> (MTH 304-01)</term> 
+      for Fall 2026. It is a 3-credit course.
       <!-- use a description list (dl) for short items -->
       <dl>
         <li>
@@ -38,7 +38,7 @@
           <title>Class meets</title>
 
           <p>
-            TR 11:00-12:50PM MAK D2-329 .
+            MWF 9-9:50AM MAK B1-110 .
           </p>
         </li>
 
@@ -46,23 +46,30 @@
           <title>Course Description</title>
 
           <p>
-            A symbolic, numeric, and graphic approach to intermediate algebra with an emphasis on applications. Topics include operations, equations, and inequalities of linear, exponential, logarithmic, quadratic, rational, and radical functions. Please see the mathematics program for placement test details.
-          </p>
+            Solution methods for first order and second order linear equations (including power series and numerical methods). The linear algebra of linear systems and their solutions. Qualitative analysis of linear and nonlinear systems: phase plane; existence and uniqueness; stability, and applications in physical, biological, and social sciences.
+            </p>
         </li>
 
         <li>
           <title>Prerequisite</title>
 
           <p>
-            MTH 097 or assignment through GVSU Math Placement. If you think you have been placed in the wrong course, please see me after class today to discuss your placement. You can take a practice proficiency exam: <url href="gvsu.edu/s/Ik">gvsu.edu/s/Ik</url> .To learn about how to take the exam watch: <url href="gvsu.edu/s/jq">gvsu.edu/s/jq</url>. To take the actual proficiency exam: <url href="gvsu.edu/s/jk"> gvsu.edu/s/jk</url>. It is free and I will not know that you took it.
-          </p>
+            MTH 203 and MTH 204.</p>
         </li>
 
-        <li>
+         <li>
           <title>Textbook (Optional for reference) </title>
 
           <p>
-            <pubtitle>Intermediate Algebra, Functions and Authentic Applications</pubtitle> by Lehmann published by Pearson, 5th edition.
+            <pubtitle>Differential Equations</pubtitle> by Blanchard, Devaney, and Hall, 4th edition. 
+This is an older edition. The PDF source file is available online, or you can purchase a super cheap used copy online.
+          </p>
+          <p>
+            (Optional Reference) Elementary Differential Equations with Boundary Value Problems, William Trench, online at <url href="https://digitalcommons.trinity.edu/mono/8/"> https://digitalcommons.trinity.edu/mono/8/</url>
+          </p>
+
+          <p>
+            (Optional Reference) Ordinary Differential Equations, Gabriel Nagy, online at <url href="https://users.math.msu.edu/users/gnagy/teaching/ode.pdf"> https://users.math.msu.edu/users/gnagy/teaching/ode.pdf/ </url>
           </p>
         </li>
       </dl>
@@ -75,23 +82,19 @@
         
         <ul>
           <li>
-            <p>Reframing Mathematical Mindset (1-2 week) </p>
+            <p>First order differential equations (2-3 Weeks) </p>
           </li>
 
           <li>
-            <p>Exponential Functions (3 - 5 weeks) </p>
+            <p>Systems of linear differential equations (4-5 Weeks).</p>
           </li>
 
            <li>
-            <p>Inverse Functions and Logarithmic Functions (2 - 4 weeks) </p>
+            <p>Inhomogeneous systems of linear differential equations (4-5 Weeks).) </p>
           </li>
 
            <li>
-            <p>Quadratic Functions (3 - 5 weeks) </p>
-          </li>
-
-           <li>
-            <p>Rational and Radical Functions (1 - 2 weeks)</p>
+            <p>Nonlinear systems of differential equations (2-3 Weeks)  </p>
           </li>
 
         </ul>
@@ -102,37 +105,31 @@
       <p>After successful completion of the course, students will be able to… 
         <ol marker="1.">
           <li>
-            Analyze realistic or real-world situations in a mathematical way, using exponential and quadratic models. 
+          Analyze first order differential equations using slope fields.
           </li>
         
 
         
           <li>
-            Select appropriate variables to represent the functional inputs and outputs for a mathematical model of a situation using exponential and quadratic models. 
+         Solve certain first order differential equations analytically.
           </li>
         
 
         
           <li>
-            Create an appropriate mathematical model from a description or data, using, if necessary, appropriate technological tools for exponential and quadratic models. 
+          Analyze autonomous systems of linear first order differential equations using directions fields and linear algebra. 
           </li>
         
 
         
           <li>
-            Solve problems involving exponential, logarithmic, and quadratic equations. 
+          Analyze higher-order linear differential equations (or a linear system of differential equations) with constant coefficients (both homogeneous and non-homogeneous) using linear algebra. 
           </li>
         
 
         
           <li>
-           Translate between different representations of functions (algebraic, graphical, and tabular) 
-          </li>
-        
-
-       
-          <li>
-            Explain the mathematical reasoning involved in solving a problem both orally and in writing. 
+           Qualitatively analyze a first order nonlinear autonomous system of differential equations. 
           </li>
         </ol>
         </p>
@@ -149,16 +146,11 @@
             All announcements, assignments, and other course details will be communicated through the course home page, which you access by going to the Blackboard server <url href="http://lms.gvsu.edu">http://lms.gvsu.edu</url> You will be expected to access the course home page frequently and respond accordingly to announcements and assignments posted there. In addition, it will be essential to be a regular user of email in this course. Be sure your preferred email address has been appropriately updated in your Banner. 
           </p>
         </li>
-<li>
-  <title>Laptop/Tablet:</title>
-  <p>
-    Preferably one with a touchscreen that allows writing on the screen with a stylus. If you do not have a laptop\tablet that you can bring to class, please let me know so I can bring a device you can use. 
-  </p>
-</li>
 
-<li><title>Web Browser</title>
+
+<li><title>Software</title>
   <p>
-    Chrome is the preferred browser. Make sure that you are using your GV Google profile when using school related items. Browsers such as Firefox and Edge are also fine. Safari has many issues with Bb. 
+     We will also use the mathematics software Geogebra to explore various aspects of Calculus. Introduction to important commands and features of these programs will be given in class. Geogebra works on all platforms and is free to download.
   </p>
 </li>
 <li><title>Scanning</title>
@@ -180,84 +172,80 @@
       </li>
     </ul> 
 
-    
- 
-</li>
-<li><title>Desmos</title>
-<p>
-  The primary calculator tool that we will use is Desmos <url href="https://www.desmos.com/ "> https://www.desmos.com/ </url> This is a free web-based tool that can run in any browser, or on your smartphone\tablet as an app. Once you are in Desmos, you can login with your Google account in order to save and share your work. 
-</p>
-      </li>
-
-      <li><title>Amplify Classroom: </title>
-<p>
-  Many of our in-class activities will be done on our Amplify Classroom platform. Join our classroom at <url href="https://learning.amplify.com/join/#/ZEAJ62 "> https://learning.amplify.com/join/#/ZEAJ62 </url> after clicking on the link, click on Sign in with Google button at the bottom of the window, choose your GV Google email from the list of google accounts that you have.
-</p>
       </li>
         </dl>
   </subsection>
-
-<!-- Other subsections for larger dividers -->
-  <subsection xml:id="flow">
-    <title>Structure and Flow of the Course</title>
-
-    <p>
-      Your MTH 110 course is being offered in a face-to-face (F2F) mode. The content of MTH 110 is divided into 15 modules (one module per week). Each of which is divided into two parts (one for each class meeting). Your engagement and work on each module follow a standard pattern: 
-      <ul>
-        <li>
-          <p>Before each class meeting, you need to go to the corresponding day and complete the Prep Work for that day. Prep work involves watching screencasts that leads you through independent learning of the basic ideas of new material, then complete their exit preview quiz. </p>
-        </li>
-
-        <li>
-          <p>During our class meeting, you will participate in active work on applications and analysis of the basic information you learned in the Preview assignment.  Your attendance is important for the group and for your learning.  </p>
-        </li>
-
-        <li>
-          <p>There is a weekly online homework on WebWork (see below). This is typically due at 11PM on Saturdays. You need to pace yourself during the week and finish a few problems each day. Office hours is a great place to work on that with the rest of the group.  </p>
-        </li>
-      </ul>
-
-    </p>
-    
-  </subsection>
-
-  
-  <!-- Other subsections for larger dividers -->
-  <subsection xml:id="sec-assessments">
+<subsection xml:id="sec-assessments">
     <title>Assessments and Grades</title>
 
-    v
+    
 
     <dl>
         <li>
-          <title>WebWork 15%</title>
+          <title>In class Activities 20%</title>
 
           <p>
-            Online homework is assigned regularly using WeBWorK. To access this log in to: <url href="https://webwork-math.gvsu.edu/webwork2/MTH110-33/ "> https://webwork-math.gvsu.edu/webwork2/MTH110-33/ </url>. You will get instant feedback on your answers, and you will have the opportunity to attempt any homework question an unlimited number of times before its deadline. Every assignment opens on Friday and is due on Saturday at 11:00PM of every week. You also may seek help from me, the Math Center tutors or each other. Once the assignment is closed answers will come available for download. To learn about WeBWorK check out GVSU YouTube Channel <url href="http://gvsu.edu/s/0vD"> http://gvsu.edu/s/0vD</url> and search for the “WeBWorK for students” playlist or go directly there with<url href="http://gvsu.edu/s/0vE"> http://gvsu.edu/s/0vE</url>. 
+            Every meeting, we will have an in-class group activity. Such activities will be completed in groups, where each student will receive the same grade.  The goal of those activities is to get a hands-on experience with topics being discussed.
           </p>
         </li>
 <li>
-  <title>In-Class Activities 30%</title>
+  <title>Homework 15%</title>
   <p>
-    Every meeting, we will have an in-class group activity. Such activities will be completed in groups, where each student will receive the same grade.  The goal of those activities is to get a hands-on experience with topics being discussed. Missing a class means that you forfeit the points of those activities. I will drop the lowest two activities in case you had to miss class that day. No excuses
+    Short homework will be assigned. Collaboration on homework is encouraged. 
   </p>
 </li>
 
-<li><title>Preview Activities 5%</title>
+<li><title>Projects 15%</title>
   <p>
     Before class, there are some screencasts that I ask you to watch and then take simple 2-3 question activity on Bb. 
   </p>
 </li>
 <li><title>Learning Targets 50%</title>
   <p>
-    This class will use a mastery-based testing policy. The mastery-based testing works like this: The course material is broken into 19 main Learning Targets (LTs), See the Learning Targets section below. This is a rather rigid scoring system, where partial credit is not awarded. The benefit is that students will have multiple attempts to demonstrate their mastery of the material at no cost for failing to do so on their first attempt. 
+    This class will use a mastery-based testing policy. The mastery-based testing works like this: The course material is broken into 19 main Learning Targets (LTs). The exam score is computed as a percentage of the 19 main LTs that the student shows that they have mastered. For example, if a student masters 13/19 of the main topics of the course, that student will be awarded (approximately) an 68.42% of their exam score. This is a rather rigid scoring system, where partial credit is not awarded. The benefit is that students will have multiple attempts to demonstrate their mastery of the material at no cost for failing to do so on their first attempt.
 </p><p>
-    Every other Thursday you will have a checkpoint to attempt 1-2 LTs, with the opportunity to re-attempt the LTs from the previous checkpoint. If you still did not reach mastery, you can re-attempt the LTs you need during my office hours. Your last chance to attempt all LTs will be on your final exam which scheduled for Tuesday, December 15, 10:00 am - 11:50 am.
+    Exam 1 will be broken into five sections, one for each of the first five main LTs. Each section will be graded according to an “all or nothing” policy; either the student has demonstrated that they’ve mastered the topic or that they have not yet mastered the topic. A student that demonstrates mastery on a topic will not be tested on that topic again. If a student fails to demonstrate mastery of a topic, they will have another chance on the next exam. Exam 2 will cover LTs 6 through 9 and allow for another attempt at any topics from exam 1 that were not mastered. For example, a student could master 3/5 topics on the first exam. The student will not be tested again on the three LTs which they mastered. On the second exam, this student would be tested on LTs 6 through 9 and have a opportunity to show that they have mastered the two topic from exam 1 which they failed to master. This continues to exam 3, which tests on LTs 10 through 15 and allows students another try on LTs 1 through 10. In lieu a final exam, students will have the opportunity to attempt all topic they have not yet mastered.
 </p><p>
-    After all LTs are completed, each student will have a number of mastered topics out of the 19 main topics. The percentage of mastered topics is the LT score for that student and will account for 50% of the course grade as per the grade distribution above. There is no penalty for mastering a LT on the second, third, or fourth exam after failing to do so on a previous exam. If students demonstrate that they've mastered a topic at any point during the semester, they receive full credit for doing so. 
+    After all four exams are completed, each student will have a number of mastered topics out of the 19 main topics. The percentage of mastered topics is the exam score for that student and will account for 50% of the course grade as per the grade distribution above. There is no penalty for mastering a LT on the second, third, or fourth exam after failing to do so on a previous exam. If students demonstrate that they’ve mastered a topic at any point during the semester, they receive full credit for doing so. 
     </p><p>
-      The grading of the LTs will be tough (no partial credit will be given) since it is an indication if the student has mastered the target or not. The benefit of this system is that students are not punished if they fail to master a topic but over the course of the semester demonstrate that they have mastered the topic. 
+      The grading of the exams will be tough (no partial credit will be given) since it is an indication if the student has mastered the material or not. The benefit of this system is that students are not punished if they fail to master a topic but over the course of the semester demonstrate that they’ve mastered the topic.
     </p>
+    <p>
+      Tentative take home exam dates are provided below. The times listed do not indicate the exam length, only the time period of the exam. That is, even though exams are listed as 6:00-7:20pm, the exam will not be this entire time; it will likely be about an hour within this block of time.
+
+    </p>
+    <table xml:id="Exam_dates">
+      <title>Exam dates</title>
+      <tabular halign="center">
+        <row header="yes"  bottom="minor" >
+          <cell></cell>
+          <cell>Available on Bb</cell>  <cell>Due in class</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Exam 1</cell>
+          <cell>Wed 9/23 at 9AM</cell>
+          <cell>Fri 9/25 at 9AM</cell>
+        </row>
+
+         <row bottom="minor">
+          <cell>Exam 2</cell>
+          <cell>Wed 10/14 at 9AM</cell>
+          <cell>Fri 10/16 at 9AM</cell>
+        </row>
+
+         <row bottom="minor">
+          <cell>Exam 3</cell>
+          <cell>Wed 11/11 at 9AM</cell>
+          <cell>Fri 11/13 at 9AM</cell>
+        </row >
+
+         <row bottom="minor">
+          <cell>Final Exam</cell>
+          <cell>Mon 12/14 at 8AM</cell>
+          <cell>Wed 12/16 at 8AM</cell>
+        </row>
+      </tabular>
+    </table>
 
     
  
@@ -266,7 +254,7 @@
         <p>
       Final grades will be no lower than as determined by the following scale:   
     </p>
-    <table xml:id="tab-name">
+    <table xml:id="tab-name1">
       <title>Grading Schema</title>
       <tabular>
         <row header="No">
@@ -295,112 +283,113 @@
     </table>
   </subsection>
 
-
-
-  <!-- Other subsections for larger dividers -->
-  <subsection xml:id="LTs">
+ <subsection xml:id="LTs">
     <title>Learning Targets</title>
-
-  </subsection>
-
-    <p>
-      <ol marker="1.">
-        <li>
-          <p>[Functions] I can sketch qualitative graphs with appropriate variable definitions.
+      
+<p>
+  The following is a list of main topics for the mastery-based testing policy. Exam 1 will test topics in Group 1. Exam 2 will test topics from Groups 1 and 2. Exam 3 will test topics in Groups 1, 2, and 3. Final Exam will test all topic groups. 
 </p>
-        </li>
 
-        <li>
-          <p>[Functions] I can describe a situation given a qualitative graph with defined inputs and outputs.  </p>
-        </li>
+</subsection>  
+   
 
-        <li>
-          <p>[Linear] Given a data set, make a linear regression model on Desmos, identify and explain the meaning of slope in the context, identify and explain the y-intercept in the context, find <m>f(a)</m> and explain its meaning, find <m>x</m> given <m>f(a)</m> and explain its meaning.
-</p>
-        </li>
+    <table xml:id="tab-name2">
+      <title>List of Learning Targets</title>
+      <tabular>
+        <row bottom="minor">
+          <cell>Topic group 1</cell>
+          </row>
 
-        <li>
-          <p>[Linear] Given a linear graph, identify the slope in the context, the vertical intercept, horizontal intercept, evaluate <m>f(a)</m>, find <m>x</m> given <m>f(a)</m> and make the equation of the line.
-</p>
-        </li>
+        <row>
+          <cell></cell>
+        </row>
 
-        <li>
-          <p>[Linear] Given a linear word situation, make an equation, identify and explain the meaning of slope in the context, identify and explain the y-intercept in the context, find <m>f(a)</m> and explain its meaning, find <m>x</m> given <m>f(a)</m> and explain its meaning, and determine what inputs make sense.
-</p>
-        </li>
+        <row>
+          <cell>Separable equations.</cell>
+        </row>
+<row>
+          <cell>Slope fields  </cell>
+        </row>
+     <row>
+          <cell>Applications of differential equations.</cell>
+        </row>
+<row>
+          <cell>Exact equations.</cell>
+        </row>
+<row bottom="minor">
+          <cell>Integrating Factors for Linear equations.</cell>
+        </row>
+     <row bottom="minor">
+          <cell>Topic group 2</cell>
+          </row>
+    <row>
+          <cell>Modeling first order systems.</cell>
+        </row>
 
-        <li>
-          <p>[Linear] Given a system of linear equations, or a word situation, or data sets create a system of equations as applicable and solve the system.
-</p>
-        </li>
+     <row>
+          <cell>Euler’s method for systems.</cell>
+        </row>
 
-        <li>
-          <p>[Linear] Given a linear function, find the inverse symbolically, explain how the domain and range is affected, and evaluate function notation questions.
-</p>
-        </li>
+      <row>
+          <cell>Phase portrait for linear systems with real eigenvalues.</cell>
+        </row>
+      <row bottom="minor">
+          <cell>Phase portrait for linear systems with complex eigenvalues.</cell>
+        </row>
 
-        <li>
-          <p>[Linear] I can recognize and identify key characteristics of a linear pattern represented in a table, graph, equation or application.  I can translate between different representations.
-</p>
-        </li>
+     <row bottom="minor" >
+          <cell>Topic group 3</cell>
+          </row>
+    <row>
+          <cell>Second order homogeneous .</cell>
+        </row>
 
-        <li>
-          <p>[Exponential] Given a data set, make an exponential regression model on Desmos, identify and explain the meaning of growth/decay rate in the context, identify and explain the y-intercept in the context, find <m>f(a)</m> and explain its meaning, find <m>x</m> given <m>f(a)</m> and explain its meaning.
-</p>
-        </li>
+      <row>
+          <cell>Solving 2nd order non homog linear system Method of indeterminant coefficients.</cell>
+        </row>
 
-        <li>
-          <p>[Exponential] Given an exponential graph, identify the growth/decay rate, the vertical intercept, evaluate <m>f(a)</m>, and find <m>x</m> given <m>f(a)</m> and make an equation for the curve.
-</p>
-        </li>
+      <row>
+          <cell>Solving IVP with the Laplace transform.</cell>
+        </row>
 
-        <li>
-          <p>[Exponential] Given an exponential word situation, such as half life, compound interest, depreciation, or simple growth/decay, make an equation, identify and explain the meaning of growth/decay rate in the context, identify and explain the y-intercept in the context, find <m>f(a)</m> and explain its meaning, find <m>x</m> given <m>f(a)</m> and explain its meaning, and determine what inputs make sense.
-</p>
-        </li>
+      <row>
+          <cell>Laplace transform of discontinuities functions.</cell>
+        </row>
+        
+      <row>
+          <cell>Laplace transforms for sin\cos functions.</cell>
+        </row>
+        
+      <row bottom="minor">
+          <cell> Using Shifting Theorems.</cell>
+        </row>
+    <row bottom="minor">
+          <cell>Topic group 4</cell>
+          </row>
+      <row>
+          <cell>Laplace transform for delta function.</cell>
+        </row>
 
-         <li>
-          <p>[Exponential] I can recognize and identify key characteristics of an exponential pattern represented in a table, graph, equation or application.  I can translate between different representations.</p>
-        </li>
+      <row>
+          <cell>Convolution theorems.</cell>
+        </row>
 
-        <li>
-          <p>[Exponential] Solve equations and word situations involving exponential, logarithmic, and power functions symbolically and with technology.
-</p>
-        </li>
+      <row>
+          <cell>Series Solution.</cell>
+        </row>
 
-        <li>
-          <p>[Quadratic] Given a data set, make a quadratic regression model on Desmos, identify and explain the meaning of x-intercepts, y-intercepts, and vertex in the context,find <m>f(a)</m> and explain its meaning, find <m>x</m> given <m>f(a)</m> and explain its meaning.
-</p>
-        </li>
+     <row>
+          <cell>The Runge-Kutta Method.</cell>
+        </row>
+      </tabular>
+    </table>
 
-        <li>
-          <p>[Quadratic] Given a quadratic graph, find the equation in 3 different forms, identify the horizontal intercepts, vertical intercept, and vertex, evaluate <m>f(a)</m>, and find <m>x</m> given <m>f(a)</m>.
-</p>
-        </li>
-
-        <li>
-          <p>[Quadratic] Given a quadratic word situation, graph the model on Desmos, identify and explain the meaning of x-intercepts, y-intercepts, and vertex in the context, find <m>f(a)</m> and explain its meaning, find <m>x</m> given <m>f(a)</m> and explain its meaning,and determine what inputs make sense.
-</p>
-        </li>
-
-        <li>
-          <p>[Quadratic] I can recognize and identify key characteristics of a quadratic pattern represented in a table, graph, equation or application.  I can translate between different representations.</p>
-        </li>
-
-        <li>
-          <p>[Radical] Given a radical application, find <m>f(a)</m> and explain its meaning, find <m>x</m> given <m>f(a)</m> and explain its meaning,and determine what inputs make sense.
-</p>
-        </li>
 
         
 
-        <li>
-          <p>[Rational] Given a rational application, find an equation, and find <m>f(a)</m> and explain its meaning, find <m>x</m> given <m>f(a)</m> and explain its meaning,and determine what inputs make sense.</p>
-        </li>
-      </ol>
-    </p>
-
-
+  
+  <!-- Other subsections for larger dividers -->
+  
 <subsection xml:id="help">
   <title>Where to go and what to do for help</title>
   <p>
