@@ -64,22 +64,67 @@ var ptx_lunr_docs = [
   "body": " Week 2   Monday      Wednesday      Friday     "
 },
 {
-  "id": "activity-01-intro-activity",
+  "id": "ws-0",
   "level": "1",
-  "url": "activity-01-intro-activity.html",
+  "url": "ws-0.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Introduction Activity",
-  "body": " Introduction Activity    This is the introduction to the activity.      This is the first exercise.    "
+  "title": "Integration Review",
+  "body": " Integration Review    General\/Basic Antiderivatives  Integration by Substitution  Integration by Parts  Integration by Partial fractions  Mixing all techniques      Evaluate the following integrals                                        Evaluate the following integrals using Substitution                                                                                                                                                                                            Evaluate the following integrals using Integration by Parts                                                                                          Evaluate the following integrals using Partial Fractions                                                                                   Challenging Problems  Note: These problems require a combination of two methods or possibly tables.                                                            "
 },
 {
-  "id": "activity-01-intro-activity-3",
+  "id": "ws-0-2",
   "level": "2",
-  "url": "activity-01-intro-activity.html#activity-01-intro-activity-3",
+  "url": "ws-0.html#ws-0-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  General\/Basic Antiderivatives  Integration by Substitution  Integration by Parts  Integration by Partial fractions  Mixing all techniques   "
+},
+{
+  "id": "ws-0-3",
+  "level": "2",
+  "url": "ws-0.html#ws-0-3",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  This is the first exercise.   "
+  "body": "  Evaluate the following integrals                                     "
+},
+{
+  "id": "ws-0-4",
+  "level": "2",
+  "url": "ws-0.html#ws-0-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Evaluate the following integrals using Substitution                                                                                                                                                                                         "
+},
+{
+  "id": "ws-0-5",
+  "level": "2",
+  "url": "ws-0.html#ws-0-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Evaluate the following integrals using Integration by Parts                                                                                       "
+},
+{
+  "id": "ws-0-6",
+  "level": "2",
+  "url": "ws-0.html#ws-0-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Evaluate the following integrals using Partial Fractions                                                                                "
+},
+{
+  "id": "ws-0-7",
+  "level": "2",
+  "url": "ws-0.html#ws-0-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Challenging Problems  Note: These problems require a combination of two methods or possibly tables.                                                           "
 },
 {
   "id": "handouts",
