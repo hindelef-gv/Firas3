@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: denver                         *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Introduction to Differential Equation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+lang: "en-US",
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta name="twitter:title" content="Analysis of Differential Equations">
+<meta property="og:title" content="Analysis of Differential Equations">
+<meta property="book:title" content="Analysis of Differential Equations">
+<meta name="twitter:description" content="MTH 304-01 Fall 2026">
+<meta property="og:description" content="MTH 304-01 Fall 2026">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.49"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.49"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.2.7';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.7d3f08d51c2b60f8.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.bb5ac777721d4056.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner"><div class="title-container">
+<div class="heading ptx-banner-heading"><a href="root-1-2.html"><span class="title">Analysis of Differential Equations</span> <span class="subtitle">MTH 304-01 Fall 2026</span></a></div>
+<p class="byline">Hindeleh</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close" id="ptx-search-close" class="ptx-search-close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="heading ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
+</div>
+<span class="nav-other-controls"><button id="ptx-embed-button" class="ptx-embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><dialog class="ptx-dialog ptx-embed-popup" id="ptx-embed-popup"><div class="ptx-embed-popup-controls">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<button class="ptx-embed-close-button button" id="ptx-embed-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-embed-code-container">
+<textarea class="ptx-embed-code-textbox" id="ptx-embed-code-textbox" readonly aria-label="Embed"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button autofocus="autofocus" class="ptx-embed-copy-button button" id="ptx-embed-copy-button" title="Copy"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div></dialog><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
+</div>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
+</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Readability settings</h2>
+<button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-line-height"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line height</span><output id="ptx-readability-line-height-value" for="ptx-readability-line-height">1.35</output></label><input type="range" id="ptx-readability-line-height" min="1.10" max="3" step="0.05" value="1.35">
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Content font size</span><output id="ptx-readability-font-size-value" for="ptx-readability-font-size">100%</output></label><input type="range" id="ptx-readability-font-size" min="0.8" max="1.5" step="0.05" value="1">
+</div>
+<fieldset class="ptx-readability-options-group ptx-readability-options-group-theme">
+<legend>Theme</legend>
+<label for="ptx-readability-theme-system"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-system" value="system"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe1ab;</span><span>System</span></label><label for="ptx-readability-theme-light"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-light" value="light"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe518;</span><span>Light</span></label><label for="ptx-readability-theme-dark"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-dark" value="dark"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span>Dark</span></label>
+</fieldset>
+<fieldset class="ptx-readability-options-group">
+<legend>Assistive technologies</legend>
+<label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
+</fieldset>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="ws-0.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="activities.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="handouts.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="course-documents.html" class="internal"><span class="title">Course Documents</span></a></div>
+<ul id="ptx-toc-group-course-documents" class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="syllabus.html" class="internal"><span class="title">MTH 304-01 Syllabus</span></a></div>
+<ul id="ptx-toc-group-syllabus" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-course-info" class="internal"><span class="title">Course Information</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-coursetech" class="internal"><span class="title">Course Technologies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-assessments" class="internal"><span class="title">Assessments and Grades</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#LTs" class="internal"><span class="title">Learning Targets</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#help" class="internal"><span class="title">Where to go and what to do for help</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#Policies" class="internal"><span class="title">University and Class Policies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#Contingency" class="internal"><span class="title">Contingency plans for the semester</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#Equitable" class="internal"><span class="title">Creating an Equitable and Inclusive Learning Environment</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="course-notes.html" class="internal"><span class="title">Course Notes</span></a></div>
+<ul id="ptx-toc-group-course-notes" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="course-notes-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-01.html" class="internal"><span class="title">Week 1</span></a></div>
+<ul id="ptx-toc-group-notes-week-01" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-3" class="internal"><span class="title">Monday 8/22</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-4" class="internal"><span class="title">Wednesday 8/24</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-5" class="internal"><span class="title">Friday 8/26</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-02.html" class="internal"><span class="title">Week 2</span></a></div>
+<ul id="ptx-toc-group-notes-week-02" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-2" class="internal"><span class="title">Monday</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-3" class="internal"><span class="title">Wednesday</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-4" class="internal"><span class="title">Friday</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="activities.html" class="internal"><span class="title">In-Class Activities</span></a></div>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-activities">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="activities-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-0.html" class="internal"><span class="title">Integration Review</span></a></div></li>
+<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="ws-1.html" class="internal"><span class="title">Introduction to Differential Equation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter"><div class="toc-title-box"><a href="handouts.html" class="internal"><span class="title">Handouts</span></a></div></li>
+<li class="toc-item toc-chapter"><div class="toc-title-box"><a href="homework.html" class="internal"><span class="title">Homework</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="worksheet" id="ws-1" data-margins="0.75in 0.75in 0.75in 0.75in">
+<h1 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Introduction to Differential Equation</span><div class="print-links"><a href="?printpreview=ws-1" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h1>
+<article class="objectives goal-like" id="ws-1-2"><h2 class="heading"><span class="type">Objectives</span></h2>
+<ul class="disc" id="ws-1-2-1">
+<li id="ws-1-2-1-1">
+<div class="para" id="p-derived-ws-1-2-1-1">Basic DEQ models</div>
+<div class="autopermalink" aria-hidden="true" data-description="Objective"><a tabindex="-1" href="#ws-1-2-1-1" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="ws-1-2-1-2">
+<div class="para" id="p-derived-ws-1-2-1-2">Basic DEQ terminology</div>
+<div class="autopermalink" aria-hidden="true" data-description="Objective"><a tabindex="-1" href="#ws-1-2-1-2" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="ws-1-2-1-3">
+<div class="para" id="p-derived-ws-1-2-1-3">“Rate” versus “Solution curve”</div>
+<div class="autopermalink" aria-hidden="true" data-description="Objective"><a tabindex="-1" href="#ws-1-2-1-3" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Objectives"><a tabindex="-1" href="#ws-1-2" title="Copy heading and permalink for Objectives" aria-label="Copy heading and permalink for Objectives">🔗</a></div>
+</article><section class="onepage" id="ws-1-3">
+<div class="para" id="ws-1-3-1">
+<em class="alert">Directions:</em> Work in groups of three to four students on this activity. Each group shall submit one solution consisting of a copy of this handout with neatly handwritten solutions. Extra copies of this handout are available at the course web site.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ws-1-3-2">Differential equations are in important tool for modeling phenomena in the biological, physical, and social sciences. The purpose of this activity is to gain experience constructing elementary differential equations, to become familiar with basic differential equations terminology, and to learn certain graphical solution techniques.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ws-1-3-3">Consider the following situations. For each situation, construct a differential equation or an initial value problem that mathematically describes the situation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="ws-1-3-4"><h2 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>Carbon-14 is a radioactive isotope that decays in such a way that the instantaneous rate of decay of the amount of Carbon-14 is directly proportional to the amount of Carbon-14 present. Let <span class="process-math">\(A\)</span> denote the amount of Carbon-14 present after <span class="process-math">\(t\)</span> years, and let <span class="process-math">\(k\)</span> denote your constant of proportionality.<div class="workspace" data-space="2.0in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 1"><a tabindex="-1" href="#ws-1-3-4" title="Copy heading and permalink for Worksheet Exercise 1" aria-label="Copy heading and permalink for Worksheet Exercise 1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-1-3-5"><h2 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="introduction" id="ws-1-3-5-1">
+<div class="para" id="ws-1-3-5-1-1">Similarly, a sample of <em class="emphasis">e.coli</em> bacteria grows in such a way that the instantaneous rate of growth of the amount of <em class="emphasis">e.coli</em> is directly proportional to the amount of <em class="emphasis">e.coli</em> present.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-3-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ws-1-3-5-1-2">Let’s take a closer look at your differential equation from (b). Since <span class="process-math">\(P\geq 0\text{,}\)</span> then <span class="process-math">\(\frac{dP}{dt}\geq 0\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-3-5-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="ws-1-3-5-2"><h3 class="heading"><span class="codenumber">(a)</span></h3>
+<div class="para" id="ws-1-3-5-2-1">What does this derivative condition imply about the solution graph of <span class="process-math">\(P\text{?}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-3-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2.0in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.a"><a tabindex="-1" href="#ws-1-3-5-2" title="Copy heading and permalink for Task 2.a" aria-label="Copy heading and permalink for Task 2.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ws-1-3-5-3"><h3 class="heading"><span class="codenumber">(b)</span></h3>
+<div class="para" id="ws-1-3-5-3-1-1">What does your response to the previous question imply in turn about whether <span class="process-math">\(\frac{dP}{dt}\)</span> is increasing or decreasing? What does this in turn imply about the concavity of the solution function <span class="process-math">\(P\text{?}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-3-5-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2.0in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.b"><a tabindex="-1" href="#ws-1-3-5-3" title="Copy heading and permalink for Task 2.b" aria-label="Copy heading and permalink for Task 2.b">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 2"><a tabindex="-1" href="#ws-1-3-5" title="Copy heading and permalink for Worksheet Exercise 2" aria-label="Copy heading and permalink for Worksheet Exercise 2">🔗</a></div>
+</article></section><section class="onepage" id="ws-1-4">
+<article class="exercise exercise-like" id="ws-1-4-1"><h2 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="introduction" id="ws-1-4-1-1">
+<div class="para" id="ws-1-4-1-1-1">he population growth model <span class="process-math">\(\displaystyle \frac{dP}{dt}=kP\)</span> from the previous two examples is sometimes refered to as the exponential or <em class="alert">Malthusian</em> model of population growth, named after the British political economist Thomas Robert Malthus (1766-1834). A different, slightly more complicated model that factors in limited resources or an “environmental carrying capacity” is the <code class="code-inline tex2jax_ignore">\underbar</code> logistic model developed by Pierre-Francois Verhulst (1804-1840). It involves two parameters <span class="process-math">\(k\)</span> and <span class="process-math">\(N\text{,}\)</span> where <span class="process-math">\(k\)</span> denotes the usual proportionality constant and where <span class="process-math">\(N\)</span> represents the maximum possible population amount. In this model, the instantaneous rate of change of the population is directly proportional to the <code class="code-inline tex2jax_ignore">\underbar</code> product of two quantities: the population itself at that instant and the fraction of the remaining available population amount. Again, let <span class="process-math">\(P\)</span> denote the amount of <em class="emphasis">e.coli</em> present after <span class="process-math">\(t\)</span> hours. Assume that <span class="process-math">\(P(0)=\frac{N}{4}\text{.}\)</span> Next to your initial value problem sketch on appropriately labeled axes what you think a plausible graph of the solution curve might look like.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-4-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="workspace" data-space="2.0in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 3"><a tabindex="-1" href="#ws-1-4-1" title="Copy heading and permalink for Worksheet Exercise 3" aria-label="Copy heading and permalink for Worksheet Exercise 3">🔗</a></div>
+</article></section><section class="onepage" id="ws-1-5">
+<article class="exercise exercise-like" id="ws-1-5-1"><h2 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="introduction" id="ws-1-5-1-1">
+<div class="para" id="ws-1-5-1-1-1">Newton’s Law of Cooling is a famous example of a differential equation model governing how an object’s temperature changes when it is introduced into a hotter or cooler environment. In this model the rate of change of the temperature of the object is directly proportional to the difference between the object’s temperature and the temperature of the surrounding environment. Suppose I bring a hot, 90 degree Celsius cup of coffee into my 20 degree Celsius MTH 304 classroom. Let <span class="process-math">\(C\)</span> denote the temperature of my cup of coffee after <span class="process-math">\(t\)</span> minutes, and assume that the constant of proportionality is given by <span class="process-math">\(k=-.15\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-5-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 4"><a tabindex="-1" href="#ws-1-5-1" title="Copy heading and permalink for Worksheet Exercise 4" aria-label="Copy heading and permalink for Worksheet Exercise 4">🔗</a></div>
+</article></section><section class="onepage" id="ws-1-6">
+<article class="definition definition-like" id="ws-1-6-1"><h2 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2>A differential equation is an equation involving the derivative of some unknown function. The function itself is a rule involves an independent (input) and dependent (variable) variable that obeys the function definition. Sometimes for the sake of notational simplicity we “supress” the independent variable when we write the differential equation. For example, we can write the pregnant wife differential equation as<div class="displaymath process-math" id="ws-1-6-1-1-2">
+\begin{equation*}
+\frac{dA}{dt}=2.5-kA \mbox{ or as }\frac{dA(t)}{dt}=2.5-kA(t).
+\end{equation*}
+</div>Both equations mean the same thing; in each equation <span class="process-math">\(t\)</span> represents the independent variable, <span class="process-math">\(A\)</span> the dependent variable, and <span class="process-math">\(k\)</span> a parameter. The form on the left, which I may sometimes call the “supressed form,” is easier to write, whereas the form on the right is good to keep in mind when we wish to think about the behavior of the dependent variable <span class="process-math">\(A\)</span> at a particular <span class="process-math">\(t\)</span> value. The next problem demonstrates this idea by showing how we can use the differential equation to determine useful information about the solution function without solving the differential equation itself.<div class="autopermalink" aria-hidden="true" data-description="Definition 4"><a tabindex="-1" href="#ws-1-6-1" title="Copy heading and permalink for Definition 4" aria-label="Copy heading and permalink for Definition 4">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-1-6-2"><h2 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="introduction" id="ws-1-6-2-1">
+<div class="para" id="ws-1-6-2-1-1">For the cooling cup of coffee initial value problem 4, sketch on appropriately labeled axes what you think a solution graph might look like. Then use your differential equation to calculate the rate at which the coffee is cooling at time <span class="process-math">\(t=0\text{.}\)</span> From this result, construct the equation of the tangent line to the graph of the solution curve at <span class="process-math">\(t=0\text{.}\)</span> Then use this result to estimate the temperature of the coffee at time <span class="process-math">\(t=2\)</span> minutes.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-6-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 5"><a tabindex="-1" href="#ws-1-6-2" title="Copy heading and permalink for Worksheet Exercise 5" aria-label="Copy heading and permalink for Worksheet Exercise 5">🔗</a></div>
+</article></section><section class="onepage" id="ws-1-7">
+<article class="definition definition-like" id="ws-1-7-1"><h2 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2>The <em class="emphasis">order</em> of a differential equation is the highest-order derivative that the equation contains. In the first chapter we will only be concerned only with first-order differential equations. Such equations can always be written in the form <span class="process-math">\(\displaystyle \frac{dy}{dt}=f(t,y)\text{,}\)</span> where <span class="process-math">\(f\)</span> is a function of two variables. (Remember MTH 203?!) For example, in the differential equation <span class="process-math">\(\displaystyle \frac{dy}{dt}=y+t\text{,}\)</span> we see that <span class="process-math">\(f(t,y)=y+t\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Definition 5"><a tabindex="-1" href="#ws-1-7-1" title="Copy heading and permalink for Definition 5" aria-label="Copy heading and permalink for Definition 5">🔗</a></div>
+</article>
+<article class="definition definition-like" id="ws-1-7-2"><h2 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2>For a first order differential equation written in “supressed form” it can sometimes be the case <span class="process-math">\(f\)</span> is a function of the dependent variable alone. In this case we say that the differential equation is <em class="emphasis">autonomous</em>. For example, <span class="process-math">\(\displaystyle \frac{dy}{dt}=2y+1\)</span> and <span class="process-math">\(\displaystyle \frac{dA}{dt}=2.5-kA\)</span> are both autonomous since ( <span class="process-math">\(k\)</span> is just a parameter).<div class="autopermalink" aria-hidden="true" data-description="Definition 6"><a tabindex="-1" href="#ws-1-7-2" title="Copy heading and permalink for Definition 6" aria-label="Copy heading and permalink for Definition 6">🔗</a></div>
+</article>
+<article class="definition definition-like" id="ws-1-7-3"><h2 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2>If the function <span class="process-math">\(f\)</span> can be written in the form <span class="process-math">\(f(t,y)=m(t)y+b(t)\text{,}\)</span> we say that the differential equation is <em class="emphasis">linear</em>. For example, <span class="process-math">\(\displaystyle \frac{dy}{dt}=y+t\)</span> is a first-order, linear (nonautonomous) differential equation.v<div class="autopermalink" aria-hidden="true" data-description="Definition 7"><a tabindex="-1" href="#ws-1-7-3" title="Copy heading and permalink for Definition 7" aria-label="Copy heading and permalink for Definition 7">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-1-7-4"><h2 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="introduction" id="ws-1-7-4-1">
+<div class="para" id="ws-1-7-4-1-1">For each of <span class="process-math">\(\displaystyle \frac{dy}{dt}=t-y\)</span> and (1)-(4), determine whether the differential equation is autonomous and whether the differential equation is linear.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-7-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="workspace" data-space="3.0in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 6"><a tabindex="-1" href="#ws-1-7-4" title="Copy heading and permalink for Worksheet Exercise 6" aria-label="Copy heading and permalink for Worksheet Exercise 6">🔗</a></div>
+</article></section><section class="onepage" id="ws-1-8">
+<div class="para" id="ws-1-8-1">Differential equations models that are developed in real life frequently are quite complicated and cannot be solved explicitly using algebraic methods. Instead one must resort to other means to draw conclusions about the solutions. There are a variety of techniques we will use over the course of the semester, many of them graphical in nature. Because we will discuss a variety of graphical approaches, it is imperative that when constructing graphs, you <code class="code-inline tex2jax_ignore">\underbar</code> always label your axes appropriately.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ws-1-8-2">For autonomous differential equations, which can be written in the form <span class="process-math">\(\displaystyle \frac{dy}{dt}=f(y)\text{,}\)</span> one can construct a curve known as the “rate” versus “solution curve” plot. This graph is nothing more than a plot of the function <span class="process-math">\(f(y)\text{,}\)</span> i.e. a plot of the solution curve <span class="process-math">\(y\)</span> on the horizonal axes and the rate or derivative <span class="process-math">\(\frac{dy}{dt}=f(y)\)</span> on the vertical axes.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="ws-1-8-3">
+<div class="para">For example, the differential equation</div>
+<div class="displaymath process-math" id="ws-1-8-3-1">
+\begin{equation*}
+\frac{dy}{dt}=.5y(y-2)(y-3)
+\end{equation*}
+</div>
+<div class="para">has a rate versus solution curve given by the graph shown.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-8-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="ws-1-8-4">
+<div class="para">Suppose that an initial value is given by <span class="process-math">\(y(0)=1\text{.}\)</span> What does this graph tell us about the solution <span class="process-math">\(y(t)\)</span> as <span class="process-math">\(t\)</span> increases? Let’s think about this question carefully.</div>
+<ul class="disc" id="ws-1-8-4-4">
+<li id="ws-1-8-4-4-1">
+<div class="para" id="ws-1-8-4-4-1-1">When <span class="process-math">\(y=1\)</span> on the rate graph above, the derivative <span class="process-math">\(\frac{dy}{dt}=y'(t)\)</span> is positive, implying the solution function <span class="process-math">\(y(t)\)</span> is initially increasing from <span class="process-math">\(y=1\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-8-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws-1-8-4-4-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ws-1-8-4-4-2">
+<div class="para" id="ws-1-8-4-4-2-1">If <span class="process-math">\(y(t)\)</span> is increasing from 1, yet less than 2, the rate graph tells us that <span class="process-math">\(y'(t)\)</span> remains positive and decreasing. This implies that the solution function <span class="process-math">\(y(t)\)</span> is increasing and concave down.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-8-4-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws-1-8-4-4-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ws-1-8-4-4-3">
+<div class="para" id="ws-1-8-4-4-3-1">The closer <span class="process-math">\(y(t)\)</span> becomes to <span class="process-math">\(y=2\text{,}\)</span> the closer <span class="process-math">\(y'(t)\)</span> becomes to zero. In essence, <span class="process-math">\(y=2\)</span> is a horizontal asymptote.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-8-4-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws-1-8-4-4-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para">In summary, starting from the point <span class="process-math">\((0,1)\text{,}\)</span> a solution curve would increase asymptotically in a concave down manner to <span class="process-math">\(y=2\text{.}\)</span> “What if <span class="process-math">\(y(0)=2\)</span> instead,” you say? In this case the solution would be a constant solution, i.e. <span class="process-math">\(y(t)=2\)</span> for <span class="process-math">\(t \geq 0\text{.}\)</span> We call <span class="process-math">\(y=2\)</span> an <em class="emphasis">equilibrium solution</em> of the differential equation. (See p. 5 of our textbook)</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-8-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="ws-1-8-5"><h2 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="introduction" id="ws-1-8-5-1">
+<div class="para" id="ws-1-8-5-1-1">List the other equilibrium solutions of the differential equation above.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-8-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 7"><a tabindex="-1" href="#ws-1-8-5" title="Copy heading and permalink for Worksheet Exercise 7" aria-label="Copy heading and permalink for Worksheet Exercise 7">🔗</a></div>
+</article></section><section class="onepage" id="ws-1-9">
+<article class="exercise exercise-like" id="ws-1-9-1"><h2 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="introduction" id="ws-1-9-1-1">
+<div class="para" id="ws-1-9-1-1-1">Suppose <span class="process-math">\(y(0)=.5\)</span> in the differential equation above. Perform an analysis similar to that above and sketch the solution.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-9-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="workspace" data-space="1.0in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 8"><a tabindex="-1" href="#ws-1-9-1" title="Copy heading and permalink for Worksheet Exercise 8" aria-label="Copy heading and permalink for Worksheet Exercise 8">🔗</a></div>
+</article></section><section class="onepage" id="ws-1-10">
+<article class="exercise exercise-like" id="ws-1-10-1"><h2 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="introduction" id="ws-1-10-1-1">
+<div class="para" id="ws-1-10-1-1-1">Graph the “rate” versus “solution curve” graph for logistic model (3) and for the cooling cup of coffee (4). For each of those problems determine the equilibrium solutions.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-10-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="workspace" data-space="1.0in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 9"><a tabindex="-1" href="#ws-1-10-1" title="Copy heading and permalink for Worksheet Exercise 9" aria-label="Copy heading and permalink for Worksheet Exercise 9">🔗</a></div>
+</article></section><section class="onepage" id="ws-1-11">
+<article class="exercise exercise-like" id="ws-1-11-1"><h2 class="heading"><span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="introduction" id="ws-1-11-1-1">
+<div class="para" id="ws-1-11-1-1-1">Describe “rate” versus “solution curve” graph for an autonomous, linear first-order differential equation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-11-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="workspace" data-space="1.0in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 10"><a tabindex="-1" href="#ws-1-11-1" title="Copy heading and permalink for Worksheet Exercise 10" aria-label="Copy heading and permalink for Worksheet Exercise 10">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-1-11-2"><h2 class="heading"><span class="codenumber">11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="introduction" id="ws-1-11-2-1">
+<div class="para" id="ws-1-11-2-1-1">The Geogebra file <em class="alert">slopefields.ggb</em> available in the <em class="alert">Course Doduments<span class="process-math">\(\backslash\)</span>Handouts</em> directory on the course’s <em class="alert">Bb</em> site may be used for plotting slope fields. Use the file to create slope fields for each of the differential equations listed below. Your slope field should have correctly labeled axes and should have accurate viewing windows that convey the overall qualitative behavior of various solution curves. For autonomous differential equations having equilbrium solutions, label all equilibrium solutions. In addition, for each slope field, sketch by hand on the slope field the solution curve passing through the prescribed initial value. Append your Geogebra output to your group’s report.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-11-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="para logical" id="ws-1-11-2-2">
+<ol class="lower-alpha ol-marker-2" id="ws-1-11-2-2-1">
+<li id="ws-1-11-2-2-1-1">
+<div class="para" id="ws-1-11-2-2-1-1-1">The logistic growth differential equation from (3) using <span class="process-math">\(k=.2\text{,}\)</span> <span class="process-math">\(N=100\text{.}\)</span> Use the initial value given in that problem.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-11-2-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 11.a"><a tabindex="-1" href="#ws-1-11-2-2-1-1" title="Copy heading and permalink for Item 11.a" aria-label="Copy heading and permalink for Item 11.a">🔗</a></div>
+</li>
+<li id="ws-1-11-2-2-1-2">
+<div class="para" id="ws-1-11-2-2-1-2-1">The cooling coffee cup differential equation from (4). Use the initial value given in that problem.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-11-2-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 11.b"><a tabindex="-1" href="#ws-1-11-2-2-1-2" title="Copy heading and permalink for Item 11.b" aria-label="Copy heading and permalink for Item 11.b">🔗</a></div>
+</li>
+<li id="ws-1-11-2-2-1-3">
+<div class="para" id="ws-1-11-2-2-1-3-1">The differential value <span class="process-math">\(\displaystyle \frac{dy}{dt}=t-y\)</span> together with initial value <span class="process-math">\(y(1)=2\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-11-2-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 11.c"><a tabindex="-1" href="#ws-1-11-2-2-1-3" title="Copy heading and permalink for Item 11.c" aria-label="Copy heading and permalink for Item 11.c">🔗</a></div>
+</li>
+<li id="ws-1-11-2-2-1-4">
+<div class="para" id="ws-1-11-2-2-1-4-1">The differential value <span class="process-math">\(\displaystyle \frac{dy}{dt}=.5y(y-2)(y-3)\)</span> together with initial value <span class="process-math">\(y(0)=1\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-11-2-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 11.d"><a tabindex="-1" href="#ws-1-11-2-2-1-4" title="Copy heading and permalink for Item 11.d" aria-label="Copy heading and permalink for Item 11.d">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-1-11-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1.0in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 11"><a tabindex="-1" href="#ws-1-11-2" title="Copy heading and permalink for Worksheet Exercise 11" aria-label="Copy heading and permalink for Worksheet Exercise 11">🔗</a></div>
+</article></section><div class="autopermalink" aria-hidden="true" data-description="Worksheet: Introduction to Differential Equation"><a tabindex="-1" href="#ws-1" title="Copy heading and permalink for Worksheet: Introduction to Differential Equation" aria-label="Copy heading and permalink for Worksheet: Introduction to Differential Equation">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="ws-0.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="handouts.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
