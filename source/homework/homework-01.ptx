@@ -1,21 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet>
-  <title>Homework 01</title>
+  <title>Homework 1</title>
   <introduction>
     <p>
-      <alert>Instructions:</alert> Complete all the exercises below and submit your work by the due date.
-    </p>
+      <alert>Instructions:</alert> 
+      This is a   group assignment. You may choose your partner(s) up to no more than four people per group. You may use any technology tool for algebra related steps This assignment is Due Friday 9/18/2026.  
+      </p>
   </introduction>
 
   <page>
     <exercise>
       <statement>
         <p>
-          This is the first homework exercise.
+          Section 1.1: #4. Consider the population model
+      <md>
+        \frac{dP}{dt}=0.3\left(1-\frac{P}{200}\right)\left(\frac{P}{50}-1 \right)P,
+      </md>
+      where <m>P(t)</m> is the population at time <m>t</m>.
+        </p>
+        <task>
+      <statement>
+        <p>
+          For what values of <m>P</m> is the population at equilibrium?
         </p>
       </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          For what values of <m>P</m> is the population increasing\decreasing?
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          For what values of <m>P</m> is the population graph concaved up\down?
+        </p>
+      </statement>
+    </task>
+      </statement>
+      
     </exercise>
 
+<exercise>
+      <statement>
+        <p>
+          Section 1.1 #5: Consider the differential equation
+      <md>
+        \frac{dy}{dt}=y^{3}-y^{2}-12y,
+      </md>
+        </p>
+
+<task>
+      <statement>
+        <p>
+          For what values of <m>y</m> is <m>y(t)</m> at equilibrium?
+        </p>
+      </statement>
+    </task>
+
+<task>
+      <statement>
+        <p>
+          For what values of <m>y</m> is <m>y(t)</m> increasing\decreasing?
+        </p>
+      </statement>
+    </task>
+
+<task>
+      <statement>
+        <p>
+          For what values of <m>y</m> is the  graph of the solution <m>y(t)</m> concaved up\down?
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Sketch the phase portrait of the solution curves, i.e sketch every possible solution curve depending on different initial points.
+        </p>
+      </statement>
+    </task>
+      </statement>
+    </exercise>
   </page>
+<page>
+<exercise>
+      <statement>
+        <p>
+          Section 1.1: #17. Suppose that a species of fish in a particular lake has
+      a population that is modeled by the logistic population model with growth
+      rate <m>k</m> and carrying capacity <m>N</m>, and time <m>t</m> is
+      measured in years. Adjust the model to account for each of the following
+      situations.        </p>
+
+<task>
+      <statement>
+        <p>
+          One hundred fish is harvested each year.
+        </p>
+      </statement>
+    </task>
+
+<task>
+      <statement>
+        <p>
+          One-third  of the fish population is harvested annually.
+        </p>
+      </statement>
+    </task>
+
+<task>
+      <statement>
+        <p>
+          The number of fish harvested each year is proportional to the square root of the number of fish in the lake.
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+           <alert>Optional Challenge:</alert> Suppose fish are harvested at a constant rate of <m>H</m> per year. For what values of <m>H</m> will the fish become extinct regardless of the initial population?
+        </p>
+        <hint>
+          <p>
+            Your answer should take the form of an inequality <m>H\ge H_{max}</m>, where <m>H_{max}</m> is an expression involving only the carrying capacity, <m>N</m>, the proportionality constant, <m>k</m>, and constants.
+          </p>
+        </hint>
+      </statement>
+    </task>
+      </statement>
+    </exercise>
+  </page>
+
 </worksheet>
