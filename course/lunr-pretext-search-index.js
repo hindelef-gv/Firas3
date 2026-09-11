@@ -280,6 +280,69 @@ var ptx_lunr_docs = [
   "body": "  The Geogebra file slopefields.ggb available in the Course Doduments Handouts directory on the course's Bb site may be used for plotting slope fields. Use the file to create slope fields for each of the differential equations listed below. Your slope field should have correctly labeled axes and should have accurate viewing windows that convey the overall qualitative behavior of various solution curves. For autonomous differential equations having equilbrium solutions, label all equilibrium solutions. In addition, for each slope field, sketch by hand on the slope field the solution curve passing through the prescribed initial value. Append your Geogebra output to your group's report.      The logistic growth differential equation from (3) using , . Use the initial value given in that problem.    The cooling coffee cup differential equation from (4). Use the initial value given in that problem.    The differential value together with initial value .    The differential value together with initial value .     "
 },
 {
+  "id": "activities-5",
+  "level": "1",
+  "url": "activities-5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Slope Fields",
+  "body": " Slope Fields    Consider the first-order differential equation, , where is a function of the independent and dependent variables, and , respectively. In certain situations, we can solve such an equation using the technique of separation of variables. But this technique requires being able to evaluate two indefinite integrals, a process that may prove extremely difficult.   Slope fields provide a means for visualizing graphical solutions to first order equations. We can think of a slope field as a collection of arrows or sign posts that indicate the direction in which solutions pass through various points. To graph the arrow at the point, , we simply compute the slope of the solution curve through that point, which is merely , and draw the arrow with that given slope. A collection of many such arrows forms the slope field, from which we can graph solutions of starting from various initial values.      To get started, suppose , in which case . Complete the following table of values, labelling any undefined entries with an X .   Table for function .      -2.0  -1.5  -1.0  -0.5  0  0.5  1.0  1.5  2.0    1.5             1             0.5             0             -0.5             -1             2             -1.5             -2                 The preceding table indicates that if a solution curve passes through the point , then the slope of the solution curve at that point is ...(you complete the rest).      If a solution curve, , passes through the point , what is the approximate value of ?      The preceding table indicates that a solution curve, , cannot pass through any point, , where...(you complete the rest).      In BlackBoard, under Course Documents, find the Geogebra SlopeFields file and download it to the desktop. Then go to the Lab Applications folder on the desktop, navigate to the Geogebra program, start it, and open the file you downloaded to your desktop. I will show you how to execute the file line by line. In the bottom slope field graph you will see a cross-hair point, which can be moved to pass through various points. As best you can, sketch below the solution to the IVP, where .      Isoclines   An Isocline is a curve in the plane on which the slope is constant. Specifically, if is a real number, the corresponding isocline is given by the equation . In multivariable calculus terms, this is merely one contour on the contour diagram.     For the differential equation , sketch below on an appropriately labeled set of axes the isoclines, and .    Modify the Geogebra Notebook and draw solutions to the following initial value problems. You will likely need to adjust the viewing window parameters, tmin, tmax, ymin, and\/or ymax..     with        with       For a standard calculus antidifferentiation problem, is a function of only, and , e.g. . In such situations, the slopes of the arrows in the slope field are constant on ...(you complete the rest).    For an autonomous, first-order differential equation, is a function of only, and , e.g. . In such situations, the slopes of the arrows in the slope field are constant on ...(you complete the rest).   "
+},
+{
+  "id": "activities-5-3",
+  "level": "2",
+  "url": "activities-5.html#activities-5-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  To get started, suppose , in which case . Complete the following table of values, labelling any undefined entries with an X .   Table for function .      -2.0  -1.5  -1.0  -0.5  0  0.5  1.0  1.5  2.0    1.5             1             0.5             0             -0.5             -1             2             -1.5             -2                 The preceding table indicates that if a solution curve passes through the point , then the slope of the solution curve at that point is ...(you complete the rest).      If a solution curve, , passes through the point , what is the approximate value of ?      The preceding table indicates that a solution curve, , cannot pass through any point, , where...(you complete the rest).      In BlackBoard, under Course Documents, find the Geogebra SlopeFields file and download it to the desktop. Then go to the Lab Applications folder on the desktop, navigate to the Geogebra program, start it, and open the file you downloaded to your desktop. I will show you how to execute the file line by line. In the bottom slope field graph you will see a cross-hair point, which can be moved to pass through various points. As best you can, sketch below the solution to the IVP, where .    "
+},
+{
+  "id": "activities-5-4",
+  "level": "2",
+  "url": "activities-5.html#activities-5-4",
+  "type": "Definition",
+  "number": "9",
+  "title": "Isoclines.",
+  "body": " Isoclines   An Isocline is a curve in the plane on which the slope is constant. Specifically, if is a real number, the corresponding isocline is given by the equation . In multivariable calculus terms, this is merely one contour on the contour diagram.   "
+},
+{
+  "id": "activities-5-5",
+  "level": "2",
+  "url": "activities-5.html#activities-5-5",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": " For the differential equation , sketch below on an appropriately labeled set of axes the isoclines, and .  "
+},
+{
+  "id": "activities-5-6",
+  "level": "2",
+  "url": "activities-5.html#activities-5-6",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": " Modify the Geogebra Notebook and draw solutions to the following initial value problems. You will likely need to adjust the viewing window parameters, tmin, tmax, ymin, and\/or ymax..     with        with     "
+},
+{
+  "id": "activities-5-7",
+  "level": "2",
+  "url": "activities-5.html#activities-5-7",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": " For a standard calculus antidifferentiation problem, is a function of only, and , e.g. . In such situations, the slopes of the arrows in the slope field are constant on ...(you complete the rest).  "
+},
+{
+  "id": "activities-5-8",
+  "level": "2",
+  "url": "activities-5.html#activities-5-8",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": " For an autonomous, first-order differential equation, is a function of only, and , e.g. . In such situations, the slopes of the arrows in the slope field are constant on ...(you complete the rest).  "
+},
+{
   "id": "handouts",
   "level": "1",
   "url": "handouts.html",
