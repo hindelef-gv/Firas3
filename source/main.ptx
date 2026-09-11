@@ -52,7 +52,7 @@
       <xi:include href="./activities/Integ_Rev.ptx"/>
  <xi:include href="./activities/1_Intro_to_DEQ.ptx"/>
 <xi:include href="./activities/2_slopefields.ptx"/>
-
+<xi:include href="./activities/3_Logistic.ptx"/>
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 

@@ -1,0 +1,69 @@
+<worksheet>
+  <title>Solving the Logistic Model Algebraically</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      The logistic growth model describing the changing height of a sunflower, <m>H</m>, in cm. as a function of time, <m>t</m>,
+in days, can be written as <md>\frac{dH}{dt}=0.004H(260-H)</md> where <m>H</m> and <m>t</m> are measured in cm. and days respectively
+    </p>
+  </introduction>
+
+  <!-- Exercises start here. -->
+  <exercise workspace="1.5in">
+    <introduction><p>
+Separate the variables so that the equation looks like
+<md>f(H)\,dH=g(t)\,dt</md>
+
+</p></introduction>
+  </exercise>
+
+
+<exercise workspace="2.5in">
+    <introduction><p>
+Integrating the right hand side with respect to <m>t</m> should be straight forward. Integrating the left hand side requires some algebra work called partial fractions. If you do not remember doing that by hand, go to wolfram alpha and type <q>Partial fractions 1/(H(260-H))</q>. Now finish integrating the problem.
+
+</p></introduction>
+  </exercise>
+
+
+
+  <exercise workspace="2.5in">
+    <introduction><p>
+If the hight of the sunflower is 17.9 cm after 7 days, find the particular solution for this initial value problem (IVP).
+</p></introduction>
+  </exercise>
+
+
+  <exercise workspace="2.5in">
+    <introduction><p>
+Now manipulate your preceding results to find <m> H</m> as a function of <m>t</m>. You may find properties of
+logarithms helpful in this somewhat lengthy process.
+</p></introduction>
+  </exercise>
+
+    <exercise workspace="2.5in">
+    <introduction><p>
+On an appropriately set of labeled axes below, sketch the function, <m> H(t)</m> . Label any asymptotes.
+
+</p></introduction>
+  </exercise>
+
+
+  <exercise workspace="2.5in">
+    <introduction><p>
+What does your formula indicate the long-term height of the sunflower will be as <m>t\rightarrow\infty</m>? Is this result
+consistent with the equilibria of the original differential equation?
+
+
+</p></introduction>
+  </exercise>
+
+  <exercise workspace="2.5in">
+    <introduction><p>
+Determine the time at which the height is increasing most rapidly as well as the corresponding height
+itself. Label this point on your graph.
+
+</p></introduction>
+  </exercise>
+</worksheet>
