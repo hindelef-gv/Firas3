@@ -343,6 +343,78 @@ var ptx_lunr_docs = [
   "body": " For an autonomous, first-order differential equation, is a function of only, and , e.g. . In such situations, the slopes of the arrows in the slope field are constant on ...(you complete the rest).  "
 },
 {
+  "id": "activities-6",
+  "level": "1",
+  "url": "activities-6.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Solving the Logistic Model Algebraically",
+  "body": " Solving the Logistic Model Algebraically    The logistic growth model describing the changing height of a sunflower, , in cm. as a function of time, , in days, can be written as where and are measured in cm. and days respectively     Separate the variables so that the equation looks like     Integrating the right hand side with respect to should be straight forward. Integrating the left hand side requires some algebra work called partial fractions. If you do not remember doing that by hand, go to wolfram alpha and type Partial fractions 1\/(H(260-H)) . Now finish integrating the problem.    If the hight of the sunflower is 17.9 cm after 7 days, find the particular solution for this initial value problem (IVP).    Now manipulate your preceding results to find as a function of . You may find properties of logarithms helpful in this somewhat lengthy process.    On an appropriately set of labeled axes below, sketch the function, . Label any asymptotes.    What does your formula indicate the long-term height of the sunflower will be as ? Is this result consistent with the equilibria of the original differential equation?    Determine the time at which the height is increasing most rapidly as well as the corresponding height itself. Label this point on your graph.   "
+},
+{
+  "id": "activities-6-3",
+  "level": "2",
+  "url": "activities-6.html#activities-6-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": " Separate the variables so that the equation looks like   "
+},
+{
+  "id": "activities-6-4",
+  "level": "2",
+  "url": "activities-6.html#activities-6-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": " Integrating the right hand side with respect to should be straight forward. Integrating the left hand side requires some algebra work called partial fractions. If you do not remember doing that by hand, go to wolfram alpha and type Partial fractions 1\/(H(260-H)) . Now finish integrating the problem.  "
+},
+{
+  "id": "activities-6-5",
+  "level": "2",
+  "url": "activities-6.html#activities-6-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": " If the hight of the sunflower is 17.9 cm after 7 days, find the particular solution for this initial value problem (IVP).  "
+},
+{
+  "id": "activities-6-6",
+  "level": "2",
+  "url": "activities-6.html#activities-6-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": " Now manipulate your preceding results to find as a function of . You may find properties of logarithms helpful in this somewhat lengthy process.  "
+},
+{
+  "id": "activities-6-7",
+  "level": "2",
+  "url": "activities-6.html#activities-6-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": " On an appropriately set of labeled axes below, sketch the function, . Label any asymptotes.  "
+},
+{
+  "id": "activities-6-8",
+  "level": "2",
+  "url": "activities-6.html#activities-6-8",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": " What does your formula indicate the long-term height of the sunflower will be as ? Is this result consistent with the equilibria of the original differential equation?  "
+},
+{
+  "id": "activities-6-9",
+  "level": "2",
+  "url": "activities-6.html#activities-6-9",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": " Determine the time at which the height is increasing most rapidly as well as the corresponding height itself. Label this point on your graph.  "
+},
+{
   "id": "handouts",
   "level": "1",
   "url": "handouts.html",
