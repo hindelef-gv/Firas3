@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet>
+  <title>Slope Fields</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      Consider the first-order differential equation, <m> \frac{dy}{dt}=f(t,y)</m>, where <m>f</m> is a function of the independent and dependent variables, <m>t</m> and <m>y</m>, respectively.
+In certain situations, we can solve such an equation using the technique of separation of variables. But this technique requires being able to evaluate two
+indefinite integrals, a process that may prove extremely difficult.
+    </p>
+    <p>
+      <alert>Slope fields</alert> provide a means for visualizing graphical solutions to first order equations. We can think of a slope field as a collection of  <q>arrows</q> or <q>sign posts</q> that indicate the direction in which solutions pass through various points. To graph the arrow at the point, <m>(t_0,y_0)</m>, we simply compute the slope of the
+solution curve through that point, which is merely <m> \frac{dy}{dt}=f(t_0,y_0)</m>, and draw the arrow with that given slope. A collection of many such arrows forms the
+slope field, from which we can graph solutions of <m> \frac{dy}{dt}=f(t,y)</m> starting from various initial values.
+    </p>
+  </introduction>
+
+  <!-- Exercises start here. -->
+  <exercise workspace="2in">
+    <introduction>
+      <p>
+        To get started, suppose  <m> \frac{dy}{dt}=\frac{t}{y}</m> , in which case  <m>f(t,y)=\frac{t}{y}</m>. Complete the following table of values, labelling any undefined entries with an <q>X</q>.
+      </p>
+        
+    <table>
+  <title>Table for function <m> \frac{dy}{dt}=f(t,y)</m>.</title>
+  <tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
+    <row  bottom="minor" >
+      <cell> <m>y\backslash t </m></cell>
+      <cell>-2.0</cell>
+      <cell>-1.5</cell>
+      <cell>-1.0</cell>
+      <cell>-0.5</cell>
+      <cell>0</cell>
+      <cell>0.5</cell>
+      <cell>1.0</cell>
+      <cell>1.5</cell>
+      <cell>2.0</cell>
+    </row>
+    
+
+    <row  bottom="minor" >
+      <cell> 1.5</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+
+    <row  bottom="minor" >
+      <cell> 1</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+
+    <row  bottom="minor" >
+      <cell> 0.5</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+
+    <row  bottom="minor" >
+      <cell> 0</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+
+    <row  bottom="minor" >
+      <cell> -0.5</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+
+    <row  bottom="minor" >
+      <cell> -1</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+
+    <row  bottom="minor" >
+      <cell> 2</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+
+    <row  bottom="minor" >
+      <cell> -1.5</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+
+    <row  bottom="minor" >
+      <cell> -2</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+  </tabular>
+
+</table>
+
+
+  </introduction>
+  
+  <task workspace="0.5in">
+  <statement>
+    <p>
+      The preceding table indicates that if a solution curve passes through the point <m>(.5,1.5)</m>, then the slope of the solution curve at that point is ...(you complete the rest).
+    </p>
+  </statement>
+</task>
+
+<task workspace="0.5in">
+  <statement>
+    <p>
+      If a solution curve, <m>y</m>, passes through the point <m>(.5,1.5)</m>, what is the approximate value of <m>y(0.6)</m>?
+    </p>
+  </statement>
+</task>
+
+<task workspace="0.5in">
+  <statement>
+    <p>
+      The preceding table indicates that a solution curve, <m>y</m>, cannot pass through any point, <m>(t_0,y+0)</m>, where...(you complete the rest).
+    </p>
+  </statement>
+</task>
+
+<task workspace="0.5in">
+  <statement>
+    <p>
+      In BlackBoard, under Course Documents, find the Geogebra <q>SlopeFields</q>  file and download it to the desktop. Then
+go to the Lab Applications folder on the desktop, navigate to the Geogebra program, start it, and open the file you downloaded to your desktop. I will show you how to execute
+the file line by line. In the bottom slope field graph you will see a cross-hair point, which can be moved to pass through various
+points. As best you can, sketch below the solution to the IVP, <m> \frac{dy}{dt}=t/y</m> where <m>y(0)=1</m>. 
+    </p>
+  </statement>
+</task>
+  
+  </exercise>
+
+
+<definition>
+  <title>Isoclines</title>
+  <statement>
+    <p>An <term>Isocline</term> is a curve in the <m>(t,y)</m> plane on which the slope <m>\frac{dy}{dt}=f(t,y)</m> is constant. Specifically, if <m>c</m> is a real number, the corresponding
+isocline is given by the equation <m>f(t,y)=c</m>. In multivariable calculus terms, this is merely one contour on the contour diagram.</p>
+  </statement>
+</definition>
+
+
+<exercise workspace="1.5in">
+<introduction><p>
+For the differential
+equation <m> \frac{dy}{dt}=t/y</m>, sketch below on an appropriately labeled set of axes the isoclines, <m>c=2</m> and <m>c=-3</m>. 
+</p></introduction>
+  </exercise>
+
+  <exercise>
+<introduction><p>
+Modify the Geogebra Notebook and draw solutions to the following initial value problems. You will likely need to adjust the viewing window parameters, 
+tmin, tmax, ymin, and/or ymax.. 
+</p></introduction>
+<task workspace="1.5in">
+  <statement>
+    <p>
+      <m>\frac{dy}{dt}=y+t</m> with <m>y(0)=1</m>
+    </p>
+  </statement>
+</task>
+
+<task workspace="1.5in">
+  <statement>
+    <p>
+      <m>\frac{dy}{dt}=.4(5-y)</m> with <m>y(0)=0.5</m>
+    </p>
+  </statement>
+</task>
+  </exercise>
+
+  <exercise workspace="1.5in">
+    <introduction><p>
+For a standard calculus antidifferentiation problem, <m>f</m> is a function of <m>t</m> only, and <m>\frac{dy}{dt}=f(t)</m>, e.g. <m>\frac{dy}{dt}=t^2</m>. In such situations, the slopes of the arrows in the slope field
+are constant on ...(you complete the rest).
+</p></introduction>
+  </exercise>
+
+  <exercise workspace="1.5in">
+    <introduction><p>
+For an autonomous, first-order differential equation, <m>f</m> is a function of <m>y</m> only, and <m>\frac{dy}{dt}=f(t)</m>, e.g. <m>\frac{dy}{dt}=2-y</m>. 
+In such situations, the slopes of the arrows in the slope field
+are constant on ...(you complete the rest).
+
+</p></introduction>
+  </exercise>
+
+</worksheet>
