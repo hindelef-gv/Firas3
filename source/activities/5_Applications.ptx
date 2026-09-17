@@ -1,0 +1,216 @@
+<worksheet xml:id="sec-applications-to-differential-equations">
+  <title>Applications to Differential Equations</title>
+
+  <objectives>
+    <ul>
+      <li>Mixing Problems</li>
+      <li>Terminal Velocity</li>
+      <li>RC Circuits</li>
+    </ul>
+  </objectives>
+
+  <exercise workspace="2.0in">
+    <title>Mixing problems</title>
+
+    <introduction/>
+    <statement>
+      Suppose that the reservoir is filled to its capacity of
+      <m>
+        10,000 m^{3}
+      </m>
+      ,
+    and that measurements indicate an initial concentration of salt of
+      <m>
+        C_{0}= 0.02 g/m^{3}
+      </m>
+      . Note that it follows there are
+      <m>
+        A_{0} = 200 g
+      </m>
+      of salt initially present. As the city draws this
+    solution from the reservoir for use, new solution (water with some salt
+    concentration) from the local treatment facility flows into the reservoir so
+    that the volume of water present in the tank stays constant. Let us assume
+    that the concentration of salt in the inflowing solution is
+      <m>
+        0.01 g/m^{3}
+      </m>
+      , and that the rate of this inflow is
+      <m>
+        1000 m^{3}/day
+      </m>
+      . Since the city is also assumed to be drawing solution
+    at an equal rate from the reservoir, the outflow also occurs at a rate of
+      <m>
+        1000 m^{3}/day
+      </m>
+      . We are interested in several key questions.
+      <ul>
+        <li>
+          <p>
+            How much salt is in the tank at time <m>t</m>?
+          </p>
+        </li>
+
+        <li>
+          <p>
+            What is the concentration of salt in the water being used by the
+            city at time <m>t</m>?
+          </p>
+        </li>
+
+        <li>
+          <p>
+            What happens to these values over time?
+          </p>
+        </li>
+      </ul>
+      We will let
+      <m>
+        A ( t )
+      </m>
+      denote the amount of salt in the tank at time
+      <m>
+        t
+      </m>
+      . The instantaneous rate of change
+      <m>
+        dA / dt
+      </m>
+      of
+      <m>
+        A ( t )
+      </m>
+      is given by the difference between the rate at which salt is entering the
+    tank and the rate at which salt is leaving. Exploring the given information
+    regarding the inflow an outflow, we can determine these rates precisely.
+    </statement>
+  </exercise>
+
+  <exercise>
+    <title>Terminal Velocity</title>
+
+    <statement>
+      <p>
+        Using Newton's law, we model a mass <m>m</m> free falling under gravity
+        but with air resistance. We assume that the force of air resistance is
+        proportional to the square of the speed of the mass and opposes the
+        direction of motion. We define the <m>x</m>-axis to point in the upward
+        direction, opposite the force of gravity. Near the surface of the Earth,
+        the force of gravity is approximately constant and is given by
+        <m>mg</m>, with <m>g = 9.8m/s^2</m> the usual gravitational
+        acceleration. The force of air resistance is modeled by <m>kv^2</m>,
+        where <m>v</m> is the vertical velocity of the mass and <m>k</m>; is a
+        positive constant called the <alert>Drag Coefficient</alert>. When the
+        mass is falling, <m>v\lt 0 </m> and the force of air resistance is
+        positive, pointing upward and opposing the motion. The total force on
+        the mass is therefore given by <m>F = mg - kv^2</m>. With
+        <m>F =
+    ma</m> and <m>a = dv/dt</m>, we obtain the differential
+        equation
+      </p>
+
+      <p>
+        <md number="yes" xml:id="2">
+          m\frac{dv}{dt}=mg-kv^{2}
+        </md>
+        The terminal velocity <m>v_{\infty}</m> of the mass is defined as the
+        asymptotic velocity after air resistance balances the gravitational
+        force. When the mass is at terminal velocity, <m>dv/dt = 0</m> so that
+        <md number="yes">
+          v_{\infty}=\sqrt{\frac{mg}{k}}
+        </md>
+        Notice that equation <xref ref="2"/> can be solved by separation of
+        variables.
+      </p>
+
+      <task>
+        <statement>
+          <p>
+            A skydiver of mass <m>m = 100</m> kg with his parachute closed may
+            have a terminal velocity of 200 km/hr. Notice that
+            <md>
+              g = (9.8m/s^{2})(10^{-3}km/m)(60 s/min)^{2}(60 min/hr)^{2} = 127, 008km/hr^{2}.
+            </md>
+            Find <m>k</m>, then find how long it takes the diver to reach the
+            terminal velocity.
+          </p>
+        </statement>
+      </task>
+    </statement>
+  </exercise>
+
+  <exercise workspace="">
+    <title>RC circuit</title>
+
+    <statement>
+      <p>
+        Consider a resister R and a capacitor C connected in series as shown in
+        figure below. A battery providing an electromotive force, or emf
+        <m>\varepsilon</m>, connects to this circuit by a switch. Initially,
+        there is no charge on the capacitor. When the switch is thrown to
+        <m>a</m>, the battery connects and the capacitor charges. When the
+        switch is thrown to <m>b</m>, the battery disconnects and the capacitor
+        discharges, with energy dissipated in the resister. Here, we determine
+        the voltage drop across the capacitor during charging and discharging.
+      </p>
+
+      <p>
+        The equations for the voltage drops across a capacitor and a resister
+        are given by
+        <md number="yes" xml:id="3">
+          V_{C}=q/C. \quad\quad\quad V_{R}=iR
+        </md>
+        where <m>C</m> is the capacitance and <m>R</m> is the resistance. The
+        charge <m>q</m> and the current <m>i</m> are related by
+        <md number="yes" xml:id="4">
+          i=\frac{dq}{dt}=C\frac{dV_{C}}{dt}
+        </md>
+        Kirchhoff's voltage law states that the emf <m>\varepsilon</m> in any
+        closed loop is equal to the sum of the voltage drops in that loop.
+        Applying Kirchhoff's voltage law when the switch is thrown to <m>a</m>
+        results in
+        <md number="yes">
+          V_{R}+V_{C}=\varepsilon
+        </md>
+        Using <xref ref="3"/> and <xref ref="4"/>, the voltage drop across the
+        resister can be written in terms of the voltage drop across the
+        capacitor as
+        <md>
+          V_{R}=RC\frac{dV_{C}}{dt}
+        </md>
+        and (5) can be rewritten to yield the first-order linear differential
+        equation for <m>VC</m> given by
+        <md number="yes" xml:id="6">
+          \frac{dV_{C}}{dt}+\frac{1}{RC}V_{C}=\frac{\varepsilon}{RC}
+        </md>
+        with initial condition <m>V_{C}(0)=0</m>. Notice that this equation can
+        be solved using an integrating factor. 
+      </p>
+      <task><p>
+  Solve the differential equation in <xref ref="6"/>, our solution should be in terms of
+  <m>R,C, \varepsilon</m>.
+</p>
+        </task>
+
+        <task>
+<p>
+  When the switch is thrown to <m>b</m>, application of Kirchhoff's voltage law
+  results in
+  <md>
+    V_{R}+V_{C}=0
+  </md>
+  with corresponding differential equation
+  <md number="yes">
+    \frac{dV_{C}}{dt}+\frac{1}{RC}V_{C}=0.
+  </md>
+  Assume that the capacitance is initially fully charged so that
+  <m>V_{C}(0)=\varepsilon</m>, solve the differential equation in (7), our
+  solution should be in terms of <m>R,C, \varepsilon</m>.
+</p>
+          </task>
+    </statement>
+  </exercise>
+
+  <exercise/>
+</worksheet>

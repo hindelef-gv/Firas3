@@ -1,0 +1,139 @@
+<worksheet xml:id="ws-linear-differential-equations">
+  <title>Linear Differential Equations</title>
+
+  <objectives>
+    <ul>
+      <li>Solving Linear DE using the integrating factor method.</li>
+    </ul>
+  </objectives>
+
+  <definition xml:id="LinearDE">
+    <statement>
+      <p>
+        A <alert>Linear Differential Equations</alert> takes the form
+        <md>
+          \frac{dy}{dt}+p(t)y=g(t)
+        </md>
+        where <m>p(t)</m> and <m>g(t)</m> are continuous functions.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    We are going to assume that there is some magical function somewhere out
+    there in the world, <m>\mu(t)</m>, called an
+    <alert>integrating factor</alert> (we will learn how to find it in a bit).
+    We multiply our differential equation above by <m>\mu(t)</m> to get
+    <md>
+      \mu(t)\frac{dy}{dt}+\mu(t)\cdot p(t)y=\mu(t)\cdot g(t).
+    </md>
+    The magical thing about <m>\mu(t)</m> is that it will turn the left hand
+    side into <m>\frac{d}{dt}\left[\mu(t)\cdot y\right]</m>, in other words
+    <md>
+      \frac{d}{dt}\left[\mu(t)\cdot y\right]=\mu(t)\frac{dy}{dt}+\mu(t)\cdot p(t)y.
+    </md>
+    If we think of the product rule this means that
+    <md>
+      \mu^{\prime}(t)=\mu(t)\cdot p(t).
+    </md>
+    We can solve this separable DE for <m>\mu(t)</m> to get
+    <md>
+      \mu(t)=e^{\int p(t)\,dt}
+    </md>
+  </p>
+
+  <p>
+    Now that we found this magical function <m>\mu(t)</m>, solving the
+    differential equation
+    <md>
+      \frac{d}{dt}\left[\mu(t)\cdot y\right]=\mu(t)\cdot g(t)
+    </md>
+    involves an integration step (don't forget to add a <m>C</m> ), and then
+    dividing by <m>mu(t)</m>.
+  </p>
+
+  <introduction>
+    <title>Steps for solving a linear DE</title>
+
+    <p>
+      <ul>
+        <li>
+          <p>
+            Put the differential equation in the correct initial form
+            <md>
+              \frac{dy}{dt}+p(t)y=g(t)
+            </md>
+            i.e the right hand side contains ONLY <m>t</m>, and the coefficient
+            of <m>\frac{dy}{dt}</m> is 1. So you can identify what <m>p(t)</m>
+            and <m>g(t)</m> are.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Find the integrating factor <m>\mu(t)</m> using the formula
+          </p>
+
+          <p>
+            <md>
+              \mu(t)=e^{\int p(t)\,dt}
+            </md>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Multiply everything in the differential equation by <m>\mu(t)</m>
+            and verify that the left side becomes the product rule
+            <m>\frac{d}{dt}\left[\mu(t)\cdot y\right]</m> and write it as such.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Integrate both sides, make sure you properly deal with the constant
+            of integration.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Solve for the solution <m>y(t)</m> by dividing both sides by
+            <m>\mu(t)</m>.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            If you are given an initial condition, substitute it to find the the
+            value of <m>C</m>.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </introduction>
+
+  <example>
+    <p>
+      <m>\displaystyle{\cos(t)y^\prime+\sin(t)y=2\cos^3(t)\sin(t)-1,\quad\quad\quad y\left(\frac{\pi}{4}\right)=3\sqrt{2}.}</m>
+    </p>
+  </example>
+
+  <example>
+    <p>
+      <m>\displaystyle{ty^\prime-2y=t^5\sin(2t)-t^3+4t^4,\quad\quad\quad y\left(\pi\right)=\frac{3\pi^{4}}{2}.}</m>
+    </p>
+  </example>
+
+
+<exercise workspace="3.0in">
+  <p>
+  <m>\displaystyle{y^\prime-\frac{2}{t}y=2t^2,\quad\quad\quad y\left(-2\right)=4}</m>.
+</p>
+</exercise>
+<exercise workspace="3.0in">
+  <p>
+  <m>\displaystyle{y^\prime=-2ty+4e^{-t^2},\quad\quad\quad y\left(0\right)=3}</m>.
+</p>
+</exercise>
+</worksheet>
