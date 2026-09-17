@@ -415,6 +415,123 @@ var ptx_lunr_docs = [
   "body": " Determine the time at which the height is increasing most rapidly as well as the corresponding height itself. Label this point on your graph.  "
 },
 {
+  "id": "ws-linear-differential-equations",
+  "level": "1",
+  "url": "ws-linear-differential-equations.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Linear Differential Equations",
+  "body": " Linear Differential Equations    Solving Linear DE using the integrating factor method.      A Linear Differential Equations takes the form where and are continuous functions.    We are going to assume that there is some magical function somewhere out there in the world, , called an integrating factor (we will learn how to find it in a bit). We multiply our differential equation above by to get The magical thing about is that it will turn the left hand side into , in other words If we think of the product rule this means that We can solve this separable DE for to get   Now that we found this magical function , solving the differential equation involves an integration step (don't forget to add a ), and then dividing by .   Steps for solving a linear DE     Put the differential equation in the correct initial form i.e the right hand side contains ONLY , and the coefficient of is 1. So you can identify what and are.    Find the integrating factor using the formula       Multiply everything in the differential equation by and verify that the left side becomes the product rule and write it as such.    Integrate both sides, make sure you properly deal with the constant of integration.    Solve for the solution by dividing both sides by .    If you are given an initial condition, substitute it to find the the value of .                  .     .   "
+},
+{
+  "id": "ws-linear-differential-equations-2",
+  "level": "2",
+  "url": "ws-linear-differential-equations.html#ws-linear-differential-equations-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Solving Linear DE using the integrating factor method.   "
+},
+{
+  "id": "LinearDE",
+  "level": "2",
+  "url": "ws-linear-differential-equations.html#LinearDE",
+  "type": "Definition",
+  "number": "10",
+  "title": "",
+  "body": "  A Linear Differential Equations takes the form where and are continuous functions.   "
+},
+{
+  "id": "ws-linear-differential-equations-7",
+  "level": "2",
+  "url": "ws-linear-differential-equations.html#ws-linear-differential-equations-7",
+  "type": "Example",
+  "number": "11",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-linear-differential-equations-8",
+  "level": "2",
+  "url": "ws-linear-differential-equations.html#ws-linear-differential-equations-8",
+  "type": "Example",
+  "number": "12",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-linear-differential-equations-9",
+  "level": "2",
+  "url": "ws-linear-differential-equations.html#ws-linear-differential-equations-9",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  .  "
+},
+{
+  "id": "ws-linear-differential-equations-10",
+  "level": "2",
+  "url": "ws-linear-differential-equations.html#ws-linear-differential-equations-10",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  .  "
+},
+{
+  "id": "sec-applications-to-differential-equations",
+  "level": "1",
+  "url": "sec-applications-to-differential-equations.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Applications to Differential Equations",
+  "body": " Applications to Differential Equations    Mixing Problems  Terminal Velocity  RC Circuits     Mixing problems   Suppose that the reservoir is filled to its capacity of , and that measurements indicate an initial concentration of salt of . Note that it follows there are of salt initially present. As the city draws this solution from the reservoir for use, new solution (water with some salt concentration) from the local treatment facility flows into the reservoir so that the volume of water present in the tank stays constant. Let us assume that the concentration of salt in the inflowing solution is , and that the rate of this inflow is . Since the city is also assumed to be drawing solution at an equal rate from the reservoir, the outflow also occurs at a rate of . We are interested in several key questions.   How much salt is in the tank at time ?    What is the concentration of salt in the water being used by the city at time ?    What happens to these values over time?   We will let denote the amount of salt in the tank at time . The instantaneous rate of change of is given by the difference between the rate at which salt is entering the tank and the rate at which salt is leaving. Exploring the given information regarding the inflow an outflow, we can determine these rates precisely.    Terminal Velocity   Using Newton's law, we model a mass free falling under gravity but with air resistance. We assume that the force of air resistance is proportional to the square of the speed of the mass and opposes the direction of motion. We define the -axis to point in the upward direction, opposite the force of gravity. Near the surface of the Earth, the force of gravity is approximately constant and is given by , with the usual gravitational acceleration. The force of air resistance is modeled by , where is the vertical velocity of the mass and ; is a positive constant called the Drag Coefficient . When the mass is falling, and the force of air resistance is positive, pointing upward and opposing the motion. The total force on the mass is therefore given by . With and , we obtain the differential equation   The terminal velocity of the mass is defined as the asymptotic velocity after air resistance balances the gravitational force. When the mass is at terminal velocity, so that Notice that equation can be solved by separation of variables.    A skydiver of mass kg with his parachute closed may have a terminal velocity of 200 km\/hr. Notice that Find , then find how long it takes the diver to reach the terminal velocity.       RC circuit   Consider a resister R and a capacitor C connected in series as shown in figure below. A battery providing an electromotive force, or emf , connects to this circuit by a switch. Initially, there is no charge on the capacitor. When the switch is thrown to , the battery connects and the capacitor charges. When the switch is thrown to , the battery disconnects and the capacitor discharges, with energy dissipated in the resister. Here, we determine the voltage drop across the capacitor during charging and discharging.  The equations for the voltage drops across a capacitor and a resister are given by where is the capacitance and is the resistance. The charge and the current are related by Kirchhoff's voltage law states that the emf in any closed loop is equal to the sum of the voltage drops in that loop. Applying Kirchhoff's voltage law when the switch is thrown to results in Using and , the voltage drop across the resister can be written in terms of the voltage drop across the capacitor as and (5) can be rewritten to yield the first-order linear differential equation for given by with initial condition . Notice that this equation can be solved using an integrating factor.  Solve the differential equation in , our solution should be in terms of .    When the switch is thrown to , application of Kirchhoff's voltage law results in with corresponding differential equation Assume that the capacitance is initially fully charged so that , solve the differential equation in (7), our solution should be in terms of .      "
+},
+{
+  "id": "sec-applications-to-differential-equations-2",
+  "level": "2",
+  "url": "sec-applications-to-differential-equations.html#sec-applications-to-differential-equations-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Mixing Problems  Terminal Velocity  RC Circuits   "
+},
+{
+  "id": "sec-applications-to-differential-equations-3",
+  "level": "2",
+  "url": "sec-applications-to-differential-equations.html#sec-applications-to-differential-equations-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Mixing problems.",
+  "body": " Mixing problems   Suppose that the reservoir is filled to its capacity of , and that measurements indicate an initial concentration of salt of . Note that it follows there are of salt initially present. As the city draws this solution from the reservoir for use, new solution (water with some salt concentration) from the local treatment facility flows into the reservoir so that the volume of water present in the tank stays constant. Let us assume that the concentration of salt in the inflowing solution is , and that the rate of this inflow is . Since the city is also assumed to be drawing solution at an equal rate from the reservoir, the outflow also occurs at a rate of . We are interested in several key questions.   How much salt is in the tank at time ?    What is the concentration of salt in the water being used by the city at time ?    What happens to these values over time?   We will let denote the amount of salt in the tank at time . The instantaneous rate of change of is given by the difference between the rate at which salt is entering the tank and the rate at which salt is leaving. Exploring the given information regarding the inflow an outflow, we can determine these rates precisely.  "
+},
+{
+  "id": "sec-applications-to-differential-equations-4",
+  "level": "2",
+  "url": "sec-applications-to-differential-equations.html#sec-applications-to-differential-equations-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Terminal Velocity.",
+  "body": " Terminal Velocity   Using Newton's law, we model a mass free falling under gravity but with air resistance. We assume that the force of air resistance is proportional to the square of the speed of the mass and opposes the direction of motion. We define the -axis to point in the upward direction, opposite the force of gravity. Near the surface of the Earth, the force of gravity is approximately constant and is given by , with the usual gravitational acceleration. The force of air resistance is modeled by , where is the vertical velocity of the mass and ; is a positive constant called the Drag Coefficient . When the mass is falling, and the force of air resistance is positive, pointing upward and opposing the motion. The total force on the mass is therefore given by . With and , we obtain the differential equation   The terminal velocity of the mass is defined as the asymptotic velocity after air resistance balances the gravitational force. When the mass is at terminal velocity, so that Notice that equation can be solved by separation of variables.    A skydiver of mass kg with his parachute closed may have a terminal velocity of 200 km\/hr. Notice that Find , then find how long it takes the diver to reach the terminal velocity.     "
+},
+{
+  "id": "sec-applications-to-differential-equations-5",
+  "level": "2",
+  "url": "sec-applications-to-differential-equations.html#sec-applications-to-differential-equations-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "RC circuit.",
+  "body": " RC circuit   Consider a resister R and a capacitor C connected in series as shown in figure below. A battery providing an electromotive force, or emf , connects to this circuit by a switch. Initially, there is no charge on the capacitor. When the switch is thrown to , the battery connects and the capacitor charges. When the switch is thrown to , the battery disconnects and the capacitor discharges, with energy dissipated in the resister. Here, we determine the voltage drop across the capacitor during charging and discharging.  The equations for the voltage drops across a capacitor and a resister are given by where is the capacitance and is the resistance. The charge and the current are related by Kirchhoff's voltage law states that the emf in any closed loop is equal to the sum of the voltage drops in that loop. Applying Kirchhoff's voltage law when the switch is thrown to results in Using and , the voltage drop across the resister can be written in terms of the voltage drop across the capacitor as and (5) can be rewritten to yield the first-order linear differential equation for given by with initial condition . Notice that this equation can be solved using an integrating factor.  Solve the differential equation in , our solution should be in terms of .    When the switch is thrown to , application of Kirchhoff's voltage law results in with corresponding differential equation Assume that the capacitance is initially fully charged so that , solve the differential equation in (7), our solution should be in terms of .    "
+},
+{
+  "id": "sec-applications-to-differential-equations-6",
+  "level": "2",
+  "url": "sec-applications-to-differential-equations.html#sec-applications-to-differential-equations-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": ""
+},
+{
   "id": "handouts",
   "level": "1",
   "url": "handouts.html",
