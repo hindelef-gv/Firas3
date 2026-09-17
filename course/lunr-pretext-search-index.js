@@ -421,7 +421,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Linear Differential Equations",
-  "body": " Linear Differential Equations    Solving Linear DE using the integrating factor method.      A Linear Differential Equations takes the form where and are continuous functions.    We are going to assume that there is some magical function somewhere out there in the world, , called an integrating factor (we will learn how to find it in a bit). We multiply our differential equation above by to get The magical thing about is that it will turn the left hand side into , in other words If we think of the product rule this means that We can solve this separable DE for to get   Now that we found this magical function , solving the differential equation involves an integration step (don't forget to add a ), and then dividing by .   Steps for solving a linear DE     Put the differential equation in the correct initial form i.e the right hand side contains ONLY , and the coefficient of is 1. So you can identify what and are.    Find the integrating factor using the formula       Multiply everything in the differential equation by and verify that the left side becomes the product rule and write it as such.    Integrate both sides, make sure you properly deal with the constant of integration.    Solve for the solution by dividing both sides by .    If you are given an initial condition, substitute it to find the the value of .                  .     .   "
+  "body": " Linear Differential Equations    Solving Linear DE using the integrating factor method.      A Linear Differential Equations takes the form where and are continuous functions.    We are going to assume that there is some magical function somewhere out there in the world, , called an integrating factor (we will learn how to find it in a bit). We multiply our differential equation above by to get The magical thing about is that it will turn the left hand side into , in other words If we think of the product rule this means that We can solve this separable DE for to get   Now that we found this magical function , solving the differential equation involves an integration step (don't forget to add a ), and then dividing by .   Steps for solving a linear DE     Put the differential equation in the correct initial form i.e the right hand side contains ONLY , and the coefficient of is 1. So you can identify what and are.    Find the integrating factor using the formula       Multiply everything in the differential equation by and verify that the left side becomes the product rule and write it as such.    Integrate both sides, make sure you properly deal with the constant of integration.    Solve for the solution by dividing both sides by .    If you are given an initial condition, substitute it to find the the value of .              Now you multiply the equation by to get You can now verify that the left hand side can be written as Ingrate both sides to get Apply the initial condition to find C   Hence our solution is given by              You can now verify that the left hand side can be written as Ingrate both sides to get Apply the initial condition to find  Hence our solution is given by      .     .   "
 },
 {
   "id": "ws-linear-differential-equations-2",
@@ -448,7 +448,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "11",
   "title": "",
-  "body": "    "
+  "body": "        Now you multiply the equation by to get You can now verify that the left hand side can be written as Ingrate both sides to get Apply the initial condition to find C   Hence our solution is given by    "
 },
 {
   "id": "ws-linear-differential-equations-8",
@@ -457,7 +457,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "12",
   "title": "",
-  "body": "    "
+  "body": "         You can now verify that the left hand side can be written as Ingrate both sides to get Apply the initial condition to find  Hence our solution is given by   "
 },
 {
   "id": "ws-linear-differential-equations-9",
