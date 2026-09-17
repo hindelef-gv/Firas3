@@ -117,12 +117,80 @@
     <p>
       <m>\displaystyle{\cos(t)y^\prime+\sin(t)y=2\cos^3(t)\sin(t)-1,\quad\quad\quad y\left(\frac{\pi}{4}\right)=3\sqrt{2}.}</m>
     </p>
+    <answer>
+  <p>
+    <md>\displaystyle{\cos(t)y^\prime+\sin(t)y=2\cos^3(t)\sin(t)-1,}</md>
+
+    <md>\displaystyle{y^\prime+\tan(t)y=2\cos^2(t)\sin(t)-\sec(t),}</md>
+    <md>
+      <mrow>\mu(t) \amp= e^{\int \tan(t)\,dt}</mrow>
+      <mrow>\amp=e^{-\ln(\cos(t))}</mrow>
+       <mrow>\amp=e^{\ln(\sec(t))}</mrow>
+       <mrow>\amp=\sec(t)</mrow>
+    </md>
+
+    Now you multiply the equation by <m>\mu(t)</m> to get
+    <md>\displaystyle{\sec(t)y^\prime+\sec(t)\cdot\tan(t)y=2\cos(t)\sin(t)-\sec^2(t)}</md>
+
+    You can now verify that the left hand side can be written as 
+    <md>\frac{d}{dt}( \sec(t) \cdot y)=2\cos(t)\sin(t)-\sec^2(t)</md>
+
+      Ingrate both sides to get
+      <md>\sec(t) \cdot y=\sin^2(t)-\tan(t)+C
+      
+      </md>
+        Apply the initial condition to find C
+
+        <md>\sec\left(\frac{\pi}{4}\right) \cdot 3\sqrt{2}=\sin^2\left(\frac{\pi}{4}\right)-\tan\left(\frac{\pi}{4}\right)+C
+      
+      </md>
+      <md>3=\frac{1}{2}-1+C
+      
+      </md>
+      <md>C=3.5</md>
+      Hence our solution is given by
+      <md>\sec\left(\frac{\pi}{4}\right) \cdot 3\sqrt{2}=\sin^2\left(\frac{\pi}{4}\right)-\tan\left(\frac{\pi}{4}\right)+C
+      
+      </md>
+  </p>
+</answer>
   </example>
 
   <example>
     <p>
       <m>\displaystyle{ty^\prime-2y=t^5\sin(2t)-t^3+4t^4,\quad\quad\quad y\left(\pi\right)=\frac{3\pi^{4}}{2}.}</m>
     </p>
+     <answer>
+      <p>
+        <md>\displaystyle{ty^\prime-2y=t^5\sin(2t)-t^3+4t^4}</md>
+
+        <md>\displaystyle{y^\prime-\frac{2}{t}y=t^4\sin(2t)-t^2+4t^3}</md>
+
+        <md>
+      <mrow>\mu(t) \amp= e^{\int -\frac{2}{t}\,dt}</mrow>
+      <mrow>\amp=e^{-2\ln(t)}</mrow>
+       <mrow>\amp=e^{\ln(t^{-2})}</mrow>
+       <mrow>\amp=\frac{1}{t^2}</mrow>
+    </md>
+
+    <md>\frac{1}{t^2}y^\prime-\frac{2}{t^3}y=t^2\sin(2t)-1+4t.</md>
+
+    You can now verify that the left hand side can be written as 
+      <md>\frac{d}{dt}\left(\frac{1}{t^2}\cdot y\right)=t^2\sin(2t)-1+4t.</md>
+
+      Ingrate both sides to get
+
+       <md>\frac{1}{t^2}\cdot y=-t-\frac{1}{2}{t}^{2}\cos \left( 2\,t \right) +\frac{1}{4}\cos \left( 2\,t
+ \right) +\frac{1}{2}t\sin \left( 2\,t \right) +2\,{t}^{2}
++C</md>
+
+Apply the initial condition to find <m> C=\pi-{\pi}^{2}+\frac{1}{4}</m>
+      </p>
+      Hence our solution is given by
+      <md> y=t^2\left(-t-\frac{1}{2}{t}^{2}\cos \left( 2\,t \right) +\frac{1}{4}\cos \left( 2\,t
+ \right) +\frac{1}{2}t\sin \left( 2\,t \right) +2\,{t}^{2}
++\pi-{\pi}^{2}+\frac{1}{4}\right)</md>
+    </answer>
   </example>
 
 
