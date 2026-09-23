@@ -1,0 +1,156 @@
+<worksheet xml:id="ExactDEQ">
+  <title>Exact Differential Equations</title>
+
+  <objectives>
+    <ul>
+      <li>Identifying Exact Differential equations</li>
+      <li>Solving Exact Differential equations</li>
+    </ul>
+  </objectives>
+  <introduction>
+    <p>
+       equations. Before we get into the full details behind solving exact differential equations it's probably best to work an example that will help to show us just what an exact differential equation is. It will also show some of the behind the scenes details that we usually don’t bother with in the solution process. 
+    </p>
+  </introduction>
+  <example>
+    <p>
+  Consider the function
+  <md>
+    T(x,y)=y^{2}+(x^{2}+1)y-3x^{3}
+  </md>
+  where <m>y=y(x)</m>. Take its derivative with respect to <m>x</m>,
+  keeping in mind the chain rule:
+</p>
+<answer>
+    <p>
+        Take its derivative with respect to <m>x</m>,
+  keeping in mind the chain rule:
+    </p>
+    <p>
+  <md >
+    <mrow>\frac{d}{dx}T(x,y)\amp=\frac{d}{dx}\left(y^2+(x^2+1)y-3x^3\right)</mrow>
+    <mrow>\amp=2y\frac{dy}{dx}+(x^2+1)\frac{dy}{dx}+2xy-9x^2</mrow>
+    <mrow>\amp=\left( x^2+1+2y\right)\frac{dy}{dx}+(2xy-9x^2)</mrow>
+  </md>
+  
+</p>
+</answer>
+  </example>
+  <definition xml:id="exac">
+    <statement>
+        <p>
+            The differential equation of the form <m>\frac{d}{dx}T(x,y)=0</m> is said to be <alert>Exact</alert> because we can integrate both sides and a solution curve <md>
+                T(x,y)=C
+            </md>
+            
+        </p>
+    </statement>
+  </definition>
+  <example>
+    <p>
+        The differential equation
+  <md  number="yes">
+    <mrow xml:id="exac1">\left( x^2+1+2y\right)\frac{dy}{dx}+(2xy-9x^2)=0</mrow>
+  </md>
+  is  <em>Exact</em> because the left hand side is the derivative of some
+  function <m>T(x,y)</m>, i.e our differential equation is equivalent to
+  <m>\displaystyle{\frac{d}{dx}T(x,y)=0}</m> where <md>
+    T(x,y)=y^{2}+(x^{2}+1)y-3x^{3}.
+  </md> Hence it solution is
+  <m>T(x,y)=C</m>. That is, the solution for the differential equation <xref ref="exac1"/> is
+  <md>
+    y^{2}+(x^{2}+1)y-3x^{3}=C.
+  </md>
+    </p>
+  </example>
+<p>
+  There are two obvious questions here
+  <ol>
+    <li>
+      <p>
+        If we start with a first order differential equation like (1), how do we
+        know that it is <em>Exact</em>. i.e. How do we know that there is a
+        function <m>T(x,y)</m> whose derivative gives the left hand side of our
+        given DE?
+      </p>
+    </li>
+
+    <li>
+      <p>
+        If such a function <m>T(x,y)</m> exists, how do we find it?
+      </p>
+    </li>
+  </ol>
+</p>
+<section xml:id="TfExac">
+    <title>Test for Exactness</title>
+    <p>
+  In general, you have a DE of this form
+  <md>
+    M(x,y)+N(x,y)\frac{dy}{dx}=0.
+  </md>
+  Note that it's important that it must be in this form! There must be an
+  <q>=</q> on one side and the sign separating the two terms must be a <q>+</q>.
+  Now, if there is a function somewhere out there in the world, <m>T(x,y)</m>,
+  such that
+  <md>
+    \frac{d}{dx}T(x,y)=M(x,y)+N(x,y)\frac{dy}{dx}
+  </md>
+  then
+  <md>
+    \frac{\partial T}{\partial x}=M(x,y)\quad\quad\quad\mbox{and}\quad\quad\quad\frac{\partial T}{\partial y}=N(x,y).
+  </md>
+  Now, provided <m>T(x,y)</m> is continuous and its first order derivatives are
+  also continuous we know that the second order mixed partials must be equal.
+  That is
+  <md>
+    \frac{\partial^{2} T}{\partial y\partial x}=M_{y}\quad\quad\quad\mbox{and}\quad\quad\quad\frac{\partial^{2} T}{\partial x\partial y}=N_{x}.
+  </md>
+  Therefore, if a differential equation is exact and <m>T(x,y)</m> meets all of
+  its continuity conditions, we must have
+  <md>
+    \frac{\partial M}{\partial y}=\frac{\partial N}{\partial x}
+  </md>
+</p>
+</section>
+
+<section xml:id="FindingT">
+    <title>Finding the function <m>T(x,y)</m></title>
+    <p>
+  Now that we know that our differential equation
+  <md>
+    M(x,y)+N(x,y)\frac{dy}{dx}=0
+  </md>
+  is exact, and there exists a function <m>T(x,y)</m> whose derivative gives the
+  left hand side of our given DE, the question is how to find it. This is best
+  modeled in an example. (Take notes)
+</p>
+<example>
+    <p>
+  Check that this differential equation is Exact and solve it.
+  <md>
+    (2xy-9x^{2})+\left( x^{2}+1+2y\right)\frac{dy}{dx}=0, \quad\quad y(0)=-3
+  </md>
+</p>
+</example>
+</section>
+<section xml:id="Tryit">
+    <title>Your turn</title>
+    <exercise>
+        <p>
+  Check that this differential equation is Exact and solve it.
+  <md>
+    \frac{2ty}{t^{2}+1}-2t-\left(2-\ln(t^{2}+1)\right)\frac{dy}{dt}=0, \quad\quad y(5)=0
+  </md>
+</p>
+    </exercise>
+    <exercise>
+        <p>
+  Check that this differential equation is Exact and solve it.
+  <md>
+    3y^{3}e^{3xy}-1+\left(2ye^{3xy}+3xy^{2}e^{3xy}\right)\frac{dy}{dx}=0, \quad\quad y(0)=1
+  </md>
+</p>
+    </exercise>
+</section>
+  </worksheet>
