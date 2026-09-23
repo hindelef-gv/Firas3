@@ -538,7 +538,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Exact Differential Equations",
-  "body": " Exact Differential Equations    Identifying Exact Differential equations  Solving Exact Differential equations     equations. Before we get into the full details behind solving exact differential equations it's probably best to work an example that will help to show us just what an exact differential equation is. It will also show some of the behind the scenes details that we usually don’t bother with in the solution process.    Consider the function where . Take its derivative with respect to , keeping in mind the chain rule:   Take its derivative with respect to , keeping in mind the chain rule:         The differential equation of the form is said to be Exact because we can integrate both sides and a solution curve      The differential equation is Exact because the left hand side is the derivative of some function , i.e our differential equation is equivalent to where Hence it solution is . That is, the solution for the differential equation . (1) is    "
+  "body": " Exact Differential Equations    Identifying Exact Differential equations  Solving Exact Differential equations     equations. Before we get into the full details behind solving exact differential equations it's probably best to work an example that will help to show us just what an exact differential equation is. It will also show some of the behind the scenes details that we usually don’t bother with in the solution process.    Consider the function where . Take its derivative with respect to , keeping in mind the chain rule:   Take its derivative with respect to , keeping in mind the chain rule:         The differential equation of the form is said to be Exact because we can integrate both sides and a solution curve      The differential equation is Exact because the left hand side is the derivative of some function , i.e our differential equation is equivalent to where Hence it solution is . That is, the solution for the differential equation is    There are two obvious questions here   If we start with a first order differential equation like (1), how do we know that it is Exact . i.e. How do we know that there is a function whose derivative gives the left hand side of our given DE?    If such a function exists, how do we find it?      Test for Exactness  In general, you have a DE of this form Note that it's important that it must be in this form! There must be an = on one side and the sign separating the two terms must be a + . Now, if there is a function somewhere out there in the world, , such that then Now, provided is continuous and its first order derivatives are also continuous we know that the second order mixed partials must be equal. That is Therefore, if a differential equation is exact and meets all of its continuity conditions, we must have     Finding the function  Now that we know that our differential equation is exact, and there exists a function whose derivative gives the left hand side of our given DE, the question is how to find it. This is best modeled in an example. (Take notes)   Check that this differential equation is Exact and solve it.      Your turn   Check that this differential equation is Exact and solve it.     Check that this differential equation is Exact and solve it.     "
 },
 {
   "id": "ExactDEQ-2",
@@ -574,7 +574,34 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "15",
   "title": "",
-  "body": " The differential equation is Exact because the left hand side is the derivative of some function , i.e our differential equation is equivalent to where Hence it solution is . That is, the solution for the differential equation . (1) is   "
+  "body": " The differential equation is Exact because the left hand side is the derivative of some function , i.e our differential equation is equivalent to where Hence it solution is . That is, the solution for the differential equation is   "
+},
+{
+  "id": "FindingT-3",
+  "level": "2",
+  "url": "ExactDEQ.html#FindingT-3",
+  "type": "Example",
+  "number": "16",
+  "title": "",
+  "body": " Check that this differential equation is Exact and solve it.   "
+},
+{
+  "id": "Tryit-2",
+  "level": "2",
+  "url": "ExactDEQ.html#Tryit-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": " Check that this differential equation is Exact and solve it.   "
+},
+{
+  "id": "Tryit-3",
+  "level": "2",
+  "url": "ExactDEQ.html#Tryit-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": " Check that this differential equation is Exact and solve it.   "
 },
 {
   "id": "projects-2",

@@ -185,7 +185,14 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-6.html" class="internal"><span class="title">Solving the Logistic Model Algebraically</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-linear-differential-equations.html" class="internal"><span class="title">Linear Differential Equations</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-applications-to-differential-equations.html" class="internal"><span class="title">Applications to Differential Equations</span></a></div></li>
-<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="ExactDEQ.html" class="internal"><span class="title">Exact Differential Equations</span></a></div></li>
+<li class="toc-item toc-worksheet contains-active">
+<div class="toc-title-box"><a href="ExactDEQ.html" class="internal"><span class="title">Exact Differential Equations</span></a></div>
+<ul class="structural toc-item-list active" id="ptx-toc-group-ExactDEQ">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ExactDEQ.html#TfExac" class="internal"><span class="title">Test for Exactness</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ExactDEQ.html#FindingT" class="internal"><span class="title">Finding the function <span class="process-math">\(T(x,y)\)</span></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ExactDEQ.html#Tryit" class="internal"><span class="title">Your turn</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -307,10 +314,10 @@ T(x,y)=C
 <article class="example example-like knowl__content">
 <div class="para logical" id="ExactDEQ-6-1">
 <div class="para">The differential equation</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/exac1.html" id="exac1">
-\begin{align}
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/exac1.html" id="ExactDEQ-6-1-1">
+\begin{gather}
 \left( x^2+1+2y\right)\frac{dy}{dx}+(2xy-9x^2)=0\tag{8}
-\end{align}
+\end{gather}
 </div>
 <div class="para">is  <em class="emphasis">Exact</em> because the left hand side is the derivative of some function <span class="process-math">\(T(x,y)\text{,}\)</span> i.e our differential equation is equivalent to <span class="process-math">\(\displaystyle{\frac{d}{dx}T(x,y)=0}\)</span> where</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/exac1.html" id="ExactDEQ-6-1-5">
@@ -318,7 +325,7 @@ T(x,y)=C
 T(x,y)=y^{2}+(x^{2}+1)y-3x^{3}.
 \end{equation*}
 </div>
-<div class="para">Hence it solution is <span class="process-math">\(T(x,y)=C\text{.}\)</span> That is, the solution for the differential equation <a href="ExactDEQ.html#exac1" class="internal" title="Display Mathematics [STRUCT].[NUM]">Display Mathematics [STRUCT].[NUM]</a>. (1) is</div>
+<div class="para">Hence it solution is <span class="process-math">\(T(x,y)=C\text{.}\)</span> That is, the solution for the differential equation <a href="ExactDEQ.html#ExactDEQ-6-1-1" class="xref" data-knowl="./knowl/xref/exac1.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 8">(8)</a> is</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/exac1.html" id="ExactDEQ-6-1-8">
 \begin{equation*}
 y^{2}+(x^{2}+1)y-3x^{3}=C.
@@ -327,7 +334,121 @@ y^{2}+(x^{2}+1)y-3x^{3}=C.
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ExactDEQ-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Example 15"><a tabindex="-1" href="#ExactDEQ-6" title="Copy heading and permalink for Example 15" aria-label="Copy heading and permalink for Example 15">🔗</a></div>
-</article></details><div class="autopermalink" aria-hidden="true" data-description="Worksheet: Exact Differential Equations"><a tabindex="-1" href="#ExactDEQ" title="Copy heading and permalink for Worksheet: Exact Differential Equations" aria-label="Copy heading and permalink for Worksheet: Exact Differential Equations">🔗</a></div>
+</article></details>
+<div class="para logical" id="ExactDEQ-7">
+<div class="para">There are two obvious questions here</div>
+<ol class="decimal" id="ExactDEQ-7-1">
+<li id="ExactDEQ-7-1-1">
+<div class="para" id="ExactDEQ-7-1-1-1">If we start with a first order differential equation like (1), how do we know that it is <em class="emphasis">Exact</em>. i.e. How do we know that there is a function <span class="process-math">\(T(x,y)\)</span> whose derivative gives the left hand side of our given DE?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ExactDEQ-7-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 1"><a tabindex="-1" href="#ExactDEQ-7-1-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="ExactDEQ-7-1-2">
+<div class="para" id="ExactDEQ-7-1-2-1">If such a function <span class="process-math">\(T(x,y)\)</span> exists, how do we find it?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ExactDEQ-7-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 2"><a tabindex="-1" href="#ExactDEQ-7-1-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ExactDEQ-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="section" id="TfExac">
+<h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Test for Exactness</span>
+</h2>
+<div class="para logical" id="TfExac-2">
+<div class="para">In general, you have a DE of this form</div>
+<div class="displaymath process-math" id="TfExac-2-1">
+\begin{equation*}
+M(x,y)+N(x,y)\frac{dy}{dx}=0.
+\end{equation*}
+</div>
+<div class="para">Note that it’s important that it must be in this form! There must be an “=” on one side and the sign separating the two terms must be a “+”. Now, if there is a function somewhere out there in the world, <span class="process-math">\(T(x,y)\text{,}\)</span> such that</div>
+<div class="displaymath process-math" id="TfExac-2-5">
+\begin{equation*}
+\frac{d}{dx}T(x,y)=M(x,y)+N(x,y)\frac{dy}{dx}
+\end{equation*}
+</div>
+<div class="para">then</div>
+<div class="displaymath process-math" id="TfExac-2-6">
+\begin{equation*}
+\frac{\partial T}{\partial x}=M(x,y)\quad\quad\quad\mbox{and}\quad\quad\quad\frac{\partial T}{\partial y}=N(x,y).
+\end{equation*}
+</div>
+<div class="para">Now, provided <span class="process-math">\(T(x,y)\)</span> is continuous and its first order derivatives are also continuous we know that the second order mixed partials must be equal. That is</div>
+<div class="displaymath process-math" id="TfExac-2-8">
+\begin{equation*}
+\frac{\partial^{2} T}{\partial y\partial x}=M_{y}\quad\quad\quad\mbox{and}\quad\quad\quad\frac{\partial^{2} T}{\partial x\partial y}=N_{x}.
+\end{equation*}
+</div>
+<div class="para">Therefore, if a differential equation is exact and <span class="process-math">\(T(x,y)\)</span> meets all of its continuity conditions, we must have</div>
+<div class="displaymath process-math" id="TfExac-2-10">
+\begin{equation*}
+\frac{\partial M}{\partial y}=\frac{\partial N}{\partial x}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#TfExac-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Section: Test for Exactness"><a tabindex="-1" href="#TfExac" title="Copy heading and permalink for Section: Test for Exactness" aria-label="Copy heading and permalink for Section: Test for Exactness">🔗</a></div>
+</section>
+<section class="section" id="FindingT">
+<h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Finding the function <span class="process-math">\(T(x,y)\)</span></span>
+</h2>
+<div class="para logical" id="FindingT-2">
+<div class="para">Now that we know that our differential equation</div>
+<div class="displaymath process-math" id="FindingT-2-1">
+\begin{equation*}
+M(x,y)+N(x,y)\frac{dy}{dx}=0
+\end{equation*}
+</div>
+<div class="para">is exact, and there exists a function <span class="process-math">\(T(x,y)\)</span> whose derivative gives the left hand side of our given DE, the question is how to find it. This is best modeled in an example. (Take notes)</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#FindingT-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="FindingT-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">16</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary>
+<article class="example example-like knowl__content">
+<div class="para logical" id="FindingT-3-1">
+<div class="para">Check that this differential equation is Exact and solve it.</div>
+<div class="displaymath process-math" id="FindingT-3-1-1">
+\begin{equation*}
+(2xy-9x^{2})+\left( x^{2}+1+2y\right)\frac{dy}{dx}=0, \quad\quad y(0)=-3
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#FindingT-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 16"><a tabindex="-1" href="#FindingT-3" title="Copy heading and permalink for Example 16" aria-label="Copy heading and permalink for Example 16">🔗</a></div>
+</article></details><div class="autopermalink" aria-hidden="true" data-description="Section: Finding the function T(x,y)"><a tabindex="-1" href="#FindingT" title="Copy heading and permalink for Section: Finding the function T(x,y)" aria-label="Copy heading and permalink for Section: Finding the function T(x,y)">🔗</a></div>
+</section>
+<section class="section" id="Tryit">
+<h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Your turn</span>
+</h2>
+<article class="exercise exercise-like" id="Tryit-2"><h3 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para logical" id="Tryit-2-1">
+<div class="para">Check that this differential equation is Exact and solve it.</div>
+<div class="displaymath process-math" id="Tryit-2-1-1">
+\begin{equation*}
+\frac{2ty}{t^{2}+1}-2t-\left(2-\ln(t^{2}+1)\right)\frac{dy}{dt}=0, \quad\quad y(5)=0
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#Tryit-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 1"><a tabindex="-1" href="#Tryit-2" title="Copy heading and permalink for Worksheet Exercise 1" aria-label="Copy heading and permalink for Worksheet Exercise 1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="Tryit-3"><h3 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para logical" id="Tryit-3-1">
+<div class="para">Check that this differential equation is Exact and solve it.</div>
+<div class="displaymath process-math" id="Tryit-3-1-1">
+\begin{equation*}
+3y^{3}e^{3xy}-1+\left(2ye^{3xy}+3xy^{2}e^{3xy}\right)\frac{dy}{dx}=0, \quad\quad y(0)=1
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#Tryit-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 2"><a tabindex="-1" href="#Tryit-3" title="Copy heading and permalink for Worksheet Exercise 2" aria-label="Copy heading and permalink for Worksheet Exercise 2">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Section: Your turn"><a tabindex="-1" href="#Tryit" title="Copy heading and permalink for Section: Your turn" aria-label="Copy heading and permalink for Section: Your turn">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Worksheet: Exact Differential Equations"><a tabindex="-1" href="#ExactDEQ" title="Copy heading and permalink for Worksheet: Exact Differential Equations" aria-label="Copy heading and permalink for Worksheet: Exact Differential Equations">🔗</a></div>
 </section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">
