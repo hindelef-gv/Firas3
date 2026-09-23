@@ -64,6 +64,8 @@
   
     </p>
   </example>
+  <conclusion>
+    
 <p>
   There are two obvious questions here
   <ol>
@@ -73,7 +75,9 @@
         know that it is <em>Exact</em>. i.e. How do we know that there is a
         function <m>T(x,y)</m> whose derivative gives the left hand side of our
         given DE?
-      </p>
+      
+    </p>
+ 
     </li>
 
     <li>
@@ -83,6 +87,8 @@
     </li>
   </ol>
 </p>
+ </conclusion>
+ 
 <section xml:id="TfExac">
     <title>Test for Exactness</title>
     <p>
