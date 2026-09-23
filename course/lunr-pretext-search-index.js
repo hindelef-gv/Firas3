@@ -532,13 +532,67 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
-  "id": "projects",
+  "id": "projects-2",
   "level": "1",
-  "url": "projects.html",
-  "type": "Chapter",
+  "url": "projects-2.html",
+  "type": "Worksheet",
   "number": "",
-  "title": "Projects",
-  "body": " Projects    "
+  "title": "How much home can we afford?",
+  "body": " How much home can we afford?   This project is inspired by Dave Ramsey's tips. I recommend that you give it a read first at . Since every couple's numbers are different, we will use parameters at first.    Home buying planning  A wise young couple have been following Dave's 7 baby steps for wealth . They paid off ALL their debts, they have 3-6 months of expenses set aside in the emergency fund, and they started putting money aside in their Home Down payment fund . This down payment fund is starting to get beefy and the couple are beginning to visualize their dream home coming true. Since you are their best friend, and you have taken Dr. Hindeleh's Differential Equation class at GV, you know how to advise them properly. The couple invite you over for dinner to talk this over. Here is the conversation that happens next.  You:  How much is in your down payment fund?  Couple:  As of today, we have in our saving account earmarked for the down payment.  You:  Good job! You passed the first step. Your down payment need to be at of the amount you finance, other wise the bank will hit you with PMI fee.  Couple:  What is PMI?  You:  PMI stands for Primary Mortgage Insurance. The bank makes you pay a month as an insurance to get their balance in case they have to foreclose due to no payments.  Couple:  What a rip off! So you are saying that we should look for house valued at , right? you could have said so over the phone!  You:  Ah! we still need to make sure that you can afford the monthly payments. I do not want you to become house poor and have you live on water, rice and beans!  Couple:  We do not want that either! So what else you need to know?  You:  What is your household monthly take home pay? This after all taxes and deductions, i.e money that is deposited into your bank account from your paychecks.  Couple:  According to our last month's bank statement we have coming into our checking account.  You:  Awesome! This means that your new home's mortgage monthly payment can not be more than one fourth of your take home pay, i.e . This includes taxes and insurance.  Couple:  How much are taxes and insurance on a house?  You:  Well, that depends on where the house is located, the value of the house, the age of the house, etc. For now, let's call the amount we need to budget for Taxes Insurance . So your mortgage monthly payment will be divided into two portions. The first part is for taxes and insurance, so will go into an Escrow account that the lending bank manages in order to pay your taxes and insurance bills when they arrive. This is how the bank guarantees that your house (their investment) is protected from disasters and acquisition. The second part will go towards interest and principle. So your .  Couple:  There are so many mortgage products out there, we are not sure what to choose?  You:  That's easy! To get the best rate, you look for 15-years fixed rate. But 20-years fixed rate is also good. You lock your interest rate for the life of the loan.  Couple:  What if interest rates go down later?  You:  You can refinance into the lower rate, have me over for dinner when this happens and I will do the math for you. But if the rates go up due to what ever crazy things that are going in the world, you won't be affected.  Couple:  Makes sense!  You:  Ok, give me a few minutes to model this problem...    Modeling the Problem    There are a lot of moving parameters that they need to go into your differential equation model. You first go online to find what is the current mortgage rates for a 20-year fixed. For example, for an APR compound monthly, you take .     First list all parameters in the problem, and write a sentence what they represent.      We will let be the independent variable for the time in months, and be the mortgage balance after months of payments. The rate of change of the is the difference between interest incurred and (the portion of the monthly payment that does not go into Escrow account). Write down the differential equation here. It should contain and .       Solving the model   You observe that the differential equation you just wrote can be solved using an integrating factor method or separation of variables. Pick your favorite one and solve it for $A(t)$.     The First Condition   In order to solve for the integration constant , you know that (the amount financed). You just advised the couple that this can not be more than . Why is that again? where did the come from? Assume that , solve for .     The Second Condition   We want the mortgage to be paid off in 20 years, or after 240 monthly payments, i.e your . Use this condition to find .     Taxes and Insurance   You look online for the Taxes and Insurance rates in Michigan, and you see that it is of the home value. If your friends go with the maximum, that will be . Explain where this came from.     It is dessert time   Now that you solved the model generically with parameters, come up with real numbers for those parameters for your friends' scenario and answer the question that they brought you to dinner for... How much of a house can we afford?     "
+},
+{
+  "id": "MP-2",
+  "level": "2",
+  "url": "projects-2.html#MP-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  There are a lot of moving parameters that they need to go into your differential equation model. You first go online to find what is the current mortgage rates for a 20-year fixed. For example, for an APR compound monthly, you take .     First list all parameters in the problem, and write a sentence what they represent.      We will let be the independent variable for the time in months, and be the mortgage balance after months of payments. The rate of change of the is the difference between interest incurred and (the portion of the monthly payment that does not go into Escrow account). Write down the differential equation here. It should contain and .    "
+},
+{
+  "id": "SM-2",
+  "level": "2",
+  "url": "projects-2.html#SM-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": " You observe that the differential equation you just wrote can be solved using an integrating factor method or separation of variables. Pick your favorite one and solve it for $A(t)$.  "
+},
+{
+  "id": "TFC-2",
+  "level": "2",
+  "url": "projects-2.html#TFC-2",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": " In order to solve for the integration constant , you know that (the amount financed). You just advised the couple that this can not be more than . Why is that again? where did the come from? Assume that , solve for .  "
+},
+{
+  "id": "TSC-2",
+  "level": "2",
+  "url": "projects-2.html#TSC-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": " We want the mortgage to be paid off in 20 years, or after 240 monthly payments, i.e your . Use this condition to find .  "
+},
+{
+  "id": "TaI-2",
+  "level": "2",
+  "url": "projects-2.html#TaI-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": " You look online for the Taxes and Insurance rates in Michigan, and you see that it is of the home value. If your friends go with the maximum, that will be . Explain where this came from.  "
+},
+{
+  "id": "DT-2",
+  "level": "2",
+  "url": "projects-2.html#DT-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": " Now that you solved the model generically with parameters, come up with real numbers for those parameters for your friends' scenario and answer the question that they brought you to dinner for... How much of a house can we afford?   "
 },
 {
   "id": "homework-2",
