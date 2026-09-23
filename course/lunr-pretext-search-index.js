@@ -532,6 +532,51 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
+  "id": "ExactDEQ",
+  "level": "1",
+  "url": "ExactDEQ.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Exact Differential Equations",
+  "body": " Exact Differential Equations    Identifying Exact Differential equations  Solving Exact Differential equations     equations. Before we get into the full details behind solving exact differential equations it's probably best to work an example that will help to show us just what an exact differential equation is. It will also show some of the behind the scenes details that we usually don’t bother with in the solution process.    Consider the function where . Take its derivative with respect to , keeping in mind the chain rule:   Take its derivative with respect to , keeping in mind the chain rule:         The differential equation of the form is said to be Exact because we can integrate both sides and a solution curve      The differential equation is Exact because the left hand side is the derivative of some function , i.e our differential equation is equivalent to where Hence it solution is . That is, the solution for the differential equation . (1) is    "
+},
+{
+  "id": "ExactDEQ-2",
+  "level": "2",
+  "url": "ExactDEQ.html#ExactDEQ-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Identifying Exact Differential equations  Solving Exact Differential equations   "
+},
+{
+  "id": "ExactDEQ-4",
+  "level": "2",
+  "url": "ExactDEQ.html#ExactDEQ-4",
+  "type": "Example",
+  "number": "13",
+  "title": "",
+  "body": " Consider the function where . Take its derivative with respect to , keeping in mind the chain rule:   Take its derivative with respect to , keeping in mind the chain rule:      "
+},
+{
+  "id": "exac",
+  "level": "2",
+  "url": "ExactDEQ.html#exac",
+  "type": "Definition",
+  "number": "14",
+  "title": "",
+  "body": "  The differential equation of the form is said to be Exact because we can integrate both sides and a solution curve    "
+},
+{
+  "id": "ExactDEQ-6",
+  "level": "2",
+  "url": "ExactDEQ.html#ExactDEQ-6",
+  "type": "Example",
+  "number": "15",
+  "title": "",
+  "body": " The differential equation is Exact because the left hand side is the derivative of some function , i.e our differential equation is equivalent to where Hence it solution is . That is, the solution for the differential equation . (1) is   "
+},
+{
   "id": "projects-2",
   "level": "1",
   "url": "projects-2.html",
