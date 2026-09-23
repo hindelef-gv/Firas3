@@ -532,13 +532,13 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
-  "id": "handouts",
+  "id": "projects",
   "level": "1",
-  "url": "handouts.html",
+  "url": "projects.html",
   "type": "Chapter",
   "number": "",
-  "title": "Handouts",
-  "body": " Handouts    "
+  "title": "Projects",
+  "body": " Projects    "
 },
 {
   "id": "homework-2",
