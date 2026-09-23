@@ -1,0 +1,176 @@
+<worksheet>
+<title>How much home can we afford?</title>
+
+  <introduction>
+    <p>
+  This project is inspired by Dave Ramsey's tips. I recommend that you give it a
+  read first at
+  <url href="https://www.ramseysolutions.com/real-estate/5-steps-to-buying-home-wont-bust-your-budget"/>.
+  Since every couple's numbers are different, we will use parameters at first.
+</p>
+ </introduction>
+<section xml:id="HBP">
+    <title>Home buying planning</title>
+    
+
+<p>
+  A wise young couple have been following Dave's <q> 7 baby steps</q> for wealth
+  <fn><url href="https://www.ramseysolutions.com/dave-ramsey-7-baby-steps"/></fn>.
+  They paid off ALL their debts, they have 3-6 months of expenses set aside in
+  the emergency fund, and they started putting money aside in their
+  <q>Home Down payment fund</q>. This down payment fund is starting to get beefy
+  and the couple are beginning to visualize their dream home coming true. Since
+  you are their best friend, and you have taken Dr. Hindeleh's Differential
+  Equation class at GV, you know how to advise them properly. The couple invite
+  you over for dinner to talk this over. Here is the conversation that happens
+  next.
+</p>
+<p><strong>You:</strong> <q>How much is in your down payment fund?</q></p>
+<p><strong>Couple:</strong> <q>As of today, we have <m>\$ DP</m> in our saving account earmarked for the
+  down payment.</q></p>
+
+    <p><strong>You:</strong> <q>Good job! You passed the first step. Your down payment need to be at
+  <m>20\%</m> of the amount you finance, other wise the bank will hit you with
+  PMI fee.</q></p>
+<p><strong>Couple:</strong> <q>What is PMI?</q></p>
+
+    
+<p><strong>You:</strong> <q>PMI stands for Primary Mortgage Insurance. The bank makes you pay
+  <m>\$100-\$200</m> a month as an insurance to get their balance in case they
+  have to foreclose due to no payments.</q></p>
+<p><strong>Couple:</strong> <q>What a rip off! So you are saying that we should look for house valued at
+  <m>5DP</m>, right? you could have said so over the phone!</q></p>
+
+    <p><strong>You:</strong> <q>Ah! we still need to make sure that you can afford the monthly payments. I do
+  not want you to become <sq>house poor</sq> and have you live on water, rice
+  and beans!</q></p>
+<p><strong>Couple:</strong> <q>We do not want that either! So what else you need to know?</q></p>
+
+    <p><strong>You:</strong> <q>What is your household monthly take home pay? This after all taxes and
+  deductions, i.e money that is deposited into your bank account from your
+  paychecks.</q></p>
+<p><strong>Couple:</strong> <q>According to our last month's bank statement we have <m>\$I</m> coming into
+  our checking account.</q></p>
+
+    <p><strong>You:</strong> <q>Awesome! This means that your new home's mortgage monthly payment <m>M</m> can
+  not be more than one fourth of your take home pay, i.e <m>\$ I/4</m>. This
+  includes taxes and insurance.</q></p>
+<p><strong>Couple:</strong> <q>How much are taxes and insurance on a house?</q></p>
+
+    <p><strong>You:</strong> <q>Well, that depends on where the house is located, the value of the house, the
+  age of the house, etc. For now, let's call the amount we need to budget for
+  Taxes <m>\&amp;</m> Insurance <m>TI</m>. So your mortgage monthly payment
+  <m>M</m> will be divided into two portions. The first part is for taxes and
+  insurance, so <m>\$TI</m> will go into an <q>Escrow</q> account that the
+  lending bank manages in order to pay your taxes and insurance bills when they
+  arrive. This is how the bank guarantees that your house (their investment) is
+  protected from disasters and acquisition. The second part <m>\$P</m> will go
+  towards interest and principle. So your <m>M=P+TI</m>.</q></p>
+<p><strong>Couple:</strong> <q>There are so many mortgage products out there, we are not sure what to choose?</q></p>
+
+    <p><strong>You:</strong> <q>That's easy! To get the best rate, you look for 15-years fixed rate. But
+  20-years fixed rate is also good. You lock your interest rate for the life of
+  the loan.</q></p>
+<p><strong>Couple:</strong> <q>What if interest rates go down later?</q></p>
+
+    <p><strong>You:</strong> <q>You can refinance into the lower rate, have me over for dinner when this
+  happens and I will do the math for you. But if the rates go up due to what
+  ever crazy things that are going in the world, you won't be affected.</q></p>
+<p><strong>Couple:</strong> <q> Makes sense!</q></p>
+
+    <p><strong>You:</strong> <q>Ok, give me a few minutes to model this problem...</q></p>
+   
+
+    
+</section>
+ <section xml:id="MP">
+    <title>Modeling the Problem</title>
+     <exercise>
+        <introduction>
+            <p>
+  There are a lot of moving parameters that they need to go into your
+  differential equation model. You first go online to find what is the current
+  mortgage rates for a 20-year fixed. For example, for an <m>6\%</m> APR
+  compound monthly, you take <m>\displaystyle{r=\frac{0.06}{12}=0.005}</m>.
+</p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                  First list all parameters in the problem, and write a sentence what they represent.
+  
+                </p>
+            </statement>
+        
+        </task>
+
+        <task>
+            <statement>
+                <p>
+  We will let <m>t</m> be the independent variable for the time in months, and
+  <m>A(t)</m> be the mortgage balance after <m>t</m> months of payments. The
+  rate of change of the <m>A(t)</m> is the difference between interest incurred
+  and <m>P</m> (the portion of the monthly payment that does not go into Escrow
+  account). Write down the differential equation here. It should contain
+  <m>r,P,A,</m> and <m>\frac{dA}{dt}</m>.
+</p>
+            </statement>
+        </task>
+     </exercise>
+ </section>
+<section xml:id="SM">
+    <title>Solving the model</title>
+    <exercise>
+        <p>
+  You observe that the differential equation you just wrote can be solved using
+  an integrating factor method or separation of variables. Pick your favorite
+  one and solve it for $A(t)$.
+</p>
+    </exercise>
+</section>
+
+
+<section xml:id="TFC">
+    <title>The First Condition</title>
+    <exercise>
+        <p>
+  In order to solve for the integration constant <m>C</m>, you know that
+  <m>A(0)=A_{0}</m> (the amount financed). You just advised the couple that this
+  can not be more than <m>4DP</m>. Why is that again? where did the <m>4DP</m>
+  come from? Assume that <m>A(0)=4DP</m>, solve for <m>C</m>.
+</p>
+    </exercise>
+</section>
+<section xml:id="TSC">
+    <title>The Second Condition</title>
+    <exercise>
+        <p>
+  We want the mortgage to be paid off in 20 years, or after 240 monthly
+  payments, i.e your <m>A(240)=0</m>. Use this condition to find <m>P</m>.
+</p>
+    </exercise>
+</section>
+
+<section xml:id="TaI">
+    <title>Taxes and Insurance</title>
+    <exercise>
+       <p>
+  You look online for the Taxes and Insurance rates in Michigan, and you see
+  that it is <m>1\%</m> of the home value. If your friends go with the maximum,
+  that will be <m>0.05DP</m>. Explain where this came from.
+</p>
+    </exercise>
+</section>
+
+<section xml:id="DT">
+    <title>It is dessert time</title>
+    <exercise>
+      <p>
+  Now that you solved the model generically with parameters, come up with real
+  numbers for those parameters for your friends' scenario and answer the
+  question that they brought you to dinner for...
+  <em>How much of a house can we afford?</em>
+</p>
+    </exercise>
+</section>
+</worksheet>

@@ -59,10 +59,10 @@
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
-    <chapter xml:id="handouts">
-      <title>Handouts</title>
+    <chapter xml:id="projects">
+      <title>Projects</title>
       <!-- Include handouts -->
-      <!--<xi:include href="./handouts/handout-filename.ptx"/>-->
+      <!--<xi:include href="./project/handout-filename.ptx"/>-->
     </chapter>
 
     <chapter xml:id="homework">
