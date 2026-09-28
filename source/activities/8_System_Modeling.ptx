@@ -1,0 +1,163 @@
+<worksheet>
+  <title>Modeling Systems of first order Differential Equations</title>
+  
+<objectives>
+    <ul>
+      <li>Predator Prey Models</li>
+      
+   
+        <li>
+           
+                Motion of a mass attached to a spring
+            
+        </li>
+    </ul>
+  </objectives>
+
+  <section xml:id="PPS">
+    <title>Predator-Prey Systems</title>
+ 
+    <p>
+     
+  No species lives in isolation, and the interactions among species give some of
+  the most interesting models to study. We conclude this section by introducing
+  a simple predator-prey system of differential equations where one species
+  <q>eats</q> another. The most obvious difference between the model here and
+  previous models is that we have two quantities that depend on time. Thus our
+  model has two dependent variables that are both functions of time. Since both
+  predator and prey begin with <m>p</m>, we call the prey <q>rabbits</q> and the
+  predators <q>foxes,</q> and we denote the prey by <m>R</m> and the predators
+  by <m>F</m>. The assumptions for our model are:
+    </p>
+
+    <ul>
+    <li>
+      <p>
+        If no foxes are present, the rabbits reproduce at a rate proportional to
+        their population, and they are not affected by overcrowding.
+      </p>
+    </li>
+
+    <li>
+      <p>
+        The foxes eat the rabbits, and the rate at which the rabbits are eaten
+        is proportional to the rate at which the foxes and rabbits interact.
+      </p>
+    </li>
+
+    <li>
+      <p>
+        Without rabbits to eat, the fox population declines at a rate
+        proportional to itself.
+      </p>
+    </li>
+
+    <li>
+      <p>
+        The rate at which foxes are born is proportional to the number of
+        rabbits eaten by foxes which, by the second assumption, is proportional
+        to the rate at which the foxes and rabbits interact.
+      </p>
+    </li>
+  </ul>
+  <p>
+
+
+  To formulate this model in mathematical terms, we need four parameters in
+  addition to our independent variable t and our two dependent variables
+  <m>F</m> and <m>R</m>. The positive parameters are
+  </p>
+  <me>
+    \begin{cases}
+\alpha= \amp\mbox{growth-rate coefficient of rabbits}\\
+\beta=\amp\mbox{constant of proportionality that measures the number of rabbit-fox interactions in which the rabbit is eaten,}\\
+\gamma=\amp\mbox{death-rate coefficient of foxes,}\\
+\delta=\amp\mbox{constant of proportionality that measures the benefit to the fox population of an eaten rabbit.}
+    \end{cases}
+    
+  </me>
+  <p> Given these assumptions, we obtain the model
+  <md alignment="align">
+    <mrow>\frac{dR}{dt}&amp;=&amp;\alpha R-\beta RF</mrow>
+    <mrow>\frac{dF}{dt}&amp;=&amp;-\gamma F+\delta RF</mrow>
+  </md></p>
+
+ <example>
+ <statement>
+    
+
+    <p>
+  Recall that <m>R(t)</m> denotes the population (in thousands, or millions, or
+  whatever) of prey present at time <m>t</m> and that <m>F(t)</m> denotes the
+  population of predators. We assume that both <m>R(t)</m> and <m>F(t)</m> are
+  nonnegative. One system of differential equations that might govern the
+  changes in the population of these two species is
+  <md alignment="align" number="yes" >
+    <mrow xml:id="eq133">\frac{dR}{dt}&amp;=&amp;2 R-1.2 RF</mrow>
+    <mrow number="no">\frac{dF}{dt}&amp;=&amp;- F+0.9 RF</mrow>
+  </md>
+</p>
+<p>
+  The <m>2R</m> term in the equation for <m>\displaystyle{\frac{dR}{dt}}</m>
+  represents exponential growth of the prey in the absence of predators, and the
+  <m>-1.2RF</m> term corresponds to the negative effect on the prey of
+  predator-prey interaction. <!---->
+</p>
+
+<p>
+  The <m>-F</m> term in <m>\displaystyle{\frac{dF}{dt}}</m> corresponds to the
+  assumption that the predators die off if there are no prey to eat, and the
+  <m>0.9RF</m> term corresponds to the positive effect on the predators of
+  predator-prey interaction.
+</p>
+<p>
+  The <alert>equilibrium solution</alert> for the system is the set of functions
+  <m>R(t),F(t)</m> that will make the right hand sides of (1) vanish.
+</p>
+
+<p>
+  We can see if <m>R(t)=0</m>, and <m>F(t)=0</m> we have that we have a trivial
+  equilibrium simply because we have no rabbits or foxes in the system. To look
+  for other equilibrium solutions we rewrite (1) as
+  <md alignment="align" number="yes">
+    <mrow>\frac{dR}{dt}&amp;=&amp;(2 -1.2 F)R</mrow>
+    <mrow number="no">\frac{dF}{dt}&amp;=&amp;(- 1+0.9 R)F</mrow>
+  </md>
+  and notice that the pair of constant functions <m>R(t)=1.11</m>, and
+  <m>F(t)=1.67</m> together form another equilibrium solution. This solution
+  says that, if the prey population is 1.11 and the predator population is 1.67,
+  the system is in perfect balance.
+</p>
+ </statement>
+ 
+ </example>
+  </section>
+
+<section>
+    <title>Solution for the Predator-Prey model</title>
+    
+</section>
+  <!-- Optional introduction -->
+  
+    <p>
+  For the study of solutions to systems of differential equations, there is good
+  news and bad news. The bad news is that for many systems there are few
+  analytic techniques that yield formulas for the solutions. The good news is
+  that there are numerical and qualitative methods that give us a good
+  understanding of the solutions even if we cannot find analytic representations
+  for them. For example, if we specify the initial conditions <m>R_{0} = 1</m>
+  and <m>F_{0} = 0.5</m>, we can use a numerical method similar to Euler's
+  method to obtain approximate values for the corresponding solutions
+  <m>R(t)</m> and <m>F(t)</m>. See the figures below.
+</p>
+   
+   <figure xml:id="fig-example">
+    <title>Short Title for Cross-References</title>
+    <image source="assets/2_1.jpg" width="60%">
+        <shortdescription>The graph of <m>R(t)</m> if <m>R_0=1</m> and <m>F_0=0.5</m> </shortdescription>
+        
+    </image>
+    
+</figure>
+
+</worksheet>

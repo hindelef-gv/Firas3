@@ -57,6 +57,7 @@
 <xi:include href="./activities/5_Applications.ptx"/>
 <xi:include href="./activities/6_Exact_DEQ.ptx"/>
 <xi:include href="./activities/7_EV_review.ptx"/>
+<xi:include href="./activities/8_System_Modeling.ptx"/>
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 

@@ -74,7 +74,7 @@
       </p>
     </statement>
   </example>
-  <exercise workspace="$1">
+  <exercise>
    <statement>
       <p>
         Find the eigenvalues and eigenvectors of the matrix
