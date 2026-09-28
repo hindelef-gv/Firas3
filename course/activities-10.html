@@ -31,7 +31,7 @@ isReact: false,
 htmlPresentation: false,
 lang: "en-US",
 });
-</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+</script><script defer data-pretext-mathjax="true" onerror="this.dataset.loadFailed = 'true';" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
 <meta name="twitter:title" content="Analysis of Differential Equations">
@@ -40,7 +40,7 @@ lang: "en-US",
 <meta name="twitter:description" content="MTH 304-01 Fall 2026">
 <meta property="og:description" content="MTH 304-01 Fall 2026">
 <meta name="twitter:card" content="summary">
-<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.53"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.53"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.54"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.54"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -194,7 +194,13 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ExactDEQ.html#Tryit" class="internal"><span class="title">Your turn</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="activities-10.html" class="internal"><span class="title">Eigenvalues review</span></a></div></li>
+<li class="toc-item toc-worksheet contains-active">
+<div class="toc-title-box"><a href="activities-10.html" class="internal"><span class="title">Eigenvalues review</span></a></div>
+<ul class="structural toc-item-list active" id="ptx-toc-group-activities-10">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="activities-10.html#activities-10-3" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="activities-10.html#activities-10-4" class="internal"><span class="title">How to find eigenvalues and eigenvectors</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -202,6 +208,7 @@ eBookConfig.enable_chatcodes =  false;
 <ul id="ptx-toc-group-projects" class="structural toc-item-list"><li class="toc-item toc-worksheet">
 <div class="toc-title-box"><a href="projects-2.html" class="internal"><span class="title">How much home can we afford?</span></a></div>
 <ul id="ptx-toc-group-projects-2" class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="projects-2.html#projects-2-2" class="internal"><span class="title">introduction</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="projects-2.html#HBP" class="internal"><span class="title">Home buying planning</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="projects-2.html#MP" class="internal"><span class="title">Modeling the Problem</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="projects-2.html#SM" class="internal"><span class="title">Solving the model</span></a></div></li>
@@ -255,19 +262,79 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 <div class="autopermalink" aria-hidden="true" data-description="Objectives"><a tabindex="-1" href="#activities-10-1" title="Copy heading and permalink for Objectives" aria-label="Copy heading and permalink for Objectives">🔗</a></div>
 </article>
-<article class="definition definition-like" id="activities-10-3"><h2 class="heading">
-<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">19</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<section class="section" id="activities-10-3">
+<h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Introduction</span>
 </h2>
-<div class="para" id="activities-10-3-1-1">Let <span class="process-math">\(A\)</span> be an <span class="process-math">\(n\times n \)</span> matrix. A real (or complex) number <span class="process-math">\(\lambda\)</span> is called an <dfn class="terminology">eigenvalue</dfn>bof the matrix <span class="process-math">\(A\)</span> if <span class="process-math">\(A\vec{v}=\lambda \vec{v}\)</span> for some nonzero vector <span class="process-math">\(\vec{v}\in R^n(\mbox{ or }C^n)\text{.}\)</span> The vector <span class="process-math">\(\vec{v}\)</span> is called an <dfn class="terminology">eigenvector</dfn> of <span class="process-math">\(A\)</span> corresponding to the eigenvalue <span class="process-math">\(\lambda \mathbb{R}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-10-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="definition definition-like" id="activities-10-3-2"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">19</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="activities-10-3-2-1-1">Let <span class="process-math">\(A\)</span> be an <span class="process-math">\(n\times n \)</span> matrix. A real (or complex) number <span class="process-math">\(\lambda\)</span> is called an <dfn class="terminology">eigenvalue</dfn> of the matrix <span class="process-math">\(A\)</span> if <span class="process-math">\(A\vec{v}=\lambda \vec{v}\)</span> for some nonzero vector <span class="process-math">\(\vec{v}\in \R^n(\mbox{ or }\C^n)\text{.}\)</span> The vector <span class="process-math">\(\vec{v}\)</span> is called an <dfn class="terminology">eigenvector</dfn> of <span class="process-math">\(A\)</span> corresponding to the eigenvalue <span class="process-math">\(\lambda\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-10-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Definition 19"><a tabindex="-1" href="#activities-10-3" title="Copy heading and permalink for Definition 19" aria-label="Copy heading and permalink for Definition 19">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 19"><a tabindex="-1" href="#activities-10-3-2" title="Copy heading and permalink for Definition 19" aria-label="Copy heading and permalink for Definition 19">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Section: Introduction"><a tabindex="-1" href="#activities-10-3" title="Copy heading and permalink for Section: Introduction" aria-label="Copy heading and permalink for Section: Introduction">🔗</a></div>
+</section>
+<section class="section" id="activities-10-4">
+<h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">How to find eigenvalues and eigenvectors</span>
+</h2>
+<article class="theorem theorem-like" id="activities-10-4-2"><h3 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">20</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="activities-10-4-2-1-1">Given a square matrix <span class="process-math">\(A\)</span> and a scaler <span class="process-math">\(\lambda\text{,}\)</span> the following are equivalent:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-10-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<ul class="disc" id="activities-10-4-2-1-2">
+<li id="activities-10-4-2-1-2-1">
+<div class="para" id="p-derived-activities-10-4-2-1-2-1">
+<span class="process-math">\(\lambda\)</span> is  an eigenvalue of <span class="process-math">\(A\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#activities-10-4-2-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="activities-10-4-2-1-2-2">
+<div class="para" id="activities-10-4-2-1-2-2-1">The homogeneous system <span class="process-math">\((A-\lambda I)\vec{v}=\vec{0}\)</span> has a nontrivial solution.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-10-4-2-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#activities-10-4-2-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="activities-10-4-2-1-2-3">
+<div class="para" id="activities-10-4-2-1-2-3-1">The determinant <span class="process-math">\(\det(A-\lambda I)=0\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-10-4-2-1-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#activities-10-4-2-1-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 20"><a tabindex="-1" href="#activities-10-4-2" title="Copy heading and permalink for Theorem 20" aria-label="Copy heading and permalink for Theorem 20">🔗</a></div>
 </article>
-<article class="exercise exercise-like" id="activities-10-4"><h2 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
-<div class="para" id="activities-10-4-1-1">
-<span class="process-math">\(\begin{pmatrix} a \amp b \\ c \amp d \end{pmatrix}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-10-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="definition definition-like" id="activities-10-4-3"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">21</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="activities-10-4-3-1-1">The polynomial <span class="process-math">\(P(\lambda)=\det(A-\lambda I)\)</span> is called the <dfn class="terminology">characteristic polynomial</dfn> of the matrix <span class="process-math">\(A\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-10-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 21"><a tabindex="-1" href="#activities-10-4-3" title="Copy heading and permalink for Definition 21" aria-label="Copy heading and permalink for Definition 21">🔗</a></div>
+</article>
+<article class="corollary theorem-like" id="activities-10-4-4"><h3 class="heading">
+<span class="type">Corollary</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">22</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="activities-10-4-4-1-1">The roots of the characteristic polynomial <span class="process-math">\(P(\lambda)\)</span> (i.e. the solutions of <span class="process-math">\(P(\lambda)=0\)</span>) are the eigenvalues of the matrix <span class="process-math">\(A\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-10-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Corollary 22"><a tabindex="-1" href="#activities-10-4-4" title="Copy heading and permalink for Corollary 22" aria-label="Copy heading and permalink for Corollary 22">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Section: How to find eigenvalues and eigenvectors"><a tabindex="-1" href="#activities-10-4" title="Copy heading and permalink for Section: How to find eigenvalues and eigenvectors" aria-label="Copy heading and permalink for Section: How to find eigenvalues and eigenvectors">🔗</a></div>
+</section>
+<details id="activities-10-5" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">23</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2></summary>
+<article class="example example-like knowl__content">
+<div class="para" id="activities-10-5-1-1">Find the eigenvalues and eigenvectors of the matrix <span class="process-math">\(A=\begin{pmatrix} 6 \amp -10 \amp -7 \\ -1 \amp 3 \amp 1 \\
+6 \amp -12 \amp -7
+\end{pmatrix}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-10-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 23"><a tabindex="-1" href="#activities-10-5" title="Copy heading and permalink for Example 23" aria-label="Copy heading and permalink for Example 23">🔗</a></div>
+</article></details>
+<article class="exercise exercise-like" id="activities-10-6"><h2 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="para" id="activities-10-6-1-1">Find the eigenvalues and eigenvectors of the matrix <span class="process-math">\(A=\begin{pmatrix} 1 \amp -1 \amp 0 \\ 1 \amp 1 \amp 0 \\
+0 \amp 0 \amp 2
+\end{pmatrix}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-10-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="workspace" data-space="2in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 1"><a tabindex="-1" href="#activities-10-4" title="Copy heading and permalink for Worksheet Exercise 1" aria-label="Copy heading and permalink for Worksheet Exercise 1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 1"><a tabindex="-1" href="#activities-10-6" title="Copy heading and permalink for Worksheet Exercise 1" aria-label="Copy heading and permalink for Worksheet Exercise 1">🔗</a></div>
 </article><div class="autopermalink" aria-hidden="true" data-description="Worksheet: Eigenvalues review"><a tabindex="-1" href="#activities-10" title="Copy heading and permalink for Worksheet: Eigenvalues review" aria-label="Copy heading and permalink for Worksheet: Eigenvalues review">🔗</a></div>
 </section>
 </div>

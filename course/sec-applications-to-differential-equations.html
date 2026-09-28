@@ -31,7 +31,7 @@ isReact: false,
 htmlPresentation: false,
 lang: "en-US",
 });
-</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+</script><script defer data-pretext-mathjax="true" onerror="this.dataset.loadFailed = 'true';" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
 <meta name="twitter:title" content="Analysis of Differential Equations">
@@ -40,7 +40,7 @@ lang: "en-US",
 <meta name="twitter:description" content="MTH 304-01 Fall 2026">
 <meta property="og:description" content="MTH 304-01 Fall 2026">
 <meta name="twitter:card" content="summary">
-<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.53"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.53"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.54"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.54"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -194,7 +194,13 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ExactDEQ.html#Tryit" class="internal"><span class="title">Your turn</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activities-10.html" class="internal"><span class="title">Eigenvalues review</span></a></div></li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="activities-10.html" class="internal"><span class="title">Eigenvalues review</span></a></div>
+<ul id="ptx-toc-group-activities-10" class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="activities-10.html#activities-10-3" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="activities-10.html#activities-10-4" class="internal"><span class="title">How to find eigenvalues and eigenvectors</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -202,6 +208,7 @@ eBookConfig.enable_chatcodes =  false;
 <ul id="ptx-toc-group-projects" class="structural toc-item-list"><li class="toc-item toc-worksheet">
 <div class="toc-title-box"><a href="projects-2.html" class="internal"><span class="title">How much home can we afford?</span></a></div>
 <ul id="ptx-toc-group-projects-2" class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="projects-2.html#projects-2-2" class="internal"><span class="title">introduction</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="projects-2.html#HBP" class="internal"><span class="title">Home buying planning</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="projects-2.html#MP" class="internal"><span class="title">Modeling the Problem</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="projects-2.html#SM" class="internal"><span class="title">Solving the model</span></a></div></li>
@@ -292,18 +299,18 @@ eBookConfig.enable_chatcodes =  false;
 ma\)</span> and <span class="process-math">\(a = dv/dt\text{,}\)</span> we obtain the differential equation<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-applications-to-differential-equations-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
 <div class="para logical" id="sec-applications-to-differential-equations-4-2-2">
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/2.html" id="2">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/r2.html" id="r2">
 \begin{equation}
 m\frac{dv}{dt}=mg-kv^{2}\tag{1}
 \end{equation}
 </div>
 <div class="para">The terminal velocity <span class="process-math">\(v_{\infty}\)</span> of the mass is defined as the asymptotic velocity after air resistance balances the gravitational force. When the mass is at terminal velocity, <span class="process-math">\(dv/dt = 0\)</span> so that</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/2.html" id="sec-applications-to-differential-equations-4-2-2-4">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/r2.html" id="sec-applications-to-differential-equations-4-2-2-4">
 \begin{equation}
 v_{\infty}=\sqrt{\frac{mg}{k}}\tag{2}
 \end{equation}
 </div>
-<div class="para">Notice that equation <a href="sec-applications-to-differential-equations.html#2" class="xref" data-knowl="./knowl/xref/2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1">(1)</a> can be solved by separation of variables.</div>
+<div class="para">Notice that equation <a href="sec-applications-to-differential-equations.html#r2" class="xref" data-knowl="./knowl/xref/r2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1">(1)</a> can be solved by separation of variables.</div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-applications-to-differential-equations-4-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
 <article class="task exercise-like" id="sec-applications-to-differential-equations-4-2-3"><h3 class="heading"><span class="codenumber">(a)</span></h3>
@@ -327,31 +334,31 @@ g = (9.8m/s^{2})(10^{-3}km/m)(60 s/min)^{2}(60 min/hr)^{2} = 127, 008km/hr^{2}.
 </div> 
 <div class="para logical" id="sec-applications-to-differential-equations-5-2-2">
 <div class="para">The equations for the voltage drops across a capacitor and a resister are given by</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/3.html ./knowl/xref/4.html" id="3">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/r3.html ./knowl/xref/r4.html" id="r3">
 \begin{equation}
 V_{C}=q/C. \quad\quad\quad V_{R}=iR\tag{3}
 \end{equation}
 </div>
 <div class="para">where <span class="process-math">\(C\)</span> is the capacitance and <span class="process-math">\(R\)</span> is the resistance. The charge <span class="process-math">\(q\)</span> and the current <span class="process-math">\(i\)</span> are related by</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/3.html ./knowl/xref/4.html" id="4">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/r3.html ./knowl/xref/r4.html" id="r4">
 \begin{equation}
 i=\frac{dq}{dt}=C\frac{dV_{C}}{dt}\tag{4}
 \end{equation}
 </div>
 <div class="para">Kirchhoff’s voltage law states that the emf <span class="process-math">\(\varepsilon\)</span> in any closed loop is equal to the sum of the voltage drops in that loop. Applying Kirchhoff’s voltage law when the switch is thrown to <span class="process-math">\(a\)</span> results in</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/3.html ./knowl/xref/4.html" id="sec-applications-to-differential-equations-5-2-2-9">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/r3.html ./knowl/xref/r4.html" id="sec-applications-to-differential-equations-5-2-2-9">
 \begin{equation}
 V_{R}+V_{C}=\varepsilon\tag{5}
 \end{equation}
 </div>
-<div class="para">Using <a href="sec-applications-to-differential-equations.html#3" class="xref" data-knowl="./knowl/xref/3.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 3">(3)</a> and <a href="sec-applications-to-differential-equations.html#4" class="xref" data-knowl="./knowl/xref/4.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 4">(4)</a>, the voltage drop across the resister can be written in terms of the voltage drop across the capacitor as</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/3.html ./knowl/xref/4.html" id="sec-applications-to-differential-equations-5-2-2-12">
+<div class="para">Using <a href="sec-applications-to-differential-equations.html#r3" class="xref" data-knowl="./knowl/xref/r3.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 3">(3)</a> and <a href="sec-applications-to-differential-equations.html#r4" class="xref" data-knowl="./knowl/xref/r4.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 4">(4)</a>, the voltage drop across the resister can be written in terms of the voltage drop across the capacitor as</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/r3.html ./knowl/xref/r4.html" id="sec-applications-to-differential-equations-5-2-2-12">
 \begin{equation*}
 V_{R}=RC\frac{dV_{C}}{dt}
 \end{equation*}
 </div>
 <div class="para">and (5) can be rewritten to yield the first-order linear differential equation for <span class="process-math">\(VC\)</span> given by</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/3.html ./knowl/xref/4.html" id="6">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/r3.html ./knowl/xref/r4.html" id="r6">
 \begin{equation}
 \frac{dV_{C}}{dt}+\frac{1}{RC}V_{C}=\frac{\varepsilon}{RC}\tag{6}
 \end{equation}
@@ -360,7 +367,7 @@ V_{R}=RC\frac{dV_{C}}{dt}
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-applications-to-differential-equations-5-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
 <article class="task exercise-like" id="sec-applications-to-differential-equations-5-2-3"><h3 class="heading"><span class="codenumber">(a)</span></h3>
-<div class="para" id="sec-applications-to-differential-equations-5-2-3-1">Solve the differential equation in <a href="sec-applications-to-differential-equations.html#6" class="xref" data-knowl="./knowl/xref/6.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 6">(6)</a>, our solution should be in terms of <span class="process-math">\(R,C, \varepsilon\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-applications-to-differential-equations-5-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec-applications-to-differential-equations-5-2-3-1">Solve the differential equation in <a href="sec-applications-to-differential-equations.html#r6" class="xref" data-knowl="./knowl/xref/r6.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 6">(6)</a>, our solution should be in terms of <span class="process-math">\(R,C, \varepsilon\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-applications-to-differential-equations-5-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task a"><a tabindex="-1" href="#sec-applications-to-differential-equations-5-2-3" title="Copy heading and permalink for Task a" aria-label="Copy heading and permalink for Task a">🔗</a></div>
 </article> 
