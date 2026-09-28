@@ -676,6 +676,42 @@ var ptx_lunr_docs = [
   "body": "  Find the eigenvalues and eigenvectors of the matrix    "
 },
 {
+  "id": "activities-11",
+  "level": "1",
+  "url": "activities-11.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Modeling Systems of first order Differential Equations",
+  "body": " Modeling Systems of first order Differential Equations    Predator Prey Models  Motion of a mass attached to a spring     Predator-Prey Systems  No species lives in isolation, and the interactions among species give some of the most interesting models to study. We conclude this section by introducing a simple predator-prey system of differential equations where one species eats another. The most obvious difference between the model here and previous models is that we have two quantities that depend on time. Thus our model has two dependent variables that are both functions of time. Since both predator and prey begin with , we call the prey rabbits and the predators foxes, and we denote the prey by and the predators by . The assumptions for our model are:    If no foxes are present, the rabbits reproduce at a rate proportional to their population, and they are not affected by overcrowding.    The foxes eat the rabbits, and the rate at which the rabbits are eaten is proportional to the rate at which the foxes and rabbits interact.    Without rabbits to eat, the fox population declines at a rate proportional to itself.    The rate at which foxes are born is proportional to the number of rabbits eaten by foxes which, by the second assumption, is proportional to the rate at which the foxes and rabbits interact.    To formulate this model in mathematical terms, we need four parameters in addition to our independent variable t and our two dependent variables and . The positive parameters are   Given these assumptions, we obtain the model    Recall that denotes the population (in thousands, or millions, or whatever) of prey present at time and that denotes the population of predators. We assume that both and are nonnegative. One system of differential equations that might govern the changes in the population of these two species is   The term in the equation for represents exponential growth of the prey in the absence of predators, and the term corresponds to the negative effect on the prey of predator-prey interaction.   The term in corresponds to the assumption that the predators die off if there are no prey to eat, and the term corresponds to the positive effect on the predators of predator-prey interaction.  The equilibrium solution for the system is the set of functions that will make the right hand sides of (1) vanish.  We can see if , and we have that we have a trivial equilibrium simply because we have no rabbits or foxes in the system. To look for other equilibrium solutions we rewrite (1) as and notice that the pair of constant functions , and together form another equilibrium solution. This solution says that, if the prey population is 1.11 and the predator population is 1.67, the system is in perfect balance.      Solution for the Predator-Prey model    For the study of solutions to systems of differential equations, there is good news and bad news. The bad news is that for many systems there are few analytic techniques that yield formulas for the solutions. The good news is that there are numerical and qualitative methods that give us a good understanding of the solutions even if we cannot find analytic representations for them. For example, if we specify the initial conditions and , we can use a numerical method similar to Euler's method to obtain approximate values for the corresponding solutions and . See the figures below.   Short Title for Cross-References   The graph of if and     "
+},
+{
+  "id": "activities-11-2",
+  "level": "2",
+  "url": "activities-11.html#activities-11-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Predator Prey Models  Motion of a mass attached to a spring   "
+},
+{
+  "id": "PPS-7",
+  "level": "2",
+  "url": "activities-11.html#PPS-7",
+  "type": "Example",
+  "number": "24",
+  "title": "",
+  "body": "  Recall that denotes the population (in thousands, or millions, or whatever) of prey present at time and that denotes the population of predators. We assume that both and are nonnegative. One system of differential equations that might govern the changes in the population of these two species is   The term in the equation for represents exponential growth of the prey in the absence of predators, and the term corresponds to the negative effect on the prey of predator-prey interaction.   The term in corresponds to the assumption that the predators die off if there are no prey to eat, and the term corresponds to the positive effect on the predators of predator-prey interaction.  The equilibrium solution for the system is the set of functions that will make the right hand sides of (1) vanish.  We can see if , and we have that we have a trivial equilibrium simply because we have no rabbits or foxes in the system. To look for other equilibrium solutions we rewrite (1) as and notice that the pair of constant functions , and together form another equilibrium solution. This solution says that, if the prey population is 1.11 and the predator population is 1.67, the system is in perfect balance.   "
+},
+{
+  "id": "fig-example",
+  "level": "2",
+  "url": "activities-11.html#fig-example",
+  "type": "Figure",
+  "number": "25",
+  "title": "Short Title for Cross-References",
+  "body": " Short Title for Cross-References   The graph of if and    "
+},
+{
   "id": "projects-2",
   "level": "1",
   "url": "projects-2.html",
