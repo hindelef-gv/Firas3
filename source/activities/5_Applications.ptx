@@ -112,7 +112,7 @@
       </p>
 
       <p>
-        <md number="yes" xml:id="2">
+        <md number="yes" xml:id="r2">
           m\frac{dv}{dt}=mg-kv^{2}
         </md>
         The terminal velocity <m>v_{\infty}</m> of the mass is defined as the
@@ -121,7 +121,7 @@
         <md number="yes">
           v_{\infty}=\sqrt{\frac{mg}{k}}
         </md>
-        Notice that equation <xref ref="2"/> can be solved by separation of
+        Notice that equation <xref ref="r2"/> can be solved by separation of
         variables.
       </p>
 
@@ -159,12 +159,12 @@
       <p>
         The equations for the voltage drops across a capacitor and a resister
         are given by
-        <md number="yes" xml:id="3">
+        <md number="yes" xml:id="r3">
           V_{C}=q/C. \quad\quad\quad V_{R}=iR
         </md>
         where <m>C</m> is the capacitance and <m>R</m> is the resistance. The
         charge <m>q</m> and the current <m>i</m> are related by
-        <md number="yes" xml:id="4">
+        <md number="yes" xml:id="r4">
           i=\frac{dq}{dt}=C\frac{dV_{C}}{dt}
         </md>
         Kirchhoff's voltage law states that the emf <m>\varepsilon</m> in any
@@ -174,7 +174,7 @@
         <md number="yes">
           V_{R}+V_{C}=\varepsilon
         </md>
-        Using <xref ref="3"/> and <xref ref="4"/>, the voltage drop across the
+        Using <xref ref="r3"/> and <xref ref="r4"/>, the voltage drop across the
         resister can be written in terms of the voltage drop across the
         capacitor as
         <md>
@@ -182,14 +182,14 @@
         </md>
         and (5) can be rewritten to yield the first-order linear differential
         equation for <m>VC</m> given by
-        <md number="yes" xml:id="6">
+        <md number="yes" xml:id="r6">
           \frac{dV_{C}}{dt}+\frac{1}{RC}V_{C}=\frac{\varepsilon}{RC}
         </md>
         with initial condition <m>V_{C}(0)=0</m>. Notice that this equation can
         be solved using an integrating factor. 
       </p>
       <task><p>
-  Solve the differential equation in <xref ref="6"/>, our solution should be in terms of
+  Solve the differential equation in <xref ref="r6"/>, our solution should be in terms of
   <m>R,C, \varepsilon</m>.
 </p>
         </task>
