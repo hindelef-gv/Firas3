@@ -26,8 +26,14 @@
   you over for dinner to talk this over. Here is the conversation that happens
   next.
 </p>
-<page>
+  </section>
+
+
+
+<section xml:id="conv">
+  <title>The parameters</title>
   
+
 
 <p><strong>You:</strong> <q>How much is in your down payment fund?</q></p>
 <p><strong>Couple:</strong> <q>As of today, we have <m>\$ DP</m> in our saving account earmarked for the
@@ -83,10 +89,13 @@
 <p><strong>Couple:</strong> <q> Makes sense!</q></p>
 
     <p><strong>You:</strong> <q>Ok, give me a few minutes to model this problem...</q></p>
-   </page>
+  
 
     
 </section>
+ 
+
+
  <section xml:id="MP">
     <title>Modeling the Problem</title>
      <exercise>
