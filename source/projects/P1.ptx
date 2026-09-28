@@ -124,7 +124,7 @@
         <p>
   You observe that the differential equation you just wrote can be solved using
   an integrating factor method or separation of variables. Pick your favorite
-  one and solve it for $A(t)$.
+  one and solve it for <m>A(t)</m> .
 </p>
     </exercise>
 </section>
