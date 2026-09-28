@@ -604,6 +604,42 @@ var ptx_lunr_docs = [
   "body": " Check that this differential equation is Exact and solve it.   "
 },
 {
+  "id": "activities-10",
+  "level": "1",
+  "url": "activities-10.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Eigenvalues review",
+  "body": "   Recall finding eigenvalues and eigenvectors    Eigenvalues review     Let be an matrix. A real (or complex) number is called an eigenvalue bof the matrix if for some nonzero vector . The vector is called an eigenvector of corresponding to the eigenvalue .            "
+},
+{
+  "id": "activities-10-1",
+  "level": "2",
+  "url": "activities-10.html#activities-10-1",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Recall finding eigenvalues and eigenvectors   "
+},
+{
+  "id": "activities-10-3",
+  "level": "2",
+  "url": "activities-10.html#activities-10-3",
+  "type": "Definition",
+  "number": "19",
+  "title": "",
+  "body": "  Let be an matrix. A real (or complex) number is called an eigenvalue bof the matrix if for some nonzero vector . The vector is called an eigenvector of corresponding to the eigenvalue .   "
+},
+{
+  "id": "activities-10-4",
+  "level": "2",
+  "url": "activities-10.html#activities-10-4",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "      "
+},
+{
   "id": "projects-2",
   "level": "1",
   "url": "projects-2.html",
