@@ -1,0 +1,32 @@
+<worksheet>
+  <objectives>
+    <ul>
+      <li>Recall finding eigenvalues and eigenvectors</li>
+      
+    </ul>
+  </objectives>
+  <title>Eigenvalues review</title>
+
+  <!-- Optional introduction -->
+  
+  <definition >
+    <statement>
+        <p>
+            Let <m>A</m> be an <m>n\times n </m> matrix. A real (or complex) number <m>\lambda</m> is called an <term>eigenvalue</term>bof the matrix <m>A</m> if <m>A\vec{v}=\lambda \vec{v}</m> for some nonzero vector <m>\vec{v}\in R^n(\mbox{ or }C^n)</m>. The vector <m>\vec{v}</m> is called an <term>eigenvector</term> of <m>A</m> corresponding to the eigenvalue <m>\lambda \mathbb{R}</m>.
+        </p>
+    </statement>
+  </definition>
+
+  <!-- Exercises start here. -->
+  <exercise workspace="2in">
+
+  
+
+    <statement>
+      <p>
+        <m>\begin{pmatrix} a \amp b \\ c \amp d \end{pmatrix}</m> 
+      </p>
+    </statement>
+  </exercise>
+
+</worksheet>
