@@ -153,7 +153,7 @@
    
    <figure xml:id="fig-example">
     <title>Short Title for Cross-References</title>
-    <image source="assets/2_1.jpg" width="60%">
+    <image source="assets/2_1" width="60%">
         <shortdescription>The graph of <m>R(t)</m> if <m>R_0=1</m> and <m>F_0=0.5</m> </shortdescription>
         
     </image>
