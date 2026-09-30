@@ -206,6 +206,8 @@ eBookConfig.enable_chatcodes =  false;
 <ul class="structural toc-item-list active" id="ptx-toc-group-activities-11">
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="activities-11.html#PPS" class="internal"><span class="title">Predator-Prey Systems</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="activities-11.html#activities-11-4" class="internal"><span class="title">Solution for the Predator-Prey model</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="activities-11.html#activities-11-5" class="internal"><span class="title">A Modified Predator-Prey Model</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="activities-11.html#activities-11-6" class="internal"><span class="title">The Motion of a Mass Attached to a Spring</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -304,16 +306,24 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 <div class="para" id="PPS-4">To formulate this model in mathematical terms, we need four parameters in addition to our independent variable t and our two dependent variables <span class="process-math">\(F\)</span> and <span class="process-math">\(R\text{.}\)</span> The positive parameters are<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#PPS-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="displaymath process-math" id="PPS-5">
-\begin{equation*}
-\begin{cases}
-\alpha= \amp\mbox{growth-rate coefficient of rabbits}\\
-\beta=\amp\mbox{constant of proportionality that measures the number of rabbit-fox interactions in which the rabbit is eaten,}\\
-\gamma=\amp\mbox{death-rate coefficient of foxes,}\\
-\delta=\amp\mbox{constant of proportionality that measures the benefit to the fox population of an eaten rabbit.}
-\end{cases}
-\end{equation*}
-</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\alpha\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">growth-rate coefficient of rabbits</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\beta\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">constant of proportionality that measures the number of rabbit-fox interactions in which the rabbit is eaten,</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\gamma\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">death-rate coefficient of foxes,</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\delta\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">constant of proportionality that measures the benefit to the fox population of an eaten rabbit.</td>
+</tr>
+</table></div>
 <div class="para logical" id="PPS-6">
 <div class="para">Given these assumptions, we obtain the model</div>
 <div class="displaymath process-math" id="PPS-6-1">
@@ -364,10 +374,104 @@ eBookConfig.enable_chatcodes =  false;
 </h2>
 <div class="para" id="activities-11-4-2">For the study of solutions to systems of differential equations, there is good news and bad news. The bad news is that for many systems there are few analytic techniques that yield formulas for the solutions. The good news is that there are numerical and qualitative methods that give us a good understanding of the solutions even if we cannot find analytic representations for them. For example, if we specify the initial conditions <span class="process-math">\(R_{0} = 1\)</span> and <span class="process-math">\(F_{0} = 0.5\text{,}\)</span> we can use a numerical method similar to Euler’s method to obtain approximate values for the corresponding solutions <span class="process-math">\(R(t)\)</span> and <span class="process-math">\(F(t)\text{.}\)</span> See the figures below.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-11-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<figure class="figure figure-like" id="fig-2_1"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/assets/2_1.svg" role="img" class="contained" alt="The graph of \(R(t)\) if \(R_0=1\) and \(F_0=0.5\)"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">25<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" aria-hidden="true" data-description="Figure 25"><a tabindex="-1" href="#fig-2_1" title="Copy heading and permalink for Figure 25" aria-label="Copy heading and permalink for Figure 25">🔗</a></div></figcaption>
-</figure><div class="autopermalink" aria-hidden="true" data-description="Section: Solution for the Predator-Prey model"><a tabindex="-1" href="#activities-11-4" title="Copy heading and permalink for Section: Solution for the Predator-Prey model" aria-label="Copy heading and permalink for Section: Solution for the Predator-Prey model">🔗</a></div>
-</section><div class="autopermalink" aria-hidden="true" data-description="Worksheet: Modeling Systems of first order Differential Equations"><a tabindex="-1" href="#activities-11" title="Copy heading and permalink for Worksheet: Modeling Systems of first order Differential Equations" aria-label="Copy heading and permalink for Worksheet: Modeling Systems of first order Differential Equations">🔗</a></div>
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><div class="image-box"><img src="external/2_1.png" class="contained" alt="The graph of \(R(t)\) if \(R_0=1\) and \(F_0=0.5\)"></div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="image-box"><img src="external/2_2.png" class="contained" alt="The graph of \(F(t)\) if \(R_0=1\) and \(F_0=0.5\)"></div></div>
+</div>
+</div>
+<div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/2_3.png" class="contained" alt="The \(R(t)\)- and \(F(t)\)-graphs given by the initial condition \(R_0=1\) and \(F_0=0.5\text{.}\) Note that there are really two scales on the vertical axis—one corresponding to the units of R and the other corresponding to the units of F. Note also that both \(R(t)\)- and \(F(t)\)- repeat with the same period."></div>
+<div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/2_4.png" class="contained" alt="The solution curve for the predator-prey system corresponding to the initial conditions \(P=(R_0,F_0)=(1,0.5)\text{.}\)"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Section: Solution for the Predator-Prey model"><a tabindex="-1" href="#activities-11-4" title="Copy heading and permalink for Section: Solution for the Predator-Prey model" aria-label="Copy heading and permalink for Section: Solution for the Predator-Prey model">🔗</a></div>
+</section>
+<section class="section" id="activities-11-5">
+<h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">A Modified Predator-Prey Model</span>
+</h2>
+<div class="para" id="activities-11-5-2">We now consider a modification of the predator-prey model in which we assume that in the absence of predators, the prey population obeys a logistic rather than an exponential growth model. One such model for this situation is the system<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-11-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="activities-11-5-3">
+\begin{align}
+\frac{dR}{dt}&amp;=&amp;2R\left(1-\frac{R}{2}\right)-1.2RF\tag{11}\\
+\frac{dF}{dt}&amp;=&amp;-F+0.9RF\notag
+\end{align}
+</div>
+<div class="para" id="activities-11-5-4">In this system, when the predators are not present (that is, <span class="process-math">\(F = 0\)</span>), the prey population obeys a logistic growth model with carrying capacity 2.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-11-5-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="activities-11-5-5"><h3 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="activities-11-5-5-1-1">Find the three equilibrium solutions.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-11-5-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1.0in"></div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 1"><a tabindex="-1" href="#activities-11-5-5" title="Copy heading and permalink for Worksheet Exercise 1" aria-label="Copy heading and permalink for Worksheet Exercise 1">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Section: A Modified Predator-Prey Model"><a tabindex="-1" href="#activities-11-5" title="Copy heading and permalink for Section: A Modified Predator-Prey Model" aria-label="Copy heading and permalink for Section: A Modified Predator-Prey Model">🔗</a></div>
+</section>
+<section class="section" id="activities-11-6">
+<h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Motion of a Mass Attached to a Spring</span>
+</h2>
+<div class="para" id="activities-11-6-2">Consider a mass that is attached to a spring and that slides on a frictionless table (see Figure 2.11). We wish to understand its horizontal motion when the spring is stretched (or compressed) and then released. In order to keep the model as simple as possible, we assume that the only force acting on the mass is the force of the spring. In particular, we ignore air resistance and other forces that would dampen the motion of the mass.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-11-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/2_10.jpg" class="contained" alt="The first figure shows an object attached to a spring at rest. The second figure shows an object attached to a spring in a compressed position. The third figure shows an object attached to a spring at a stretched position."></div>
+<div class="autopermalink" aria-hidden="true" data-description="Section: The Motion of a Mass Attached to a Spring"><a tabindex="-1" href="#activities-11-6" title="Copy heading and permalink for Section: The Motion of a Mass Attached to a Spring" aria-label="Copy heading and permalink for Section: The Motion of a Mass Attached to a Spring">🔗</a></div>
+</section>
+<div class="para logical" id="activities-11-7">
+<div class="para">We start with Newton’s second law (Force = mass x acceleration). Since the displacement is <span class="process-math">\(y(t)\)</span> and the acceleration is <span class="process-math">\(d^{2}y/dt^{2}\text{,}\)</span> Newton’s law becomes</div>
+<div class="displaymath process-math" id="activities-11-7-3">
+\begin{equation*}
+F=m\frac{d^{2}y}{dt^{2}}.
+\end{equation*}
+</div>
+<div class="para">To complete the model we must specify an expression for the force that the spring exerts on the mass. We use <em class="alert">Hooke’s law</em> of springs as our model for the restoring force <span class="process-math">\(F_{s}\)</span> of the spring: <em class="emphasis">The restoring force exerted by a spring is linearly proportional to the spring’s displacement from its rest position and is directed toward the rest position.</em> Therefore we have</div>
+<div class="displaymath process-math" id="activities-11-7-7">
+\begin{equation*}
+F_{s}=-ky,
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(k&gt;0\)</span> is the constant of proportionality called the spring constant- a parameter we can adjust by changing springs. Combining this expression for the force with Newton’s law, we obtain the differential equation</div>
+<div class="displaymath process-math" id="activities-11-7-9">
+\begin{equation*}
+F_{s}=-ky=m\frac{d^{2}y}{dt^{2}},
+\end{equation*}
+</div>
+<div class="para">which models the motion of the mass. It is traditional to rewrite this equation in the form</div>
+<div class="displaymath process-math" id="activities-11-7-10">
+\begin{equation*}
+\frac{d^{2}y}{dt^{2}}+\frac{k}{m}y=0.
+\end{equation*}
+</div>
+<div class="para">This equation is the differential equation for what is often called a simple (or undamped) <em class="alert">harmonic oscillator</em>. Since the equation contains the second derivative of the dependent variable y, it is a second-order differential equation. The coefficients <span class="process-math">\(m\)</span> and <span class="process-math">\(k\)</span> are parameters that are determined by the particular mass and spring involved.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-11-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="activities-11-8">We next convert this second order DE into a first order system in <span class="process-math">\(y\)</span> and <span class="process-math">\(v\)</span> as follows<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-11-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="activities-11-9">
+<div class="displaymath process-math" id="activities-11-9-1">
+\begin{align}
+\frac{dy}{dt}&amp;=&amp;v\tag{12}\\
+\frac{dv}{dt}&amp;=&amp;- \frac{k}{m}y\quad\quad\notag
+\end{align}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-11-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="activities-11-10" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">26</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2></summary>
+<article class="example example-like knowl__content">
+<div class="para" id="activities-11-10-1">To demonstrate the connections between these two points of view, we consider a very specific initial-value problem. Suppose <span class="process-math">\(m\)</span> and <span class="process-math">\(k\)</span> are fixed so that <span class="process-math">\(\frac{k}{m}=1\text{.}\)</span> Then the second order equation simplifies to<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-11-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="activities-11-10-2">
+\begin{equation*}
+\frac{d^{2}y}{dt^{2}}=-y.
+\end{equation*}
+</div>
+<span class="process-math">\(v = dy/dt\text{,}\)</span><div class="displaymath process-math" id="activities-11-10-4">
+\begin{align}
+\frac{dy}{dt}&amp;=&amp;v\tag{13}\\
+\frac{dv}{dt}&amp;=&amp;- y\quad\quad\quad\quad\notag
+\end{align}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 26"><a tabindex="-1" href="#activities-11-10" title="Copy heading and permalink for Example 26" aria-label="Copy heading and permalink for Example 26">🔗</a></div>
+</article></details><div class="autopermalink" aria-hidden="true" data-description="Worksheet: Modeling Systems of first order Differential Equations"><a tabindex="-1" href="#activities-11" title="Copy heading and permalink for Worksheet: Modeling Systems of first order Differential Equations" aria-label="Copy heading and permalink for Worksheet: Modeling Systems of first order Differential Equations">🔗</a></div>
 </section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">
