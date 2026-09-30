@@ -164,15 +164,145 @@
 
     
 
-        <figure xml:id="fig-2_1">
+        
+<sidebyside>
+    
 
-            <image source="assets/2_1" width="60%">
+            <image source="2_1.png" width="50%">
                 <shortdescription>
                     The graph of <m>R(t)</m> if <m>R_0=1</m> and <m>F_0=0.5</m>
                 </shortdescription>
             </image>
-        </figure>
-        
+        <image source="2_2.png" width="50%">
+                <shortdescription>
+                    The graph of <m>F(t)</m> if <m>R_0=1</m> and <m>F_0=0.5</m>
+                </shortdescription>
+            </image>
+        </sidebyside>
+     
 
+    
+
+            <image source="2_3.png" width="75%">
+                <shortdescription>
+                    The <m>R(t)</m>- and <m>F(t)</m>-graphs given by the initial
+condition <m>R_0=1</m> and <m>F_0=0.5</m>. Note that
+there are really two scales on the vertical
+axis—one corresponding to the units of R and
+the other corresponding to the units of F. Note
+also that both <m>R(t)</m>- and <m>F(t)</m>- repeat with the
+same period.
+                </shortdescription>
+            </image>
+        <image source="2_4.png" width="75%">
+                <shortdescription>
+                    The solution curve for the predator-prey system corresponding to the initial conditions <m>P=(R_0,F_0)=(1,0.5)</m>.
+                </shortdescription>
+            </image>
+        
     </section>
+<section>
+    <title>A Modified Predator-Prey Model</title>
+    <p>
+       We now consider a modification of the predator-prey model in which we assume that in
+the absence of predators, the prey population obeys a logistic rather than an exponential
+growth model. One such model for this situation is the system 
+    </p>
+    <md alignment="align" number="yes">
+                        <mrow>\frac{dR}{dt}&amp;=&amp;2R\left(1-\frac{R}{2}\right)-1.2RF</mrow>
+                        <mrow number="no">\frac{dF}{dt}&amp;=&amp;-F+0.9RF</mrow>
+                    </md>
+                    <p>
+                      In this system, when the predators are not present (that is, <m>F = 0</m>), the prey population
+obeys a logistic growth model with carrying capacity 2.  
+                    </p>
+                    <exercise workspace="1.0in">
+                        <statement>
+                            <p>
+                                Find the three equilibrium solutions.
+                            </p>
+                        </statement>
+                    </exercise>
+</section>
+<section>
+    <title>The Motion of a Mass Attached to a Spring</title>
+    <p>
+        Consider a mass that is attached to a spring and that slides on a frictionless table
+(see Figure 2.11). We wish to understand its horizontal motion when the spring is stretched (or compressed) and then released. In order to keep the model as simple as
+possible, we assume that the only force acting on the mass is the force of the spring. In
+particular, we ignore air resistance and other forces that would dampen the motion of
+the mass.
+
+    </p>
+    <image source="2_10.jpg" width="75%">
+                <shortdescription>
+                    The first figure shows an object attached to a spring at rest.
+                     The second figure shows an object attached to a spring in a compressed position.
+                      The third figure shows an object attached to a spring at a stretched position.
+                </shortdescription>
+            </image>
+</section>
+
+
+
+<p>
+  We start with Newton's second law (Force = mass x acceleration). Since the
+  displacement is <m>y(t)</m> and the acceleration is <m>d^{2}y/dt^{2}</m>,
+  Newton's law becomes
+  <md>
+    F=m\frac{d^{2}y}{dt^{2}}.
+  </md>
+  To complete the model we must specify an expression for the force that the
+  spring exerts on the mass. We use <alert>Hooke's law</alert> of springs as our
+  model for the restoring force <m>F_{s}</m> of the spring:
+  <em>The restoring force exerted by a spring is linearly proportional to the spring's displacement from its rest position and is directed toward the rest position.</em>
+  Therefore we have
+  <md>
+    F_{s}=-ky,
+  </md>
+  where <m>k&gt;0</m> is the constant of proportionality called the spring
+  constant- a parameter we can adjust by changing springs. Combining this
+  expression for the force with Newton's law, we obtain the differential
+  equation
+  <md>
+    F_{s}=-ky=m\frac{d^{2}y}{dt^{2}},
+  </md>
+  which models the motion of the mass. It is traditional to rewrite this
+  equation in the form
+  <md>
+    \frac{d^{2}y}{dt^{2}}+\frac{k}{m}y=0.
+  </md>
+  This equation is the differential equation for what is often called a simple
+  (or undamped) <alert>harmonic oscillator</alert>. Since the equation contains
+  the second derivative of the dependent variable y, it is a second-order
+  differential equation. The coefficients <m>m</m> and <m>k</m> are parameters that are
+  determined by the particular mass and spring involved.
+</p>
+
+<p>
+  We next convert this second order DE into a first order system in <m>y</m> and
+  <m>v</m> as follows</p>
+  
+<p>
+  <md alignment="align" number="yes">
+    <mrow>\frac{dy}{dt}&amp;=&amp;v</mrow>
+    <mrow number="no">\frac{dv}{dt}&amp;=&amp;- \frac{k}{m}y\quad\quad</mrow>
+  </md>
+</p>
+<example>
+    <p>
+    To demonstrate the connections between these two points of view, we
+  consider a very specific initial-value problem. Suppose <m>m</m> and <m>k</m>
+  are fixed so that <m>\frac{k}{m}=1</m>. Then the second order equation
+  simplifies to</p>
+  <md>
+    \frac{d^{2}y}{dt^{2}}=-y.
+  </md>
+  If we convert this second-order equation to a first-order system where
+  <m>v = dy/dt</m>, we obtain
+  <md alignment="align" number="yes">
+    <mrow>\frac{dy}{dt}&amp;=&amp;v</mrow>
+    <mrow number="no">\frac{dv}{dt}&amp;=&amp;- y\quad\quad\quad\quad</mrow>
+  </md>
+</example>
 </worksheet>
