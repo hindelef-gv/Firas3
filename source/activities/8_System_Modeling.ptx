@@ -67,15 +67,28 @@
             dependent variables <m>F</m> and <m>R</m>.
             The positive parameters are
         </p>
-        <me>
-            \begin{cases}
-\alpha= \amp\mbox{growth-rate coefficient of rabbits}\\
-\beta=\amp\mbox{constant of proportionality that measures the number of rabbit-fox interactions in which the rabbit is eaten,}\\
-\gamma=\amp\mbox{death-rate coefficient of foxes,}\\
-\delta=\amp\mbox{constant of proportionality that measures the benefit to the fox population of an eaten rabbit.}
-    \end{cases}
-        </me>
 
+        <tabular>
+            <row>
+                <cell><m>\alpha</m> </cell>
+                <cell>growth-rate coefficient of rabbits</cell>            </row>
+                <row>
+                    <cell><m>\beta</m></cell>
+                    <cell>constant of proportionality that measures the number of rabbit-fox interactions in which the rabbit is eaten,</cell>
+                </row>
+
+
+                <row>
+                    <cell><m>\gamma</m></cell>
+                    <cell>death-rate coefficient of foxes,</cell>
+                </row>
+
+                <row>
+                    <cell><m>\delta</m></cell>
+                    <cell>constant of proportionality that measures the benefit to the fox population of an eaten rabbit.</cell>
+                </row>
+        </tabular>
+        
         <p>
             Given these assumptions, we obtain the model
             <md alignment="align">
