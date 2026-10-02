@@ -64,7 +64,7 @@
     <chapter xml:id="projects">
       <title>Projects</title>
       <!-- Include handouts -->
-     <xi:include href="./projects/p1.ptx"/>
+     <!--<xi:include href="./projects/p1.ptx"/>-->
     </chapter>
 
     <chapter xml:id="homework">
@@ -77,11 +77,10 @@
 
     <!-- Include additional chapters for other categories -->
 <chapter xml:id="CHkPts">
-      <title>Learning Target Assesments</title>
+      <title>Learning Target Assessments</title>
 
-      <!-- Include homework files -->
-      <xi:include href="./learning_targets/Chk_Pt1.ptx"/>
-
+      
+<xi:include href="./learning_targets/Chk_Pt1.ptx"/>
     </chapter>
     </book>
   </pretext>
