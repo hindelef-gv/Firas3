@@ -48,7 +48,7 @@
         </p>
       </introduction>
 
-      <!-- Remove the example and replace with your own activities -->
+      
       <xi:include href="./activities/Integ_Rev.ptx"/>
  <xi:include href="./activities/1_Intro_to_DEQ.ptx"/>
 <xi:include href="./activities/2_slopefields.ptx"/>
@@ -64,7 +64,7 @@
     <chapter xml:id="projects">
       <title>Projects</title>
       <!-- Include handouts -->
-     <!--<xi:include href="./projects/p1.ptx"/>-->
+    <xi:include href="./projects/p1.ptx"/>
     </chapter>
 
     <chapter xml:id="homework">
@@ -80,7 +80,7 @@
       <title>Learning Target Assessments</title>
 
       
-<xi:include href="./learning_targets/Chk_Pt1.ptx"/>
+ <xi:include href="/workspaces/Firas3/source/Learning_Targets/Chk_Pt1.ptx"/> 
     </chapter>
     </book>
   </pretext>
