@@ -77,7 +77,10 @@
 
     <!-- Include additional chapters for other categories -->
 <chapter xml:id="CHkPts">
-      <title>Learning Target Assessments</title>
+      <title  >Learning Target Assesments</title>
+
+      <!-- Include homework files -->
+      <xi:include href="./learningtargets/chk_pt1.ptx"/>
 
       
  <xi:include href="/workspaces/Firas3/source/Learning_Targets/Chk_Pt1.ptx"/> 
