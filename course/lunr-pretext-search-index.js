@@ -818,6 +818,69 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Section 1.1: #17. Suppose that a species of fish in a particular lake has a population that is modeled by the logistic population model with growth rate and carrying capacity , and time is measured in years. Adjust the model to account for each of the following situations.    One hundred fish is harvested each year.      One-third of the fish population is harvested annually.      The number of fish harvested each year is proportional to the square root of the number of fish in the lake.       Optional Challenge: Suppose fish are harvested at a constant rate of per year. For what values of will the fish become extinct regardless of the initial population?   Your answer should take the form of an inequality , where is an expression involving only the carrying capacity, , the proportionality constant, , and constants.      "
+},
+{
+  "id": "CHkPts-2",
+  "level": "1",
+  "url": "CHkPts-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Checkpoint 1",
+  "body": " Checkpoint 1    Slope fields analysis  Applications of differential equations  Separable equations  Integrating factor  Exact Equations      Consider the population model where is the population at time      For which values of is the population in equilibrium?      For which values of is the population increasing and decreasing? Explain your answer in one sentence.      For which values of is the population graph concave upwards and downwards? Explain your answer in one sentence.      Sketch the rate vs solution curve, showing the equilibrium solutions and $y-$values where inflection points can occur. Roughly sketch a possible graph of a solution where is in each region of you specified in the previous parts.       Suppose that you have a water tank that holds 100 gallons of water. A briny solution , which contains 20 grams of salt per gallon, enters the tank at a rate of 3 gallons per minute. Another briny solution , which contains 14 grams of salt per gallon, simultaneously enters the tank at the rate of 7 gallons per minute. At the same time, the solution is well mixed, and water is pumped out of the tank at the rate of 10 gallons per minute.     Since 10 gallons enters the tank every minute and 10 gallons leaves every minute, what can you conclude about the volume of water in the tank?      How many grams of salt enters the tank every minute from both solutions?      Suppose that denotes the number of grams of salt in the tank in minute . How many grams are there in each gallon in minute ?      Since water leave the tank at 10 gallons per minute, how many grams of salt leave the tank each minute?      Write a differential equation that expresses the total rate of change in .      Identify any equilibrium solutions and determine whether they are stable or unstable. [A Stable Equilibrium solution means that as becomes large, approaches that solution].      Suppose that there is initially no salt in the tank (i.e. ). Find the amount of salt in minute (i.e. solve the differential equation from part (e))      What happens to after a very long time?    Hint: See page 32 in your textbook.        Solve the initial value problem. , and .      Solve the initial value problem. , and .      Solve the initial value problem. , and .    "
+},
+{
+  "id": "CHkPts-2-2",
+  "level": "2",
+  "url": "CHkPts-2.html#CHkPts-2-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Slope fields analysis  Applications of differential equations  Separable equations  Integrating factor  Exact Equations   "
+},
+{
+  "id": "CHkPts-2-3",
+  "level": "2",
+  "url": "CHkPts-2.html#CHkPts-2-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Consider the population model where is the population at time      For which values of is the population in equilibrium?      For which values of is the population increasing and decreasing? Explain your answer in one sentence.      For which values of is the population graph concave upwards and downwards? Explain your answer in one sentence.      Sketch the rate vs solution curve, showing the equilibrium solutions and $y-$values where inflection points can occur. Roughly sketch a possible graph of a solution where is in each region of you specified in the previous parts.    "
+},
+{
+  "id": "CHkPts-2-4",
+  "level": "2",
+  "url": "CHkPts-2.html#CHkPts-2-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Suppose that you have a water tank that holds 100 gallons of water. A briny solution , which contains 20 grams of salt per gallon, enters the tank at a rate of 3 gallons per minute. Another briny solution , which contains 14 grams of salt per gallon, simultaneously enters the tank at the rate of 7 gallons per minute. At the same time, the solution is well mixed, and water is pumped out of the tank at the rate of 10 gallons per minute.     Since 10 gallons enters the tank every minute and 10 gallons leaves every minute, what can you conclude about the volume of water in the tank?      How many grams of salt enters the tank every minute from both solutions?      Suppose that denotes the number of grams of salt in the tank in minute . How many grams are there in each gallon in minute ?      Since water leave the tank at 10 gallons per minute, how many grams of salt leave the tank each minute?      Write a differential equation that expresses the total rate of change in .      Identify any equilibrium solutions and determine whether they are stable or unstable. [A Stable Equilibrium solution means that as becomes large, approaches that solution].      Suppose that there is initially no salt in the tank (i.e. ). Find the amount of salt in minute (i.e. solve the differential equation from part (e))      What happens to after a very long time?    Hint: See page 32 in your textbook.     "
+},
+{
+  "id": "CHkPts-2-5",
+  "level": "2",
+  "url": "CHkPts-2.html#CHkPts-2-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Solve the initial value problem. , and .   "
+},
+{
+  "id": "CHkPts-2-6",
+  "level": "2",
+  "url": "CHkPts-2.html#CHkPts-2-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Solve the initial value problem. , and .   "
+},
+{
+  "id": "CHkPts-2-7",
+  "level": "2",
+  "url": "CHkPts-2.html#CHkPts-2-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Solve the initial value problem. , and .   "
 }
 ]
 
