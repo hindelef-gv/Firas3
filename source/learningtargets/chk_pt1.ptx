@@ -27,7 +27,7 @@
             </p>
         </statement>
     </task>
-    <task xmlid="increasing_decreasing">
+    <task >
         <statement >
             <p>
                 For which values of <m>P</m> is the population increasing and decreasing?
@@ -35,7 +35,7 @@
             </p>
         </statement>
     </task>
-    <task xmlid="concave_up_down">
+    <task>
         <statement >
             <p>
                For which values of <m>P</m> is the population graph concave upwards and
