@@ -49,14 +49,24 @@
       </introduction>
 
       <!-- Remove the example and replace with your own activities -->
-      <xi:include href="./activities/Integ_Rev.ptx"/>
+     <xi:include href="./activities/Integ_Rev.ptx"/>
  <xi:include href="./activities/1_Intro_to_DEQ.ptx"/>
 <xi:include href="./activities/2_slopefields.ptx"/>
 <xi:include href="./activities/3_Logistic.ptx"/>
+<xi:include href="./activities/4_Lin_DE.ptx"/>
+<xi:include href="./activities/5_Applications.ptx"/>
+<xi:include href="./activities/6_Exact_DEQ.ptx"/>
+<xi:include href="./activities/7_EV_review.ptx"/>
+<xi:include href="./activities/8_System_Modeling.ptx"/>
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
  
+ <chapter xml:id="projects">
+      <title>Projects</title>
+      <!-- Include handouts -->
+    <xi:include href="./Projects/P1.ptx"/>
+    </chapter>
 
     <chapter xml:id="homework">
       <title>Homework</title>
@@ -65,6 +75,12 @@
       <xi:include href="./homework/homework-01.ptx"/>
 
     </chapter>
+
+    <!-- Include additional chapters for other categories -->
+<chapter xml:id="ch-learning-targets-assessments">
+  <title>Learning Targets Assessments</title>
+  <xi:include href="./learningtargets/Chk_Pt1.ptx"/>
+</chapter>
 
     <!-- Include additional chapters for other categories -->
 

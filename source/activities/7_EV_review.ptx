@@ -1,0 +1,88 @@
+<worksheet>
+  <objectives>
+    <ul>
+      <li>Recall finding eigenvalues and eigenvectors</li>
+      
+    </ul>
+  </objectives>
+  <title>Eigenvalues review</title>
+
+  <!-- Optional introduction -->
+  <section >
+    <title>Introduction</title>
+    
+  
+  <definition >
+    <statement>
+        <p>
+            Let <m>A</m> be an <m>n\times n </m> matrix. A real (or complex) number <m>\lambda</m> is called an <term>eigenvalue</term> of the matrix <m>A</m> if <m>A\vec{v}=\lambda \vec{v}</m> for some nonzero vector <m>\vec{v}\in \R^n(\mbox{ or }\C^n)</m>. The vector <m>\vec{v}</m> is called an <term>eigenvector</term> of <m>A</m> corresponding to the eigenvalue <m>\lambda</m>.
+        </p>
+    </statement>
+  </definition>
+  </section>
+<section>
+  <title>How to find eigenvalues and eigenvectors</title>
+  
+  <theorem >
+    <statement>
+      <p>
+        Given a square matrix <m>A</m> and a scaler <m>\lambda</m>, the following are equivalent:
+      </p>
+      <ul>
+      <li><m>\lambda</m> is  an eigenvalue of <m>A</m> 
+        </li>
+      <li>
+        <p>
+          The homogeneous system <m>(A-\lambda I)\vec{v}=\vec{0}</m> has a nontrivial solution.
+        </p>
+      </li>
+      <li>
+        <p>
+          The determinant <m>\det(A-\lambda I)=0</m>.
+        </p>
+      </li>
+    </ul>
+    </statement>
+  </theorem>
+  <definition>
+    <statement>
+      <p>
+        The polynomial <m>P(\lambda)=\det(A-\lambda I)</m> is called the <term>characteristic polynomial</term> of the matrix <m>A</m>.
+      </p>
+    </statement>
+    
+  </definition>
+  <corollary >
+      <statement>
+        <p>
+          The roots of the characteristic polynomial <m>P(\lambda)</m> (i.e. the solutions of <m>P(\lambda)=0</m>) are the eigenvalues of the matrix <m>A</m>.
+        </p>
+      </statement>
+    </corollary>
+</section>
+  <!-- Exercises start here. -->
+  <example>
+
+  
+
+    <statement>
+      <p>
+        Find the eigenvalues and eigenvectors of the matrix
+        <m>A=\begin{pmatrix} 6 \amp -10 \amp -7 \\ -1 \amp 3 \amp 1 \\
+        6 \amp -12 \amp -7
+        \end{pmatrix}</m> 
+      </p>
+    </statement>
+  </example>
+  <exercise>
+   <statement>
+      <p>
+        Find the eigenvalues and eigenvectors of the matrix
+        <m>A=\begin{pmatrix} 1 \amp -1 \amp 0 \\ 1 \amp 1 \amp 0 \\
+        0 \amp 0 \amp 2
+        \end{pmatrix}</m> 
+      </p>
+    </statement>
+  </exercise>
+
+</worksheet>
