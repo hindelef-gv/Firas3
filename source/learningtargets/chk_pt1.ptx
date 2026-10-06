@@ -1,0 +1,177 @@
+<worksheet>
+    <title>Checkpoint 1</title>
+
+    <objectives>
+        <ul>
+            <li>Slope fields analysis</li>
+            <li>Applications of differential equations</li>
+            <li>Separable equations </li>
+            <li>Integrating factor </li>
+            <li>Exact Equations </li>
+        </ul>
+    </objectives>
+<exercise>
+    <introduction>
+        <p>
+           Consider the population model
+                       <md>
+                           \frac{dP}{dt}=-0.2\left(1-\frac{P}{250}\right)\left(\frac{P}{40}-1\right)P,
+                       </md>
+                       where <m>P(t)</m> is the population at time <m>t</m> 
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+               For which values of <m>P</m> is the population in equilibrium? 
+            </p>
+        </statement>
+    </task>
+    <task >
+        <statement >
+            <p>
+                For which values of <m>P</m> is the population increasing and decreasing?
+                                Explain your answer in one sentence.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement >
+            <p>
+               For which values of <m>P</m> is the population graph concave upwards and
+                               downwards?
+                               Explain your answer in one sentence. 
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Sketch the rate vs solution curve, showing the equilibrium solutions and $y-$values where inflection points can occur. Roughly sketch a possible graph of a solution <m>P(t)</m>  where <m>P(0)</m> is in each region of you specified in the previous parts.
+            </p>
+        </statement>
+    </task>
+</exercise>
+<exercise>
+    <introduction>
+        <p>
+            
+            
+            Suppose that you have a water tank that holds 100 gallons of water.
+                        A briny solution <m>A</m>, which contains 20 grams of salt per gallon, enters
+                        the tank at a rate of 3 gallons per minute.
+                        Another briny solution <m>B</m>, which contains 14 grams of salt per gallon,
+                        simultaneously enters the tank at the rate of 7 gallons per minute.
+                        At the same time, the solution is well mixed, and water is pumped out of the
+                        tank at the rate of 10 gallons per minute.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Since 10 gallons enters the tank every minute and 10 gallons leaves every minute, what can you conclude about the volume of water in the tank?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+               How many grams of salt enters the tank every minute from both solutions? 
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Suppose that <m>S(t)</m> denotes the number of grams of salt in the tank in minute <m>t</m>. How many grams are there in each gallon in minute <m>t</m>?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Since water leave the tank at 10 gallons per minute, how many grams of salt leave the tank each minute?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Write a differential equation that expresses the total rate of change in
+                                <m>S</m>.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Identify any equilibrium solutions and determine whether they are stable or
+                                unstable.
+                                [A Stable Equilibrium solution means that as <m>t</m> becomes large, <m>S(t)</m>
+                                approaches that solution].
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                
+                Suppose that there is initially no salt in the tank (i.e. <m>S(0)=0</m>). Find the amount of salt <m>S(t)</m> in minute <m>t</m>(i.e. solve the differential equation from part (e))
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What happens to <m>S(t)</m> after a very long time?
+                               <m> \left(
+                               \mbox{i.e. Find }\displaystyle{\lim_{t\to\infty}S(t)}\right)</m> 
+            </p>
+            <hint>
+        <p>
+            Hint: See page 32 in your textbook.
+        </p>
+    </hint>
+        </statement>
+        
+    </task>
+    
+</exercise>
+
+<exercise>
+    <introduction>
+       <p>
+        
+       
+                            Solve the initial value problem.
+                        
+            
+                     
+                            <md>\displaystyle{\frac{dy}{dt}=2ty^2+3t^2y^2+2t+3t^2}</md>, and
+                            <m>y(0)=-1</m>.</p>
+                        
+    </introduction>
+</exercise>
+<exercise>
+    <introduction>
+        <p>
+            
+                            Solve the initial value problem.
+                        
+                            <md>\displaystyle{\frac{dy}{dt}=2ty+4te^{t^2}}</md>, and <m>y(0)=5</m>.
+                        
+        </p>
+    </introduction>
+</exercise>
+  
+  <exercise>
+    <introduction>
+        <p>
+           
+                            Solve the initial value problem.
+                        <md>\displaystyle{(y\cdot e^{xy}+\cos x)+\left(x\cdot e^{xy}+2y\right)\frac{dy}{dx}=0}</md>,
+                                                and <m>y(\pi/2)=0</m>.
+        </p>
+    </introduction>
+  </exercise>
+</worksheet>
