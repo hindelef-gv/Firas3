@@ -48,13 +48,8 @@
         </p>
       </introduction>
 
-<<<<<<< HEAD
       <!-- Remove the example and replace with your own activities -->
      <xi:include href="./activities/Integ_Rev.ptx"/>
-=======
-      
-      <xi:include href="./activities/Integ_Rev.ptx"/>
->>>>>>> f73b95ab2e4cbf97f1ad4f1f4385c9e4f5d724e5
  <xi:include href="./activities/1_Intro_to_DEQ.ptx"/>
 <xi:include href="./activities/2_slopefields.ptx"/>
 <xi:include href="./activities/3_Logistic.ptx"/>
@@ -66,18 +61,11 @@
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
-<<<<<<< HEAD
  
  <chapter xml:id="projects">
       <title>Projects</title>
       <!-- Include handouts -->
     <xi:include href="./Projects/P1.ptx"/>
-=======
-    <chapter xml:id="projects">
-      <title>Projects</title>
-      <!-- Include handouts -->
-    <xi:include href="./projects/p1.ptx"/>
->>>>>>> f73b95ab2e4cbf97f1ad4f1f4385c9e4f5d724e5
     </chapter>
 
     <chapter xml:id="homework">
@@ -89,23 +77,10 @@
     </chapter>
 
     <!-- Include additional chapters for other categories -->
-<<<<<<< HEAD
 <chapter xml:id="ch-learning-targets-assessments">
   <title>Learning Targets Assessments</title>
   <xi:include href="./learningtargets/Chk_Pt1.ptx"/>
 </chapter>
 
-    <!-- Include additional chapters for other categories -->
-=======
-<chapter xml:id="CHkPts">
-      <title  >Learning Target Assesments</title>
->>>>>>> f73b95ab2e4cbf97f1ad4f1f4385c9e4f5d724e5
-
-      <!-- Include homework files -->
-      <xi:include href="./learningtargets/chk_pt1.ptx"/>
-
-      
- <xi:include href="/workspaces/Firas3/source/Learning_Targets/Chk_Pt1.ptx"/> 
-    </chapter>
     </book>
   </pretext>
