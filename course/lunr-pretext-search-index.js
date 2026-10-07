@@ -721,6 +721,24 @@ var ptx_lunr_docs = [
   "body": " To demonstrate the connections between these two points of view, we consider a very specific initial-value problem. Suppose and are fixed so that . Then the second order equation simplifies to  If we convert this second-order equation to a first-order system where , we obtain  "
 },
 {
+  "id": "activities-12",
+  "level": "1",
+  "url": "activities-12.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Euler’s Method",
+  "body": " Euler's Method    Euler's Method for solving first-order differential equations  Euler's Method for solving systems of first-order differential equations     Given the first order differential equation The differential equation above tells us that the slope of the tangent line of the solution at is These two pieces of information are enough for us to write down the equation of the tangent line to the solution at the point . That tangent line has the equation    The graph of the solution curve of starting at the point . A tangent line is graphed at the point . Also, the point is graphed on the solution curve, and right above it the point is graphed on the tangent line.   If is close enough to then the point on the tangent line should be fairly close to the actual value of the solution at , or . Finding is easy enough. All we need to do is plug in the equation for the tangent line.    "
+},
+{
+  "id": "activities-12-2",
+  "level": "2",
+  "url": "activities-12.html#activities-12-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Euler's Method for solving first-order differential equations  Euler's Method for solving systems of first-order differential equations   "
+},
+{
   "id": "projects-2",
   "level": "1",
   "url": "projects-2.html",
