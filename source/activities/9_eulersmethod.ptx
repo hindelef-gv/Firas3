@@ -46,6 +46,7 @@
                                                                     \textcolor{blue}{y_1}=f(t_{0},y_{0})\cdot (\textcolor{blue}{t_1}-t_{0})+y_{0}
                                                                 </md>
             </p>
+
             
             <p>
                 We now repeat the same process to find a sequence of points <m>(t_{k},y_{k})</m>
