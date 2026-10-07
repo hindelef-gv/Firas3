@@ -7,7 +7,7 @@
             <li>Euler's Method for solving systems of first-order differential equations</li>
         </ul>
     </objectives>
-    <section xml:id="sec-euler-s-method-for-first-order-differential-equation">
+    <section xml:id="E1sto">
         <title>Euler's method for first order differential equation</title>
         
   
@@ -31,7 +31,7 @@
         </p>
 
 
-            <image source="9_1.jpg" width="75%">
+            <image source="9_1.jpg" width="65%">
                 <shortdescription>
                    The graph of the solution curve of <m>y(t)</m> starting at the point <m>(t_0,y_y_0)</m>. A tangent line is graphed at the point <m>(t_0,y_0)</m>. Also, the point <m>(t_1,y(t_1))</m> is graphed on the solution curve, and right above it the point <m>(t_1,y_1)</m> is graphed on the tangent line.
                 </shortdescription>
@@ -97,7 +97,7 @@
 </exercise>
   </section>
 
-<section xml:id="sec-Euler's Method for solving systems of first-order differential equations">
+<section xml:id="ESys">
     <title>Euler's Method for solving systems of first-order differential equations</title>
     
 </section>
