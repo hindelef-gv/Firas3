@@ -727,7 +727,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Euler’s Method",
-  "body": " Euler's Method    Euler's Method for solving first-order differential equations  Euler's Method for solving systems of first-order differential equations     Euler's method for first order differential equation   Given the first order differential equation The differential equation above tells us that the slope of the tangent line of the solution at is These two pieces of information are enough for us to write down the equation of the tangent line to the solution at the point . That tangent line has the equation    The graph of the solution curve of starting at the point . A tangent line is graphed at the point . Also, the point is graphed on the solution curve, and right above it the point is graphed on the tangent line.   If is close enough to then the point on the tangent line should be fairly close to the actual value of the solution at , or . Finding is easy enough. All we need to do is plug in the equation for the tangent line.   We now repeat the same process to find a sequence of points defined recursively by: for  Using a spreadsheet software, we can plot the points and generate a graph of the solution. Our spreadsheet headers will be                 For the Initial Value Problem Use Euler's method with to find approximate values of the solution at . Compare them to the exact values of the solution at these points.  Check that the exact solution is given by the equation      Repeat the previous example only this time give the approximations at using .     Euler's Method for solving systems of first-order differential equations    The numerical process is very similar for systems. In general, our system looks like with the initial conditions and . The goal is to generate graphs for vs t y(t), and vs . Euler's method gives the following algorithm for  Our spreadsheet headers will be                  Consider the following system where . Find .    Consider the following system where . Find . Obtain a graphs for vs , vs , and vs .   "
+  "body": " Euler's Method    Euler's Method for solving first-order differential equations  Euler's Method for solving systems of first-order differential equations     Euler's method for first order differential equation   Given the first order differential equation The differential equation above tells us that the slope of the tangent line of the solution at is These two pieces of information are enough for us to write down the equation of the tangent line to the solution at the point . That tangent line has the equation    The graph of the solution curve of starting at the point . A tangent line is graphed at the point . Also, the point is graphed on the solution curve, and right above it the point is graphed on the tangent line.   If is close enough to then the point on the tangent line should be fairly close to the actual value of the solution at , or . Finding is easy enough. All we need to do is plug in the equation for the tangent line.   We now repeat the same process to find a sequence of points defined recursively by: for  Using a spreadsheet software, we can plot the points and generate a graph of the solution. Our spreadsheet headers will be                 For the Initial Value Problem Use Euler's method with to find approximate values of the solution at . Compare them to the exact values of the solution at these points.  Check that the exact solution is given by the equation      Repeat the previous example only this time give the approximations at using .     Euler's Method for solving systems of first-order differential equations   The numerical process is very similar for systems. In general, our system looks like with the initial conditions and . The goal is to generate graphs for vs t y(t), and vs . Euler's method gives the following algorithm for  Our spreadsheet headers will be                  Consider the following system where . Find .    Consider the following system where . Find . Obtain a graphs for vs , vs , and vs .    "
 },
 {
   "id": "activities-12-2",
@@ -757,18 +757,18 @@ var ptx_lunr_docs = [
   "body": " Repeat the previous example only this time give the approximations at using .  "
 },
 {
-  "id": "activities-12-6",
+  "id": "ESys-3",
   "level": "2",
-  "url": "activities-12.html#activities-12-6",
+  "url": "activities-12.html#ESys-3",
   "type": "Example",
   "number": "29",
   "title": "",
   "body": " Consider the following system where . Find .  "
 },
 {
-  "id": "activities-12-7",
+  "id": "ESys-4",
   "level": "2",
-  "url": "activities-12.html#activities-12-7",
+  "url": "activities-12.html#ESys-4",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
