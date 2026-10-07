@@ -47,7 +47,7 @@
                                                                 </md>
             </p>
 
-            
+
             <p>
                 We now repeat the same process to find a sequence of points <m>(t_{k},y_{k})</m>
                                 defined recursively by: for <m>k=1,2,3,\ldots</m>
@@ -102,7 +102,7 @@
 <section xml:id="ESys">
     <title>Euler's Method for solving systems of first-order differential equations</title>
     
-</section>
+
 <introduction>
     <p>
         The numerical process is very similar for systems.
@@ -158,5 +158,6 @@
                 Find <m>\left(R(10),F(10)\right)</m>. Obtain a graphs for <m>R(t)</m> vs <m>t</m>, <m>F(t)</m> vs <m>t</m>, and <m>F(t)</m> vs <m>R(t)</m>.
     </p>
 </exercise>
+</section>
     </worksheet>
     
