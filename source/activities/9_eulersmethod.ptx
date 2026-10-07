@@ -1,0 +1,160 @@
+<worksheet>
+    <title>Euler's Method</title>
+
+    <objectives>
+        <ul>
+            <li>Euler's Method for solving first-order differential equations</li>
+            <li>Euler's Method for solving systems of first-order differential equations</li>
+        </ul>
+    </objectives>
+    <section xml:id="sec-euler-s-method-for-first-order-differential-equation">
+        <title>Euler's method for first order differential equation</title>
+        
+  
+    <introduction>
+        <p>
+            Given the first order differential equation
+                        <md>
+                            \frac{dy}{dt}=f(t,y),\quad\quad\quad y(t_{0})=y_{0}
+                        </md>
+                        The differential equation above tells us that the slope of the tangent line of
+                        the solution at <m>t=t_0</m> is
+                        <md>
+                            \left.\frac{dy}{dt}\right|_{t=t_0}=f(t_{0},y_{0})
+                        </md>
+                        These two pieces of information are enough for us to write down the equation of
+                        the tangent line to the solution at the point <m>(t_{0},y_{0})</m>.
+                        That tangent line has the equation
+                        <md>
+                            y=f(t_{0},y_{0})\cdot (t-t_{0})+y_{0}
+                        </md>
+        </p>
+
+
+            <image source="9_1.jpg" width="75%">
+                <shortdescription>
+                   The graph of the solution curve of <m>y(t)</m> starting at the point <m>(t_0,y_y_0)</m>. A tangent line is graphed at the point <m>(t_0,y_0)</m>. Also, the point <m>(t_1,y(t_1))</m> is graphed on the solution curve, and right above it the point <m>(t_1,y_1)</m> is graphed on the tangent line.
+                </shortdescription>
+            </image>
+            <p>
+                If <m>t_{1}</m> is close enough to <m>t_{0}</m> then the point <m>y_{1}</m> on
+                                the tangent line should be fairly close to the actual value of the solution at
+                                <m>t_{1}</m>, or <m>y(t_{1})</m>.
+                                Finding <m>y_{1}</m> is easy enough.
+                                All we need to do is plug <m>t_{1}</m> in the equation for the tangent line.
+                                <md>
+                                                                    \textcolor{blue}{y_1}=f(t_{0},y_{0})\cdot (\textcolor{blue}{t_1}-t_{0})+y_{0}
+                                                                </md>
+            </p>
+            <p>
+                We now repeat the same process to find a sequence of points <m>(t_{k},y_{k})</m>
+                                defined recursively by: for <m>k=1,2,3,\ldots</m>
+                                <md alignment="align">
+                                    <mrow>t_{k+1}\amp=t_k+\Delta t</mrow>
+                                    <mrow>y_{k+1}\amp=f(t_k,y_k)\cdot\Delta t+y_k</mrow>
+                                </md>
+                                Using a spreadsheet software, we can plot the points <m>(t_{k},y_{k})</m> and
+                                generate a graph of the solution.
+                                Our spreadsheet headers will be
+            </p>
+            <tabular top="minor" left="minor">
+                            <col halign="center" right="minor"/>
+                            <col halign="center" right="minor"/>
+                            <col halign="center" right="minor"/>
+                            <col halign="center"/>
+                            <col halign="center"/>
+                            <row bottom="minor">
+                                <cell><m>t_{k}</m></cell>
+                                <cell><m>y_{k}</m></cell>
+                                <cell><m>f(t_{k},y_{k})</m></cell>
+                            </row>
+                        </tabular>
+    </introduction>
+<example>
+    <p>
+      <p>
+                  For the Initial Value Problem
+                  <md>
+                      \frac{dy}{dt}+2y=2-e^{-4t}\quad\quad\quad y(0)=1
+                  </md>
+                  Use Euler's method with <m>\Delta t=0.1</m> to find approximate values of
+                  the solution at <m>t=0.1, 0.2,\ldots,1</m>.
+                  Compare them to the exact values of the solution at these points.
+              </p>
+      
+              <p>
+                  Check that the exact solution is given by the equation
+                  <md>
+                      y(t)=1+\frac{1}{2}e^{-4t}-\frac{1}{2}e^{-2t}
+                  </md>
+              </p>  
+    </p>
+</example>
+<exercise>
+    <p>
+        Repeat the previous example only this time give the approximations at <m>t=1</m> using <m>\Delta t=0.01</m>.
+    </p>
+</exercise>
+  </section>
+
+<section xml:id="sec-Euler's Method for solving systems of first-order differential equations">
+    <title>Euler's Method for solving systems of first-order differential equations</title>
+    
+</section>
+<introduction>
+    <p>
+        The numerical process is very similar for systems.
+                In general, our system looks like
+                <md alignment="align">
+                    <mrow>\frac{dx}{dt}\amp= f(t,x,y)</mrow>
+                    <mrow>\frac{dy}{dt}\amp= g(t,x,y)</mrow>
+                </md>
+                with the initial conditions <m>x(t_{0})=x_{0}</m> and <m>y(t_{0})=y_{0}</m>.
+                The goal is to generate graphs for <m>t</m> vs <m>x(t),</m> t <m>vs</m> y(t),
+                and <m>x(t)</m> vs <m>y(t)</m>.
+                Euler's method gives the following algorithm for <m>k=1,2,3,\ldots</m>
+                <md alignment="align">
+                    <mrow>t_{k+1}\amp= t_k+\Delta t</mrow>
+                    <mrow>x_{k+1}\amp= f(t_k,x_k,y_k)\cdot\Delta t+x_k</mrow>
+                    <mrow>y_{k+1}\amp= g(t_k,x_ky_k)\cdot\Delta t+y_k</mrow>
+                </md>
+                Our spreadsheet headers will be
+                <tabular top="minor" left="minor">
+                                    <col halign="center" right="minor"/>
+                                    <col halign="center" right="minor"/>
+                                    <col halign="center" right="minor"/>
+                                    <col halign="center" right="minor"/>
+                                    <col halign="center" right="minor"/>
+                                    <row bottom="minor">
+                                        <cell><m>t_{k}</m></cell>
+                                        <cell><m>x_{k}</m></cell>
+                                        <cell><m>y_{k}</m></cell>
+                                        <cell><m>f(t_{k},x_{k},y_{k})</m></cell>
+                                        <cell><m>g(t_{k},x_{k},y_{k})</m></cell>
+                                    </row>
+                                </tabular>
+    </p>
+</introduction>
+<example>
+    <p>
+        Consider the following system
+                <md alignment="align">
+                    <mrow>\frac{dx}{dt}\amp=y+y^2</mrow>
+                    <mrow>\frac{dy}{dt}\amp=-\frac{x}{2}+\frac{y}{5}-xy+\frac{6y^{2}}{5}</mrow>
+                </md>
+                where <m>(x(0),y(0))=(-0.5,0),\Delta t=0.1</m>.
+                Find <m>\left(x(1),y(1)\right)</m>.
+    </p>
+</example>
+<exercise>
+    <p>Consider the following system
+        <md alignment="align" number="yes">
+                        <mrow>\frac{dR}{dt}\amp=2R\left(1-\frac{R}{2}\right)-1.2RF</mrow>
+                        <mrow number="no">\frac{dF}{dt}\amp=F+0.9RF</mrow>
+                    </md>
+                    where <m>(R(0),F(0))=(2,4),\Delta t=0.1</m>.
+                Find <m>\left(R(10),F(10)\right)</m>. Obtain a graphs for <m>R(t)</m> vs <m>t</m>, <m>F(t)</m> vs <m>t</m>, and <m>F(t)</m> vs <m>R(t)</m>.
+    </p>
+</exercise>
+    </worksheet>
+    

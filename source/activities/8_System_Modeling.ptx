@@ -222,8 +222,8 @@ the absence of predators, the prey population obeys a logistic rather than an ex
 growth model. One such model for this situation is the system 
     </p>
     <md alignment="align" number="yes">
-                        <mrow>\frac{dR}{dt}&amp;=&amp;2R\left(1-\frac{R}{2}\right)-1.2RF</mrow>
-                        <mrow number="no">\frac{dF}{dt}&amp;=&amp;-F+0.9RF</mrow>
+                        <mrow>\frac{dR}{dt}\amp=2R\left(1-\frac{R}{2}\right)-1.2RF</mrow>
+                        <mrow number="no">\frac{dF}{dt}\amp=F+0.9RF</mrow>
                     </md>
                     <p>
                       In this system, when the predators are not present (that is, <m>F = 0</m>), the prey population
@@ -298,8 +298,8 @@ the mass.
   
 <p>
   <md alignment="align" number="yes">
-    <mrow>\frac{dy}{dt}&amp;=&amp;v</mrow>
-    <mrow number="no">\frac{dv}{dt}&amp;=&amp;- \frac{k}{m}y\quad\quad</mrow>
+    <mrow>\frac{dy}{dt}\amp=v</mrow>
+    <mrow number="no">\frac{dv}{dt}\amp=- \frac{k}{m}y\quad\quad</mrow>
   </md>
 </p>
 <example>
@@ -314,8 +314,8 @@ the mass.
   If we convert this second-order equation to a first-order system where
   <m>v = dy/dt</m>, we obtain
   <md alignment="align" number="yes">
-    <mrow>\frac{dy}{dt}&amp;=&amp;v</mrow>
-    <mrow number="no">\frac{dv}{dt}&amp;=&amp;- y\quad\quad\quad\quad</mrow>
+    <mrow>\frac{dy}{dt}\amp=v</mrow>
+    <mrow number="no">\frac{dv}{dt}\amp=- y\quad\quad\quad\quad</mrow>
   </md>
 </example>
 </worksheet>
