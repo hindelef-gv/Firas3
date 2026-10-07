@@ -210,7 +210,13 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="activities-11.html#activities-11-6" class="internal"><span class="title">The Motion of a Mass Attached to a Spring</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="activities-12.html" class="internal"><span class="title">Euler’s Method</span></a></div></li>
+<li class="toc-item toc-worksheet contains-active">
+<div class="toc-title-box"><a href="activities-12.html" class="internal"><span class="title">Euler’s Method</span></a></div>
+<ul class="structural toc-item-list active" id="ptx-toc-group-activities-12">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="activities-12.html#E1sto" class="internal"><span class="title">Euler’s method for first order differential equation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="activities-12.html#ESys" class="internal"><span class="title">Euler’s Method for solving systems of first-order differential equations</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -311,38 +317,164 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 <div class="autopermalink" aria-hidden="true" data-description="Objectives"><a tabindex="-1" href="#activities-12-2" title="Copy heading and permalink for Objectives" aria-label="Copy heading and permalink for Objectives">🔗</a></div>
 </article>
-<section class="introduction" id="activities-12-3">
-<div class="para logical" id="activities-12-3-1">
+<section class="section" id="E1sto">
+<h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Euler’s method for first order differential equation</span>
+</h2>
+<section class="introduction" id="E1sto-2">
+<div class="para logical" id="E1sto-2-1">
 <div class="para">Given the first order differential equation</div>
-<div class="displaymath process-math" id="activities-12-3-1-1">
+<div class="displaymath process-math" id="E1sto-2-1-1">
 \begin{equation*}
 \frac{dy}{dt}=f(t,y),\quad\quad\quad y(t_{0})=y_{0}
 \end{equation*}
 </div>
 <div class="para">The differential equation above tells us that the slope of the tangent line of the solution at <span class="process-math">\(t=t_0\)</span> is</div>
-<div class="displaymath process-math" id="activities-12-3-1-3">
+<div class="displaymath process-math" id="E1sto-2-1-3">
 \begin{equation*}
 \left.\frac{dy}{dt}\right|_{t=t_0}=f(t_{0},y_{0})
 \end{equation*}
 </div>
 <div class="para">These two pieces of information are enough for us to write down the equation of the tangent line to the solution at the point <span class="process-math">\((t_{0},y_{0})\text{.}\)</span> That tangent line has the equation</div>
-<div class="displaymath process-math" id="activities-12-3-1-5">
+<div class="displaymath process-math" id="E1sto-2-1-5">
 \begin{equation*}
 y=f(t_{0},y_{0})\cdot (t-t_{0})+y_{0}
 \end{equation*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-12-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#E1sto-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/9_1.jpg" class="contained" alt="The graph of the solution curve of \(y(t)\) starting at the point \((t_0,y_y_0)\text{.}\) A tangent line is graphed at the point \((t_0,y_0)\text{.}\) Also, the point \((t_1,y(t_1))\) is graphed on the solution curve, and right above it the point \((t_1,y_1)\) is graphed on the tangent line."></div>
-<div class="para logical" id="activities-12-3-3">
+<div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/9_1.jpg" class="contained" alt="The graph of the solution curve of \(y(t)\) starting at the point \((t_0,y_y_0)\text{.}\) A tangent line is graphed at the point \((t_0,y_0)\text{.}\) Also, the point \((t_1,y(t_1))\) is graphed on the solution curve, and right above it the point \((t_1,y_1)\) is graphed on the tangent line."></div>
+<div class="para logical" id="E1sto-2-3">
 <div class="para">If <span class="process-math">\(t_{1}\)</span> is close enough to <span class="process-math">\(t_{0}\)</span> then the point <span class="process-math">\(y_{1}\)</span> on the tangent line should be fairly close to the actual value of the solution at <span class="process-math">\(t_{1}\text{,}\)</span> or <span class="process-math">\(y(t_{1})\text{.}\)</span> Finding <span class="process-math">\(y_{1}\)</span> is easy enough. All we need to do is plug <span class="process-math">\(t_{1}\)</span> in the equation for the tangent line.</div>
-<div class="displaymath process-math" id="activities-12-3-3-8">
+<div class="displaymath process-math" id="E1sto-2-3-8">
 \begin{equation*}
 \textcolor{blue}{y_1}=f(t_{0},y_{0})\cdot (\textcolor{blue}{t_1}-t_{0})+y_{0}
 \end{equation*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-12-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></section><div class="autopermalink" aria-hidden="true" data-description="Worksheet: Euler’s Method"><a tabindex="-1" href="#activities-12" title="Copy heading and permalink for Worksheet: Euler’s Method" aria-label="Copy heading and permalink for Worksheet: Euler’s Method">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#E1sto-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="E1sto-2-4">
+<div class="para">We now repeat the same process to find a sequence of points <span class="process-math">\((t_{k},y_{k})\)</span> defined recursively by: for <span class="process-math">\(k=1,2,3,\ldots\)</span>
+</div>
+<div class="displaymath process-math" id="E1sto-2-4-3">
+\begin{align*}
+t_{k+1}\amp=t_k+\Delta t\\
+y_{k+1}\amp=f(t_k,y_k)\cdot\Delta t+y_k
+\end{align*}
+</div>
+<div class="para">Using a spreadsheet software, we can plot the points <span class="process-math">\((t_{k},y_{k})\)</span> and generate a graph of the solution. Our spreadsheet headers will be</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#E1sto-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(t_{k}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y_{k}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(f(t_{k},y_{k})\)</span></td>
+</tr>
+</table></div></section>
+<details id="E1sto-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">27</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary>
+<article class="example example-like knowl__content">
+<div class="para" id="E1sto-3-1">
+<div class="para logical" id="E1sto-3-1-1">
+<div class="para">For the Initial Value Problem</div>
+<div class="displaymath process-math" id="E1sto-3-1-1-1">
+\begin{equation*}
+\frac{dy}{dt}+2y=2-e^{-4t}\quad\quad\quad y(0)=1
+\end{equation*}
+</div>
+<div class="para">Use Euler’s method with <span class="process-math">\(\Delta t=0.1\)</span> to find approximate values of the solution at <span class="process-math">\(t=0.1, 0.2,\ldots,1\text{.}\)</span> Compare them to the exact values of the solution at these points.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#E1sto-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para logical" id="E1sto-3-1-2">
+<div class="para">Check that the exact solution is given by the equation</div>
+<div class="displaymath process-math" id="E1sto-3-1-2-1">
+\begin{equation*}
+y(t)=1+\frac{1}{2}e^{-4t}-\frac{1}{2}e^{-2t}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#E1sto-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#E1sto-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 27"><a tabindex="-1" href="#E1sto-3" title="Copy heading and permalink for Example 27" aria-label="Copy heading and permalink for Example 27">🔗</a></div>
+</article></details>
+<article class="exercise exercise-like" id="E1sto-4"><h3 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="E1sto-4-1">Repeat the previous example only this time give the approximations at <span class="process-math">\(t=1\)</span> using <span class="process-math">\(\Delta t=0.01\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#E1sto-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 1"><a tabindex="-1" href="#E1sto-4" title="Copy heading and permalink for Worksheet Exercise 1" aria-label="Copy heading and permalink for Worksheet Exercise 1">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Section: Euler’s method for first order differential equation"><a tabindex="-1" href="#E1sto" title="Copy heading and permalink for Section: Euler’s method for first order differential equation" aria-label="Copy heading and permalink for Section: Euler’s method for first order differential equation">🔗</a></div>
+</section>
+<section class="section" id="ESys">
+<h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Euler’s Method for solving systems of first-order differential equations</span>
+</h2>
+<div class="autopermalink" aria-hidden="true" data-description="Section: Euler’s Method for solving systems of first-order differential equations"><a tabindex="-1" href="#ESys" title="Copy heading and permalink for Section: Euler’s Method for solving systems of first-order differential equations" aria-label="Copy heading and permalink for Section: Euler’s Method for solving systems of first-order differential equations">🔗</a></div>
+</section>
+<section class="introduction" id="activities-12-5">
+<div class="para logical" id="activities-12-5-1">
+<div class="para">The numerical process is very similar for systems. In general, our system looks like</div>
+<div class="displaymath process-math" id="activities-12-5-1-1">
+\begin{align*}
+\frac{dx}{dt}\amp= f(t,x,y)\\
+\frac{dy}{dt}\amp= g(t,x,y)
+\end{align*}
+</div>
+<div class="para">with the initial conditions <span class="process-math">\(x(t_{0})=x_{0}\)</span> and <span class="process-math">\(y(t_{0})=y_{0}\text{.}\)</span> The goal is to generate graphs for <span class="process-math">\(t\)</span> vs <span class="process-math">\(x(t),\)</span> t <span class="process-math">\(vs\)</span> y(t), and <span class="process-math">\(x(t)\)</span> vs <span class="process-math">\(y(t)\text{.}\)</span> Euler’s method gives the following algorithm for <span class="process-math">\(k=1,2,3,\ldots\)</span>
+</div>
+<div class="displaymath process-math" id="activities-12-5-1-10">
+\begin{align*}
+t_{k+1}\amp= t_k+\Delta t\\
+x_{k+1}\amp= f(t_k,x_k,y_k)\cdot\Delta t+x_k\\
+y_{k+1}\amp= g(t_k,x_ky_k)\cdot\Delta t+y_k
+\end{align*}
+</div>
+<div class="para">Our spreadsheet headers will be <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(t_{k}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(x_{k}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y_{k}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(f(t_{k},x_{k},y_{k})\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(g(t_{k},x_{k},y_{k})\)</span></td>
+</tr>
+</table></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-12-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section>
+<details id="activities-12-6" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">29</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h2></summary>
+<article class="example example-like knowl__content">
+<div class="para logical" id="activities-12-6-1">
+<div class="para">Consider the following system</div>
+<div class="displaymath process-math" id="activities-12-6-1-1">
+\begin{align*}
+\frac{dx}{dt}\amp=y+y^2\\
+\frac{dy}{dt}\amp=-\frac{x}{2}+\frac{y}{5}-xy+\frac{6y^{2}}{5}
+\end{align*}
+</div>
+<div class="para">where <span class="process-math">\((x(0),y(0))=(-0.5,0),\Delta t=0.1\text{.}\)</span> Find <span class="process-math">\(\left(x(1),y(1)\right)\text{.}\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-12-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 29"><a tabindex="-1" href="#activities-12-6" title="Copy heading and permalink for Example 29" aria-label="Copy heading and permalink for Example 29">🔗</a></div>
+</article></details>
+<article class="exercise exercise-like" id="activities-12-7"><h2 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h2>
+<div class="para logical" id="activities-12-7-1">
+<div class="para">Consider the following system</div>
+<div class="displaymath process-math" id="activities-12-7-1-1">
+\begin{align}
+\frac{dR}{dt}\amp=2R\left(1-\frac{R}{2}\right)-1.2RF\tag{14}\\
+\frac{dF}{dt}\amp=F+0.9RF\notag
+\end{align}
+</div>
+<div class="para">where <span class="process-math">\((R(0),F(0))=(2,4),\Delta t=0.1\text{.}\)</span> Find <span class="process-math">\(\left(R(10),F(10)\right)\text{.}\)</span> Obtain a graphs for <span class="process-math">\(R(t)\)</span> vs <span class="process-math">\(t\text{,}\)</span> <span class="process-math">\(F(t)\)</span> vs <span class="process-math">\(t\text{,}\)</span> and <span class="process-math">\(F(t)\)</span> vs <span class="process-math">\(R(t)\text{.}\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-12-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 2"><a tabindex="-1" href="#activities-12-7" title="Copy heading and permalink for Worksheet Exercise 2" aria-label="Copy heading and permalink for Worksheet Exercise 2">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet: Euler’s Method"><a tabindex="-1" href="#activities-12" title="Copy heading and permalink for Worksheet: Euler’s Method" aria-label="Copy heading and permalink for Worksheet: Euler’s Method">🔗</a></div>
 </section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">
