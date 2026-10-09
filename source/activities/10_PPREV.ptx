@@ -1,0 +1,202 @@
+<worksheet>
+<title>Phase portraits for linear systems with real distinct eigenvalues</title>
+<objectives>
+<ul>
+            <li>Phase portraits for linear systems with a positive and negative eigenvalues.</li>
+            
+                <li>Phase portraits for linear systems with two negative eigenvalues.</li>
+                    <li>Phase portraits for linear systems with two positive  eigenvalues.</li>
+        </ul>    
+</objectives>
+<introduction>
+    <p>
+        In this worksheet we will discuss the cases of the phase portraits for the linear
+                system
+                <md>
+                    \frac{d\vec{Y}}{dt}=A\vec{Y}
+                </md>
+                where <m>A</m> is a <m>2\times 2</m> matrix over <m>\mathbb{R}</m>, based on the
+                values of the eigenvalues of <m>A</m>.
+    </p>
+</introduction>
+    <section>
+        <title><p>
+                    Saddles ( <m>\lambda_{1}&lt;0&lt;\lambda_{2}</m> )
+                </p></title>
+        
+        <example>
+            <introduction>
+                <p>
+                    For the system
+                    <md alignment="align">
+                                            <mrow>\frac{dx}{dt}&amp;=&amp;x+2y</mrow>
+                                            <mrow>\frac{dy}{dt}&amp;=&amp;3x+2y</mrow>
+                                        </md>
+                </p>
+            </introduction>
+            <task workspace="0.1in">
+                <statement>
+                    <p>
+                       Find the eigenvalues <m>\lambda_1, \lambda_2</m> of <m>A</m> and their corresponding eigenvectors <m>\vec{V_1}, \vec{V_2}</m>. 
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.1in">
+            <statement>
+                <p>
+                    Find and plot the straight line solutions.
+                </p>
+            </statement>
+            </task>
+
+            <task workspace="0.1in">
+                <statement>
+                    <p>
+                        Expand the general solution <m>\vec{Y}(t)</m> in the form
+                                                <md>
+                                                    \vec{Y}(t)=c_{1}e^{\lambda_1 t}\vec{V_1}+c_{2}e^{\lambda_2 t}\vec{V_2}.
+                                                </md>
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="0.1">
+                <statement>
+                    <p>
+                        Find the solution with initial condition <m>\vec{Y}(0)=(4,3)</m>
+                    </p>
+                </statement>
+            </task>
+            <task workspace=".01in">
+                <statement>
+                    <p>
+                        Plot the phase portrait (<m>x(t)</m> vs <m>y(t)</m>)  and also plot <m>x(t)</m> and <m>y(t)</m>.
+                    </p>
+                </statement>
+            </task>
+        </example>
+    </section>
+
+
+
+<section>
+        <title><p>
+                     Sinks ( <m>\lambda_{1}&lt;\lambda_{2}&lt;0</m> ) 
+                </p></title>
+        
+        <exercise>
+            <introduction>
+                <p>
+                    For the system
+                    <md alignment="align">
+                                            <mrow>\frac{dx}{dt}&amp;=&amp;-2x+y</mrow>
+                                            <mrow>\frac{dy}{dt}&amp;=&amp;x-2y</mrow>
+                                        </md>
+                </p>
+            </introduction>
+            <task workspace="0.1in">
+                <statement>
+                    <p>
+                       Find the eigenvalues <m>\lambda_1, \lambda_2</m> of <m>A</m> and their corresponding eigenvectors <m>\vec{V_1}, \vec{V_2}</m>. 
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.1in">
+            <statement>
+                <p>
+                    Find and plot the straight line solutions.
+                </p>
+            </statement>
+            </task>
+
+            <task workspace="0.1in">
+                <statement>
+                    <p>
+                        Expand the general solution <m>\vec{Y}(t)</m> in the form
+                                                <md>
+                                                    \vec{Y}(t)=c_{1}e^{\lambda_1 t}\vec{V_1}+c_{2}e^{\lambda_2 t}\vec{V_2}.
+                                                </md>
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="0.1">
+                <statement>
+                    <p>
+                        Find the solution with initial condition <m>\vec{Y}(0)=(2,4)</m>
+                    </p>
+                </statement>
+            </task>
+            <task workspace=".01in">
+                <statement>
+                    <p>
+                        Plot the phase portrait (<m>x(t)</m> vs <m>y(t)</m>)  and also plot <m>x(t)</m> and <m>y(t)</m>.
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+    </section>
+
+
+
+<section>
+        <title><p>
+                     Sources ( <m>0&lt;\lambda_{2}&lt;\lambda_{1}</m> ) 
+                </p></title>
+        
+        <exercise>
+            <introduction>
+                <p>
+                    For the system
+                    <md alignment="align">
+                                            <mrow>\frac{dx}{dt}&amp;=&amp;x-y</mrow>
+                                            <mrow>\frac{dy}{dt}&amp;=&amp;2x+4y</mrow>
+                                        </md>
+                                        </md>
+                </p>
+            </introduction>
+            <task workspace="0.1in">
+                <statement>
+                    <p>
+                       Find the eigenvalues <m>\lambda_1, \lambda_2</m> of <m>A</m> and their corresponding eigenvectors <m>\vec{V_1}, \vec{V_2}</m>. 
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.1in">
+            <statement>
+                <p>
+                    Find and plot the straight line solutions.
+                </p>
+            </statement>
+            </task>
+
+            <task workspace="0.1in">
+                <statement>
+                    <p>
+                        Expand the general solution <m>\vec{Y}(t)</m> in the form
+                                                <md>
+                                                    \vec{Y}(t)=c_{1}e^{\lambda_1 t}\vec{V_1}+c_{2}e^{\lambda_2 t}\vec{V_2}.
+                                                </md>
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="0.1">
+                <statement>
+                    <p>
+                        Find the solution with initial condition <m>\vec{Y}(0)=(1,1)</m>
+                    </p>
+                </statement>
+            </task>
+            <task workspace=".01in">
+                <statement>
+                    <p>
+                        Plot the phase portrait (<m>x(t)</m> vs <m>y(t)</m>)  and also plot <m>x(t)</m> and <m>y(t)</m>.
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+    </section>
+
+
+</worksheet>
