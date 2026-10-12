@@ -117,7 +117,8 @@ Figure 2.58.
                                         <mrow>\frac{dI}{dt}&amp;=&amp;\alpha SI-\beta I</mrow>
                                     </md>
                                 
-                                                                    The equilibria of this system are the solutions of the simultaneous system
+      </p>                 
+   <p>                                                              The equilibria of this system are the solutions of the simultaneous system
                                                                     of equations
                                                                     <md alignment="align">
                                                                         <mrow>-\alpha SI&amp;=&amp;0</mrow>
@@ -125,7 +126,8 @@ Figure 2.58.
                                                                     </md>
                                                                 
                                                                                                                                     which is precisely the line <m>I = 0</m>.
-                                                                                                                                    This makes sense since if there are no infected, then no one can catch the
+                                                                      </p>                 
+   <p>                                                              This makes sense since if there are no infected, then no one can catch the
                                                                                                                                     disease.
                                                                                                                                     Notice that <m>\frac{dI}{dt}=0</m> if <m>\alpha S-\beta=0</m>.
                                                                                                                                     In other words if <m>S=\frac{\beta}{\alpha}</m>, the vectors in the vector
@@ -134,7 +136,8 @@ Figure 2.58.
                                                                                                                                     <m>\frac{dI}{dt}&gt; 0</m>, and the disease is spreading.To the left of the
                                                                                                                                     vertical line in the <m>SI-</m> phase plane, <m>\frac{dI}{dt}&lt; 0</m>, and
                                                                                                                                     the disease is decreasing.
-                                                                                                                                    Hence, the value <m>S=\frac{\beta}{\alpha}</m> plays an important role in
+                                                                     </p>                 
+   <p>                                                               Hence, the value <m>S=\frac{\beta}{\alpha}</m> plays an important role in
                                                                                                                                     the evolution of the disease.
                                                                                                                                     It is called the <alert>threshold value</alert> of the model.
                                                                                                                                     Given values of <m>\alpha</m> and <m>\beta</m>, if
