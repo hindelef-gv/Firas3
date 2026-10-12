@@ -68,6 +68,7 @@
       <title>Projects</title>
       <!-- Include handouts -->
     <xi:include href="./Projects/P1.ptx"/>
+    <xi:include href="./Projects/P2_SIR.ptx"/>
     </chapter>
 
     <chapter xml:id="homework">
