@@ -338,45 +338,39 @@ eBookConfig.enable_chatcodes =  false;
 <h2 class="heading hide-type">
 <span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Modeling and Epidemic</span>
 </h2>
-<div class="para logical" id="projects-3-3-2-1">
-<div class="para">The spread of a contagious disease through a population involves intricate interactions from the level of populations down to the level of individual cells and viruses. However, it is still possible to learn interesting and useful information from relatively simple models. A classical model, introduced by Kermack and McKendrick in 1927 <details class="ptx-footnote" aria-live="polite" id="projects-3-3-2-1-1"><summary class="ptx-footnote__number" title="Footnote 4"><sup> 4 </sup></summary>
-<div class="ptx-footnote__contents" id="projects-3-3-2-1-1">See “A contribution to the mathematical theory of epidemics” byW. O. Kermack and A. G. McKendrick, Proceedings Royal Society of London A 115, 1927, pp. 700--721.
+<div class="para logical" id="projects-3-3-2">
+<div class="para">The spread of a contagious disease through a population involves intricate interactions from the level of populations down to the level of individual cells and viruses. However, it is still possible to learn interesting and useful information from relatively simple models. A classical model, introduced by Kermack and McKendrick in 1927 <details class="ptx-footnote" aria-live="polite" id="projects-3-3-2-1"><summary class="ptx-footnote__number" title="Footnote 4"><sup> 4 </sup></summary>
+<div class="ptx-footnote__contents" id="projects-3-3-2-1">See “A contribution to the mathematical theory of epidemics” byW. O. Kermack and A. G. McKendrick, Proceedings Royal Society of London A 115, 1927, pp. 700--721.
 </div></details> is called the SIR model. In this model, a population is divided into three groups---the susceptible individuals, the infected individuals, and the recovered individuals. In this model <span class="process-math">\(S(t)\)</span> denotes the fraction of the population that can catch the disease at time <span class="process-math">\(t\text{,}\)</span> <span class="process-math">\(I (t)\)</span> denotes the fraction of the population that has the disease and can spread it to the susceptible, and <span class="process-math">\(R(t)\)</span> denotes the fraction of the population that has recovered from the disease and cannot catch it again. This model is appropriate for the spread of a flu epidemic since once a person has had a particular strain of flu, their immune system prevents them from catching that strain again. Since flu spreads fairly quickly, we can assume that time is measured in days. While most people recover from the flu fairly easily, there is a low mortality rate. Those who do not survive are included in <span class="process-math">\(R(t)\text{.}\)</span> We assume everyone in the population is either susceptible, infected, or recovered, that is,</div>
-<div class="displaymath process-math" id="projects-3-3-2-1-7">
+<div class="displaymath process-math" id="projects-3-3-2-7">
 \begin{equation*}
 S(t)+I(t)+R(t)=1
 \end{equation*}
 </div>
 <div class="para">for all <span class="process-math">\(t\text{.}\)</span> In addition, we assume that the disease spreads relatively quickly, so it is reasonable to assume that the only change in the size of these groups is due to the disease. To set up the model, we make some more specific assumptions. First, we assume that the rate that susceptible people and infected people interact is proportional to both the number of susceptible and the number of infected, that is, proportional to the product of <span class="process-math">\(S(t)\)</span> and <span class="process-math">\(I (t)\text{.}\)</span> Some fraction of these interactions lead to a susceptible becoming infected. We also assume that the infected individuals recover at a rate that is proportional to the number of infected. Based on these assumptions, our model is</div>
-<div class="displaymath process-math" id="projects-3-3-2-1-11">
+<div class="displaymath process-math" id="projects-3-3-2-11">
 \begin{align*}
 \frac{dS}{dt}&amp;=-\alpha SI\\
 \frac{dI}{dt}&amp;=\alpha SI-\beta I\\
 \frac{dR}{dt}&amp;=\beta I
 \end{align*}
 </div>
-<div class="para">where <span class="process-math">\(\alpha\)</span> is the “contagion” parameter and <span class="process-math">\(\beta\)</span> is the “recovery” parameter. If we know <span class="process-math">\(S(t)\)</span> and <span class="process-math">\(I (t)\text{,}\)</span> then <span class="process-math">\(R(t) = 1-(S(t) + I (t))\text{.}\)</span>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#projects-3-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="projects-3-3-3">
-<div class="para">Consequently, we need only keep track of <span class="process-math">\(S(t)\)</span> and <span class="process-math">\(I (t)\text{,}\)</span> and we can consider the planar (i.e 2D ) system</div>
-<div class="displaymath process-math" id="projects-3-3-3-3">
+<div class="para">where <span class="process-math">\(\alpha\)</span> is the “contagion” parameter and <span class="process-math">\(\beta\)</span> is the “recovery” parameter. If we know <span class="process-math">\(S(t)\)</span> and <span class="process-math">\(I (t)\text{,}\)</span> then <span class="process-math">\(R(t) = 1-(S(t) + I (t))\text{.}\)</span> Consequently, we need only keep track of <span class="process-math">\(S(t)\)</span> and <span class="process-math">\(I (t)\text{,}\)</span> and we can consider the planar (i.e 2D ) system</div>
+<div class="displaymath process-math" id="projects-3-3-2-21">
 \begin{align*}
 \frac{dS}{dt}&amp;=&amp;-\alpha SI\\
 \frac{dI}{dt}&amp;=&amp;\alpha SI-\beta I
 \end{align*}
 </div>
 <div class="para">The equilibria of this system are the solutions of the simultaneous system of equations</div>
-<div class="displaymath process-math" id="projects-3-3-3-4">
+<div class="displaymath process-math" id="projects-3-3-2-22">
 \begin{align*}
 -\alpha SI&amp;=&amp;0\\
 (\alpha S-\beta) I&amp;=&amp;0
 \end{align*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#projects-3-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="projects-3-3-4">which is precisely the line <span class="process-math">\(I = 0\text{.}\)</span> This makes sense since if there are no infected, then no one can catch the disease. Notice that <span class="process-math">\(\frac{dI}{dt}=0\)</span> if <span class="process-math">\(\alpha S-\beta=0\text{.}\)</span> In other words if <span class="process-math">\(S=\frac{\beta}{\alpha}\text{,}\)</span> the vectors in the vector field are horizontal. To the right of the vertical line in the <span class="process-math">\(SI-\)</span> phase plane, <span class="process-math">\(\frac{dI}{dt}&gt; 0\text{,}\)</span> and the disease is spreading.To the left of the vertical line in the <span class="process-math">\(SI-\)</span> phase plane, <span class="process-math">\(\frac{dI}{dt}&lt; 0\text{,}\)</span> and the disease is decreasing. Hence, the value <span class="process-math">\(S=\frac{\beta}{\alpha}\)</span> plays an important role in the evolution of the disease. It is called the <em class="alert">threshold value</em> of the model. Given values of <span class="process-math">\(\alpha\)</span> and <span class="process-math">\(\beta\text{,}\)</span> if <span class="process-math">\(S(0) &gt; \frac{\beta}{\alpha}\text{,}\)</span> then an epidemic occurs. If <span class="process-math">\(S(0) &lt; \frac{\beta}{\alpha}\text{,}\)</span> then there is no epidemic.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#projects-3-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para">which is precisely the line <span class="process-math">\(I = 0\text{.}\)</span> This makes sense since if there are no infected, then no one can catch the disease. Notice that <span class="process-math">\(\frac{dI}{dt}=0\)</span> if <span class="process-math">\(\alpha S-\beta=0\text{.}\)</span> In other words if <span class="process-math">\(S=\frac{\beta}{\alpha}\text{,}\)</span> the vectors in the vector field are horizontal. To the right of the vertical line in the <span class="process-math">\(SI-\)</span> phase plane, <span class="process-math">\(\frac{dI}{dt}&gt; 0\text{,}\)</span> and the disease is spreading.To the left of the vertical line in the <span class="process-math">\(SI-\)</span> phase plane, <span class="process-math">\(\frac{dI}{dt}&lt; 0\text{,}\)</span> and the disease is decreasing. Hence, the value <span class="process-math">\(S=\frac{\beta}{\alpha}\)</span> plays an important role in the evolution of the disease. It is called the <em class="alert">threshold value</em> of the model. Given values of <span class="process-math">\(\alpha\)</span> and <span class="process-math">\(\beta\text{,}\)</span> if <span class="process-math">\(S(0) &gt; \frac{\beta}{\alpha}\text{,}\)</span> then an epidemic occurs. If <span class="process-math">\(S(0) &lt; \frac{\beta}{\alpha}\text{,}\)</span> then there is no epidemic.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#projects-3-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/P2_1.jpg" class="contained" alt="Solution curves in the SI-phase plane that correspond to the initial condition \((S(0), I (0)) = (0.99, 0.01)\) with \(\beta = 0.1\) and \(\alpha = 0.2, 0.3, and 0.4\text{.}\) As \(\alpha\) increases, the maximum number of infecteds increases while the number of susceptibles that avoid the disease decreases. If you compare this figure with Figure 2.58, the solution curves corresponding to \(\alpha = 0.2\) look different. This apparent difference is caused by the fact that the distance between 0 and 1 is the same on both axes in this figure while the distance between 0 and 1 is smaller on the vertical axis than on the horizontal axis in Figure 2.58."></div>
 <div class="autopermalink" aria-hidden="true" data-description="Section: Modeling and Epidemic"><a tabindex="-1" href="#projects-3-3" title="Copy heading and permalink for Section: Modeling and Epidemic" aria-label="Copy heading and permalink for Section: Modeling and Epidemic">🔗</a></div>
