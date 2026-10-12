@@ -115,7 +115,7 @@
                                                                                                                                     <m>S(0) &gt; \frac{\beta}{\alpha}</m>, then an epidemic occurs.
                                                                                                                                     If <m>S(0) &lt; \frac{\beta}{\alpha}</m>, then there is no epidemic.
                                                                                                                                 </p>
-                                                                      <image source="P2_1.jpg" width="80%">
+                                                                      <image source="P2_1.jpg" width="90%">
                 <shortdescription>
                    Solution curves in the SI-phase plane that
 correspond to the initial condition
@@ -230,7 +230,7 @@ Figure 2.58.
                         </p>
                     </statement>
                 </task>
-                
+
                 </exercise>
     </section>
 </worksheet>
