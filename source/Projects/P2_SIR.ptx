@@ -85,6 +85,7 @@
                                         <q>recovery</q>
                                         parameter.
                                         If we know <m>S(t)</m> and <m>I (t)</m>, then <m>R(t) = 1-(S(t) + I (t))</m>.
+                                        </p>
 <p>
     
 
@@ -107,6 +108,7 @@ Figure 2.58.
                 </shortdescription>
             </image>                      
    </p>                 
+   <p>
                     Consequently, we need only keep track of <m>S(t)</m> and <m>I (t)</m>, and we
                                         can consider the planar (i.e 2D ) system
                
