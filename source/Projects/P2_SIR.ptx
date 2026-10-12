@@ -28,7 +28,7 @@
     
     <section>
         <title>Modeling and Epidemic</title>
-<page>
+
         <p>
                     The spread of a contagious disease through a population involves intricate
                     interactions from the level of populations down to the level of individual
@@ -85,9 +85,7 @@
                                         <q>recovery</q>
                                         parameter.
                                         If we know <m>S(t)</m> and <m>I (t)</m>, then <m>R(t) = 1-(S(t) + I (t))</m>.
-        </p>
-        </page>
-        <p>
+        
                     Consequently, we need only keep track of <m>S(t)</m> and <m>I (t)</m>, and we
                                         can consider the planar (i.e 2D ) system
                
@@ -102,8 +100,7 @@
                                                                         <mrow>-\alpha SI&amp;=&amp;0</mrow>
                                                                         <mrow>(\alpha S-\beta) I&amp;=&amp;0</mrow>
                                                                     </md>
-                                                                </p>
-                                                                <p>
+                                                                
                                                                                                                                     which is precisely the line <m>I = 0</m>.
                                                                                                                                     This makes sense since if there are no infected, then no one can catch the
                                                                                                                                     disease.
