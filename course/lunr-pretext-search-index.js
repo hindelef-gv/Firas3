@@ -775,6 +775,51 @@ var ptx_lunr_docs = [
   "body": " Consider the following system where . Find . Obtain a graphs for vs , vs , and vs .  "
 },
 {
+  "id": "activities-13",
+  "level": "1",
+  "url": "activities-13.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Phase portraits for linear systems with real distinct eigenvalues",
+  "body": " Phase portraits for linear systems with real distinct eigenvalues    Phase portraits for linear systems with a positive and negative eigenvalues.  Phase portraits for linear systems with two negative eigenvalues.  Phase portraits for linear systems with two positive eigenvalues.     In this worksheet we will discuss the cases of the phase portraits for the linear system where is a matrix over , based on the values of the eigenvalues of .    Saddles ( )    For the system      Find the eigenvalues of and their corresponding eigenvectors .      Find and plot the straight line solutions.      Expand the general solution in the form       Find the solution with initial condition       Plot the phase portrait ( vs ) and also plot and .       Sinks ( )    For the system      Find the eigenvalues of and their corresponding eigenvectors .      Find and plot the straight line solutions.      Expand the general solution in the form       Find the solution with initial condition       Plot the phase portrait ( vs ) and also plot and .       Sources ( )    For the system      Find the eigenvalues of and their corresponding eigenvectors .      Find and plot the straight line solutions.      Expand the general solution in the form       Find the solution with initial condition       Plot the phase portrait ( vs ) and also plot and .      "
+},
+{
+  "id": "activities-13-2",
+  "level": "2",
+  "url": "activities-13.html#activities-13-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Phase portraits for linear systems with a positive and negative eigenvalues.  Phase portraits for linear systems with two negative eigenvalues.  Phase portraits for linear systems with two positive eigenvalues.   "
+},
+{
+  "id": "activities-13-4-2",
+  "level": "2",
+  "url": "activities-13.html#activities-13-4-2",
+  "type": "Example",
+  "number": "31",
+  "title": "",
+  "body": "  For the system      Find the eigenvalues of and their corresponding eigenvectors .      Find and plot the straight line solutions.      Expand the general solution in the form       Find the solution with initial condition       Plot the phase portrait ( vs ) and also plot and .    "
+},
+{
+  "id": "activities-13-5-2",
+  "level": "2",
+  "url": "activities-13.html#activities-13-5-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  For the system      Find the eigenvalues of and their corresponding eigenvectors .      Find and plot the straight line solutions.      Expand the general solution in the form       Find the solution with initial condition       Plot the phase portrait ( vs ) and also plot and .    "
+},
+{
+  "id": "activities-13-6-2",
+  "level": "2",
+  "url": "activities-13.html#activities-13-6-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  For the system      Find the eigenvalues of and their corresponding eigenvectors .      Find and plot the straight line solutions.      Expand the general solution in the form       Find the solution with initial condition       Plot the phase portrait ( vs ) and also plot and .    "
+},
+{
   "id": "projects-2",
   "level": "1",
   "url": "projects-2.html",
