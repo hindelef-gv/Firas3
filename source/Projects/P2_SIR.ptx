@@ -85,11 +85,42 @@
                                         <q>recovery</q>
                                         parameter.
                                         If we know <m>S(t)</m> and <m>I (t)</m>, then <m>R(t) = 1-(S(t) + I (t))</m>.
-                                        </p>
-<p>
-    
+                                        
 
-          <image source="P2_1.jpg" width="70%">
+                    Consequently, we need only keep track of <m>S(t)</m> and <m>I (t)</m>, and we
+                                        can consider the planar (i.e 2D ) system
+               
+                                    <md alignment="align">
+                                        <mrow>\frac{dS}{dt}&amp;=&amp;-\alpha SI</mrow>
+                                        <mrow>\frac{dI}{dt}&amp;=&amp;\alpha SI-\beta I</mrow>
+                                    </md>
+                                
+            The equilibria of this system are the solutions of the simultaneous system
+                                                                    of equations
+                                                                    <md alignment="align">
+                                                                        <mrow>-\alpha SI&amp;=&amp;0</mrow>
+                                                                        <mrow>(\alpha S-\beta) I&amp;=&amp;0</mrow>
+                                                                    </md>
+                                                                
+                                                                                                                                    which is precisely the line <m>I = 0</m>.
+                                                                      This makes sense since if there are no infected, then no one can catch the
+                                                                                                                                    disease.
+                                                                                                                                    Notice that <m>\frac{dI}{dt}=0</m> if <m>\alpha S-\beta=0</m>.
+                                                                                                                                    In other words if <m>S=\frac{\beta}{\alpha}</m>, the vectors in the vector
+                                                                                                                                    field are horizontal.
+                                                                                                                                    To the right of the vertical line in the <m>SI-</m> phase plane,
+                                                                                                                                    <m>\frac{dI}{dt}&gt; 0</m>, and the disease is spreading.To the left of the
+                                                                                                                                    vertical line in the <m>SI-</m> phase plane, <m>\frac{dI}{dt}&lt; 0</m>, and
+                                                                                                                                    the disease is decreasing.
+                                                                        Hence, the value <m>S=\frac{\beta}{\alpha}</m> plays an important role in
+                                                                                                                                    the evolution of the disease.
+                                                                                                                                    It is called the <alert>threshold value</alert> of the model.
+                                                                                                                                    Given values of <m>\alpha</m> and <m>\beta</m>, if
+                                                                                                                                    <m>S(0) &gt; \frac{\beta}{\alpha}</m>, then an epidemic occurs.
+                                                                                                                                    If <m>S(0) &lt; \frac{\beta}{\alpha}</m>, then there is no epidemic.
+                                                                                                                                </p>
+                                                                                       <p>
+                                                                                                  <image source="P2_1.jpg" width="70%">
                 <shortdescription>
                    Solution curves in the SI-phase plane that
 correspond to the initial condition
@@ -106,45 +137,8 @@ the distance between 0 and 1 is smaller on the
 vertical axis than on the horizontal axis in
 Figure 2.58.
                 </shortdescription>
-            </image>                      
-   </p>                 
-   <p>
-                    Consequently, we need only keep track of <m>S(t)</m> and <m>I (t)</m>, and we
-                                        can consider the planar (i.e 2D ) system
-               
-                                    <md alignment="align">
-                                        <mrow>\frac{dS}{dt}&amp;=&amp;-\alpha SI</mrow>
-                                        <mrow>\frac{dI}{dt}&amp;=&amp;\alpha SI-\beta I</mrow>
-                                    </md>
-                                
-      </p>                 
-   <p>                                                              The equilibria of this system are the solutions of the simultaneous system
-                                                                    of equations
-                                                                    <md alignment="align">
-                                                                        <mrow>-\alpha SI&amp;=&amp;0</mrow>
-                                                                        <mrow>(\alpha S-\beta) I&amp;=&amp;0</mrow>
-                                                                    </md>
-                                                                
-                                                                                                                                    which is precisely the line <m>I = 0</m>.
-                                                                      </p>                 
-   <p>                                                              This makes sense since if there are no infected, then no one can catch the
-                                                                                                                                    disease.
-                                                                                                                                    Notice that <m>\frac{dI}{dt}=0</m> if <m>\alpha S-\beta=0</m>.
-                                                                                                                                    In other words if <m>S=\frac{\beta}{\alpha}</m>, the vectors in the vector
-                                                                                                                                    field are horizontal.
-                                                                                                                                    To the right of the vertical line in the <m>SI-</m> phase plane,
-                                                                                                                                    <m>\frac{dI}{dt}&gt; 0</m>, and the disease is spreading.To the left of the
-                                                                                                                                    vertical line in the <m>SI-</m> phase plane, <m>\frac{dI}{dt}&lt; 0</m>, and
-                                                                                                                                    the disease is decreasing.
-                                                                     </p>                 
-   <p>                                                               Hence, the value <m>S=\frac{\beta}{\alpha}</m> plays an important role in
-                                                                                                                                    the evolution of the disease.
-                                                                                                                                    It is called the <alert>threshold value</alert> of the model.
-                                                                                                                                    Given values of <m>\alpha</m> and <m>\beta</m>, if
-                                                                                                                                    <m>S(0) &gt; \frac{\beta}{\alpha}</m>, then an epidemic occurs.
-                                                                                                                                    If <m>S(0) &lt; \frac{\beta}{\alpha}</m>, then there is no epidemic.
-                                                                                                                                </p>
-                                                                                                        
+            </image> 
+                                                                                       </p>                 
     </section>
     <section>
         <title>Hey, I got Covid-19 THREE times!</title>
