@@ -1,5 +1,6 @@
 <worksheet>
     <title>The SIR Model of an Epidemic<fn>This handout is adapted from section 2.7 in your textbook.</fn></title>
+    
     <introduction>
         <p>
            H1N1 flu, often called
@@ -24,8 +25,10 @@
                        </fn> 
         </p>
     </introduction>
+    
     <section>
         <title>Modeling and Epidemic</title>
+<page>
         <p>
                     The spread of a contagious disease through a population involves intricate
                     interactions from the level of populations down to the level of individual
@@ -82,7 +85,10 @@
                                         <q>recovery</q>
                                         parameter.
                                         If we know <m>S(t)</m> and <m>I (t)</m>, then <m>R(t) = 1-(S(t) + I (t))</m>.
-                                        Consequently, we need only keep track of <m>S(t)</m> and <m>I (t)</m>, and we
+        </p>
+        </page>
+        <p>
+                    Consequently, we need only keep track of <m>S(t)</m> and <m>I (t)</m>, and we
                                         can consider the planar (i.e 2D ) system
                
                                     <md alignment="align">
