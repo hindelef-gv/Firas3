@@ -85,8 +85,10 @@
                                         <q>recovery</q>
                                         parameter.
                                         If we know <m>S(t)</m> and <m>I (t)</m>, then <m>R(t) = 1-(S(t) + I (t))</m>.
+<p>
+    
 
-          <image source="P2_1.jpg" width="90%">
+          <image source="P2_1.jpg" width="70%">
                 <shortdescription>
                    Solution curves in the SI-phase plane that
 correspond to the initial condition
@@ -104,7 +106,7 @@ vertical axis than on the horizontal axis in
 Figure 2.58.
                 </shortdescription>
             </image>                      
-                    
+   </p>                 
                     Consequently, we need only keep track of <m>S(t)</m> and <m>I (t)</m>, and we
                                         can consider the planar (i.e 2D ) system
                
