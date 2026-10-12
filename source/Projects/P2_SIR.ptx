@@ -119,7 +119,7 @@
                                                                                                                                     <m>S(0) &gt; \frac{\beta}{\alpha}</m>, then an epidemic occurs.
                                                                                                                                     If <m>S(0) &lt; \frac{\beta}{\alpha}</m>, then there is no epidemic.
                                                                                                                                 </p>
-                                                                                       <p>
+           <page>                                                                           
                                                                                                   <image source="P2_1.jpg" width="70%">
                 <shortdescription>
                    Solution curves in the SI-phase plane that
@@ -138,8 +138,9 @@ vertical axis than on the horizontal axis in
 Figure 2.58.
                 </shortdescription>
             </image> 
-                                                                                       </p>                 
+                                                                          </page>                          
     </section>
+
     <section>
         <title>Hey, I got Covid-19 THREE times!</title>
        <exercise>
@@ -239,4 +240,5 @@ Figure 2.58.
 
                 </exercise>
     </section>
+
 </worksheet>
