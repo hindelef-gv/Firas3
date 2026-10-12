@@ -85,7 +85,26 @@
                                         <q>recovery</q>
                                         parameter.
                                         If we know <m>S(t)</m> and <m>I (t)</m>, then <m>R(t) = 1-(S(t) + I (t))</m>.
-        
+
+          <image source="P2_1.jpg" width="90%">
+                <shortdescription>
+                   Solution curves in the SI-phase plane that
+correspond to the initial condition
+<m>(S(0), I (0)) = (0.99, 0.01)</m> with <m>\beta = 0.1</m> and
+<m>\alpha = 0.2, 0.3, and 0.4</m>. As <m>\alpha</m> increases, the
+maximum number of infecteds increases while the
+number of susceptibles that avoid the disease
+decreases. If you compare this figure with
+Figure 2.58, the solution curves corresponding to
+<m>\alpha = 0.2</m> look different. This apparent difference is
+caused by the fact that the distance between 0
+and 1 is the same on both axes in this figure while
+the distance between 0 and 1 is smaller on the
+vertical axis than on the horizontal axis in
+Figure 2.58.
+                </shortdescription>
+            </image>                      
+                    
                     Consequently, we need only keep track of <m>S(t)</m> and <m>I (t)</m>, and we
                                         can consider the planar (i.e 2D ) system
                
@@ -118,24 +137,7 @@
                                                                                                                                     <m>S(0) &gt; \frac{\beta}{\alpha}</m>, then an epidemic occurs.
                                                                                                                                     If <m>S(0) &lt; \frac{\beta}{\alpha}</m>, then there is no epidemic.
                                                                                                                                 </p>
-                                                                      <image source="P2_1.jpg" width="90%">
-                <shortdescription>
-                   Solution curves in the SI-phase plane that
-correspond to the initial condition
-<m>(S(0), I (0)) = (0.99, 0.01)</m> with <m>\beta = 0.1</m> and
-<m>\alpha = 0.2, 0.3, and 0.4</m>. As <m>\alpha</m> increases, the
-maximum number of infecteds increases while the
-number of susceptibles that avoid the disease
-decreases. If you compare this figure with
-Figure 2.58, the solution curves corresponding to
-<m>\alpha = 0.2</m> look different. This apparent difference is
-caused by the fact that the distance between 0
-and 1 is the same on both axes in this figure while
-the distance between 0 and 1 is smaller on the
-vertical axis than on the horizontal axis in
-Figure 2.58.
-                </shortdescription>
-            </image>                                                          
+                                                                                                        
     </section>
     <section>
         <title>Hey, I got Covid-19 THREE times!</title>
