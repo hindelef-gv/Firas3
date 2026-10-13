@@ -826,7 +826,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Phase Portraits for linear systems with repeated eigenvalues, and a zero eigenvalue",
-  "body": " Phase Portraits for linear systems with repeated eigenvalues, and a zero eigenvalue    Phase Portraits for linear systems with repeated eigenvalues.  Phase Portraits for linear systems with a zero eigenvalue.     In this worksheet we will discuss the cases of the phase portraits for the linear system where is a matrix over , with repeated and zero eigenvalues of .    A system with repeated eigenvalue    Suppose that is a linear system in which the matrix has a repeated real eigenvalue but only one line of eigenvectors. Then the general solution has the form where is an arbitrary initial condition and If is zero, then the previous equation implies that is an eigenvector of and is a straight-line solution. Otherwise is an eigenvector of .      For the system      Find the eigenvalue.      Find the eigenvectors.      Sketch the direction field.      Sketch the phase portrait, including the solution curve with initial condition ; and      Sketch the - and -graphs of the solution with initial condition .       A system with zero Eigenvalue   Suppose that is a linear system in which the matrix has a zero and another real eigenvalue with corresponding eigenvectors and . Then the general solution has the form Notice that the stability of the solution (source or sink) depends on whether is positive of negative. The solution will be lines parallel to that will sink or source from the line .     For the system      Find the eigenvalues.      Find the eigenvectors.      Sketch the phase portrait, including the solution curve with initial condition ; and      Find the general solution. Find the particular solution with compare it with your sketch from part (c).      "
+  "body": " Phase Portraits for linear systems with repeated eigenvalues, and a zero eigenvalue    Phase Portraits for linear systems with repeated eigenvalues.  Phase Portraits for linear systems with a zero eigenvalue.     In this worksheet we will discuss the cases of the phase portraits for the linear system where is a matrix over , with repeated and zero eigenvalues of .    A system with repeated eigenvalue    Suppose that is a linear system in which the matrix has a repeated real eigenvalue but only one line of eigenvectors. Then the general solution has the form where is an arbitrary initial condition and If is zero, then the previous equation implies that is an eigenvector of and is a straight-line solution. Otherwise is an eigenvector of .      For the system      Find the eigenvalue.      Find the eigenvectors.      Sketch the direction field.      Sketch the phase portrait, including the solution curve with initial condition ; and      Sketch the - and -graphs of the solution with initial condition .       A system with zero Eigenvalue   Suppose that is a linear system in which the matrix has a zero and another real eigenvalue with corresponding eigenvectors and . Then the general solution has the form Notice that the stability of the solution (source or sink) depends on whether is positive of negative. The solution will be lines parallel to that will sink or source from the line .     For the system      Find the eigenvalues of and their corresponding eigenvectors .      Sketch the direction field.      Sketch the phase portrait, including the solution curve with initial condition ; and      Find the general solution. Find the particular solution with compare it with your sketch from part (c).      "
 },
 {
   "id": "activities-14-2",
@@ -859,10 +859,10 @@ var ptx_lunr_docs = [
   "id": "activities-14-5-3",
   "level": "2",
   "url": "activities-14.html#activities-14-5-3",
-  "type": "Example",
-  "number": "36",
+  "type": "Worksheet Exercise",
+  "number": "1",
   "title": "",
-  "body": "  For the system      Find the eigenvalues.      Find the eigenvectors.      Sketch the phase portrait, including the solution curve with initial condition ; and      Find the general solution. Find the particular solution with compare it with your sketch from part (c).    "
+  "body": "  For the system      Find the eigenvalues of and their corresponding eigenvectors .      Sketch the direction field.      Sketch the phase portrait, including the solution curve with initial condition ; and      Find the general solution. Find the particular solution with compare it with your sketch from part (c).    "
 },
 {
   "id": "projects-2",
