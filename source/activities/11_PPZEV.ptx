@@ -1,0 +1,169 @@
+<worksheet>
+<title>Phase Portraits for linear systems with repeated eigenvalues, and a zero eigenvalue
+</title>
+<objectives>
+<ul>
+            <li>Phase Portraits for linear systems with repeated eigenvalues.</li>
+            
+                <li>Phase Portraits for linear systems with a zero eigenvalue.</li>
+        </ul>    
+</objectives>
+
+<introduction>
+    <p>
+       In this worksheet we will discuss the cases of the phase portraits for the linear
+               system
+               <md>
+                   \frac{d\vec{Y}}{dt}=A\vec{Y}
+               </md>
+               where <m>A</m> is a <m>2\times 2</m> matrix over <m>\mathbb{R}</m>, with
+               repeated and zero eigenvalues of <m>A</m>. 
+    </p>
+</introduction>
+<section>
+    <title>A system with repeated eigenvalue</title>
+    
+
+    <theorem>
+        <statement>
+            <p>
+               Suppose that <m>\displaystyle{\frac{d\vec{Y}}{dt}=A\vec{Y}}</m> is a linear
+                system in which the <m>2\times 2</m> matrix <m>A</m> has a repeated real
+                 eigenvalue <m>\lambda</m> but only one line of eigenvectors.
+                 Then the general solution has the form
+                 <md>
+                \vec{Y}(t)=e^{\lambda t}\vec{V_0}+te^{\lambda t}\vec{V_1},</md>
+             where <m>\vec{V_0}=(x_{0},y_{0})</m> is an arbitrary initial condition and
+              <md>
+             \vec{V_1}=(A-\lambda I)\vec{V_0}. </md>
+            If <m>\vec{V_1}</m> is zero, then the previous equation implies that
+             <m>\vec{V_0}</m> is an eigenvector of <m>A</m> and <m>\vec{Y}(t)</m> is a straight-line solution.
+            Otherwise <m>\vec{V_1}</m> is an eigenvector of <m>A</m>. 
+            </p>
+        </statement>
+    </theorem>
+    <example>
+        <introduction>
+            <p>
+                
+            For the system
+             <md alignment="align">
+            <mrow>\frac{dx}{dt}&amp;=&amp;2x+y</mrow>
+          <mrow>\frac{dy}{dt}&amp;=&amp;-x+4y</mrow>
+                        </md>
+       
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                   Find the eigenvalue.
+ 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                   Find the eigenvectors.
+ 
+                </p>
+            </statement>
+        </task>
+        
+        <task>
+            <statement>
+                <p>
+                    Sketch the direction field.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                   Sketch the phase portrait, including the solution curve with initial condition
+                                       <m>\vec{Y}(0) = (1, 0)</m>; and 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                   Sketch the <m>x(t)</m>- and <m>y(t)</m>-graphs of the solution with initial
+                                       condition <m>\vec{Y}(0) = (1, 0)</m>. 
+                </p>
+            </statement>
+        </task>
+    </example>
+</section>
+
+<section>
+    <title>A system with zero Eigenvalue</title>
+    <introduction>
+        <p>
+           Suppose that <m>\displaystyle{\frac{d\vec{Y}}{dt}=A\vec{Y}}</m> is a linear
+                       system in which the <m>2\times 2</m> matrix <m>A</m> has a zero and another real
+                       eigenvalue <m>\lambda</m> with corresponding eigenvectors <m>\vec{V_1}</m> and
+                       <m>\vec{V_2}</m>.
+                       Then the general solution has the form
+                       <md>
+                           \vec{Y}(t)=c_{1}\vec{V_1}+c_{2}e^{\lambda t}\vec{V_2}.
+                       </md>
+                       Notice that the stability of the solution (source or sink) depends on whether
+                       <m>\lambda</m> is positive of negative.
+                       The solution will be lines parallel to <m>\vec{V_2}</m> that will sink or source
+                       from the line <m>\vec{V_1}</m>. 
+        </p>
+    </introduction>
+
+    <example>
+        <introduction>
+            <p>
+               For the system
+                               <md alignment="align">
+                                   <mrow>\frac{dx}{dt}&amp;=&amp;4x+2y</mrow>
+                                   <mrow>\frac{dy}{dt}&amp;=&amp;2x+y</mrow>
+                               </md> 
+            </p>
+        </introduction>
+
+        <task>
+            <statement>
+                <p>
+                    Find the eigenvalues.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    Find the eigenvectors.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                   Sketch the phase portrait, including the solution curve with initial condition
+                                       <m>\vec{Y}(0) = (1, 0)</m>; and 
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                   Find the general solution.
+                                       Find the particular solution with <m>\vec{Y}(0) = (1, 0)</m> compare it with
+                                       your sketch from part (c). 
+                </p>
+            </statement>
+        </task>
+    </example>
+</section>
+</worksheet>
