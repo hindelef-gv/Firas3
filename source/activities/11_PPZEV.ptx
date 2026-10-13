@@ -54,7 +54,7 @@
        
             </p>
         </introduction>
-        <task>
+        <task workspace="1.0in">
             <statement>
                 <p>
                    Find the eigenvalue.
@@ -63,7 +63,7 @@
             </statement>
         </task>
 
-        <task>
+        <task workspace="1.0in" >
             <statement>
                 <p>
                    Find the eigenvectors.
@@ -72,7 +72,7 @@
             </statement>
         </task>
         
-        <task>
+        <task workspace="1.0in">
             <statement>
                 <p>
                     Sketch the direction field.
@@ -80,7 +80,7 @@
             </statement>
         </task>
 
-        <task>
+        <task workspace="1.0in">
             <statement>
                 <p>
                    Sketch the phase portrait, including the solution curve with initial condition
@@ -89,7 +89,7 @@
             </statement>
         </task>
 
-        <task>
+        <task workspace="1.0in"    >
             <statement>
                 <p>
                    Sketch the <m>x(t)</m>- and <m>y(t)</m>-graphs of the solution with initial
@@ -99,6 +99,10 @@
         </task>
     </example>
 </section>
+
+
+
+
 
 <section>
     <title>A system with zero Eigenvalue</title>
@@ -119,51 +123,51 @@
         </p>
     </introduction>
 
-    <example>
+<exercise>
+    
         <introduction>
             <p>
-               For the system
-                               <md alignment="align">
-                                   <mrow>\frac{dx}{dt}&amp;=&amp;4x+2y</mrow>
-                                   <mrow>\frac{dy}{dt}&amp;=&amp;2x+y</mrow>
-                               </md> 
-            </p>
+                For the system</p>
+                <md alignment="align">
+                    <mrow>\frac{dx}{dt}&amp;=&amp;4x+2y</mrow>
+                    <mrow>\frac{dy}{dt}&amp;=&amp;2x+y</mrow>
+                </md>
+            
         </introduction>
+<task workspace="1.0in">
+    <statement>
+        <p>
+           Find the eigenvalues <m>\lambda_1, \lambda_2</m> of <m>A</m> and their corresponding eigenvectors <m>\vec{V_1}, \vec{V_2}</m>. 
+        </p>
+    </statement>
 
-        <task>
-            <statement>
-                <p>
-                    Find the eigenvalues.
-                </p>
-            </statement>
-        </task>
+</task>
 
-        <task>
-            <statement>
-                <p>
-                    Find the eigenvectors.
-                </p>
-            </statement>
-        </task>
 
-        <task>
-            <statement>
-                <p>
-                   Sketch the phase portrait, including the solution curve with initial condition
-                                       <m>\vec{Y}(0) = (1, 0)</m>; and 
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                   Find the general solution.
-                                       Find the particular solution with <m>\vec{Y}(0) = (1, 0)</m> compare it with
-                                       your sketch from part (c). 
-                </p>
-            </statement>
-        </task>
-    </example>
+<task workspace="1.0in">
+    <statement>
+        <p>
+          Sketch the direction field.  
+        </p>
+    </statement>
+</task>
+<task workspace="1.0in">
+    <statement>
+        <p>
+           Sketch the phase portrait, including the solution curve with initial condition
+                       <m>\vec{Y}(0) = (1, 0)</m>; and 
+        </p>
+    </statement>
+</task>
+<task workspace="1.0in">
+    <statement>
+        <p>
+           Find the general solution.
+                      Find the particular solution with <m>\vec{Y}(0) = (1, 0)</m> compare it with
+                      your sketch from part (c).
+        </p>
+    </statement>
+</task>
+</exercise>
 </section>
 </worksheet>
