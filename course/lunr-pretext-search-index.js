@@ -987,8 +987,8 @@ var ptx_lunr_docs = [
   "url": "homework-3.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Homework 1",
-  "body": " Homework 1    Instruction: This is a group assignment. You may choose your partner(s) up to no more than four people per group. You may use any technology tool for algebra related steps This assignment is Due Friday 10\/30\/2026.  In each question below you are given the matrix of coefficients for the linear system . Find the solution at the given initial point, and graph a rough sketch of the phase portrait of the solution.      and .   2    and .   3    and .   4    and .   5    and .    "
+  "title": "Homework 2",
+  "body": " Homework 2    Instruction: This is a group assignment. You may choose your partner(s) up to no more than four people per group. You may use any technology tool for algebra related steps This assignment is Due Friday 10\/30\/2026.  In each question below you are given the matrix of coefficients for the linear system . Find the solution at the given initial point, and graph a rough sketch of the phase portrait of the solution.      and .   2    and .   3    and .   4    and .   5    and .    "
 },
 {
   "id": "homework-3-3",
