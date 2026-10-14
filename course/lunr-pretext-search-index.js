@@ -952,7 +952,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Homework 1",
-  "body": " Homework 1    Instructions: This is a group assignment. You may choose your partner(s) up to no more than four people per group. You may use any technology tool for algebra related steps This assignment is Due Friday 9\/18\/2026.      Section 1.1: #4. Consider the population model where is the population at time .    For what values of is the population at equilibrium?      For what values of is the population increasing\\decreasing?      For what values of is the population graph concaved up\\down?        Section 1.1 #5: Consider the differential equation     For what values of is at equilibrium?      For what values of is increasing\\decreasing?      For what values of is the graph of the solution concaved up\\down?      Sketch the phase portrait of the solution curves, i.e sketch every possible solution curve depending on different initial points.          Section 1.1: #17. Suppose that a species of fish in a particular lake has a population that is modeled by the logistic population model with growth rate and carrying capacity , and time is measured in years. Adjust the model to account for each of the following situations.    One hundred fish is harvested each year.      One-third of the fish population is harvested annually.      The number of fish harvested each year is proportional to the square root of the number of fish in the lake.       Optional Challenge: Suppose fish are harvested at a constant rate of per year. For what values of will the fish become extinct regardless of the initial population?   Your answer should take the form of an inequality , where is an expression involving only the carrying capacity, , the proportionality constant, , and constants.        "
+  "body": " Homework 1    Instruction: This is a group assignment. You may choose your partner(s) up to no more than four people per group. You may use any technology tool for algebra related steps This assignment is Due Friday 9\/18\/2026.      Section 1.1: #4. Consider the population model where is the population at time .    For what values of is the population at equilibrium?      For what values of is the population increasing\\decreasing?      For what values of is the population graph concaved up\\down?        Section 1.1 #5: Consider the differential equation     For what values of is at equilibrium?      For what values of is increasing\\decreasing?      For what values of is the graph of the solution concaved up\\down?      Sketch the phase portrait of the solution curves, i.e sketch every possible solution curve depending on different initial points.          Section 1.1: #17. Suppose that a species of fish in a particular lake has a population that is modeled by the logistic population model with growth rate and carrying capacity , and time is measured in years. Adjust the model to account for each of the following situations.    One hundred fish is harvested each year.      One-third of the fish population is harvested annually.      The number of fish harvested each year is proportional to the square root of the number of fish in the lake.       Optional Challenge: Suppose fish are harvested at a constant rate of per year. For what values of will the fish become extinct regardless of the initial population?   Your answer should take the form of an inequality , where is an expression involving only the carrying capacity, , the proportionality constant, , and constants.        "
 },
 {
   "id": "homework-2-3-1",
@@ -980,6 +980,60 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Section 1.1: #17. Suppose that a species of fish in a particular lake has a population that is modeled by the logistic population model with growth rate and carrying capacity , and time is measured in years. Adjust the model to account for each of the following situations.    One hundred fish is harvested each year.      One-third of the fish population is harvested annually.      The number of fish harvested each year is proportional to the square root of the number of fish in the lake.       Optional Challenge: Suppose fish are harvested at a constant rate of per year. For what values of will the fish become extinct regardless of the initial population?   Your answer should take the form of an inequality , where is an expression involving only the carrying capacity, , the proportionality constant, , and constants.      "
+},
+{
+  "id": "homework-3",
+  "level": "1",
+  "url": "homework-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Homework 1",
+  "body": " Homework 1    Instruction: This is a group assignment. You may choose your partner(s) up to no more than four people per group. You may use any technology tool for algebra related steps This assignment is Due Friday 10\/30\/2026.  In each question below you are given the matrix of coefficients for the linear system . Find the solution at the given initial point, and graph a rough sketch of the phase portrait of the solution.      and .   2    and .   3    and .   4    and .   5    and .    "
+},
+{
+  "id": "homework-3-3",
+  "level": "2",
+  "url": "homework-3.html#homework-3-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "   and .   "
+},
+{
+  "id": "homework-3-4",
+  "level": "2",
+  "url": "homework-3.html#homework-3-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "   and .   "
+},
+{
+  "id": "homework-3-5",
+  "level": "2",
+  "url": "homework-3.html#homework-3-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "   and .   "
+},
+{
+  "id": "homework-3-6",
+  "level": "2",
+  "url": "homework-3.html#homework-3-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "   and .   "
+},
+{
+  "id": "homework-3-7",
+  "level": "2",
+  "url": "homework-3.html#homework-3-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "   and .   "
 },
 {
   "id": "ch-learning-targets-assessments-2",
