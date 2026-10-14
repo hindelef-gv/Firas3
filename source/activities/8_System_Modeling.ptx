@@ -223,7 +223,7 @@ growth model. One such model for this situation is the system
     </p>
     <md alignment="align" number="yes">
                         <mrow>\frac{dR}{dt}\amp=2R\left(1-\frac{R}{2}\right)-1.2RF</mrow>
-                        <mrow number="no">\frac{dF}{dt}\amp=F+0.9RF</mrow>
+                        <mrow number="no">\frac{dF}{dt}\amp=-F+0.9RF</mrow>
                     </md>
                     <p>
                       In this system, when the predators are not present (that is, <m>F = 0</m>), the prey population

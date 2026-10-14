@@ -1,0 +1,70 @@
+<worksheet>
+  <title>Homework 1</title>
+  <introduction>
+    <p>
+      <alert>Instruction:</alert> 
+      This is a   group assignment. You may choose your partner(s) up to no more than four people per group. You may use any technology tool for algebra related steps This assignment is Due Friday 10/30/2026.  
+      </p>
+
+      <p>
+                In each question below you are given the matrix of coefficients <m>A</m> for
+                the linear system <m>\displaystyle{\frac{d\vec{Y}}{dt}=A\vec{Y}}</m>.
+                Find the solution <m>\vec{Y}(t)</m> at the given initial point, and graph a
+                rough sketch of the phase portrait of the solution.
+            </p>
+  </introduction>
+<exercise>
+<statement>
+<p>
+<m>A= \left[ \begin{array}{cc}2&amp;5\\ 0&amp;1\end{array}\right]</m>
+and <m>\vec{Y}(0)=(2,-3)</m>.
+    </p>
+    </statement>
+</exercise>
+
+
+
+2
+<exercise>
+<statement>
+<p>
+<m>A= \left[ \begin{array}{cc}-2&amp;-4\\ -4&amp;-8\end{array}\right]</m>
+and <m>\vec{Y}(0)=(2,-3)</m>.
+    </p>
+    </statement>
+</exercise>
+
+
+
+3
+<exercise>
+<statement>
+<p>
+<m>A= \left[ \begin{array}{cc}-18&amp;-1\\ 4&amp;-22 \end{array}\right]</m>
+and <m>\vec{Y}(0)=(2,-3)</m>.
+    </p>
+    </statement>
+</exercise>
+
+
+4
+<exercise>
+<statement>
+<p>
+<m>$A=  \left[ \begin {array}{cc} -10&5\\ -5&-10
+\end {array} \right] 
+$ and $\vec{Y}(0)=(2,-3)$. 
+    </p>
+    </statement>
+</exercise>
+
+5
+<exercise>
+<statement>
+<p>
+<m>A= \left[ \begin{array}{cc}3&amp;15\\ -30&amp;-3\end{array}\right]</m>
+and <m>\vec{Y}(0)=(2,-3)</m>.
+    </p>
+    </statement>
+</exercise>
+  </worksheet>

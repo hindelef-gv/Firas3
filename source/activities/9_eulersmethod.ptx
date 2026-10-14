@@ -152,7 +152,7 @@
     <p>Consider the following system
         <md alignment="align" number="yes">
                         <mrow>\frac{dR}{dt}\amp=2R\left(1-\frac{R}{2}\right)-1.2RF</mrow>
-                        <mrow number="no">\frac{dF}{dt}\amp=F+0.9RF</mrow>
+                        <mrow number="no">\frac{dF}{dt}\amp=-F+0.9RF</mrow>
                     </md>
                     where <m>(R(0),F(0))=(2,4),\Delta t=0.1</m>.
                 Find <m>\left(R(10),F(10)\right)</m>. Obtain a graphs for <m>R(t)</m> vs <m>t</m>, <m>F(t)</m> vs <m>t</m>, and <m>F(t)</m> vs <m>R(t)</m>.
