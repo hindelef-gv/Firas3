@@ -158,7 +158,7 @@ Figure 2.58.
                     susceptible again in a linear rate.
                     We obtain the system of equations
                     <md alignment="align">
-                        <mrow>\frac{dS}{dt}&amp;-\alpha SI+\gamma R</mrow>
+                        <mrow>\frac{dS}{dt}&amp;=-\alpha SI+\gamma R</mrow>
                         <mrow>\frac{dI}{dt}&amp;=\alpha SI-\beta I</mrow>
                         <mrow>\frac{dR}{dt}&amp;=\beta I-\gamma R</mrow>
                     </md>
