@@ -1,0 +1,25 @@
+<worksheet>
+<title>Phase portraits for linear systems with Complex  eigenvalues</title>
+<objectives>
+<ul>
+            <li>Phase portraits for linear systems with a Complex eigenvalue with a positive real part.</li>
+            
+                <li>Phase portraits for linear systems with a Complex eigenvalue with a negative real part.</li>
+                    <li>
+                        <p>
+                            Phase portraits for linear systems with a Complex eigenvalue with a zero real part.
+                        </p>
+                    </li>
+        </ul>    
+</objectives>
+<introduction>
+    <p>
+        In this worksheet we will discuss the cases of the phase portraits for the linear
+                system
+                <md>
+                    \frac{d\vec{Y}}{dt}=A\vec{Y}
+                </md>
+                where <m>A</m> is a <m>2\times 2</m> matrix over <m>\mathbb{R}</m>, where the eigenvalues of <m>A</m> are complex, i.e. <m>\lambda=\alpha\pm\beta i</m>.
+    </p>
+</introduction>
+</worksheet>
