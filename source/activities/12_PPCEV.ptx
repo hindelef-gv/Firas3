@@ -6,9 +6,9 @@
             
                 <li>Phase portraits for linear systems with a Complex eigenvalue with a negative real part.</li>
                     <li>
-                        <p>
+                        
                             Phase portraits for linear systems with a Complex eigenvalue with a zero real part.
-                        </p>
+                        
                     </li>
         </ul>    
 </objectives>
@@ -22,4 +22,167 @@
                 where <m>A</m> is a <m>2\times 2</m> matrix over <m>\mathbb{R}</m>, where the eigenvalues of <m>A</m> are complex, i.e. <m>\lambda=\alpha\pm\beta i</m>.
     </p>
 </introduction>
+
+<section>
+    <title>Case 1: Spiral Source (<m>\alpha &gt; 0</m>)</title>
+    <p>
+        In this case, the phase portrait is a spiral source. The trajectories spiral outwards from the origin.
+    </p>
+    <example>
+            <introduction>
+                <p>
+                    For the system
+                    <md alignment="align">
+                                            <mrow>\frac{dx}{dt}&amp;=&amp;6x-y</mrow>
+                                            <mrow>\frac{dy}{dt}&amp;=&amp;5x+4y</mrow>
+                                        </md>
+                </p>
+            </introduction>
+            <task workspace="0.1in">
+                <statement>
+                    <p>
+                       Find the eigenvalues <m>\lambda_1, \lambda_2</m> of <m>A</m> and their corresponding eigenvectors <m>\vec{V_1}, \vec{V_2}</m>. 
+                    </p>
+                </statement>
+            </task>
+           
+           
+
+            <task workspace="1.5in">
+                <statement>
+                    <p>
+                        Expand the general solution <m>\vec{Y}(t)</m> in the form
+                             <md>
+                            \vec{Y}(t)=c_{1}\mbox{Re}\vec{Y(t)}+c_{2}\mbox{Im}\vec{Y(t)}.
+                                                </md>   
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1.0in">
+                <statement>
+                    <p>
+                        Find the solution with initial condition <m>\vec{Y}(0)=(0,-1)</m>
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1.0in">
+                <statement>
+                    <p>
+                        Plot the phase portrait (<m>x(t)</m> vs <m>y(t)</m>)  and also plot <m>x(t)</m> and <m>y(t)</m>.
+                    </p>
+                </statement>
+            </task>
+        </example>
+    </section>
+
+<section>
+    <title>Case 2: Spiral Sink (<m>\alpha &lt; 0 </m>)</title>
+    <p>
+        In this case, the phase portrait is a spiral sink. The trajectories spiral inwards towards the origin.
+    </p>
+    <exercise>
+            <introduction>
+                <p>
+                    For the system
+                    <md alignment="align">
+                                            <mrow>\frac{dx}{dt}&amp;=&amp;-x+2y</mrow>
+                                            <mrow>\frac{dy}{dt}&amp;=&amp;-x-3y</mrow>
+                                        </md>
+                </p>
+            </introduction>
+            <task workspace="0.1in">
+                <statement>
+                    <p>
+                       Find the eigenvalues <m>\lambda_1, \lambda_2</m> of <m>A</m> and their corresponding eigenvectors <m>\vec{V_1}, \vec{V_2}</m>. 
+                    </p>
+                </statement>
+            </task>
+           
+           
+
+            <task workspace="1.5in">
+                <statement>
+                    <p>
+                        Expand the general solution <m>\vec{Y}(t)</m> in the form
+                                                <md>
+                                                    \vec{Y}(t)=c_{1}\mbox{Re}\vec{Y(t)}+c_{2}\mbox{Im}\vec{Y(t)}.
+                                                </md>   
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="1.0in">
+                <statement>
+                    <p>
+                        Find the solution with initial condition <m>\vec{Y}(0)=(25,-10)</m>
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1.0in">
+                <statement>
+                    <p>
+                        Plot the phase portrait (<m>x(t)</m> vs <m>y(t)</m>)  and also plot <m>x(t)</m> and <m>y(t)</m>.
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+
+    </section>
+
+
+<section>
+<title>Case 3: Center (<m>\alpha = 0</m>)</title>
+    <p>
+        In this case, the phase portrait is a center. The trajectories are closed orbits around the origin.
+    </p>
+
+    <exercise>
+            <introduction>
+                <p>
+                    For the system
+                    <md alignment="align">
+                                            <mrow>\frac{dx}{dt}&amp;=&amp;2x-4y</mrow>
+                                            <mrow>\frac{dy}{dt}&amp;=&amp;2x-2y</mrow>
+                                        </md>
+                </p>
+            </introduction>
+ <task workspace="0.1in">
+                <statement>
+                    <p>
+                       Find the eigenvalues <m>\lambda_1, \lambda_2</m> of <m>A</m> and their corresponding eigenvectors <m>\vec{V_1}, \vec{V_2}</m>. 
+                    </p>
+                </statement>
+            </task>
+<task workspace="1.0in">
+                <statement>
+                    <p>
+                        Find the solution with initial condition <m>\vec{Y}(0)=(20,20)</m>
+                    </p>
+                </statement>
+            </task>
+
+<task workspace="1.5in">
+                <statement>
+                    <p>
+                        Expand the general solution <m>\vec{Y}(t)</m> in the form
+                                                <md>
+                                                    \vec{Y}(t)=c_{1}\mbox{Re}\vec{Y(t)}+c_{2}\mbox{Im}\vec{Y(t)}.
+                                                </md>   
+                    </p>
+                </statement>
+            </task>
+
+            
+            <task workspace="1.0in">
+                <statement>
+                    <p>
+                        Plot the phase portrait (<m>x(t)</m> vs <m>y(t)</m>)  and also plot <m>x(t)</m> and <m>y(t)</m>.
+                    </p>
+                </statement>
+            </task>
+            </exercise>
+    </section>
 </worksheet>
+
+
