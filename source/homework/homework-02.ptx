@@ -51,7 +51,7 @@ and <m>\vec{Y}(0)=(2,-3)</m>.
 <exercise>
 <statement>
 <p>
-    <m>A= \left[ \begin{array}{cc}3&amp;15\\ -30&amp;-3\end{array}\right]</m>
+    <m>A= \left[ \begin{array}{cc}-10&amp;5\\ -5&amp;-10\end{array}\right]</m>
         and <m>\vec{Y}(0)=(2,-3)</m>.
     </p>
     </statement>
