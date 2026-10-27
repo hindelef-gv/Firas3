@@ -865,6 +865,51 @@ var ptx_lunr_docs = [
   "body": "  For the system      Find the eigenvalues of and their corresponding eigenvectors .      Sketch the direction field.      Sketch the phase portrait, including the solution curve with initial condition ; and      Find the general solution. Find the particular solution with compare it with your sketch from part (c).    "
 },
 {
+  "id": "activities-15",
+  "level": "1",
+  "url": "activities-15.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Phase portraits for linear systems with Complex  eigenvalues",
+  "body": " Phase portraits for linear systems with Complex eigenvalues    Phase portraits for linear systems with a Complex eigenvalue with a positive real part.  Phase portraits for linear systems with a Complex eigenvalue with a negative real part.  Phase portraits for linear systems with a Complex eigenvalue with a zero real part.     In this worksheet we will discuss the cases of the phase portraits for the linear system where is a matrix over , where the eigenvalues of are complex, i.e. .    Case 1: Spiral Source ( )  In this case, the phase portrait is a spiral source. The trajectories spiral outwards from the origin.    For the system      Find the eigenvalues of and their corresponding eigenvectors .      Expand the general solution in the form       Find the solution with initial condition       Plot the phase portrait ( vs ) and also plot and .       Case 2: Spiral Sink ( )  In this case, the phase portrait is a spiral sink. The trajectories spiral inwards towards the origin.    For the system      Find the eigenvalues of and their corresponding eigenvectors .      Expand the general solution in the form       Find the solution with initial condition       Plot the phase portrait ( vs ) and also plot and .       Case 3: Center ( )  In this case, the phase portrait is a center. The trajectories are closed orbits around the origin.    For the system      Find the eigenvalues of and their corresponding eigenvectors .      Find the solution with initial condition       Expand the general solution in the form       Plot the phase portrait ( vs ) and also plot and .      "
+},
+{
+  "id": "activities-15-2",
+  "level": "2",
+  "url": "activities-15.html#activities-15-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Phase portraits for linear systems with a Complex eigenvalue with a positive real part.  Phase portraits for linear systems with a Complex eigenvalue with a negative real part.  Phase portraits for linear systems with a Complex eigenvalue with a zero real part.   "
+},
+{
+  "id": "activities-15-4-3",
+  "level": "2",
+  "url": "activities-15.html#activities-15-4-3",
+  "type": "Example",
+  "number": "37",
+  "title": "",
+  "body": "  For the system      Find the eigenvalues of and their corresponding eigenvectors .      Expand the general solution in the form       Find the solution with initial condition       Plot the phase portrait ( vs ) and also plot and .    "
+},
+{
+  "id": "activities-15-5-3",
+  "level": "2",
+  "url": "activities-15.html#activities-15-5-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  For the system      Find the eigenvalues of and their corresponding eigenvectors .      Expand the general solution in the form       Find the solution with initial condition       Plot the phase portrait ( vs ) and also plot and .    "
+},
+{
+  "id": "activities-15-6-3",
+  "level": "2",
+  "url": "activities-15.html#activities-15-6-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  For the system      Find the eigenvalues of and their corresponding eigenvectors .      Find the solution with initial condition       Expand the general solution in the form       Plot the phase portrait ( vs ) and also plot and .    "
+},
+{
   "id": "projects-2",
   "level": "1",
   "url": "projects-2.html",
