@@ -377,36 +377,51 @@ eBookConfig.enable_chatcodes =  false;
 <section class="introduction" id="activities-16-3">
 <div class="para logical" id="activities-16-3-1">
 <div class="para">In this worksheet we will be looking exclusively at linear second order differential equations with constant coefficients</div>
-<div class="displaymath process-math" id="activities-16-3-1-1">
-\begin{equation*}
-ay^{\prime\prime}+by^{\prime}+cy=g(t).
-\end{equation*}
+<div class="displaymath process-math" id="eqgeneral">
+\begin{equation}
+ay^{\prime\prime}+by^{\prime}+cy=g(t).\tag{15}
+\end{equation}
 </div>
-<div class="para">Initially we will make our life easier by looking at differential equations with <span class="process-math">\(g(t)=0\text{.}\)</span> When <span class="process-math">\(g(t)=0\)</span> we call the differential equation <em class="emphasis">homogeneous</em> and when <span class="process-math">\(g(t)\ne 0\)</span> we call the differential equation <em class="emphasis">nonhomogeneous</em>.</div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-16-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="activities-16-3-2">As discussed before this model shows up in the harmonic oscillator. We guess that the solution <span class="process-math">\(y(t)\)</span> must be of an exponential form, i.e. <span class="process-math">\(y(t)=e^{rt}\text{,}\)</span> and our job is to find the values of <span class="process-math">\(r\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-16-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="activities-16-3-2">Notice that this also means that <span class="process-math">\(a\ne 0\text{.}\)</span> We have encountered <a href="activities-16.html#eqgeneral" class="xref" data-knowl="./knowl/xref/eqgeneral.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 15">(15)</a> in two contexts:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-16-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="activities-16-3-3">
+<ul class="disc" id="activities-16-3-3">
+<li id="activities-16-3-3-1">
+<div class="para" id="activities-16-3-3-1-1">The spring mass system, <span class="process-math">\(m\frac{d^{2}y}{dt^{2}}+b\frac{dy}{dt}+ky=0\text{,}\)</span> where <span class="process-math">\(y\)</span> denotes displacement, and where <span class="process-math">\(m\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(k\)</span> denote the mass, damping parameter, and spring constant, respectively.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-16-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#activities-16-3-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="activities-16-3-3-2">
+<div class="para" id="activities-16-3-3-2-1">The RLC circuit, <span class="process-math">\(L\frac{d^{2} Q}{dt^{2}}+R\frac{d Q}{dt}+\frac{1}{C}Q =0\text{,}\)</span> where <span class="process-math">\(Q\)</span> denotes charge, and where <span class="process-math">\(L\text{,}\)</span> <span class="process-math">\(R\text{,}\)</span> and <span class="process-math">\(C\)</span> denote the inductance, resistance, and capacitance, respectively. (Here we assume there is no external voltage so that the equation is homogenous.)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-16-3-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#activities-16-3-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para" id="activities-16-3-4">Initially we will make our life easier by looking at differential equations with <span class="process-math">\(g(t)=0\text{.}\)</span> When <span class="process-math">\(g(t)=0\)</span> we call the differential equation <em class="emphasis">homogeneous</em> and when <span class="process-math">\(g(t)\ne 0\)</span> we call the differential equation <em class="emphasis">nonhomogeneous</em>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-16-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="activities-16-3-5">As discussed before this model shows up in the harmonic oscillator. We guess that the solution <span class="process-math">\(y(t)\)</span> must be of an exponential form, i.e. <span class="process-math">\(y(t)=e^{rt}\text{,}\)</span> and our job is to find the values of <span class="process-math">\(r\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-16-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="activities-16-3-6">
 <div class="para">Substituting in the original equation we get that</div>
-<div class="displaymath process-math" id="activities-16-3-3-1">
+<div class="displaymath process-math" id="activities-16-3-6-1">
 \begin{equation*}
 e^{rt}(ar^{2}+br+c)=0
 \end{equation*}
 </div>
 <div class="para">which implies that <span class="process-math">\(r\)</span> is a root for the quadratic equation</div>
-<div class="displaymath process-math" id="activities-16-3-3-3">
+<div class="displaymath process-math" id="activities-16-3-6-3">
 \begin{equation*}
 ar^{2}+br+c=0.
 \end{equation*}
 </div>
 <div class="para">Thus the solution depends on the values of <span class="process-math">\(r\)</span> obtained by the quadratic equation</div>
-<div class="displaymath process-math" id="activities-16-3-3-5">
+<div class="displaymath process-math" id="activities-16-3-6-5">
 \begin{equation*}
 r=\frac{-b\pm \sqrt{b^{2}-4ac}}{2a}
 \end{equation*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-16-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-16-3-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></section>
 <section class="section" id="activities-16-4">
 <h2 class="heading hide-type">
