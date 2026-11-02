@@ -910,6 +910,51 @@ var ptx_lunr_docs = [
   "body": "  For the system      Find the eigenvalues of and their corresponding eigenvectors .      Find the solution with initial condition       Expand the general solution in the form       Plot the phase portrait ( vs ) and also plot and .    "
 },
 {
+  "id": "activities-16",
+  "level": "1",
+  "url": "activities-16.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Second order homogeneous differential equations with constant coefficients",
+  "body": " Second order homogeneous differential equations with constant coefficients     Understand the general form of second order homogeneous differential equations with constant coefficients.    Learn how to solve second order homogeneous differential equations with constant coefficients using the characteristic equation method.    Recognize the different types of solutions based on the roots of the characteristic equation (real and distinct, real and repeated, complex conjugate).      In this worksheet we will be looking exclusively at linear second order differential equations with constant coefficients Initially we will make our life easier by looking at differential equations with . When we call the differential equation homogeneous and when we call the differential equation nonhomogeneous .  As discussed before this model shows up in the harmonic oscillator. We guess that the solution must be of an exponential form, i.e. , and our job is to find the values of .  Substituting in the original equation we get that which implies that is a root for the quadratic equation Thus the solution depends on the values of obtained by the quadratic equation     Distinct roots   When the characteristic equation has two distinct real roots and , the general solution of the differential equation is     Find the solution for with and .   The characteristic equation is which has roots and . Therefore, the general solution is Using the initial conditions and , we get Solving this system gives and . Hence, the solution is       Repeated roots   When the characteristic equation has a repeated real root , the general solution of the differential equation is     Find the solution for with and .     Complex roots   When the characteristic equation has complex conjugate roots , the general solution of the differential equation is     Find the solution for with and .    "
+},
+{
+  "id": "activities-16-2",
+  "level": "2",
+  "url": "activities-16.html#activities-16-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Understand the general form of second order homogeneous differential equations with constant coefficients.    Learn how to solve second order homogeneous differential equations with constant coefficients using the characteristic equation method.    Recognize the different types of solutions based on the roots of the characteristic equation (real and distinct, real and repeated, complex conjugate).    "
+},
+{
+  "id": "activities-16-4-3",
+  "level": "2",
+  "url": "activities-16.html#activities-16-4-3",
+  "type": "Example",
+  "number": "40",
+  "title": "",
+  "body": " Find the solution for with and .   The characteristic equation is which has roots and . Therefore, the general solution is Using the initial conditions and , we get Solving this system gives and . Hence, the solution is    "
+},
+{
+  "id": "activities-16-5-3",
+  "level": "2",
+  "url": "activities-16.html#activities-16-5-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": " Find the solution for with and .  "
+},
+{
+  "id": "activities-16-6-3",
+  "level": "2",
+  "url": "activities-16.html#activities-16-6-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": " Find the solution for with and .  "
+},
+{
   "id": "projects-2",
   "level": "1",
   "url": "projects-2.html",
