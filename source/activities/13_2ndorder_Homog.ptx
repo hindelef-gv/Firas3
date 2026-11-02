@@ -1,145 +1,199 @@
 <worksheet>
-<title>Second order homogeneous differential equations with constant coefficients</title>
-<objectives>
+    <title>
+        Second order homogeneous differential equations with constant
+        coefficients
+    </title>
+
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Understand the general form of second order homogeneous
+                    differential equations with constant coefficients.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Learn how to solve second order homogeneous differential
+                    equations with constant coefficients using the
+                    characteristic equation method.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Recognize the different types of solutions based on the
+                    roots of the characteristic equation (real and distinct,
+                    real and repeated, complex conjugate).
+                </p>
+            </li>
+        </ul>
+    </objectives>
+
+    <introduction>
+        <p>
+            In this worksheet we will be looking exclusively at linear second
+            order differential equations with constant coefficients
+            <men xml:id="eqgeneral">
+                ay^{\prime\prime}+by^{\prime}+cy=g(t).
+            </men>
+        </p>
+
+        <p>
+            Notice that this also means that <m>a\ne 0</m>.
+            We have encountered <xref ref="eqgeneral"/> in two contexts:
+        </p>
+
+
 <ul>
-            <li>
-                <p>
-                    Understand the general form of second order homogeneous differential equations with constant coefficients.
-                </p>
-            </li>
-
-            <li>
-                <p>
-                    Learn how to solve second order homogeneous differential equations with constant coefficients using the characteristic equation method.
-                </p>
-            </li>
-            <li>
-                <p>
-                    Recognize the different types of solutions based on the roots of the characteristic equation (real and distinct, real and repeated, complex conjugate).
-                </p>
-            </li>
+<li>
+    <p>The spring mass system, <m> m\frac{d^{2}y}{dt^{2}}+b\frac{dy}{dt}+ky=0</m>,
+        where <m>y</m> denotes displacement, and where <m>m</m>, <m>b</m>, and <m>k</m>
+        denote the mass, damping parameter, and spring constant, respectively.  
         
-        </ul>    
-</objectives>
-<introduction>
+    </p>
+</li>
+<li>
+    <p>
+        The RLC circuit, <m>L\frac{d^{2} Q}{dt^{2}}+R\frac{d Q}{dt}+\frac{1}{C}Q =0</m>,
+                where <m>Q</m> denotes charge, and where <m>L</m>, <m>R</m>, and <m>C</m> denote
+                the inductance, resistance, and capacitance, respectively.
+                (Here we assume there is no external voltage so that the equation is
+                homogenous.)
+    </p>
+</li>
 
-<p>
-   In this worksheet we will be looking exclusively at linear second order
-      differential equations with constant coefficients
-      <md>
-          ay^{\prime\prime}+by^{\prime}+cy=g(t).
-      </md>
-      Initially we will make our life easier by looking at differential equations with
-      <m>g(t)=0</m>.
-      When <m>g(t)=0</m> we call the differential equation <em>homogeneous</em> and
-      when <m>g(t)\ne 0</m> we call the differential equation <em>nonhomogeneous</em>.
-</p>
-<p>
-  As discussed before this model shows up in the harmonic oscillator. We guess that the solution <m>y(t)</m> must be of an exponential form, i.e. <m>y(t)=e^{rt}</m>, and our job is to find the values of <m>r</m>.
-</p>
-<p>
-   Substituting in the original equation we get that
-       <md>
-           e^{rt}(ar^{2}+br+c)=0
-       </md>
-       which implies that <m>r</m> is a root for the quadratic equation
-       <md>
-           ar^{2}+br+c=0.
-       </md>
-       Thus the solution depends on the values of <m>r</m> obtained by the quadratic
-       equation
-       <md>
-           r=\frac{-b\pm \sqrt{b^{2}-4ac}}{2a}
-       </md> 
-</p>
-</introduction>
-
-<section>
-    <title>Distinct roots</title>
-    
-    <introduction>
+    </ul>
         <p>
-            When the characteristic equation has two distinct real roots <m>r_1</m> and <m>r_2</m>, the general solution of the differential equation is
+            Initially we will make our life easier by looking at differential
+            equations with <m>g(t)=0</m>.
+            When <m>g(t)=0</m> we call the differential equation
+            <em>homogeneous</em> and when <m>g(t)\ne 0</m> we call the
+            differential equation <em>nonhomogeneous</em>.
+        </p>
+
+        <p>
+            As discussed before this model shows up in the harmonic oscillator.
+            We guess that the solution <m>y(t)</m> must be of an exponential
+            form, i.e.
+            <m>y(t)=e^{rt}</m>, and our job is to find the values of <m>r</m>.
+        </p>
+
+        <p>
+            Substituting in the original equation we get that
             <md>
-                y(t)=c_1 e^{r_1 t}+c_2 e^{r_2 t}.
+                e^{rt}(ar^{2}+br+c)=0
+            </md>
+            which implies that <m>r</m> is a root for the quadratic equation
+            <md>
+                ar^{2}+br+c=0.
+            </md>
+            Thus the solution depends on the values of <m>r</m> obtained by the
+            quadratic equation
+            <md>
+                r=\frac{-b\pm \sqrt{b^{2}-4ac}}{2a}
             </md>
         </p>
     </introduction>
-    <example>
-        <p>
-          Find the solution for
-                      <md>
-                          y^{\prime\prime}+y^{\prime}-6y=0.
-                      </md>
-                      with <m>y(0)=0</m> and <m>y^{\prime}(0)=1</m>.  
-        </p>
-        <solution>
+
+    <section>
+        <title>Distinct roots</title>
+
+        <introduction>
             <p>
-                The characteristic equation is
+                When the characteristic equation has two distinct real roots
+                <m>r_1</m> and <m>r_2</m>, the general solution of the
+                differential equation is
                 <md>
-                    r^{2}+r-6=0,
-                </md>
-                which has roots <m>r_1=-3</m> and <m>r_2=2</m>.
-                Therefore, the general solution is
-                <md>
-                    y(t)=c_1 e^{-3t}+c_2 e^{2t}.
-                </md>
-                Using the initial conditions <m>y(0)=0</m> and <m>y^{\prime}(0)=1</m>, we get
-                <md>
-                    c_1+c_2=0,\\
-                    -3c_1+2c_2=1.
-                </md>
-                Solving this system gives <m>c_1=-\frac{1}{5}</m> and <m>c_2=\frac{1}{5}</m>.
-                Hence, the solution is
-                <md>
-                    y(t)=-\frac{1}{5} e^{-3t}+\frac{1}{5} e^{2t}.
+                    y(t)=c_1 e^{r_1 t}+c_2 e^{r_2 t}.
                 </md>
             </p>
-        </solution>
-    </example>
-    
-</section>
-<section>
-    <title>Repeated roots</title>
-    
-    <introduction>
-        <p>
-            When the characteristic equation has a repeated real root <m>r</m>, the general solution of the differential equation is
-            <md>
-                y(t)=c_1 e^{r t}+c_2 t e^{r t}.
-            </md>
-        </p>
-    </introduction>
-    <exercise workspace="1.0in">
-        <p> 
-Find the solution for
-<md>
-    y^{\prime\prime}-6y^{\prime}+9y=0.
-</md>
-with <m>y(0)=0</m> and <m>y^{\prime}(0)=1</m>.  
-            </p>
-    </exercise>
-</section>
-<section>
-    <title>Complex roots</title>
-    
-    <introduction>
-        <p>
-            When the characteristic equation has complex conjugate roots <m>r=\alpha \pm \beta i</m>, the general solution of the differential equation is
-            <md>
-                y(t)=e^{\alpha t}(c_1 \cos(\beta t)+c_2 \sin(\beta t)).
-            </md>
-        </p>
-    </introduction>
-    <exercise workspace="1.0in">
-        <p>
-            Find the solution for
-            <md>
-                y^{\prime\prime}+4y^{\prime}+13y=0.
-            </md>
-            with <m>y(0)=0</m> and <m>y^{\prime}(0)=1</m>.
-        </p>
-    </exercise>
-</section>
+        </introduction>
 
+        <example>
+            <p>
+                Find the solution for
+                <md>
+                    y^{\prime\prime}+y^{\prime}-6y=0.
+                </md>
+                with <m>y(0)=0</m> and <m>y^{\prime}(0)=1</m>.
+            </p>
+
+            <solution>
+                <p>
+                    The characteristic equation is
+                    <md>
+                        r^{2}+r-6=0,
+                    </md>
+                    which has roots <m>r_1=-3</m> and <m>r_2=2</m>.
+                    Therefore, the general solution is
+                    <md>
+                        y(t)=c_1 e^{-3t}+c_2 e^{2t}.
+                    </md>
+                    Using the initial conditions <m>y(0)=0</m> and
+                    <m>y^{\prime}(0)=1</m>, we get
+                    <md>
+                        c_1+c_2=0,\\
+                    -3c_1+2c_2=1.
+                    </md>
+                    Solving this system gives <m>c_1=-\frac{1}{5}</m> and
+                    <m>c_2=\frac{1}{5}</m>.
+                    Hence, the solution is
+                    <md>
+                        y(t)=-\frac{1}{5} e^{-3t}+\frac{1}{5} e^{2t}.
+                    </md>
+                </p>
+            </solution>
+        </example>
+    </section>
+
+    <section>
+        <title>Repeated roots</title>
+
+        <introduction>
+            <p>
+                When the characteristic equation has a repeated real root
+                <m>r</m>, the general solution of the differential equation is
+                <md>
+                    y(t)=c_1 e^{r t}+c_2 t e^{r t}.
+                </md>
+            </p>
+        </introduction>
+
+        <exercise workspace="1.0in">
+            <p>
+                Find the solution for
+                <md>
+                    y^{\prime\prime}-6y^{\prime}+9y=0.
+                </md>
+                with <m>y(0)=0</m> and <m>y^{\prime}(0)=1</m>.
+            </p>
+        </exercise>
+    </section>
+
+    <section>
+        <title>Complex roots</title>
+
+        <introduction>
+            <p>
+                When the characteristic equation has complex conjugate roots
+                <m>r=\alpha \pm \beta i</m>, the general solution of the
+                differential equation is
+                <md>
+                    y(t)=e^{\alpha t}(c_1 \cos(\beta t)+c_2 \sin(\beta t)).
+                </md>
+            </p>
+        </introduction>
+
+        <exercise workspace="1.0in">
+            <p>
+                Find the solution for
+                <md>
+                    y^{\prime\prime}+4y^{\prime}+13y=0.
+                </md>
+                with <m>y(0)=0</m> and <m>y^{\prime}(0)=1</m>.
+            </p>
+        </exercise>
+    </section>
 </worksheet>
