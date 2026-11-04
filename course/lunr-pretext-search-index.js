@@ -1270,6 +1270,51 @@ var ptx_lunr_docs = [
   "body": "   and .   "
 },
 {
+  "id": "homework-4",
+  "level": "1",
+  "url": "homework-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Homework 3",
+  "body": " Homework 3    Instruction: This is a group assignment. You may choose your partner(s) up to no more than four people per group. You may use any technology tool for algebra related steps.     Section 4.1: # 26.       Section 4.1: # 38.        Section 4.1: #40.         Section 4.3: #19.        "
+},
+{
+  "id": "homework-4-3",
+  "level": "2",
+  "url": "homework-4.html#homework-4-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Section 4.1: # 26.    "
+},
+{
+  "id": "homework-4-4",
+  "level": "2",
+  "url": "homework-4.html#homework-4-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Section 4.1: # 38.    "
+},
+{
+  "id": "homework-4-5",
+  "level": "2",
+  "url": "homework-4.html#homework-4-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "   Section 4.1: #40.     "
+},
+{
+  "id": "homework-4-6",
+  "level": "2",
+  "url": "homework-4.html#homework-4-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "   Section 4.3: #19.       "
+},
+{
   "id": "ch-learning-targets-assessments-2",
   "level": "1",
   "url": "ch-learning-targets-assessments-2.html",
