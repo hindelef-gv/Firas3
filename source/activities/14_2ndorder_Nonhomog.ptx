@@ -1,0 +1,632 @@
+<worksheet>
+    <title>
+        Second order Non-homogeneous differential equations with constant
+        coefficients
+    </title>
+
+    <objectives>
+        <ul>
+            
+            <li>
+                <p>
+                    Learn how to solve second order non-homogeneous differential
+                    equations with constant coefficients using the
+                    method of undetermined coefficients.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Particular solution for the case where the non-homogeneous term is exponential function.
+                </p>
+            </li>
+   <li>
+                <p>
+                    Particular solution for the case where the non-homogeneous term is a polynomial function.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Particular solution for the case where the non-homogeneous term is a sinusoidal function.
+                </p>
+            </li>
+
+            
+
+            <li>
+                <p>
+                    Particular solution for the case where the non-homogeneous term is a mix of polynomial, exponential, and sinusoidal function.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+
+    <introduction>
+        <p>
+            In this worksheet we will be looking exclusively at linear second order
+                        differential equations with constant coefficients
+                        <men>
+                            ay^{\prime\prime}+by^{\prime}+cy=g(t).
+                        </men>
+                        where <m>g(t)\ne 0</m> i.e  a <em>nonhomogeneous</em> DE.
+        </p>
+
+        <p>
+            As discussed before this model shows up in the forced harmonic oscillator.
+                        We start by finding <m>y_{h}(t)</m> the solution for the homogeneous equation
+                        <md>
+                            ay^{\prime\prime}+by^{\prime}+cy=0.
+                        </md>
+                        As discussed in the previous handout depending on the type of roots of the
+                        quadratic equation <m>ar^{2}+br+c=0</m>, we have
+                        <ol>
+                            <li>
+                                <p>
+                                    Distinct real roots If we have two distinct real roots
+                                    <m>r_{1},r_{2}</m>.
+                                    In this case the solution is given by
+                                    <md>
+                                        y_{h}(t)=c_{1}e^{r_1t}+c_{2}e^{r_2t}.
+                                    </md>
+                                </p>
+                            </li>
+            
+                            <li>
+                                <p>
+                                    Repeated Roots In the case where <m>b^{2}-4ac=0</m>, we have one
+                                    real roots <m>r,r</m>.
+                                    In this case the solution is given by
+                                    <md>
+                                        y_{h}(t)=c_{1}e^{rt}+c_{2}te^{rt}.
+                                    </md>
+                                </p>
+                            </li>
+            
+                            <li>
+                                <p>
+                                    Complex Roots In the case where <m>b^{2}-4ac&lt;0</m>, we have a
+                                    pair of complex conjugate roots <m>r=\alpha\pm \beta i</m>.
+                                    In this case the solution is given by
+                                    <md>
+                                        y_{h}(t)=c_{1}e^{\alpha t}\cos (\beta t)+c_{2}e^{\alpha t}\sin (\beta t).
+                                    </md>
+                                </p>
+                            </li>
+                        </ol>
+
+        </p>
+        <p>
+            Because <m>g(t)\ne 0</m>, we have a particular solution <m>y_{p}(t)</m> that is
+                        determined by the type of the function <m>g(t)</m> and the linear dependency with the homogeneous
+                        solution <m>y_{h}(t)</m>.
+                        We determine the type of function <m>y_{p}(t)</m> in each of the three cases below. Once we determine find <m>y_p(t)</m>, the solution of the nonhomogeneous differential equation is given by
+                        <md>
+                            y(t)=y_{h}(t)+y_{p}(t).
+                        </md>
+
+        </p>
+        <p>
+            We can apply the initial conditions to determine the constants <m>c_{1}</m> and <m>c_{2}</m> in the homogeneous solution <m>y_{h}(t)</m>.
+        </p>
+    </introduction>
+    <section>
+<title>The case where <m>g(t)</m> is exponential</title>
+
+
+
+        <p>
+            In the following sections, we will discuss how to determine the particular solution <m>y_{p}(t)</m> for exponential functions <m>g(t)</m>.
+        </p>
+        <theorem>
+            <statement>
+                <p>
+                   In the case where <m>g(t)</m> is an exponential function, the particular solution <m>y_{p}(t)</m> is also an exponential function of the same form, unless it is a solution to the homogeneous equation. That is, if <m>g(t)=\# e^{bt}</m>, then <m>y_{p}(t)=Ae^{bt}</m>, unless <m>e^{bt}</m> is a solution to the homogeneous equation, in which case we multiply by <m>t</m> to get <m>y_{p}(t)=Ate^{bt}</m>.
+                </p>
+            </statement>
+        </theorem>
+        <example>
+        <statement>
+            <p>
+                Find the general solution of the nonhomogeneous differential equation
+                <md>
+                    y'' - 3y' + 2y = 5e^{3t},
+                </md>
+                with initial conditions <m>y(0)=0</m> and <m>y'(0)=1</m>.
+            </p>
+        </statement>
+            <solution>
+                <p>
+                    Consider the differential equation
+                    <md>
+                        y'' - 3y' + 2y = 5e^{3t}.
+                    </md>
+                    Here, <m>g(t)=5e^{3t}</m>, which is an exponential function. The characteristic equation of the homogeneous part is
+                    <md>
+                        r^{2}-3r+2=0,
+                    </md>
+                    with roots <m>r=1,2</m>. Hence the homogeneous solution is <md>y_{h}(t)=c_{1}e^{t}+c_{2}e^{2t}.</md> Since <m>e^{3t}</m> is not a solution to the homogeneous equation, we guess the particular solution to be of the form
+                    <md>
+                        y_{p}(t)=Ae^{3t}.
+                    </md>
+                    Substituting into the differential equation, we get
+                    <md>
+                        9Ae^{3t} - 9Ae^{3t} + 2Ae^{3t} = 5e^{3t},
+                    </md>
+                    which gives <m>A=\frac{5}{2}</m>. Therefore, the particular solution is
+                    <md>
+                        y_{p}(t)=\frac{5}{2}e^{3t}.
+                    </md>
+                    Next, we assemble the general solution of the nonhomogeneous differential equation is
+                    <md>
+                        y(t)=y_{h}(t)+y_{p}(t)=c_{1}e^{t}+c_{2}e^{2t}+\frac{5}{2}e^{3t}.
+                    </md>
+
+                </p>
+
+                <p>
+                    To apply the initial conditions, we substitute <m>t=0</m> into the general solution and its derivative:
+                    <md>
+                        y(0) = c_{1} + c_{2} + \frac{5}{2} = 0,
+                    </md>
+                    <md>
+                        y'(0) = c_{1} + 2c_{2} + \frac{15}{2} = 1.
+                    </md>
+                    
+                    Solving this linear system for <m>c_{1}</m> and <m>c_{2}</m> gives <m>c_1=\frac{3}{2},c_2=-4 </m>, and hence the specific solution satisfying the initial conditions is
+                    <md>
+                        y(t) = \frac{3}{2}e^{t} - 4e^{2t} + \frac{5}{2}e^{3t}.
+                    </md>
+                </p>
+            </solution>
+           
+           
+        </example>
+        <example>
+            <statement>
+            <p>
+                Find the general solution of the nonhomogeneous differential equation
+                <md>
+                    y'' - 3y' + 2y = 5e^{2t},
+                </md>
+                with initial conditions <m>y(0)=0</m> and <m>y'(0)=1</m>.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Consider the differential equation
+                <md>
+                    y'' - 3y' + 2y = 5e^{2t}.
+                </md>
+                Here, <m>g(t)=5e^{2t}</m>, which is an exponential function. The characteristic equation of the homogeneous part is
+                <md>
+                    r^{2}-3r+2=0,
+                </md>
+                with roots <m>r=1,2</m>. Hence the homogeneous solution is <md>y_{h}(t)=c_{1}e^{t}+c_{2}e^{2t}.</md> Since <m>e^{2t}</m> is a solution to the homogeneous equation, we guess the particular solution to be of the form
+                <md>
+                    y_{p}(t)=Ate^{2t}.
+                </md>
+                Substituting into the differential equation, we get
+                <md>
+                    (Ate^{2t})'' - 3(Ate^{2t})' + 2(Ate^{2t}) = 5e^{2t},
+                </md>
+                which gives <m>A=\frac{5}{2}</m>. Therefore, the particular solution is
+                <md>
+                    y_{p}(t)=\frac{5}{2}te^{2t}.
+                </md>
+                Next, we assemble the general solution of the nonhomogeneous differential equation is
+                <md>
+                    y(t)=y_{h}(t)+y_{p}(t)=c_{1}e^{t}+c_{2}e^{2t}+\frac{5}{2}te^{2t}.
+                </md>
+                To apply the initial conditions, we substitute <m>t=0</m> into the general solution and its derivative:
+                <md>
+                    y(0) = c_{1} + c_{2} = 0,
+                </md>
+                <md>
+                    y'(0) = c_{1} + 2c_{2} + \frac{5}{2} = 1.
+                </md>
+                Solving this linear system for <m>c_{1}</m> and <m>c_{2}</m> gives <m>c_1=-\frac{5}{2},c_2=\frac{5}{2}</m>, and hence the specific solution satisfying the initial conditions is
+                <md>
+                    y(t) = -\frac{5}{2}e^{t} + \frac{5}{2}e^{2t} + \frac{5}{2}te^{2t}.
+                </md>
+
+            </p>
+        </solution>
+        </example>
+
+        <example>
+            <statement>
+            <p>
+                Find the general solution of the nonhomogeneous differential equation
+                <md>
+                    y'' - 4y' + 4y = 5e^{2t},
+                </md>
+                with initial conditions <m>y(0)=2</m> and <m>y'(0)=5    </m>.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Consider the differential equation
+                <md>
+                    y'' - 4y' + 4y = 5e^{2t}.
+                </md>
+                Here, <m>g(t)=5e^{2t}</m>, which is an exponential function.  Since <m>e^{2t}</m> and <m>te^{2t}</m> are solutions to the homogeneous equation, we guess the particular solution to be of the form
+                <md>
+                    y_{p}(t)=At^{2}e^{2t}.
+                </md>
+                Substituting into the differential equation, we get
+                <md>
+                    (At^{2}e^{2t})'' - 4(At^{2}e^{2t})' + 4(At^{2}e^{2t}) = 5e^{2t},
+                </md>
+                which gives <m>A=\frac{5}{2}</m>. Therefore, the particular solution is
+                <md>
+                    y_{p}(t)=\frac{5}{2}t^{2}e^{2t}.
+                </md>
+                Next, we assemble the general solution of the nonhomogeneous differential equation is
+                <md>
+                    y(t)=y_{h}(t)+y_{p}(t)=c_{1}e^{2t}+c_{2}te^{2t}+\frac{5}{2}t^{2}e^{2t}.
+                </md>
+                To apply the initial conditions, we substitute <m>t=0</m> into the general solution and its derivative:
+                <md>
+                    y(0) = c_{1} = 2,
+                </md>
+                <md>
+                    y'(0) = 2c_{1} + c_{2} = 5.
+                </md>
+                Solving this linear system for <m>c_{1}</m> and <m>c_{2}</m> gives <m>c_1=2,c_2=1</m>, and hence the specific solution satisfying the initial conditions is
+                <md>
+                    y(t) = 2e^{2t} + te^{2t} + \frac{5}{2}t^{2}e^{2t}.
+                </md>
+            </p>
+        </solution>
+        </example>
+        </section>
+
+    <section>
+<title>The case where <m>g(t)</m> is a polynomial</title>
+<p>
+            In the following sections, we will discuss how to determine the particular solution <m>y_{p}(t)</m> for polynomial functions <m>g(t)</m>.
+        </p>
+
+        <theorem>
+            <statement>
+                <p>
+                    In the case where <m>g(t)</m> is a polynomial, the particular solution <m>y_{p}(t)</m> can be guessed to be a polynomial of the same degree as <m>g(t)</m>. That is, if <m>g(t)=\displaystyle{\sum_{k=0}^n B_kx^k}</m>, then we guess <m>y_{p}(t)=\displaystyle{\sum_{k=0}^n A_kx^k}</m>, and determine the value of <m>A_k</m> by substituting into the differential equation.
+                </p>
+            </statement>
+        </theorem>
+        <example>
+            <statement>
+                <p>
+                    Consider the differential equation
+                    <md>
+                        y'' - 3y' + 2y = 4t^2-2t+1.
+                    </md>
+                    with initial conditions <m>y(0)=2</m> and <m>y'(0)=5    </m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    The characteristic equation of the homogeneous part is
+                <md>
+                    r^{2}-3r+2  =0,
+                </md>
+                with roots <m>r=1</m> and <m>r=2</m>. Hence the homogeneous solution is <md>y_{h}(t)=c_{1}e^{t}+c_{2}e^{2t}.</md>
+                    Since <m>g(t)=4t^2-2t+1</m> is a polynomial of degree 2, we guess the particular solution to be of the form
+                    <md>
+                        y_{p}(t)=At^2+Bt+C.
+                    </md>
+                    Substituting this into the differential equation gives
+                    <md>
+                        (2A) - 3(2At+B) + 2(At^2+Bt+C) = 4t^2-2t+1,
+                    </md>
+                    which simplifies to
+                    <md>
+                        2At^2 + (2B-6A)t + (2C-3B+2A) = 4t^2-2t+1.
+                    </md>
+                    Equating coefficients, we get the system
+                    <md>
+                        2A = 4, \\
+                        2B-6A = -2, \\
+                        2C-3B+2A = 1.
+                    </md>
+                    Solving this system gives <m>A=2, B=5, C=3</m>, and hence the particular solution is
+                    <md>
+                        y_{p}(t)=2t^2+5t+3.
+                    </md>
+                    The general solution is then
+                    <md>
+                        y(t) = y_{h}(t) + y_{p}(t) = c_{1}e^{t}+c_{2}e^{2t}+2t^2+5t+3.
+                    </md>   
+                    Applying the initial conditions <m>y(0)=2</m> and <m>y'(0)=5</m>, we get
+                    <md>
+                        y(0) = c_{1} + c_{2} + 3 = 2, \\
+                        y'(0) = c_{1} + 2c_{2} + 5 = 5.
+                    </md>
+                    Solving this system gives <m>c_{1}=-1</m> and <m>c_{2}=0</m>, and hence the solution to the initial value problem is
+                    <md>
+                        y(t) = -e^{t} + 2t^2 + 5t + 3.
+                    </md>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Solve the initial value problem
+                    <md>
+                        y'' - 4y'  = 4t^2-2t+1,
+                    </md>
+                    with initial conditions <m>y(0)=2</m> and <m>y'(0)=5</m>.
+                </p>
+            </statement>
+        </exercise>
+</section>
+
+<section>
+<title>The case where <m>g(t)</m> is sinusoidal</title>
+<p>
+            In the following sections, we will discuss how to determine the particular solution <m>y_{p}(t)</m> for sinusoidal functions <m>g(t)</m>. That is, when <m>g(t)=\#\sin(\omega t) + \#\#\cos(\omega t)</m>.
+        </p>
+<theorem>
+    <statement>
+        <p>
+           In the case where <m>g(t)</m> is a sinusoidal function, the particular solution <m>y_{p}(t)</m> can be guessed to be a linear combination of <m>\sin(\omega t)</m> and <m>\cos(\omega t)</m>. That is, if <m>g(t)=\#\sin(\omega t) + \#\#\cos(\omega t)</m>, then we guess <m>y_{p}(t)=A\cos(\omega t) + B\sin(\omega t)</m>, and determine the value of <m>A</m> and <m>B</m> by substituting into the differential equation.
+        </p>
+    </statement>
+</theorem>
+<example>
+    <statement>
+        <p>
+            Consider the differential equation
+                    <md>
+                        y'' - 3y' + 2y = 16\sin(2t) + 5\cos(2t).
+                    </md>
+                    with initial conditions <m>y(0)=2</m> and <m>y'(0)=5    </m>. 
+        </p>
+    </statement>
+    <solution>
+        <p>
+
+            The characteristic equation of the homogeneous part is
+                <md>
+                    r^{2}-3r+2  =0,
+                </md>
+                with roots <m>r=1</m> and <m>r=2</m>. Hence the homogeneous solution is <md>y_{h}(t)=c_{1}e^{t}+c_{2}e^{2t}.</md>
+            We guess the particular solution to be of the form
+            <md>
+                y_{p}(t) = A\cos(2t) + B\sin(2t).
+            </md>
+            Substituting this into the differential equation 
+            <md>
+                y_{p}'' - 3y_{p}' + 2y_{p} = 16\sin(2t) + 5\cos(2t).
+            </md>
+            gives
+            <md>
+                [-4A\cos(2t) - 4B\sin(2t)] - 3[-2A\sin(2t) + 2B\cos(2t)] + 2[A\cos(2t) + B\sin(2t)] = 16\sin(2t) + 5\cos(2t).
+            </md>
+            
+        
+        This implies that
+            <md>
+                -4A - 6B + 2A = 5,
+                -4B + 6A + 2B = 16.
+            </md>
+        or equivalently,
+            <md>
+                -2A - 6B = 5,
+                6A - 2B = 16.
+            </md>
+        Solving the linear system for <m>A</m> and <m>B</m> gives that <m>A = -\frac{13}{10}</m> and <m>B = \frac{19}{10}</m>, and hence the particular solution is
+            <md>
+                y_{p}(t) = -\frac{13}{10}\cos(2t) + \frac{19}{10}\sin(2t).
+            </md>
+        
+            The general solution to the differential equation is then
+            <md>
+                y(t) = c_{1}e^{t}+c_{2}e^{2t} - \frac{13}{10}\cos(2t) + \frac{19}{10}\sin(2t).
+            </md>
+              To find the constants <m>c_{1}</m> and <m>c_{2}</m>, we use the initial conditions <m>y(0)=2</m> and <m>y'(0)=5</m>.
+              Substituting <m>t=0</m> into the general solution gives
+              <md>
+                  y(0) = c_{1} + c_{2} - \frac{13}{10} = 2,
+                  y'(0) = c_{1} + 2c_{2} + \frac{19}{5} = 5.
+              </md>
+              Solving this system gives <m>c_{1} = -\frac{13}{10}</m> and <m>c_{2} = \frac{19}{10}</m>.
+              Therefore, the solution to the initial value problem is
+              <md>
+                  y(t) = -\frac{13}{10}e^{t} + \frac{19}{10}e^{2t} - \frac{13}{10}\cos(2t) + \frac{19}{10}\sin(2t).
+              </md>
+
+        </p>
+    </solution>
+</example>
+<exercise>
+    <statement>
+        <p>
+            Find the particular solution <m>y_{p}(t)</m> for the differential equation
+            <md>
+                y'' + 4y = 3\sin(2t) + 5\cos(2t).
+            </md>
+        </p>
+    </statement>
+</exercise>
+    </section>
+
+<section>   
+    <title>The case where <m>g(t)=g_{p_1}(t)+g_{p_2}(t)+g_{p_3}(t)</m></title>
+    
+    <introduction>
+        <p>
+           In this section we discuss how to find the particular solution when the nonhomogeneous term <m>g(t)</m> is a sum\difference of multiple functions of different types, i.e., <m>g(t)=g_{p_1}(t)+g_{p_2}(t)+g_{p_3}(t)</m>.
+        </p>
+    </introduction>
+
+    <theorem>
+        <statement>
+            <p>
+               If <m>y_{p_1}(t)</m> is a particular solution to the differential equation <md>
+                            ay^{\prime\prime}+by^{\prime}+cy=g_{p_1}(t),
+                        </md>
+               and <m>y_{p_2}(t)</m> is a particular solution to the differential equation <md>
+                            ay^{\prime\prime}+by^{\prime}+cy=g_{p_2}(t),
+                        </md>
+               and <m>y_{p_3}(t)</m> is a particular solution to the differential equation <md>
+                            ay^{\prime\prime}+by^{\prime}+cy=g_{p_3}(t),
+                        </md>
+               then <m>y_{p}(t)=y_{p_1}(t)+y_{p_2}(t)+y_{p_3}(t)</m> is a particular solution to the differential equation <md>     
+                            ay^{\prime\prime}+by^{\prime}+cy=g_{p_1}(t)+g_{p_2}(t)+g_{p_3}(t).
+                        </md>
+            </p>
+        </statement>
+    </theorem>
+    <example>
+        <introduction>
+            <p>
+                Consider the differential equation
+                <md>
+                    y'' +5y'+ 4y = 6e^{-4t} + 7t+3\sin(2t) + 5\cos(3t).
+                </md>
+
+            </p>
+        </introduction>
+        <solution>
+            <p>We first determine the homogeneous solution to the differential equation <md>
+                y'' +5y'+ 4y = 0
+            </md>, which is <md>y_{h}(t) = C_{1}e^{-t} + C_{2}e^{-4t}.</md>We can split the nonhomogeneous term into four parts: <m>g_{p_1}(t) = 6e^{-4t}</m>, <m>g_{p_2}(t) = 7t</m>, <m>g_{p_3}(t) = 3\sin(2t)</m>, and <m>g_{p_4}(t) = 5\cos(3t)</m>.
+            Let <m>y_{p_1}(t)</m> be a particular solution to <md>
+                y'' +5y'+ 4y = 6e^{-4t}
+            </md>, then <m>y_{p_1}(t)=Ate^{-4t}</m>.</p>
+            <p>Let <m>y_{p_2}(t)</m> be a particular solution to <md>
+                y'' +5y'+ 4y = 7t
+            </md>, then <m>y_{p_2}(t)=Bt+C</m>.</p>
+            <p>Let <m>y_{p_3}(t)</m> be a particular solution to <md>
+                y'' +5y'+ 4y = 3\sin(2t)
+            </md>, then <m>y_{p_3}(t)=D\sin(2t)+E\cos(2t)</m>.</p>
+            <p>Let <m>y_{p_4}(t)</m> be a particular solution to <md>
+                y'' +5y'+ 4y = 5\cos(3t)
+            </md>, then <m>y_{p_4}(t)=F\cos(3t)+G\sin(3t)</m>.</p>
+            <p>One we identify all four particular solutions, we can assemble  <md>y_{p}(t) = y_{p_1}(t) + y_{p_2}(t) + y_{p_3}(t) + y_{p_4}(t)</md> is a particular solution to the original differential equation.</p>
+            <p>Finally assemble the general solution to the original differential equation as <md>y(t) = y_{h}(t) + y_{p}(t)</md>.</p>
+        </solution>
+    </example>
+</section>
+<section>
+<title>Cases where <m>g(t)</m> is the product of elementary functions</title>
+
+<table>
+    <title>Particular solution cases</title>
+    <tabular halign="center" top="major" bottom="major" left="major" right="major" row="minor" column="minor">
+        <row header="yes" bottom="minor">
+            <cell>Type</cell>
+            <cell><m>g(t)</m></cell>
+            <cell><m>y_p(t)</m> form</cell>
+        </row>
+        <row>
+            <cell>Exponential</cell>
+            <cell><m>e^{\alpha t}</m></cell>
+            <cell><m>A\cdot t^k\cdot e^{\alpha t}</m></cell>
+        </row>
+        <row>
+            <cell>Polynomial</cell>
+            <cell><m>P_n(t)</m></cell>
+            <cell><m>t^k\cdot Q_n(t)</m></cell>
+        </row>
+        <row>
+            <cell>Sine/Cosine</cell>
+            <cell><m>\sin(\beta t)</m> or <m>\cos(\beta t)</m></cell>
+            <cell><m>t^k\cdot (A\sin(\beta t) + B\cos(\beta t))</m></cell>
+        </row>
+        <row>
+            <cell>Exp*Polyn </cell>
+            <cell><m>P_n(t)e^{\alpha t}</m> </cell>
+            <cell><m>t^k\cdot Q_n(t)e^{\alpha t}</m> </cell>
+        </row>
+        <row>
+            <cell>Polyn*Sinusoidal</cell>
+            <cell><m>P_n(t)\sin(\beta t)</m> or <m>P_n(t)\cos(\beta t)</m></cell>
+            <cell><m>t^k\cdot (Q_n(t)\sin(\beta t) + R_n(t)\cos(\beta t))</m></cell>
+        </row>
+        <row>
+            <cell>Exp*Sinusoidal</cell>
+            <cell><m>e^{\alpha t}\sin(\beta t)</m> or <m>e^{\alpha t}\cos(\beta t)</m></cell>
+            <cell><m>t^k\cdot e^{\alpha t}(A\sin(\beta t) + B\cos(\beta t))</m></cell>
+        </row>
+        <row>
+            <cell>Exp*Polyn*Sinusoidal</cell>
+            <cell><m>P_n(t)e^{\alpha t}\sin(\beta t)</m> or <m>P_n(t)e^{\alpha t}\cos(\beta t)</m></cell>
+            <cell><m>t^k\cdot e^{\alpha t}(Q_n(t)\sin(\beta t) + R_n(t)\cos(\beta t))</m></cell>
+        </row>
+    </tabular>
+</table>
+<exercise>
+<introduction>
+    <p>
+        Write down the form of the particular solution to
+                <md>
+                    ay^{\prime\prime}+by^{\prime}+cy=g(t).
+                </md>
+                for the following <m>g(t)</m> 's.
+    </p>
+</introduction>
+<task>
+<p>
+    <m>g(t)=3\cos(3t)+5\sin(6t).</m>
+</p>
+</task>
+
+<task>
+    <statement>
+        <p>
+            <m>g(t)=e^{5t}+5.</m>
+        </p>
+    </statement>
+</task>
+
+<task>
+    <statement>
+        <p>
+           <m>g(t)=10e^{6t}+5te^{6t}-310e^{2t}.</m> 
+        </p>
+    </statement>
+</task>
+
+<task>
+    <statement>
+        <p>
+           <m>g(t)=5t^{2}\cos(3t)+e^{5t}\sin(6t).</m>
+        </p>
+    </statement>
+</task>
+<task>
+    <statement>
+        <p>
+          <m>y^{\prime\prime}+6y^{\prime}+9y=e^{-3t}(4t^{2}-5t+2).</m>  
+        </p>
+    </statement>
+</task>
+<task>
+    <statement>
+        <p>
+                            <m>y^{\prime\prime}-25y=(4t^2-5t+2)e^{5t}
+                +\cos(5t)-t\sin(5t).</m>
+        </p>
+    </statement>
+</task>
+<task>
+    <statement>
+        <p>
+            <m>y^{\prime\prime}+25y=(4t^{2}-5t+2)\cos(5t).</m>
+        </p>
+    </statement>
+</task>
+<task>
+    <statement>
+        <p>
+          <m>y^{\prime\prime}-4y^{\prime}+13y=(4t^{2}-5t+2)e^{2t}\sin(3t).</m>  
+        </p>
+    </statement>
+</task>
+    
+</exercise>
+    </section>
+</worksheet>
