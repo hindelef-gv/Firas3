@@ -1,0 +1,60 @@
+<worksheet>
+  <title>Homework 3</title>
+  <introduction>
+    <p>
+      <alert>Instruction:</alert> 
+      This is a   group assignment. You may choose your partner(s) up to no more than four people per group. You may use any technology tool for algebra related steps.  
+      </p>
+
+  </introduction>
+<exercise>
+<statement>
+<p>
+Section 4.1: # 26. 
+<md>
+    \frac{d^{2}y}{dt^{2}}+4y=2e^{-2t},\quad\quad\quad y(0)=0, y^{\prime}(0)=0.
+</md>
+    </p>
+    </statement>
+</exercise>
+
+
+<exercise>
+    <statement>
+        <p>
+            Section 4.1: # 38.
+            <md>
+                            \frac{d^{2}y}{dt^{2}}+3\frac{dy}{dt}+2y=e^{-t}-4,\quad\quad\quad y(0)=0, y^{\prime}(0)=0.
+                        </md>
+        </p>
+    </statement>
+</exercise>
+<exercise>
+    <statement>
+        <p>
+            <p>
+                            Section 4.1: #40.
+                        
+                            <md>
+                                \frac{d^{2}y}{dt^{2}}+4y=6+t^{2}+e^{t},\quad\quad\quad y(0)=0, y^{\prime}(0)=0.
+                            </md>
+                        </p>
+        </p>
+    </statement>
+</exercise>
+<exercise>
+    <statement>
+        <p>
+         <p>
+                         Section 4.3: #19.
+                     </p>
+         
+                     <p>
+                         <md>
+                             \frac{d^{2}y}{dt^{2}}+12y=3\cos(4t)+2\sin(t),\quad\quad\quad y(0)=0, y^{\prime}(0)=0.
+                         </md>
+                     </p>   
+        </p>
+    </statement>
+</exercise>
+  </worksheet>
