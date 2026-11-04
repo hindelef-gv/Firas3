@@ -1306,67 +1306,13 @@ var ptx_lunr_docs = [
   "body": "   Section 4.3: #19.       "
 },
 {
-  "id": "ch-learning-targets-assessments-2",
+  "id": "ws-LTlistF26",
   "level": "1",
-  "url": "ch-learning-targets-assessments-2.html",
+  "url": "ws-LTlistF26.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Checkpoint 1",
-  "body": " Checkpoint 1    Slope fields analysis  Applications of differential equations  Separable equations  Integrating factor  Exact Equations      Consider the population model where is the population at time      For which values of is the population in equilibrium?      For which values of is the population increasing and decreasing? Explain your answer in one sentence.      For which values of is the population graph concave upwards and downwards? Explain your answer in one sentence.      Sketch the rate vs solution curve, showing the equilibrium solutions and values where inflection points can occur. Roughly sketch a possible graph of a solution where is in each region of you specified in the previous parts.       Suppose that you have a water tank that holds 100 gallons of water. A briny solution , which contains 20 grams of salt per gallon, enters the tank at a rate of 3 gallons per minute. Another briny solution , which contains 14 grams of salt per gallon, simultaneously enters the tank at the rate of 7 gallons per minute. At the same time, the solution is well mixed, and water is pumped out of the tank at the rate of 10 gallons per minute.     Since 10 gallons enters the tank every minute and 10 gallons leaves every minute, what can you conclude about the volume of water in the tank?      How many grams of salt enters the tank every minute from both solutions?      Suppose that denotes the number of grams of salt in the tank in minute . How many grams are there in each gallon in minute ?      Since water leave the tank at 10 gallons per minute, how many grams of salt leave the tank each minute?      Write a differential equation that expresses the total rate of change in .      Identify any equilibrium solutions and determine whether they are stable or unstable. [A Stable Equilibrium solution means that as becomes large, approaches that solution].      Suppose that there is initially no salt in the tank (i.e. ). Find the amount of salt in minute (i.e. solve the differential equation from part (e))      What happens to after a very long time?    Hint: See page 32 in your textbook.        Solve the initial value problem. , and .      Solve the initial value problem. , and .      Solve the initial value problem. , and .    "
-},
-{
-  "id": "ch-learning-targets-assessments-2-2",
-  "level": "2",
-  "url": "ch-learning-targets-assessments-2.html#ch-learning-targets-assessments-2-2",
-  "type": "Objectives",
-  "number": "",
-  "title": "",
-  "body": "  Slope fields analysis  Applications of differential equations  Separable equations  Integrating factor  Exact Equations   "
-},
-{
-  "id": "ch-learning-targets-assessments-2-3",
-  "level": "2",
-  "url": "ch-learning-targets-assessments-2.html#ch-learning-targets-assessments-2-3",
-  "type": "Worksheet Exercise",
-  "number": "1",
-  "title": "",
-  "body": "  Consider the population model where is the population at time      For which values of is the population in equilibrium?      For which values of is the population increasing and decreasing? Explain your answer in one sentence.      For which values of is the population graph concave upwards and downwards? Explain your answer in one sentence.      Sketch the rate vs solution curve, showing the equilibrium solutions and values where inflection points can occur. Roughly sketch a possible graph of a solution where is in each region of you specified in the previous parts.    "
-},
-{
-  "id": "ch-learning-targets-assessments-2-4",
-  "level": "2",
-  "url": "ch-learning-targets-assessments-2.html#ch-learning-targets-assessments-2-4",
-  "type": "Worksheet Exercise",
-  "number": "2",
-  "title": "",
-  "body": "  Suppose that you have a water tank that holds 100 gallons of water. A briny solution , which contains 20 grams of salt per gallon, enters the tank at a rate of 3 gallons per minute. Another briny solution , which contains 14 grams of salt per gallon, simultaneously enters the tank at the rate of 7 gallons per minute. At the same time, the solution is well mixed, and water is pumped out of the tank at the rate of 10 gallons per minute.     Since 10 gallons enters the tank every minute and 10 gallons leaves every minute, what can you conclude about the volume of water in the tank?      How many grams of salt enters the tank every minute from both solutions?      Suppose that denotes the number of grams of salt in the tank in minute . How many grams are there in each gallon in minute ?      Since water leave the tank at 10 gallons per minute, how many grams of salt leave the tank each minute?      Write a differential equation that expresses the total rate of change in .      Identify any equilibrium solutions and determine whether they are stable or unstable. [A Stable Equilibrium solution means that as becomes large, approaches that solution].      Suppose that there is initially no salt in the tank (i.e. ). Find the amount of salt in minute (i.e. solve the differential equation from part (e))      What happens to after a very long time?    Hint: See page 32 in your textbook.     "
-},
-{
-  "id": "ch-learning-targets-assessments-2-5",
-  "level": "2",
-  "url": "ch-learning-targets-assessments-2.html#ch-learning-targets-assessments-2-5",
-  "type": "Worksheet Exercise",
-  "number": "3",
-  "title": "",
-  "body": "  Solve the initial value problem. , and .   "
-},
-{
-  "id": "ch-learning-targets-assessments-2-6",
-  "level": "2",
-  "url": "ch-learning-targets-assessments-2.html#ch-learning-targets-assessments-2-6",
-  "type": "Worksheet Exercise",
-  "number": "4",
-  "title": "",
-  "body": "  Solve the initial value problem. , and .   "
-},
-{
-  "id": "ch-learning-targets-assessments-2-7",
-  "level": "2",
-  "url": "ch-learning-targets-assessments-2.html#ch-learning-targets-assessments-2-7",
-  "type": "Worksheet Exercise",
-  "number": "5",
-  "title": "",
-  "body": "  Solve the initial value problem. , and .   "
+  "title": "Learning Targets",
+  "body": " Learning Targets   The following is a list of main topics for the mastery-based testing policy. Exam 1 will test topics in Group 1. Exam 2 will test topics from Groups 1 and 2. Exam 3 will test topics in Groups 1, 2, and 3. Final Exam will test all topic groups.    [LT1] Slope fields analysis  [LT2] Applications of differential equations  [LT3] Separable equations  [LT4] Integrating factor  [LT5] Exact Equations  [LT6] Euler's method  [LT7] Modeling first order systems.  [LT8] Phase portrait for linear systems with real eigenvalues.  [LT9] Phase portrait for linear systems with complex eigenvalues.  [LT10] Second order homogeneous differential equations  [LT11] Second order non homogeneous differential equations  [LT12] Solving IVP with the Laplace transform.  [LT13] Laplace transform of discontinuities functions.  [LT14] Laplace transforms for sin\\cos functions.  [LT15] Using Shifting Theorems.  Laplace transform for delta function.  [LT16] Series Solution.  [LT17] The Runge-Kutta Method.   "
 },
 {
   "id": "ch-learning-targets-assessments-3",
@@ -1374,8 +1320,8 @@ var ptx_lunr_docs = [
   "url": "ch-learning-targets-assessments-3.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Checkpoint 2",
-  "body": " Checkpoint 2    [LT1] Slope fields analysis  [LT2] Applications of differential equations  [LT3] Separable equations  [LT4] Integrating factor  [LT5] Exact Equations  [LT6] Euler's method  [LT7] Modeling first order systems.  [LT8] Phase portrait for linear systems with real eigenvalues.  [LT9] Phase portrait for linear systems with complex eigenvalues.  [LT10] Second order homogeneous differential equations   [LT1]   [LT1] Consider the population model where is the population at time .     For which values of is the population in equilibrium?      For which values of is the population increasing and decreasing? Explain your answer in one sentence.      For which values of is the population graph concave upwards and downwards? Explain your answer in one sentence.      Sketch the rate vs solution curve, showing the equilibrium solutions and values where inflection points can occur. Roughly sketch a possible graph of a solution where is in each region of you specified in the previous parts .    [LT2]   [LT12] Suppose that you have a water tank that holds 1000 gallons of water. A briny solution , which contains 30 grams of salt per gallon, enters the tank at a rate of 30 gallons per minute. Another briny solution , which contains 50 grams of salt per gallon, simultaneously enters the tank at the rate of 70 gallons per minute. At the same time, the solution is well mixed, and water is pumped out of the tank at the rate of 100 gallons per minute.     Since 100 gallons enters the tank every minute and 100 gallons leaves every minute, what can you conclude about the volume of water in the tank?      How many grams of salt enters the tank every minute from both solutions?      Suppose that denotes the number of grams of salt in the tank in minute . How many grams are there in each gallon in minute ?      Since water leave the tank at 100 gallons per minute, how many grams of salt leave the tank each minute?      Write a differential equation that expresses the total rate of change in .      Identify any equilibrium solutions and determine whether they are stable or unstable. [A Stable Equilibrium solution means that as becomes large, approaches that solution].      Suppose that there is initially no salt in the tank (i.e. ). Find the amount of salt in minute (i.e. solve the differential equation from part (e))      What happens to after a very long time?    Hint: See page 32 in your textbook.     [LT3]   [LT3] Solve the initial value problem. , and .   [LT4]   [LT4] Solve the initial value problem. , and .   [LT5]   [LT5] Solve the initial value problem. and    [LT6]   [LT7] The spread of the disease gonorrhea in a sexually active heterosexual population has been modeled with a nonlinear system of differential equations. Consider a population consisting of 1000 females and 1000 males, and let and denote the number of infected females and males, respectively, at time , which is measured in days. Let us make the following assumptions regarding the rates of change of these two quantities.    In the absence of infected males (i.e. ), the number of infected females decays exponentially with parameter (i.e. cure rate ) . In the presence of infected males (i.e. ), the rate of change of the number of infected females increases by an amount directly proportional to the product of the number of infected males and the number of uninfected females. The corresponding constant of proportionality is given by .    In the absence of infected females (i.e. ), the number of infected males decays exponentially with parameter (i.e. cure rate ) . In the presence of infected females (i.e. ),, the rate of change of the number of infected males increases by an amount directly proportional to the product of the number of infected females and the number of uninfected males. The corresponding constant of proportionality is given by .       Set up a system of nonlinear differential equations based upon the preceding assumptions.      [LT6] Assume there are currently 200 infected females and 100 infected males in the population. Use Euler's method with a step size of to estimate, to the nearest tenth of a person, the numbers of infected females and males after 10 days. Attach a copy of your spread sheet including a graph of the solution.      Compute the equilibrium values of the system.      Assuming there are currently 200 infected females and 100 infected males in the population, what is likely to happen to the number of infected females and males as time goes on, i.e. as ? Support your answer with a graph.    [LT8]   [LT8] Consider the linear system where and where is some two by two matrix having eigenvectors and . The figure below illustrates the eigenvectors, and . Superimposed on this graph are phase portraits starting from two initial values, and .              \\\\vec{v_1}    \\\\vec{v_2}    \\\\vec{Y_1}    \\\\vec{Y_2}      The graph shows the eigenvectors and and the phase portraits starting from the initial values and .\"      Suppose you are told that the eigenvalues of are given by and . Determine which eigenvalue corresponds to which eigenvector. Briefly explain your reasoning.      Write down the general solution of the system.      Determine the formulas for the solution functions and when the initial value is given by .       On the graph, sketch the phase portrait starting from the initial value . Your curve should accurately convey the long-term behavior of the solution.       [LT9] For the system      Find the eigenvalues of and their corresponding eigenvectors.      Expand the general solution in the form       Find the solution with initial condition       Plot the phase portrait vs and also plot and . Classify the type of the solution.       [LT10] Find the general solution for the following homogeneous equations.      , and .       , and .       , and .     "
+  "title": "Checkpoint 1",
+  "body": " Checkpoint 1    Slope fields analysis  Applications of differential equations  Separable equations  Integrating factor  Exact Equations      Consider the population model where is the population at time      For which values of is the population in equilibrium?      For which values of is the population increasing and decreasing? Explain your answer in one sentence.      For which values of is the population graph concave upwards and downwards? Explain your answer in one sentence.      Sketch the rate vs solution curve, showing the equilibrium solutions and values where inflection points can occur. Roughly sketch a possible graph of a solution where is in each region of you specified in the previous parts.       Suppose that you have a water tank that holds 100 gallons of water. A briny solution , which contains 20 grams of salt per gallon, enters the tank at a rate of 3 gallons per minute. Another briny solution , which contains 14 grams of salt per gallon, simultaneously enters the tank at the rate of 7 gallons per minute. At the same time, the solution is well mixed, and water is pumped out of the tank at the rate of 10 gallons per minute.     Since 10 gallons enters the tank every minute and 10 gallons leaves every minute, what can you conclude about the volume of water in the tank?      How many grams of salt enters the tank every minute from both solutions?      Suppose that denotes the number of grams of salt in the tank in minute . How many grams are there in each gallon in minute ?      Since water leave the tank at 10 gallons per minute, how many grams of salt leave the tank each minute?      Write a differential equation that expresses the total rate of change in .      Identify any equilibrium solutions and determine whether they are stable or unstable. [A Stable Equilibrium solution means that as becomes large, approaches that solution].      Suppose that there is initially no salt in the tank (i.e. ). Find the amount of salt in minute (i.e. solve the differential equation from part (e))      What happens to after a very long time?    Hint: See page 32 in your textbook.        Solve the initial value problem. , and .      Solve the initial value problem. , and .      Solve the initial value problem. , and .    "
 },
 {
   "id": "ch-learning-targets-assessments-3-2",
@@ -1384,7 +1330,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "",
   "title": "",
-  "body": "  [LT1] Slope fields analysis  [LT2] Applications of differential equations  [LT3] Separable equations  [LT4] Integrating factor  [LT5] Exact Equations  [LT6] Euler's method  [LT7] Modeling first order systems.  [LT8] Phase portrait for linear systems with real eigenvalues.  [LT9] Phase portrait for linear systems with complex eigenvalues.  [LT10] Second order homogeneous differential equations   "
+  "body": "  Slope fields analysis  Applications of differential equations  Separable equations  Integrating factor  Exact Equations   "
 },
 {
   "id": "ch-learning-targets-assessments-3-3",
@@ -1393,7 +1339,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  [LT1] Consider the population model where is the population at time .     For which values of is the population in equilibrium?      For which values of is the population increasing and decreasing? Explain your answer in one sentence.      For which values of is the population graph concave upwards and downwards? Explain your answer in one sentence.      Sketch the rate vs solution curve, showing the equilibrium solutions and values where inflection points can occur. Roughly sketch a possible graph of a solution where is in each region of you specified in the previous parts .    "
+  "body": "  Consider the population model where is the population at time      For which values of is the population in equilibrium?      For which values of is the population increasing and decreasing? Explain your answer in one sentence.      For which values of is the population graph concave upwards and downwards? Explain your answer in one sentence.      Sketch the rate vs solution curve, showing the equilibrium solutions and values where inflection points can occur. Roughly sketch a possible graph of a solution where is in each region of you specified in the previous parts.    "
 },
 {
   "id": "ch-learning-targets-assessments-3-4",
@@ -1402,7 +1348,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  [LT12] Suppose that you have a water tank that holds 1000 gallons of water. A briny solution , which contains 30 grams of salt per gallon, enters the tank at a rate of 30 gallons per minute. Another briny solution , which contains 50 grams of salt per gallon, simultaneously enters the tank at the rate of 70 gallons per minute. At the same time, the solution is well mixed, and water is pumped out of the tank at the rate of 100 gallons per minute.     Since 100 gallons enters the tank every minute and 100 gallons leaves every minute, what can you conclude about the volume of water in the tank?      How many grams of salt enters the tank every minute from both solutions?      Suppose that denotes the number of grams of salt in the tank in minute . How many grams are there in each gallon in minute ?      Since water leave the tank at 100 gallons per minute, how many grams of salt leave the tank each minute?      Write a differential equation that expresses the total rate of change in .      Identify any equilibrium solutions and determine whether they are stable or unstable. [A Stable Equilibrium solution means that as becomes large, approaches that solution].      Suppose that there is initially no salt in the tank (i.e. ). Find the amount of salt in minute (i.e. solve the differential equation from part (e))      What happens to after a very long time?    Hint: See page 32 in your textbook.     "
+  "body": "  Suppose that you have a water tank that holds 100 gallons of water. A briny solution , which contains 20 grams of salt per gallon, enters the tank at a rate of 3 gallons per minute. Another briny solution , which contains 14 grams of salt per gallon, simultaneously enters the tank at the rate of 7 gallons per minute. At the same time, the solution is well mixed, and water is pumped out of the tank at the rate of 10 gallons per minute.     Since 10 gallons enters the tank every minute and 10 gallons leaves every minute, what can you conclude about the volume of water in the tank?      How many grams of salt enters the tank every minute from both solutions?      Suppose that denotes the number of grams of salt in the tank in minute . How many grams are there in each gallon in minute ?      Since water leave the tank at 10 gallons per minute, how many grams of salt leave the tank each minute?      Write a differential equation that expresses the total rate of change in .      Identify any equilibrium solutions and determine whether they are stable or unstable. [A Stable Equilibrium solution means that as becomes large, approaches that solution].      Suppose that there is initially no salt in the tank (i.e. ). Find the amount of salt in minute (i.e. solve the differential equation from part (e))      What happens to after a very long time?    Hint: See page 32 in your textbook.     "
 },
 {
   "id": "ch-learning-targets-assessments-3-5",
@@ -1411,7 +1357,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  [LT3] Solve the initial value problem. , and .   "
+  "body": "  Solve the initial value problem. , and .   "
 },
 {
   "id": "ch-learning-targets-assessments-3-6",
@@ -1420,7 +1366,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  [LT4] Solve the initial value problem. , and .   "
+  "body": "  Solve the initial value problem. , and .   "
 },
 {
   "id": "ch-learning-targets-assessments-3-7",
@@ -1429,39 +1375,102 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
+  "body": "  Solve the initial value problem. , and .   "
+},
+{
+  "id": "ch-learning-targets-assessments-4",
+  "level": "1",
+  "url": "ch-learning-targets-assessments-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Checkpoint 2",
+  "body": " Checkpoint 2    [LT1] Slope fields analysis  [LT2] Applications of differential equations  [LT3] Separable equations  [LT4] Integrating factor  [LT5] Exact Equations  [LT6] Euler's method  [LT7] Modeling first order systems.  [LT8] Phase portrait for linear systems with real eigenvalues.  [LT9] Phase portrait for linear systems with complex eigenvalues.  [LT10] Second order homogeneous differential equations   [LT1]   [LT1] Consider the population model where is the population at time .     For which values of is the population in equilibrium?      For which values of is the population increasing and decreasing? Explain your answer in one sentence.      For which values of is the population graph concave upwards and downwards? Explain your answer in one sentence.      Sketch the rate vs solution curve, showing the equilibrium solutions and values where inflection points can occur. Roughly sketch a possible graph of a solution where is in each region of you specified in the previous parts .    [LT2]   [LT12] Suppose that you have a water tank that holds 1000 gallons of water. A briny solution , which contains 30 grams of salt per gallon, enters the tank at a rate of 30 gallons per minute. Another briny solution , which contains 50 grams of salt per gallon, simultaneously enters the tank at the rate of 70 gallons per minute. At the same time, the solution is well mixed, and water is pumped out of the tank at the rate of 100 gallons per minute.     Since 100 gallons enters the tank every minute and 100 gallons leaves every minute, what can you conclude about the volume of water in the tank?      How many grams of salt enters the tank every minute from both solutions?      Suppose that denotes the number of grams of salt in the tank in minute . How many grams are there in each gallon in minute ?      Since water leave the tank at 100 gallons per minute, how many grams of salt leave the tank each minute?      Write a differential equation that expresses the total rate of change in .      Identify any equilibrium solutions and determine whether they are stable or unstable. [A Stable Equilibrium solution means that as becomes large, approaches that solution].      Suppose that there is initially no salt in the tank (i.e. ). Find the amount of salt in minute (i.e. solve the differential equation from part (e))      What happens to after a very long time?    Hint: See page 32 in your textbook.     [LT3]   [LT3] Solve the initial value problem. , and .   [LT4]   [LT4] Solve the initial value problem. , and .   [LT5]   [LT5] Solve the initial value problem. and    [LT6]   [LT7] The spread of the disease gonorrhea in a sexually active heterosexual population has been modeled with a nonlinear system of differential equations. Consider a population consisting of 1000 females and 1000 males, and let and denote the number of infected females and males, respectively, at time , which is measured in days. Let us make the following assumptions regarding the rates of change of these two quantities.    In the absence of infected males (i.e. ), the number of infected females decays exponentially with parameter (i.e. cure rate ) . In the presence of infected males (i.e. ), the rate of change of the number of infected females increases by an amount directly proportional to the product of the number of infected males and the number of uninfected females. The corresponding constant of proportionality is given by .    In the absence of infected females (i.e. ), the number of infected males decays exponentially with parameter (i.e. cure rate ) . In the presence of infected females (i.e. ),, the rate of change of the number of infected males increases by an amount directly proportional to the product of the number of infected females and the number of uninfected males. The corresponding constant of proportionality is given by .       Set up a system of nonlinear differential equations based upon the preceding assumptions.      [LT6] Assume there are currently 200 infected females and 100 infected males in the population. Use Euler's method with a step size of to estimate, to the nearest tenth of a person, the numbers of infected females and males after 10 days. Attach a copy of your spread sheet including a graph of the solution.      Compute the equilibrium values of the system.      Assuming there are currently 200 infected females and 100 infected males in the population, what is likely to happen to the number of infected females and males as time goes on, i.e. as ? Support your answer with a graph.    [LT8]   [LT8] Consider the linear system where and where is some two by two matrix having eigenvectors and . The figure below illustrates the eigenvectors, and . Superimposed on this graph are phase portraits starting from two initial values, and .              \\\\vec{v_1}    \\\\vec{v_2}    \\\\vec{Y_1}    \\\\vec{Y_2}      The graph shows the eigenvectors and and the phase portraits starting from the initial values and .\"      Suppose you are told that the eigenvalues of are given by and . Determine which eigenvalue corresponds to which eigenvector. Briefly explain your reasoning.      Write down the general solution of the system.      Determine the formulas for the solution functions and when the initial value is given by .       On the graph, sketch the phase portrait starting from the initial value . Your curve should accurately convey the long-term behavior of the solution.       [LT9] For the system      Find the eigenvalues of and their corresponding eigenvectors.      Expand the general solution in the form       Find the solution with initial condition       Plot the phase portrait vs and also plot and . Classify the type of the solution.       [LT10] Find the general solution for the following homogeneous equations.      , and .       , and .       , and .     "
+},
+{
+  "id": "ch-learning-targets-assessments-4-2",
+  "level": "2",
+  "url": "ch-learning-targets-assessments-4.html#ch-learning-targets-assessments-4-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  [LT1] Slope fields analysis  [LT2] Applications of differential equations  [LT3] Separable equations  [LT4] Integrating factor  [LT5] Exact Equations  [LT6] Euler's method  [LT7] Modeling first order systems.  [LT8] Phase portrait for linear systems with real eigenvalues.  [LT9] Phase portrait for linear systems with complex eigenvalues.  [LT10] Second order homogeneous differential equations   "
+},
+{
+  "id": "ch-learning-targets-assessments-4-3",
+  "level": "2",
+  "url": "ch-learning-targets-assessments-4.html#ch-learning-targets-assessments-4-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  [LT1] Consider the population model where is the population at time .     For which values of is the population in equilibrium?      For which values of is the population increasing and decreasing? Explain your answer in one sentence.      For which values of is the population graph concave upwards and downwards? Explain your answer in one sentence.      Sketch the rate vs solution curve, showing the equilibrium solutions and values where inflection points can occur. Roughly sketch a possible graph of a solution where is in each region of you specified in the previous parts .    "
+},
+{
+  "id": "ch-learning-targets-assessments-4-4",
+  "level": "2",
+  "url": "ch-learning-targets-assessments-4.html#ch-learning-targets-assessments-4-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  [LT12] Suppose that you have a water tank that holds 1000 gallons of water. A briny solution , which contains 30 grams of salt per gallon, enters the tank at a rate of 30 gallons per minute. Another briny solution , which contains 50 grams of salt per gallon, simultaneously enters the tank at the rate of 70 gallons per minute. At the same time, the solution is well mixed, and water is pumped out of the tank at the rate of 100 gallons per minute.     Since 100 gallons enters the tank every minute and 100 gallons leaves every minute, what can you conclude about the volume of water in the tank?      How many grams of salt enters the tank every minute from both solutions?      Suppose that denotes the number of grams of salt in the tank in minute . How many grams are there in each gallon in minute ?      Since water leave the tank at 100 gallons per minute, how many grams of salt leave the tank each minute?      Write a differential equation that expresses the total rate of change in .      Identify any equilibrium solutions and determine whether they are stable or unstable. [A Stable Equilibrium solution means that as becomes large, approaches that solution].      Suppose that there is initially no salt in the tank (i.e. ). Find the amount of salt in minute (i.e. solve the differential equation from part (e))      What happens to after a very long time?    Hint: See page 32 in your textbook.     "
+},
+{
+  "id": "ch-learning-targets-assessments-4-5",
+  "level": "2",
+  "url": "ch-learning-targets-assessments-4.html#ch-learning-targets-assessments-4-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  [LT3] Solve the initial value problem. , and .   "
+},
+{
+  "id": "ch-learning-targets-assessments-4-6",
+  "level": "2",
+  "url": "ch-learning-targets-assessments-4.html#ch-learning-targets-assessments-4-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  [LT4] Solve the initial value problem. , and .   "
+},
+{
+  "id": "ch-learning-targets-assessments-4-7",
+  "level": "2",
+  "url": "ch-learning-targets-assessments-4.html#ch-learning-targets-assessments-4-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
   "body": "  [LT5] Solve the initial value problem. and    "
 },
 {
-  "id": "ch-learning-targets-assessments-3-8",
+  "id": "ch-learning-targets-assessments-4-8",
   "level": "2",
-  "url": "ch-learning-targets-assessments-3.html#ch-learning-targets-assessments-3-8",
+  "url": "ch-learning-targets-assessments-4.html#ch-learning-targets-assessments-4-8",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "",
   "body": "  [LT7] The spread of the disease gonorrhea in a sexually active heterosexual population has been modeled with a nonlinear system of differential equations. Consider a population consisting of 1000 females and 1000 males, and let and denote the number of infected females and males, respectively, at time , which is measured in days. Let us make the following assumptions regarding the rates of change of these two quantities.    In the absence of infected males (i.e. ), the number of infected females decays exponentially with parameter (i.e. cure rate ) . In the presence of infected males (i.e. ), the rate of change of the number of infected females increases by an amount directly proportional to the product of the number of infected males and the number of uninfected females. The corresponding constant of proportionality is given by .    In the absence of infected females (i.e. ), the number of infected males decays exponentially with parameter (i.e. cure rate ) . In the presence of infected females (i.e. ),, the rate of change of the number of infected males increases by an amount directly proportional to the product of the number of infected females and the number of uninfected males. The corresponding constant of proportionality is given by .       Set up a system of nonlinear differential equations based upon the preceding assumptions.      [LT6] Assume there are currently 200 infected females and 100 infected males in the population. Use Euler's method with a step size of to estimate, to the nearest tenth of a person, the numbers of infected females and males after 10 days. Attach a copy of your spread sheet including a graph of the solution.      Compute the equilibrium values of the system.      Assuming there are currently 200 infected females and 100 infected males in the population, what is likely to happen to the number of infected females and males as time goes on, i.e. as ? Support your answer with a graph.    "
 },
 {
-  "id": "ch-learning-targets-assessments-3-9",
+  "id": "ch-learning-targets-assessments-4-9",
   "level": "2",
-  "url": "ch-learning-targets-assessments-3.html#ch-learning-targets-assessments-3-9",
+  "url": "ch-learning-targets-assessments-4.html#ch-learning-targets-assessments-4-9",
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "",
   "body": "  [LT8] Consider the linear system where and where is some two by two matrix having eigenvectors and . The figure below illustrates the eigenvectors, and . Superimposed on this graph are phase portraits starting from two initial values, and .              \\\\vec{v_1}    \\\\vec{v_2}    \\\\vec{Y_1}    \\\\vec{Y_2}      The graph shows the eigenvectors and and the phase portraits starting from the initial values and .\"      Suppose you are told that the eigenvalues of are given by and . Determine which eigenvalue corresponds to which eigenvector. Briefly explain your reasoning.      Write down the general solution of the system.      Determine the formulas for the solution functions and when the initial value is given by .       On the graph, sketch the phase portrait starting from the initial value . Your curve should accurately convey the long-term behavior of the solution.    "
 },
 {
-  "id": "ch-learning-targets-assessments-3-10",
+  "id": "ch-learning-targets-assessments-4-10",
   "level": "2",
-  "url": "ch-learning-targets-assessments-3.html#ch-learning-targets-assessments-3-10",
+  "url": "ch-learning-targets-assessments-4.html#ch-learning-targets-assessments-4-10",
   "type": "Worksheet Exercise",
   "number": "8",
   "title": "",
   "body": "  [LT9] For the system      Find the eigenvalues of and their corresponding eigenvectors.      Expand the general solution in the form       Find the solution with initial condition       Plot the phase portrait vs and also plot and . Classify the type of the solution.    "
 },
 {
-  "id": "ch-learning-targets-assessments-3-11",
+  "id": "ch-learning-targets-assessments-4-11",
   "level": "2",
-  "url": "ch-learning-targets-assessments-3.html#ch-learning-targets-assessments-3-11",
+  "url": "ch-learning-targets-assessments-4.html#ch-learning-targets-assessments-4-11",
   "type": "Worksheet Exercise",
   "number": "9",
   "title": "",
