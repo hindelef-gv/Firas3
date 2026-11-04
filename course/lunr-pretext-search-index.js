@@ -955,6 +955,150 @@ var ptx_lunr_docs = [
   "body": " Find the solution for with and .  "
 },
 {
+  "id": "activities-17",
+  "level": "1",
+  "url": "activities-17.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Second order Non-homogeneous differential equations with constant coefficients",
+  "body": " Second order Non-homogeneous differential equations with constant coefficients     Learn how to solve second order non-homogeneous differential equations with constant coefficients using the method of undetermined coefficients.    Particular solution for the case where the non-homogeneous term is exponential function.    Particular solution for the case where the non-homogeneous term is a polynomial function.    Particular solution for the case where the non-homogeneous term is a sinusoidal function.    Particular solution for the case where the non-homogeneous term is a mix of polynomial, exponential, and sinusoidal function.      In this worksheet we will be looking exclusively at linear second order differential equations with constant coefficients where i.e a nonhomogeneous DE.  As discussed before this model shows up in the forced harmonic oscillator. We start by finding the solution for the homogeneous equation As discussed in the previous handout depending on the type of roots of the quadratic equation , we have   Distinct real roots If we have two distinct real roots . In this case the solution is given by     Repeated Roots In the case where , we have one real roots . In this case the solution is given by     Complex Roots In the case where , we have a pair of complex conjugate roots . In this case the solution is given by      Because , we have a particular solution that is determined by the type of the function and the linear dependency with the homogeneous solution . We determine the type of function in each of the three cases below. Once we determine find , the solution of the nonhomogeneous differential equation is given by   We can apply the initial conditions to determine the constants and in the homogeneous solution .    The case where is exponential  In the following sections, we will discuss how to determine the particular solution for exponential functions .    In the case where is an exponential function, the particular solution is also an exponential function of the same form, unless it is a solution to the homogeneous equation. That is, if , then , unless is a solution to the homogeneous equation, in which case we multiply by to get .      Find the general solution of the nonhomogeneous differential equation with initial conditions and .    Consider the differential equation Here, , which is an exponential function. The characteristic equation of the homogeneous part is with roots . Hence the homogeneous solution is Since is not a solution to the homogeneous equation, we guess the particular solution to be of the form Substituting into the differential equation, we get which gives . Therefore, the particular solution is Next, we assemble the general solution of the nonhomogeneous differential equation is   To apply the initial conditions, we substitute into the general solution and its derivative:  Solving this linear system for and gives , and hence the specific solution satisfying the initial conditions is       Find the general solution of the nonhomogeneous differential equation with initial conditions and .    Consider the differential equation Here, , which is an exponential function. The characteristic equation of the homogeneous part is with roots . Hence the homogeneous solution is Since is a solution to the homogeneous equation, we guess the particular solution to be of the form Substituting into the differential equation, we get which gives . Therefore, the particular solution is Next, we assemble the general solution of the nonhomogeneous differential equation is To apply the initial conditions, we substitute into the general solution and its derivative:  Solving this linear system for and gives , and hence the specific solution satisfying the initial conditions is       Find the general solution of the nonhomogeneous differential equation with initial conditions and .    Consider the differential equation Here, , which is an exponential function. Since and are solutions to the homogeneous equation, we guess the particular solution to be of the form Substituting into the differential equation, we get which gives . Therefore, the particular solution is Next, we assemble the general solution of the nonhomogeneous differential equation is To apply the initial conditions, we substitute into the general solution and its derivative:  Solving this linear system for and gives , and hence the specific solution satisfying the initial conditions is       The case where is a polynomial  In the following sections, we will discuss how to determine the particular solution for polynomial functions .    In the case where is a polynomial, the particular solution can be guessed to be a polynomial of the same degree as . That is, if , then we guess , and determine the value of by substituting into the differential equation.      Consider the differential equation with initial conditions and .    The characteristic equation of the homogeneous part is with roots and . Hence the homogeneous solution is Since is a polynomial of degree 2, we guess the particular solution to be of the form Substituting this into the differential equation gives which simplifies to Equating coefficients, we get the system Solving this system gives , and hence the particular solution is The general solution is then Applying the initial conditions and , we get Solving this system gives and , and hence the solution to the initial value problem is       Solve the initial value problem with initial conditions and .      The case where is sinusoidal  In the following sections, we will discuss how to determine the particular solution for sinusoidal functions . That is, when .    In the case where is a sinusoidal function, the particular solution can be guessed to be a linear combination of and . That is, if , then we guess , and determine the value of and by substituting into the differential equation.      Consider the differential equation with initial conditions and .    The characteristic equation of the homogeneous part is with roots and . Hence the homogeneous solution is We guess the particular solution to be of the form Substituting this into the differential equation gives This implies that or equivalently, Solving the linear system for and gives that and , and hence the particular solution is The general solution to the differential equation is then To find the constants and , we use the initial conditions and . Substituting into the general solution gives Solving this system gives and . Therefore, the solution to the initial value problem is       Find the particular solution for the differential equation       The case where   In this section we discuss how to find the particular solution when the nonhomogeneous term is a sum\\difference of multiple functions of different types, i.e., .     If is a particular solution to the differential equation and is a particular solution to the differential equation and is a particular solution to the differential equation then is a particular solution to the differential equation       Consider the differential equation     We first determine the homogeneous solution to the differential equation , which is We can split the nonhomogeneous term into four parts: , , , and . Let be a particular solution to , then .  Let be a particular solution to , then .  Let be a particular solution to , then .  Let be a particular solution to , then .  One we identify all four particular solutions, we can assemble is a particular solution to the original differential equation.  Finally assemble the general solution to the original differential equation as .      Cases where is the product of elementary functions   Particular solution cases    Type   form    Exponential      Polynomial      Sine\/Cosine  or     Exp*Polyn        Polyn*Sinusoidal  or     Exp*Sinusoidal  or     Exp*Polyn*Sinusoidal  or        Write down the form of the particular solution to for the following 's.                                                           "
+},
+{
+  "id": "activities-17-2",
+  "level": "2",
+  "url": "activities-17.html#activities-17-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Learn how to solve second order non-homogeneous differential equations with constant coefficients using the method of undetermined coefficients.    Particular solution for the case where the non-homogeneous term is exponential function.    Particular solution for the case where the non-homogeneous term is a polynomial function.    Particular solution for the case where the non-homogeneous term is a sinusoidal function.    Particular solution for the case where the non-homogeneous term is a mix of polynomial, exponential, and sinusoidal function.    "
+},
+{
+  "id": "activities-17-4-3",
+  "level": "2",
+  "url": "activities-17.html#activities-17-4-3",
+  "type": "Theorem",
+  "number": "43",
+  "title": "",
+  "body": "  In the case where is an exponential function, the particular solution is also an exponential function of the same form, unless it is a solution to the homogeneous equation. That is, if , then , unless is a solution to the homogeneous equation, in which case we multiply by to get .   "
+},
+{
+  "id": "activities-17-4-4",
+  "level": "2",
+  "url": "activities-17.html#activities-17-4-4",
+  "type": "Example",
+  "number": "44",
+  "title": "",
+  "body": "  Find the general solution of the nonhomogeneous differential equation with initial conditions and .    Consider the differential equation Here, , which is an exponential function. The characteristic equation of the homogeneous part is with roots . Hence the homogeneous solution is Since is not a solution to the homogeneous equation, we guess the particular solution to be of the form Substituting into the differential equation, we get which gives . Therefore, the particular solution is Next, we assemble the general solution of the nonhomogeneous differential equation is   To apply the initial conditions, we substitute into the general solution and its derivative:  Solving this linear system for and gives , and hence the specific solution satisfying the initial conditions is    "
+},
+{
+  "id": "activities-17-4-5",
+  "level": "2",
+  "url": "activities-17.html#activities-17-4-5",
+  "type": "Example",
+  "number": "45",
+  "title": "",
+  "body": "  Find the general solution of the nonhomogeneous differential equation with initial conditions and .    Consider the differential equation Here, , which is an exponential function. The characteristic equation of the homogeneous part is with roots . Hence the homogeneous solution is Since is a solution to the homogeneous equation, we guess the particular solution to be of the form Substituting into the differential equation, we get which gives . Therefore, the particular solution is Next, we assemble the general solution of the nonhomogeneous differential equation is To apply the initial conditions, we substitute into the general solution and its derivative:  Solving this linear system for and gives , and hence the specific solution satisfying the initial conditions is    "
+},
+{
+  "id": "activities-17-4-6",
+  "level": "2",
+  "url": "activities-17.html#activities-17-4-6",
+  "type": "Example",
+  "number": "46",
+  "title": "",
+  "body": "  Find the general solution of the nonhomogeneous differential equation with initial conditions and .    Consider the differential equation Here, , which is an exponential function. Since and are solutions to the homogeneous equation, we guess the particular solution to be of the form Substituting into the differential equation, we get which gives . Therefore, the particular solution is Next, we assemble the general solution of the nonhomogeneous differential equation is To apply the initial conditions, we substitute into the general solution and its derivative:  Solving this linear system for and gives , and hence the specific solution satisfying the initial conditions is    "
+},
+{
+  "id": "activities-17-5-3",
+  "level": "2",
+  "url": "activities-17.html#activities-17-5-3",
+  "type": "Theorem",
+  "number": "47",
+  "title": "",
+  "body": "  In the case where is a polynomial, the particular solution can be guessed to be a polynomial of the same degree as . That is, if , then we guess , and determine the value of by substituting into the differential equation.   "
+},
+{
+  "id": "activities-17-5-4",
+  "level": "2",
+  "url": "activities-17.html#activities-17-5-4",
+  "type": "Example",
+  "number": "48",
+  "title": "",
+  "body": "  Consider the differential equation with initial conditions and .    The characteristic equation of the homogeneous part is with roots and . Hence the homogeneous solution is Since is a polynomial of degree 2, we guess the particular solution to be of the form Substituting this into the differential equation gives which simplifies to Equating coefficients, we get the system Solving this system gives , and hence the particular solution is The general solution is then Applying the initial conditions and , we get Solving this system gives and , and hence the solution to the initial value problem is    "
+},
+{
+  "id": "activities-17-5-5",
+  "level": "2",
+  "url": "activities-17.html#activities-17-5-5",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Solve the initial value problem with initial conditions and .   "
+},
+{
+  "id": "activities-17-6-3",
+  "level": "2",
+  "url": "activities-17.html#activities-17-6-3",
+  "type": "Theorem",
+  "number": "50",
+  "title": "",
+  "body": "  In the case where is a sinusoidal function, the particular solution can be guessed to be a linear combination of and . That is, if , then we guess , and determine the value of and by substituting into the differential equation.   "
+},
+{
+  "id": "activities-17-6-4",
+  "level": "2",
+  "url": "activities-17.html#activities-17-6-4",
+  "type": "Example",
+  "number": "51",
+  "title": "",
+  "body": "  Consider the differential equation with initial conditions and .    The characteristic equation of the homogeneous part is with roots and . Hence the homogeneous solution is We guess the particular solution to be of the form Substituting this into the differential equation gives This implies that or equivalently, Solving the linear system for and gives that and , and hence the particular solution is The general solution to the differential equation is then To find the constants and , we use the initial conditions and . Substituting into the general solution gives Solving this system gives and . Therefore, the solution to the initial value problem is    "
+},
+{
+  "id": "activities-17-6-5",
+  "level": "2",
+  "url": "activities-17.html#activities-17-6-5",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Find the particular solution for the differential equation    "
+},
+{
+  "id": "activities-17-7-3",
+  "level": "2",
+  "url": "activities-17.html#activities-17-7-3",
+  "type": "Theorem",
+  "number": "53",
+  "title": "",
+  "body": "  If is a particular solution to the differential equation and is a particular solution to the differential equation and is a particular solution to the differential equation then is a particular solution to the differential equation    "
+},
+{
+  "id": "activities-17-7-4",
+  "level": "2",
+  "url": "activities-17.html#activities-17-7-4",
+  "type": "Example",
+  "number": "54",
+  "title": "",
+  "body": "  Consider the differential equation     We first determine the homogeneous solution to the differential equation , which is We can split the nonhomogeneous term into four parts: , , , and . Let be a particular solution to , then .  Let be a particular solution to , then .  Let be a particular solution to , then .  Let be a particular solution to , then .  One we identify all four particular solutions, we can assemble is a particular solution to the original differential equation.  Finally assemble the general solution to the original differential equation as .   "
+},
+{
+  "id": "activities-17-8-2",
+  "level": "2",
+  "url": "activities-17.html#activities-17-8-2",
+  "type": "Table",
+  "number": "55",
+  "title": "Particular solution cases",
+  "body": " Particular solution cases    Type   form    Exponential      Polynomial      Sine\/Cosine  or     Exp*Polyn        Polyn*Sinusoidal  or     Exp*Sinusoidal  or     Exp*Polyn*Sinusoidal  or     "
+},
+{
+  "id": "activities-17-8-3",
+  "level": "2",
+  "url": "activities-17.html#activities-17-8-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Write down the form of the particular solution to for the following 's.                                                         "
+},
+{
   "id": "projects-2",
   "level": "1",
   "url": "projects-2.html",
