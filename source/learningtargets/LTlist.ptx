@@ -1,0 +1,44 @@
+<worksheet xml:id="ws-LTlistF26">
+     <title>Learning Targets</title>
+      
+<introduction>
+    <p>
+      The following is a list of main topics for the mastery-based testing policy. Exam 1 will test topics in Group 1. Exam 2 will test topics from Groups 1 and 2. Exam 3 will test topics in Groups 1, 2, and 3. Final Exam will test all topic groups. 
+    </p>
+</introduction>
+
+<ul>
+<li>[LT1] Slope fields analysis</li>
+            <li>[LT2] Applications of differential equations</li>
+            <li>[LT3] Separable equations </li>
+            <li>[LT4] Integrating factor </li>
+            <li>[LT5] Exact Equations </li>
+            <li>[LT6] Euler's method</li>
+            <li>[LT7] Modeling first order systems.</li>
+            <li>[LT8] Phase portrait for linear systems with real eigenvalues.</li>
+            <li>[LT9] Phase portrait for linear systems with complex eigenvalues.</li>
+            <li>[LT10] Second order homogeneous differential equations</li>
+              <li>[LT11] Second order non homogeneous differential equations</li>
+                <li> [LT12] Solving IVP with the Laplace transform.
+                </li>
+                <li>
+                [LT13] Laplace transform of discontinuities functions.
+                </li>
+                <li>
+                  [LT14] Laplace transforms for sin\cos functions.
+                </li>
+                <li>
+                  [LT15] Using Shifting Theorems.
+                </li>
+                <li>
+                  Laplace transform for delta function.
+                </li>
+                <li>
+                  [LT16] Series Solution.
+                </li>
+<li>
+  [LT17] The Runge-Kutta Method.
+</li>
+              
+  </ul>
+</worksheet>
