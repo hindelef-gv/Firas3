@@ -204,11 +204,11 @@ This is an older edition. The PDF source file is available online, or you can pu
   <p>
     This class will use a mastery-based testing policy. The mastery-based testing works like this: The course material is broken into 19 main Learning Targets (LTs). The exam score is computed as a percentage of the 19 main LTs that the student shows that they have mastered. For example, if a student masters 13/19 of the main topics of the course, that student will be awarded (approximately) an 68.42% of their exam score. This is a rather rigid scoring system, where partial credit is not awarded. The benefit is that students will have multiple attempts to demonstrate their mastery of the material at no cost for failing to do so on their first attempt.
 </p><p>
-    Exam 1 will be broken into five sections, one for each of the first five main LTs. Each section will be graded according to an “all or nothing” policy; either the student has demonstrated that they’ve mastered the topic or that they have not yet mastered the topic. A student that demonstrates mastery on a topic will not be tested on that topic again. If a student fails to demonstrate mastery of a topic, they will have another chance on the next exam. Exam 2 will cover LTs 6 through 9 and allow for another attempt at any topics from exam 1 that were not mastered. For example, a student could master 3/5 topics on the first exam. The student will not be tested again on the three LTs which they mastered. On the second exam, this student would be tested on LTs 6 through 9 and have a opportunity to show that they have mastered the two topic from exam 1 which they failed to master. This continues to exam 3, which tests on LTs 10 through 15 and allows students another try on LTs 1 through 10. In lieu a final exam, students will have the opportunity to attempt all topic they have not yet mastered.
+    Exam 1 will be broken into five sections, one for each of the first five main LTs. Each section will be graded according to an “all or nothing” policy; either the student has demonstrated that they've mastered the topic or that they have not yet mastered the topic. A student that demonstrates mastery on a topic will not be tested on that topic again. If a student fails to demonstrate mastery of a topic, they will have another chance on the next exam. Exam 2 will cover LTs 6 through 9 and allow for another attempt at any topics from exam 1 that were not mastered. For example, a student could master 3/5 topics on the first exam. The student will not be tested again on the three LTs which they mastered. On the second exam, this student would be tested on LTs 6 through 9 and have a opportunity to show that they have mastered the two topic from exam 1 which they failed to master. This continues to exam 3, which tests on LTs 10 through 15 and allows students another try on LTs 1 through 10. In lieu a final exam, students will have the opportunity to attempt all topic they have not yet mastered.
 </p><p>
-    After all four exams are completed, each student will have a number of mastered topics out of the 19 main topics. The percentage of mastered topics is the exam score for that student and will account for 50% of the course grade as per the grade distribution above. There is no penalty for mastering a LT on the second, third, or fourth exam after failing to do so on a previous exam. If students demonstrate that they’ve mastered a topic at any point during the semester, they receive full credit for doing so. 
+    After all four exams are completed, each student will have a number of mastered topics out of the 19 main topics. The percentage of mastered topics is the exam score for that student and will account for 50% of the course grade as per the grade distribution above. There is no penalty for mastering a LT on the second, third, or fourth exam after failing to do so on a previous exam. If students demonstrate that they've mastered a topic at any point during the semester, they receive full credit for doing so.
     </p><p>
-      The grading of the exams will be tough (no partial credit will be given) since it is an indication if the student has mastered the material or not. The benefit of this system is that students are not punished if they fail to master a topic but over the course of the semester demonstrate that they’ve mastered the topic.
+      The grading of the exams will be tough (no partial credit will be given) since it is an indication if the student has mastered the material or not. The benefit of this system is that students are not punished if they fail to master a topic but over the course of the semester demonstrate that they've mastered the topic.
     </p>
     <p>
       Tentative take home exam dates are provided below. The times listed do not indicate the exam length, only the time period of the exam. That is, even though exams are listed as 6:00-7:20pm, the exam will not be this entire time; it will likely be about an hour within this block of time.
@@ -290,102 +290,43 @@ This is an older edition. The PDF source file is available online, or you can pu
   The following is a list of main topics for the mastery-based testing policy. Exam 1 will test topics in Group 1. Exam 2 will test topics from Groups 1 and 2. Exam 3 will test topics in Groups 1, 2, and 3. Final Exam will test all topic groups. 
 </p>
 
+<ul>
+<li>[LT1] Slope fields analysis</li>
+            <li>[LT2] Applications of differential equations</li>
+            <li>[LT3] Separable equations </li>
+            <li>[LT4] Integrating factor </li>
+            <li>[LT5] Exact Equations </li>
+            <li>[LT6] Euler's method</li>
+            <li>[LT7] Modeling first order systems.</li>
+            <li>[LT8] Phase portrait for linear systems with real eigenvalues.</li>
+            <li>[LT9] Phase portrait for linear systems with complex eigenvalues.</li>
+            <li>[LT10] Second order homogeneous differential equations</li>
+              <li>[LT11] Second order non homogeneous differential equations</li>
+                <li> [LT12] Solving IVP with the Laplace transform.
+                </li>
+                <li>
+                [LT13] Laplace transform of discontinuities functions.
+                </li>
+                <li>
+                  [LT14] Laplace transforms for sin\cos functions.
+                </li>
+                <li>
+                  [LT15] Using Shifting Theorems.
+                </li>
+                <li>
+                  Laplace transform for delta function.
+                </li>
+                <li>
+                  [LT16] Series Solution.
+                </li>
+<li>
+  [LT17] The Runge-Kutta Method.
+</li>
+              
+  </ul>
 </subsection>  
    
 
-    <table xml:id="tab-name2">
-      <title>List of Learning Targets</title>
-      <tabular>
-        <row bottom="minor">
-          <cell>Topic group 1</cell>
-          </row>
-
-        <row>
-          <cell></cell>
-        </row>
-
-        <row>
-          <cell>Separable equations.</cell>
-        </row>
-<row>
-          <cell>Slope fields  </cell>
-        </row>
-     <row>
-          <cell>Applications of differential equations.</cell>
-        </row>
-<row>
-          <cell>Exact equations.</cell>
-        </row>
-<row bottom="minor">
-          <cell>Integrating Factors for Linear equations.</cell>
-        </row>
-     <row bottom="minor">
-          <cell>Topic group 2</cell>
-          </row>
-    <row>
-          <cell>Modeling first order systems.</cell>
-        </row>
-
-     <row>
-          <cell>Euler’s method for systems.</cell>
-        </row>
-
-      <row>
-          <cell>Phase portrait for linear systems with real eigenvalues.</cell>
-        </row>
-      <row bottom="minor">
-          <cell>Phase portrait for linear systems with complex eigenvalues.</cell>
-        </row>
-
-     <row bottom="minor" >
-          <cell>Topic group 3</cell>
-          </row>
-    <row>
-          <cell>Second order homogeneous .</cell>
-        </row>
-
-      <row>
-          <cell>Solving 2nd order non homog linear system Method of indeterminant coefficients.</cell>
-        </row>
-
-      <row>
-          <cell>Solving IVP with the Laplace transform.</cell>
-        </row>
-
-      <row>
-          <cell>Laplace transform of discontinuities functions.</cell>
-        </row>
-        
-      <row>
-          <cell>Laplace transforms for sin\cos functions.</cell>
-        </row>
-        
-      <row bottom="minor">
-          <cell> Using Shifting Theorems.</cell>
-        </row>
-    <row bottom="minor">
-          <cell>Topic group 4</cell>
-          </row>
-      <row>
-          <cell>Laplace transform for delta function.</cell>
-        </row>
-
-      <row>
-          <cell>Convolution theorems.</cell>
-        </row>
-
-      <row>
-          <cell>Series Solution.</cell>
-        </row>
-
-     <row>
-          <cell>The Runge-Kutta Method.</cell>
-        </row>
-      </tabular>
-    </table>
-
-
-        
 
   
   <!-- Other subsections for larger dividers -->
@@ -395,7 +336,7 @@ This is an older edition. The PDF source file is available online, or you can pu
   <p>
     <ul>
       <li>
-        <p>Come see me: One of the best ways to improve your chances of success is to come and talk to me about how you are doing in the course.  We can review material and I can give you extra direction.  I know what is important in this course, so I can help you understand those important ideas.  Don’t struggle alone! </p>
+        <p>Come see me: One of the best ways to improve your chances of success is to come and talk to me about how you are doing in the course.  We can review material and I can give you extra direction.  I know what is important in this course, so I can help you understand those important ideas.  Don't struggle alone! </p>
       </li>
 
       <li>
