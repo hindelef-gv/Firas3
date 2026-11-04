@@ -1,0 +1,446 @@
+<worksheet>
+    <title>Checkpoint 2</title>
+
+    <objectives>
+        <ul>
+            <li>[LT1] Slope fields analysis</li>
+            <li>[LT2] Applications of differential equations</li>
+            <li>[LT3] Separable equations </li>
+            <li>[LT4] Integrating factor </li>
+            <li>[LT5] Exact Equations </li>
+            <li>[LT6] Euler's method</li>
+            <li>[LT7] Modeling first order systems.</li>
+            <li>[LT8] Phase portrait for linear systems with real eigenvalues.</li>
+            <li>[LT9] Phase portrait for linear systems with complex eigenvalues.</li>
+            <li>[LT10] Second order homogeneous differential equations</li>
+        </ul>
+    </objectives>
+    
+    [LT1]
+    <exercise>
+        <introduction>
+            <p>
+                [LT1] Consider the population model
+                                <md>
+                                    \frac{dP}{dt}=0.3\left(1-\frac{P}{100}\right)\left(\frac{P}{20}-1\right)P,
+                                </md>
+                                where <m>P(t)</m> is the population at time <m>t</m>.
+            </p>
+        </introduction>
+        <task>
+        <statement>
+            <p>
+               For which values of <m>P</m> is the population in equilibrium? 
+            </p>
+        </statement>
+    </task>
+    <task >
+        <statement >
+            <p>
+                For which values of <m>P</m> is the population increasing and decreasing?
+                                Explain your answer in one sentence.
+            </p>
+        </statement>
+    </task>
+    <task >
+        <statement >
+            <p>
+               For which values of <m>P</m> is the population graph concave upwards and
+                               downwards?
+                               Explain your answer in one sentence. 
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Sketch the rate vs solution curve, showing the equilibrium solutions and <m>y-</m>values where inflection points can occur. Roughly sketch a possible graph of a solution <m>P(t)</m>  where <m>P(0)</m> is in <alert>each</alert> region of you specified in the previous parts .
+            </p> 
+        </statement>
+    </task>
+    </exercise>
+[LT2]
+<exercise>
+    <introduction>
+        <p>
+            [LT12] Suppose that you have a water tank that holds 1000 gallons of water.
+                        A briny solution <m>A</m>, which contains 30 grams of salt per gallon, enters
+                        the tank at a rate of 30 gallons per minute.
+                        Another briny solution <m>B</m>, which contains 50 grams of salt per gallon,
+                        simultaneously enters the tank at the rate of 70 gallons per minute.
+                        At the same time, the solution is well mixed, and water is pumped out of the
+                        tank at the rate of 100 gallons per minute.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Since 100 gallons enters the tank every minute and 100 gallons leaves every minute, what can you conclude about the volume of water in the tank?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+               How many grams of salt enters the tank every minute from both solutions? 
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Suppose that <m>S(t)</m> denotes the number of grams of salt in the tank in minute <m>t</m>. How many grams are there in each gallon in minute <m>t</m>?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Since water leave the tank at 100 gallons per minute, how many grams of salt leave the tank each minute?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Write a differential equation that expresses the total rate of change in
+                                <m>S</m>.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Identify any equilibrium solutions and determine whether they are stable or
+                                unstable.
+                                [A Stable Equilibrium solution means that as <m>t</m> becomes large, <m>S(t)</m>
+                                approaches that solution].
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                
+                Suppose that there is initially no salt in the tank (i.e. <m>S(0)=0</m>). Find the amount of salt <m>S(t)</m> in minute <m>t</m>(i.e. solve the differential equation from part (e))
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What happens to <m>S(t)</m> after a very long time?
+                               <m> \left(
+                               \mbox{i.e. Find }\displaystyle{\lim_{t\to\infty}S(t)}\right)</m> 
+            </p>
+            <hint>
+        <p>
+            Hint: See page 32 in your textbook.
+        </p>
+    </hint>
+        </statement>
+        
+    </task>
+    
+</exercise>
+
+[LT3]
+<exercise>
+    <introduction>
+       <p>[LT3] Solve the initial value problem.
+                        
+            
+                     
+                            <md>\displaystyle{\frac{dy}{dt}=2ty^2+3t^2y^2+2t+3t^2}</md>, and
+                            <m>y(0)=-1</m>.</p>
+                        
+    </introduction>
+
+</exercise>
+
+[LT4]
+<exercise>
+    <introduction>
+        <p>[LT4] Solve the initial value problem.
+                        
+                            <md>\displaystyle{\frac{dy}{dt}=3t^2y+3te^{t^3}}</md>, and <m>y(0)=1</m>.
+                        
+        </p>
+    </introduction>
+</exercise>
+  
+  [LT5]
+<exercise>
+    <introduction>
+        <p>
+            [LT5] Solve the initial value problem.
+<md>
+    \displaystyle{(2xy-\sin (x))+(x^2-\cos(y))\frac{dy}{dx}=0}
+</md>
+and <m>y(0)=1</m>
+        </p>
+    </introduction>
+
+</exercise>
+
+[LT6]
+  <exercise>
+    <introduction>
+        <p>
+            [LT7]
+                            The spread of the disease gonorrhea in a sexually active heterosexual
+population has been modeled with a nonlinear system of differential equations.
+Consider a population consisting of 1000 females and 1000 males, and let
+<m>x(t)</m> and <m>y(t)</m> denote the number of infected females and males, respectively,
+at time <m>t</m>, which is measured in days. Let us make the following assumptions regarding the
+rates of change of these two quantities.
+        </p>
+    
+
+    <ul>
+<li>
+    <p>
+        In the absence of infected males (i.e.
+                                <m>y=0</m>), the number of infected females decays exponentially with parameter
+                                (i.e.
+                                <q>cure rate</q>)
+                                <m>k_{1}=-\frac{1}{2}</m>.
+                                In the presence of infected males (i.e.
+                                <m>y \ne 0</m>), the rate of change of the number of infected females increases
+                                by an amount directly proportional to the product of the number of infected
+                                males and the number of uninfected females.
+                                The corresponding constant of proportionality is given by <m>k_{2}=.0005</m>.
+    </p>
+</li>
+
+<li>
+    <p>
+        In the absence of infected females (i.e.
+                               <m>x=0</m>), the number of infected males decays exponentially with parameter
+                               (i.e.
+                               <q>cure rate</q>)
+                               <m>k_{3}=-\frac{1}{4}</m>.
+                               In the presence of infected females (i.e.
+                               <m>x \ne 0</m>),, the rate of change of the number of infected males increases
+                               by an amount directly proportional to the product of the number of infected
+                               females and the number of uninfected males.
+                               The corresponding constant of proportionality is given by <m>k_{4}=.0004</m>. 
+    </p>
+</li>
+        </ul>
+    </introduction>
+
+    <task>
+        <statement>
+            <p>
+               Set up a system of nonlinear differential equations based upon the preceding
+assumptions. 
+ 
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>[LT6]
+               Assume there are currently 200 infected females and 100 infected males in the
+                               population.
+                               Use Euler's method with a step size of <m>\Delta t=.5</m> to estimate, to the
+                               nearest tenth of a person, the numbers of infected females and males after 10
+                               days. 
+                               Attach a copy of your spread sheet including a graph of the solution. 
+            </p>
+        </statement>
+    </task>
+    
+    <task>
+        <statement>
+            <p>
+                Compute the equilibrium values of the system.
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+               Assuming there are currently 200 infected females and 100 infected males in the
+                               population, what is likely to happen to the number of infected females and males
+                               as time goes on, i.e.
+                               as <m>t \to \infty</m>?
+                               Support your answer with a graph. 
+            </p>
+        </statement>
+    </task>
+  </exercise>
+
+
+  [LT8]
+<exercise>
+    <introduction>
+        <p>
+            [LT8] Consider the linear system
+                        <md>
+                            \frac{d\vec{Y}}{dt}=A\vec{Y},
+                        </md>
+                        where <m>\displaystyle \vec{Y}(t)= \begin{bmatrix}x(t) \\ y(t)\end{bmatrix}</m>
+                        and where <m>A</m> is some two by two matrix having eigenvectors
+                        <m>\displaystyle \vec{v}_{1}=\begin{bmatrix}2 \\ 1\end{bmatrix}</m> and
+                        <m>\displaystyle \vec{v}_{2}=\begin{bmatrix}1 \\ 2\end{bmatrix}</m>.
+                        The figure below illustrates the eigenvectors, <m>\vec{v}_{1}</m> and
+                        <m>\vec{v}_{2}</m>.
+                        Superimposed on this graph are phase portraits starting from two initial values,
+                        <m>\vec{Y}_{1}</m> and <m>{\vec{Y}_{2}}</m>.
+        </p>
+       
+    </introduction>
+    <image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="Q7">
+    <diagram dimensions="(300,300)" margins="5">
+  <coordinates bbox="(-1,-1,10,10)">
+    <grid-axes xlabel="x(t)" ylabel="y(t)" />
+    <line endpoints="((0,0), (2,1))" stroke="black" thickness="2" arrows="1" />
+    <line endpoints="((3,6), (2,4))" stroke="black" thickness="2" arrows="1" />
+    <line endpoints="((4,2), (6,3))" stroke="black" thickness="2" arrows="1" />
+    <line endpoints="((0,0), (1,2))" stroke="black" thickness="2" arrows="1" />
+    <line endpoints="((0,0),(1,2))" stroke="black" dash="5" thickness="0.5" infinite="yes" />
+    <line endpoints="((0,0),(2,1))" stroke="black" dash="5" thickness="0.5" infinite="yes" />
+    <label anchor="(1,0.9)" clear-background="no">
+      <m>\\vec{v_1}</m>
+    </label>
+    <label anchor="(0.35,1.7)" clear-background="no">
+      <m>\\vec{v_2}</m>
+    </label>
+    <label anchor="(3,5.0)" clear-background="no">
+      <m>\\vec{Y_1}</m>
+    </label>
+    <label anchor="(4.7,3.0)" clear-background="no">
+      <m>\\vec{Y_2}</m>
+    </label>
+  </coordinates>
+ 
+</diagram>
+  </prefigure>
+  <description> The graph shows the eigenvectors <m>\vec{v}_{1}</m> and <m>\vec{v}_{2}</m>  and the phase portraits starting from the initial values <m>\vec{Y}_{1}</m> and <m>\vec{Y}_{2}</m>  ."
+    
+  </description>
+</image>
+<task>
+    <statement>
+        <p>
+            Suppose you are told that the eigenvalues of <m>A</m> are given by
+                        <m>\lambda=5</m> and <m>\lambda=-2</m>.
+                        Determine which eigenvalue corresponds to which eigenvector.
+                        Briefly explain your reasoning.
+        </p>
+    </statement>
+</task>
+
+<task>
+    <statement>
+        <p>
+          Write down the general solution <m>\vec{Y}(t)</m> of the system.
+        </p>
+    </statement>
+</task>
+
+<task>
+    <statement>
+        <p>
+           Determine the formulas for the solution functions <m>x(t)</m> and <m>y(t)</m>
+                       when the initial value is given by
+                       <m>\vec{Y}(0)=\begin{bmatrix}3 \\ 5\end{bmatrix}</m>.
+                       <!--\vspace{2.5in}-->
+                       
+                          
+        </p>
+    </statement>
+</task>
+
+<task>
+    <statement>
+        <p>
+           On the graph, sketch the phase portrait starting from the initial value
+                       <m> \vec{Y}(0)=\begin{bmatrix}3 \\ 5\end{bmatrix}</m>.
+                       Your curve should accurately convey the long-term behavior of the solution. 
+        </p>
+    </statement>
+</task>
+</exercise>
+
+<exercise>
+    <introduction>
+        <p>[LT9] For the system
+                       
+                           <md alignment="align">
+                               <mrow>\frac{dx}{dt}&amp;=&amp;2x+2y</mrow>
+                               <mrow>\frac{dy}{dt}&amp;=&amp;-4x+6y</mrow>
+                           </md>
+                      
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+              Find the eigenvalues of <m>A</m> and their corresponding eigenvectors.  
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Expand the general solution <m>\vec{Y}(t)</m> in the form
+                                <md>
+                                    \vec{Y}(t)=c_{1}\mbox{Re}\vec{Y(t)}+c_{2}\mbox{Im}\vec{Y(t)}.
+                                </md>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Find the solution with initial condition <m>\vec{Y}(0)=(1,1)</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+               Plot the phase portrait <m>x(t)</m> vs <m>y(t)</m> and also plot <m>x(t)</m> and <m>y(t)</m>. Classify the type of the solution.
+ 
+            </p>
+        </statement>
+    </task>
+</exercise>
+<exercise>
+    <introduction>
+        <p>[LT10] Find the general solution for the following homogeneous equations.
+
+                       
+                      
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+              <m>y^{\prime\prime}+5y^{\prime}+4y=0</m>, and <m>y(0)=1,y^{\prime}(0)=2</m>.  
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                <m>y^{\prime\prime}+4y^{\prime}+4y=0</m>, and <m>y(0)=1,y^{\prime}(0)=2</m>.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+               <m>y^{\prime\prime}+4y^{\prime}+5y=0</m>, and <m>y(0)=1,y^{\prime}(0)=2</m>. 
+            </p>
+        </statement>
+    </task>
+</exercise>
+</worksheet>
