@@ -298,26 +298,48 @@ assumptions.
     <diagram dimensions="(300,300)" margins="5">
   <coordinates bbox="(-1,-1,10,10)">
     <grid-axes xlabel="x(t)" ylabel="y(t)" />
+    <group at="line">
     <line endpoints="((0,0), (2,1))" stroke="black" thickness="2" arrows="1" />
+     <label anchor="(1,0.9)" clear-background="no">
+      <m>\vec{v_1}</m>
+    </label>
+    </group>
+    <group at="line">
+    <line endpoints="((0,0), (1,2))" stroke="black" thickness="2" arrows="1" />
+ <label anchor="(0.35,1.7)" clear-background="no">
+      <m>\vec{v_2}</m>
+    </label>
+</group>
     <line endpoints="((3,6), (2,4))" stroke="black" thickness="2" arrows="1" />
     <line endpoints="((4,2), (6,3))" stroke="black" thickness="2" arrows="1" />
-    <line endpoints="((0,0), (1,2))" stroke="black" thickness="2" arrows="1" />
-    <line endpoints="((0,0),(1,2))" stroke="black" dash="5" thickness="0.5" infinite="yes" />
-    <line endpoints="((0,0),(2,1))" stroke="black" dash="5" thickness="0.5" infinite="yes" />
-    <label anchor="(1,0.9)" clear-background="no">
-      <m>\\vec{v_1}</m>
-    </label>
-    <label anchor="(0.35,1.7)" clear-background="no">
-      <m>\\vec{v_2}</m>
-    </label>
+
+    
+    <line endpoints="((0,0),(1,2))" stroke="black" dash="5" thickness="0.5" infinite="yes" annotate="no"/>
+    <line endpoints="((0,0),(2,1))" stroke="black" dash="5" thickness="0.5" infinite="yes" annotate="no"/>
+    
+   
+    
+   
+   
     <label anchor="(3,5.0)" clear-background="no">
-      <m>\\vec{Y_1}</m>
+      <m>\vec{Y_1}</m>
     </label>
+    
     <label anchor="(4.7,3.0)" clear-background="no">
-      <m>\\vec{Y_2}</m>
+      <m>\vec{Y_2}</m>
     </label>
+
   </coordinates>
- 
+
+  <annotations
+      text="The graph of the two eigenvector lines">
+    <annotation ref="line-v1"
+                text="The graph of the eigenvector v1 from (0,0) to (2,1)" sonify="yes">
+      <annotation ref="line-v2"
+                  text="The graph of the eigenvector v2 from (0,0) to (1,2)"
+                  sonify="yes"/>
+      </annotation>
+  </annotations>
 </diagram>
   </prefigure>
   <description> The graph shows the eigenvectors <m>\vec{v}_{1}</m> and <m>\vec{v}_{2}</m>  and the phase portraits starting from the initial values <m>\vec{Y}_{1}</m> and <m>\vec{Y}_{2}</m>  ."
