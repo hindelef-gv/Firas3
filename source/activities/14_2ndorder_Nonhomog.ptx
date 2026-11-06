@@ -125,7 +125,7 @@
             </statement>
         </theorem>
         <example>
-        <statement>
+        <introduction>
             <p>
                 Find the general solution of the nonhomogeneous differential equation
                 <md>
@@ -133,7 +133,7 @@
                 </md>
                 with initial conditions <m>y(0)=0</m> and <m>y'(0)=1</m>.
             </p>
-        </statement>
+        </introduction>
             <solution>
                 <p>
                     Consider the differential equation
@@ -182,7 +182,7 @@
            
         </example>
         <example>
-            <statement>
+            <introduction>
             <p>
                 Find the general solution of the nonhomogeneous differential equation
                 <md>
@@ -190,7 +190,7 @@
                 </md>
                 with initial conditions <m>y(0)=0</m> and <m>y'(0)=1</m>.
             </p>
-        </statement>
+        </introduction>
         <solution>
             <p>
                 Consider the differential equation
@@ -234,7 +234,7 @@
         </example>
 
         <example>
-            <statement>
+            <introduction>
             <p>
                 Find the general solution of the nonhomogeneous differential equation
                 <md>
@@ -242,7 +242,7 @@
                 </md>
                 with initial conditions <m>y(0)=2</m> and <m>y'(0)=5    </m>.
             </p>
-        </statement>
+        </introduction>
         <solution>
             <p>
                 Consider the differential equation
@@ -295,7 +295,7 @@
             </statement>
         </theorem>
         <example>
-            <statement>
+            <introduction>
                 <p>
                     Consider the differential equation
                     <md>
@@ -303,7 +303,7 @@
                     </md>
                     with initial conditions <m>y(0)=2</m> and <m>y'(0)=5    </m>.
                 </p>
-            </statement>
+            </introduction>
             <solution>
                 <p>
                     The characteristic equation of the homogeneous part is
@@ -375,7 +375,7 @@
     </statement>
 </theorem>
 <example>
-    <statement>
+    <introduction>
         <p>
             Consider the differential equation
                     <md>
@@ -383,8 +383,8 @@
                     </md>
                     with initial conditions <m>y(0)=2</m> and <m>y'(0)=5    </m>. 
         </p>
-    </statement>
-    <solution>
+    </introduction>
+    <solution>  
         <p>
 
             The characteristic equation of the homogeneous part is
@@ -441,14 +441,14 @@
     </solution>
 </example>
 <exercise>
-    <statement>
+    <introduction>
         <p>
             Find the particular solution <m>y_{p}(t)</m> for the differential equation
             <md>
                 y'' + 4y = 3\sin(2t) + 5\cos(2t).
             </md>
         </p>
-    </statement>
+    </introduction>
 </exercise>
     </section>
 
