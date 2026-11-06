@@ -263,164 +263,98 @@
       </g>
     </g>
   </g>
-  <line id="Q7-__line-34" x1="32.3" y1="277.7" x2="84.6" y2="251.6" stroke="black" stroke-width="2" fill="none" marker-end="url(#Q7-arrow-head-end-2_None_24_60-black)"/>
-  <line id="Q7-__line-35" x1="114.1" y1="114.1" x2="87.9" y2="166.4" stroke="black" stroke-width="2" fill="none" marker-end="url(#Q7-arrow-head-end-2_None_24_60-black)"/>
-  <line id="Q7-__line-36" x1="141.4" y1="223.2" x2="193.7" y2="197.0" stroke="black" stroke-width="2" fill="none" marker-end="url(#Q7-arrow-head-end-2_None_24_60-black)"/>
-  <line id="Q7-__line-37" x1="32.3" y1="277.7" x2="58.4" y2="225.4" stroke="black" stroke-width="2" fill="none" marker-end="url(#Q7-arrow-head-end-2_None_24_60-black)"/>
-  <line id="Q7-__line-38" x1="18.6" y1="305.0" x2="168.6" y2="5.0" stroke="black" stroke-width="0.5" stroke-dasharray="5" fill="none"/>
-  <line id="Q7-__line-39" x1="5.0" y1="291.4" x2="305.0" y2="141.4" stroke="black" stroke-width="0.5" stroke-dasharray="5" fill="none"/>
-  <g id="Q7-__label-10" transform="translate(59.5,253.2) translate(-400.0,-19.9)">
-    <g id="Q7-__g-10">
-      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -26.248px" width="800.000px" height="39.816px" role="img" focusable="false" data-mjx-viewBox="0 -750 35360 2200" x="0.0" y="0.0">
-        <defs>
-          <path id="Q7-MJX-12-NCM-I-1D463" d="M369 391C369 383 378 370 394 350C410 330 418 307 418 281C418 252 404 203 375 134C354 86 306 18 247 18C201 18 178 45 178 100C178 139 197 208 235 307C243 328 247 345 247 357C247 407 213 442 163 442C119 442 84 417 59 367C39 326 29 300 29 287C29 278 34 273 45 273C58 273 60 279 64 293C87 373 119 413 160 413C173 413 180 404 180 385C180 369 175 347 164 318C127 219 108 152 108 115C108 64 125 29 159 10C186-4 214-11 243-11C332-11 394 85 420 162C452 256 468 325 468 369C468 418 452 442 421 442C396 442 369 416 369 391Z"/>
-          <path id="Q7-MJX-12-NCM-N-2062" d=""/>
-          <path id="Q7-MJX-12-NCM-I-1D452" d="M124 129C124 153 129 186 139 227L188 227C253 227 303 235 339 250C372 264 394 284 405 309C412 326 415 342 415 355C415 410 363 442 307 442C268 442 229 432 190 412C113 372 46 281 46 171C46 69 105-11 204-11C257-11 304 2 345 27C379 48 404 69 420 90C427 99 430 106 430 109C430 120 425 126 414 126C409 126 404 122 398 114C365 70 324 42 277 30C246 22 223 18 206 18C149 18 124 72 124 129M375 355C375 289 311 256 182 256L147 256C166 322 194 366 232 387C262 404 287 413 307 413C343 413 375 391 375 355Z"/>
-          <path id="Q7-MJX-12-NCM-I-1D450" d="M328 325C328 300 341 287 368 287C404 287 427 318 427 354C427 410 368 442 308 442C239 442 176 412 122 353C68 294 41 229 41 159C41 61 106-11 204-11C257-11 304 2 345 27C379 48 404 69 420 90C427 99 430 106 430 109C430 120 425 126 414 126C409 126 404 122 398 114C365 70 324 42 277 30C246 22 223 18 206 18C149 18 121 53 121 122C121 184 150 274 174 317C198 361 249 413 308 413C346 413 372 402 386 381C355 378 328 358 328 325Z"/>
-          <path id="Q7-MJX-12-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
-        </defs>
-        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(0.0181,-0.0181) translate(0, -750)">
-          <g data-mml-node="math" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-annotation="clearspeak:unit;depth:1" data-semantic-id="10" data-semantic-children="1,2,3,6" data-semantic-content="7,8,9" data-semantic-attributes="latex:\\vec{v_1}" data-semantic-speech="v e c v 1">
-            <g data-mjx-linestack="true">
-              <g data-mjx-linebox="true" data-mjx-lineno="0">
-                <g data-mml-node="mspace"/>
-              </g>
-              <g data-mjx-linebox="true" data-mjx-lineno="1" transform="translate(0,-1000)">
-                <g data-mml-node="mspace"/>
-                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="1" data-semantic-parent="10" data-semantic-attributes="latex:v" data-semantic-speech="v">
-                  <use data-c="1D463" xlink:href="#Q7-MJX-12-NCM-I-1D463"/>
-                </g>
-                <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:2" data-semantic-id="7" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(485,0)">
-                  <use data-c="2062" xlink:href="#Q7-MJX-12-NCM-N-2062"/>
-                </g>
-                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-id="2" data-semantic-parent="10" data-semantic-attributes="latex:e" data-semantic-speech="e" transform="translate(485,0)">
-                  <use data-c="1D452" xlink:href="#Q7-MJX-12-NCM-I-1D452"/>
-                </g>
-                <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:2" data-semantic-id="8" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(951,0)">
-                  <use data-c="2062" xlink:href="#Q7-MJX-12-NCM-N-2062"/>
-                </g>
-                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-id="3" data-semantic-parent="10" data-semantic-attributes="latex:c" data-semantic-speech="c" transform="translate(951,0)">
-                  <use data-c="1D450" xlink:href="#Q7-MJX-12-NCM-I-1D450"/>
-                </g>
-                <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:2" data-semantic-id="9" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(1384,0)">
-                  <use data-c="2062" xlink:href="#Q7-MJX-12-NCM-N-2062"/>
-                </g>
-                <g data-mml-node="TeXAtom" data-mjx-texclass="ORD" transform="translate(1384,0)">
-                  <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-id="6" data-semantic-children="4,5" data-semantic-parent="10" data-semantic-attributes="latex:{v_1};texclass:ORD" data-semantic-speech="v 1">
-                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="4" data-semantic-parent="6" data-semantic-attributes="latex:v" data-semantic-speech="v" data-semantic-prefix="Base">
+  <g id="Q7-line">
+    <line id="Q7-__line-34" x1="32.3" y1="277.7" x2="84.6" y2="251.6" stroke="black" stroke-width="2" fill="none" marker-end="url(#Q7-arrow-head-end-2_None_24_60-black)"/>
+    <g id="Q7-__label-10" transform="translate(59.5,253.2) translate(-8.3,-8.9)">
+      <g id="Q7-__g-10">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -2.712px" width="16.680px" height="17.864px" role="img" focusable="false" viewBox="0 -837 921.6 987" x="0.0" y="0.0">
+          <defs>
+            <path id="Q7-MJX-12-NCM-I-1D463" d="M369 391C369 383 378 370 394 350C410 330 418 307 418 281C418 252 404 203 375 134C354 86 306 18 247 18C201 18 178 45 178 100C178 139 197 208 235 307C243 328 247 345 247 357C247 407 213 442 163 442C119 442 84 417 59 367C39 326 29 300 29 287C29 278 34 273 45 273C58 273 60 279 64 293C87 373 119 413 160 413C173 413 180 404 180 385C180 369 175 347 164 318C127 219 108 152 108 115C108 64 125 29 159 10C186-4 214-11 243-11C332-11 394 85 420 162C452 256 468 325 468 369C468 418 452 442 421 442C396 442 369 416 369 391Z"/>
+            <path id="Q7-MJX-12-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+            <path id="Q7-MJX-12-NCM-N-20D7" d="M-69 599C-60 602-56 607-56 616C-56 625-60 630-69 633C-105 645-131 667-147 700C-150 707-156 711-163 711C-176 711-182 705-182 693C-182 678-169 658-143 634L-453 634C-466 634-472 628-472 616C-472 604-466 598-453 598L-143 598C-169 574-182 554-182 539C-182 527-176 521-163 521C-156 521-150 525-147 532C-131 565-105 587-69 599Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="TeXAtom" data-mjx-texclass="ORD">
+                <g data-mml-node="mover" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="4" data-semantic-children="2,3" data-semantic-attributes="latex:\vec{v_1};texclass:ORD" data-semantic-speech="ModifyingAbove v 1 With right arrow">
+                  <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="4" data-semantic-attributes="latex:v_1" data-semantic-speech="v 1" data-semantic-prefix="Base">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="0" data-semantic-parent="2" data-semantic-attributes="latex:v" data-semantic-speech="v" data-semantic-prefix="Base">
                       <use data-c="1D463" xlink:href="#Q7-MJX-12-NCM-I-1D463"/>
                     </g>
-                    <g data-mml-node="mn" transform="translate(518,-150) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="5" data-semantic-parent="6" data-semantic-attributes="latex:1" data-semantic-speech="1" data-semantic-prefix="Subscript">
+                    <g data-mml-node="mn" transform="translate(518,-150) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="1" data-semantic-parent="2" data-semantic-attributes="latex:1" data-semantic-speech="1" data-semantic-prefix="Subscript">
                       <use data-c="31" xlink:href="#Q7-MJX-12-NCM-N-31"/>
                     </g>
                   </g>
+                  <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="overaccent" data-semantic-annotation="accent:arrow;depth:2" data-semantic-id="3" data-semantic-parent="4" data-semantic-speech="right arrow" data-semantic-prefix="Overscript" transform="translate(724.8,26)">
+                    <use data-c="20D7" xlink:href="#Q7-MJX-12-NCM-N-20D7"/>
+                  </g>
                 </g>
               </g>
             </g>
           </g>
-        </g>
-      </svg>
+        </svg>
+      </g>
     </g>
   </g>
-  <g id="Q7-__label-11" transform="translate(41.8,231.4) translate(-400.0,-19.9)">
-    <g id="Q7-__g-11">
-      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -26.248px" width="800.000px" height="39.816px" role="img" focusable="false" data-mjx-viewBox="0 -750 35360 2200" x="0.0" y="0.0">
-        <defs>
-          <path id="Q7-MJX-13-NCM-I-1D463" d="M369 391C369 383 378 370 394 350C410 330 418 307 418 281C418 252 404 203 375 134C354 86 306 18 247 18C201 18 178 45 178 100C178 139 197 208 235 307C243 328 247 345 247 357C247 407 213 442 163 442C119 442 84 417 59 367C39 326 29 300 29 287C29 278 34 273 45 273C58 273 60 279 64 293C87 373 119 413 160 413C173 413 180 404 180 385C180 369 175 347 164 318C127 219 108 152 108 115C108 64 125 29 159 10C186-4 214-11 243-11C332-11 394 85 420 162C452 256 468 325 468 369C468 418 452 442 421 442C396 442 369 416 369 391Z"/>
-          <path id="Q7-MJX-13-NCM-N-2062" d=""/>
-          <path id="Q7-MJX-13-NCM-I-1D452" d="M124 129C124 153 129 186 139 227L188 227C253 227 303 235 339 250C372 264 394 284 405 309C412 326 415 342 415 355C415 410 363 442 307 442C268 442 229 432 190 412C113 372 46 281 46 171C46 69 105-11 204-11C257-11 304 2 345 27C379 48 404 69 420 90C427 99 430 106 430 109C430 120 425 126 414 126C409 126 404 122 398 114C365 70 324 42 277 30C246 22 223 18 206 18C149 18 124 72 124 129M375 355C375 289 311 256 182 256L147 256C166 322 194 366 232 387C262 404 287 413 307 413C343 413 375 391 375 355Z"/>
-          <path id="Q7-MJX-13-NCM-I-1D450" d="M328 325C328 300 341 287 368 287C404 287 427 318 427 354C427 410 368 442 308 442C239 442 176 412 122 353C68 294 41 229 41 159C41 61 106-11 204-11C257-11 304 2 345 27C379 48 404 69 420 90C427 99 430 106 430 109C430 120 425 126 414 126C409 126 404 122 398 114C365 70 324 42 277 30C246 22 223 18 206 18C149 18 121 53 121 122C121 184 150 274 174 317C198 361 249 413 308 413C346 413 372 402 386 381C355 378 328 358 328 325Z"/>
-          <path id="Q7-MJX-13-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
-        </defs>
-        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(0.0181,-0.0181) translate(0, -750)">
-          <g data-mml-node="math" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-annotation="clearspeak:unit;depth:1" data-semantic-id="10" data-semantic-children="1,2,3,6" data-semantic-content="7,8,9" data-semantic-attributes="latex:\\vec{v_2}" data-semantic-speech="v e c v 2">
-            <g data-mjx-linestack="true">
-              <g data-mjx-linebox="true" data-mjx-lineno="0">
-                <g data-mml-node="mspace"/>
-              </g>
-              <g data-mjx-linebox="true" data-mjx-lineno="1" transform="translate(0,-1000)">
-                <g data-mml-node="mspace"/>
-                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="1" data-semantic-parent="10" data-semantic-attributes="latex:v" data-semantic-speech="v">
-                  <use data-c="1D463" xlink:href="#Q7-MJX-13-NCM-I-1D463"/>
-                </g>
-                <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:2" data-semantic-id="7" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(485,0)">
-                  <use data-c="2062" xlink:href="#Q7-MJX-13-NCM-N-2062"/>
-                </g>
-                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-id="2" data-semantic-parent="10" data-semantic-attributes="latex:e" data-semantic-speech="e" transform="translate(485,0)">
-                  <use data-c="1D452" xlink:href="#Q7-MJX-13-NCM-I-1D452"/>
-                </g>
-                <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:2" data-semantic-id="8" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(951,0)">
-                  <use data-c="2062" xlink:href="#Q7-MJX-13-NCM-N-2062"/>
-                </g>
-                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-id="3" data-semantic-parent="10" data-semantic-attributes="latex:c" data-semantic-speech="c" transform="translate(951,0)">
-                  <use data-c="1D450" xlink:href="#Q7-MJX-13-NCM-I-1D450"/>
-                </g>
-                <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:2" data-semantic-id="9" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(1384,0)">
-                  <use data-c="2062" xlink:href="#Q7-MJX-13-NCM-N-2062"/>
-                </g>
-                <g data-mml-node="TeXAtom" data-mjx-texclass="ORD" transform="translate(1384,0)">
-                  <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-id="6" data-semantic-children="4,5" data-semantic-parent="10" data-semantic-attributes="latex:{v_2};texclass:ORD" data-semantic-speech="v 2">
-                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="4" data-semantic-parent="6" data-semantic-attributes="latex:v" data-semantic-speech="v" data-semantic-prefix="Base">
+  <g id="Q7-line">
+    <line id="Q7-__line-35" x1="32.3" y1="277.7" x2="58.4" y2="225.4" stroke="black" stroke-width="2" fill="none" marker-end="url(#Q7-arrow-head-end-2_None_24_60-black)"/>
+    <g id="Q7-__label-11" transform="translate(41.8,231.4) translate(-8.3,-8.9)">
+      <g id="Q7-__g-11">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -2.712px" width="16.680px" height="17.864px" role="img" focusable="false" viewBox="0 -837 921.6 987" x="0.0" y="0.0">
+          <defs>
+            <path id="Q7-MJX-13-NCM-I-1D463" d="M369 391C369 383 378 370 394 350C410 330 418 307 418 281C418 252 404 203 375 134C354 86 306 18 247 18C201 18 178 45 178 100C178 139 197 208 235 307C243 328 247 345 247 357C247 407 213 442 163 442C119 442 84 417 59 367C39 326 29 300 29 287C29 278 34 273 45 273C58 273 60 279 64 293C87 373 119 413 160 413C173 413 180 404 180 385C180 369 175 347 164 318C127 219 108 152 108 115C108 64 125 29 159 10C186-4 214-11 243-11C332-11 394 85 420 162C452 256 468 325 468 369C468 418 452 442 421 442C396 442 369 416 369 391Z"/>
+            <path id="Q7-MJX-13-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+            <path id="Q7-MJX-13-NCM-N-20D7" d="M-69 599C-60 602-56 607-56 616C-56 625-60 630-69 633C-105 645-131 667-147 700C-150 707-156 711-163 711C-176 711-182 705-182 693C-182 678-169 658-143 634L-453 634C-466 634-472 628-472 616C-472 604-466 598-453 598L-143 598C-169 574-182 554-182 539C-182 527-176 521-163 521C-156 521-150 525-147 532C-131 565-105 587-69 599Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="TeXAtom" data-mjx-texclass="ORD">
+                <g data-mml-node="mover" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="4" data-semantic-children="2,3" data-semantic-attributes="latex:\vec{v_2};texclass:ORD" data-semantic-speech="ModifyingAbove v 2 With right arrow">
+                  <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="4" data-semantic-attributes="latex:v_2" data-semantic-speech="v 2" data-semantic-prefix="Base">
+                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="0" data-semantic-parent="2" data-semantic-attributes="latex:v" data-semantic-speech="v" data-semantic-prefix="Base">
                       <use data-c="1D463" xlink:href="#Q7-MJX-13-NCM-I-1D463"/>
                     </g>
-                    <g data-mml-node="mn" transform="translate(518,-150) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="5" data-semantic-parent="6" data-semantic-attributes="latex:2" data-semantic-speech="2" data-semantic-prefix="Subscript">
+                    <g data-mml-node="mn" transform="translate(518,-150) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="1" data-semantic-parent="2" data-semantic-attributes="latex:2" data-semantic-speech="2" data-semantic-prefix="Subscript">
                       <use data-c="32" xlink:href="#Q7-MJX-13-NCM-N-32"/>
                     </g>
                   </g>
+                  <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="overaccent" data-semantic-annotation="accent:arrow;depth:2" data-semantic-id="3" data-semantic-parent="4" data-semantic-speech="right arrow" data-semantic-prefix="Overscript" transform="translate(724.8,26)">
+                    <use data-c="20D7" xlink:href="#Q7-MJX-13-NCM-N-20D7"/>
+                  </g>
                 </g>
               </g>
             </g>
           </g>
-        </g>
-      </svg>
+        </svg>
+      </g>
     </g>
   </g>
-  <g id="Q7-__label-12" transform="translate(114.1,141.4) translate(-400.0,-19.9)">
+  <line id="Q7-__line-36" x1="114.1" y1="114.1" x2="87.9" y2="166.4" stroke="black" stroke-width="2" fill="none" marker-end="url(#Q7-arrow-head-end-2_None_24_60-black)"/>
+  <line id="Q7-__line-37" x1="141.4" y1="223.2" x2="193.7" y2="197.0" stroke="black" stroke-width="2" fill="none" marker-end="url(#Q7-arrow-head-end-2_None_24_60-black)"/>
+  <line id="Q7-__line-38" x1="18.6" y1="305.0" x2="168.6" y2="5.0" stroke="black" stroke-width="0.5" stroke-dasharray="5" fill="none"/>
+  <line id="Q7-__line-39" x1="5.0" y1="291.4" x2="305.0" y2="141.4" stroke="black" stroke-width="0.5" stroke-dasharray="5" fill="none"/>
+  <g id="Q7-__label-12" transform="translate(114.1,141.4) translate(-9.2,-11.1)">
     <g id="Q7-__g-12">
-      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -26.248px" width="800.000px" height="39.816px" role="img" focusable="false" data-mjx-viewBox="0 -750 35360 2200" x="0.0" y="0.0">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -2.712px" width="18.416px" height="22.224px" role="img" focusable="false" viewBox="0 -1078 1017.6 1228" x="0.0" y="0.0">
         <defs>
-          <path id="Q7-MJX-14-NCM-I-1D463" d="M369 391C369 383 378 370 394 350C410 330 418 307 418 281C418 252 404 203 375 134C354 86 306 18 247 18C201 18 178 45 178 100C178 139 197 208 235 307C243 328 247 345 247 357C247 407 213 442 163 442C119 442 84 417 59 367C39 326 29 300 29 287C29 278 34 273 45 273C58 273 60 279 64 293C87 373 119 413 160 413C173 413 180 404 180 385C180 369 175 347 164 318C127 219 108 152 108 115C108 64 125 29 159 10C186-4 214-11 243-11C332-11 394 85 420 162C452 256 468 325 468 369C468 418 452 442 421 442C396 442 369 416 369 391Z"/>
-          <path id="Q7-MJX-14-NCM-N-2062" d=""/>
-          <path id="Q7-MJX-14-NCM-I-1D452" d="M124 129C124 153 129 186 139 227L188 227C253 227 303 235 339 250C372 264 394 284 405 309C412 326 415 342 415 355C415 410 363 442 307 442C268 442 229 432 190 412C113 372 46 281 46 171C46 69 105-11 204-11C257-11 304 2 345 27C379 48 404 69 420 90C427 99 430 106 430 109C430 120 425 126 414 126C409 126 404 122 398 114C365 70 324 42 277 30C246 22 223 18 206 18C149 18 124 72 124 129M375 355C375 289 311 256 182 256L147 256C166 322 194 366 232 387C262 404 287 413 307 413C343 413 375 391 375 355Z"/>
-          <path id="Q7-MJX-14-NCM-I-1D450" d="M328 325C328 300 341 287 368 287C404 287 427 318 427 354C427 410 368 442 308 442C239 442 176 412 122 353C68 294 41 229 41 159C41 61 106-11 204-11C257-11 304 2 345 27C379 48 404 69 420 90C427 99 430 106 430 109C430 120 425 126 414 126C409 126 404 122 398 114C365 70 324 42 277 30C246 22 223 18 206 18C149 18 121 53 121 122C121 184 150 274 174 317C198 361 249 413 308 413C346 413 372 402 386 381C355 378 328 358 328 325Z"/>
           <path id="Q7-MJX-14-NCM-I-1D44C" d="M664 680C646 680 584 683 565 683C550 683 542 675 542 660C542 649 548 644 561 644C582 644 593 638 593 626C593 615 584 600 567 581L342 322L236 609C233 617 231 622 230 625C230 638 248 644 284 644C303 644 312 652 312 668C312 678 306 683 293 683L168 680C146 680 76 683 58 683C43 683 35 675 35 659C35 649 44 644 62 644C80 644 95 642 104 640C123 635 124 632 130 613L252 288C255 281 256 276 256 273L235 190C223 139 215 107 211 94C204 67 197 51 190 46C183 41 160 39 122 39C100 38 91 37 91 15C91 5 97 0 109 0L234 3L360 0C375-1 383 7 383 24C383 31 380 36 375 37C365 38 357 39 352 39C319 40 299 42 294 45C292 46 291 48 291 52C291 56 296 77 305 114L340 253C343 266 347 276 353 282L598 564L611 577C637 603 661 621 682 630C699 638 718 643 739 644C757 646 762 651 762 667C762 678 756 683 745 683C730 683 679 680 664 680Z"/>
           <path id="Q7-MJX-14-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+          <path id="Q7-MJX-14-NCM-N-20D7" d="M-69 599C-60 602-56 607-56 616C-56 625-60 630-69 633C-105 645-131 667-147 700C-150 707-156 711-163 711C-176 711-182 705-182 693C-182 678-169 658-143 634L-453 634C-466 634-472 628-472 616C-472 604-466 598-453 598L-143 598C-169 574-182 554-182 539C-182 527-176 521-163 521C-156 521-150 525-147 532C-131 565-105 587-69 599Z"/>
         </defs>
-        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(0.0181,-0.0181) translate(0, -750)">
-          <g data-mml-node="math" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-annotation="clearspeak:unit;depth:1" data-semantic-id="10" data-semantic-children="1,2,3,6" data-semantic-content="7,8,9" data-semantic-attributes="latex:\\vec{Y_1}" data-semantic-speech="v e c upper Y 1">
-            <g data-mjx-linestack="true">
-              <g data-mjx-linebox="true" data-mjx-lineno="0">
-                <g data-mml-node="mspace"/>
-              </g>
-              <g data-mjx-linebox="true" data-mjx-lineno="1" transform="translate(0,-1000)">
-                <g data-mml-node="mspace"/>
-                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="1" data-semantic-parent="10" data-semantic-attributes="latex:v" data-semantic-speech="v">
-                  <use data-c="1D463" xlink:href="#Q7-MJX-14-NCM-I-1D463"/>
-                </g>
-                <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:2" data-semantic-id="7" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(485,0)">
-                  <use data-c="2062" xlink:href="#Q7-MJX-14-NCM-N-2062"/>
-                </g>
-                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-id="2" data-semantic-parent="10" data-semantic-attributes="latex:e" data-semantic-speech="e" transform="translate(485,0)">
-                  <use data-c="1D452" xlink:href="#Q7-MJX-14-NCM-I-1D452"/>
-                </g>
-                <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:2" data-semantic-id="8" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(951,0)">
-                  <use data-c="2062" xlink:href="#Q7-MJX-14-NCM-N-2062"/>
-                </g>
-                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-id="3" data-semantic-parent="10" data-semantic-attributes="latex:c" data-semantic-speech="c" transform="translate(951,0)">
-                  <use data-c="1D450" xlink:href="#Q7-MJX-14-NCM-I-1D450"/>
-                </g>
-                <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:2" data-semantic-id="9" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(1384,0)">
-                  <use data-c="2062" xlink:href="#Q7-MJX-14-NCM-N-2062"/>
-                </g>
-                <g data-mml-node="TeXAtom" data-mjx-texclass="ORD" transform="translate(1384,0)">
-                  <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-id="6" data-semantic-children="4,5" data-semantic-parent="10" data-semantic-attributes="latex:{Y_1};texclass:ORD" data-semantic-speech="upper Y 1">
-                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="4" data-semantic-parent="6" data-semantic-attributes="latex:Y" data-semantic-speech="upper Y" data-semantic-prefix="Base">
-                      <use data-c="1D44C" xlink:href="#Q7-MJX-14-NCM-I-1D44C"/>
-                    </g>
-                    <g data-mml-node="mn" transform="translate(614,-150) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="5" data-semantic-parent="6" data-semantic-attributes="latex:1" data-semantic-speech="1" data-semantic-prefix="Subscript">
-                      <use data-c="31" xlink:href="#Q7-MJX-14-NCM-N-31"/>
-                    </g>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="TeXAtom" data-mjx-texclass="ORD">
+              <g data-mml-node="mover" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="4" data-semantic-children="2,3" data-semantic-attributes="latex:\vec{Y_1};texclass:ORD" data-semantic-speech="ModifyingAbove upper Y 1 With right arrow">
+                <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="4" data-semantic-attributes="latex:Y_1" data-semantic-speech="upper Y 1" data-semantic-prefix="Base">
+                  <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="0" data-semantic-parent="2" data-semantic-attributes="latex:Y" data-semantic-speech="upper Y" data-semantic-prefix="Base">
+                    <use data-c="1D44C" xlink:href="#Q7-MJX-14-NCM-I-1D44C"/>
                   </g>
+                  <g data-mml-node="mn" transform="translate(614,-150) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="1" data-semantic-parent="2" data-semantic-attributes="latex:1" data-semantic-speech="1" data-semantic-prefix="Subscript">
+                    <use data-c="31" xlink:href="#Q7-MJX-14-NCM-N-31"/>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="overaccent" data-semantic-annotation="accent:arrow;depth:2" data-semantic-id="3" data-semantic-parent="4" data-semantic-speech="right arrow" data-semantic-prefix="Overscript" transform="translate(772.8,267)">
+                  <use data-c="20D7" xlink:href="#Q7-MJX-14-NCM-N-20D7"/>
                 </g>
               </g>
             </g>
@@ -429,52 +363,28 @@
       </svg>
     </g>
   </g>
-  <g id="Q7-__label-13" transform="translate(160.5,195.9) translate(-400.0,-19.9)">
+  <g id="Q7-__label-13" transform="translate(160.5,195.9) translate(-9.2,-11.1)">
     <g id="Q7-__g-13">
-      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -26.248px" width="800.000px" height="39.816px" role="img" focusable="false" data-mjx-viewBox="0 -750 35360 2200" x="0.0" y="0.0">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -2.712px" width="18.416px" height="22.224px" role="img" focusable="false" viewBox="0 -1078 1017.6 1228" x="0.0" y="0.0">
         <defs>
-          <path id="Q7-MJX-15-NCM-I-1D463" d="M369 391C369 383 378 370 394 350C410 330 418 307 418 281C418 252 404 203 375 134C354 86 306 18 247 18C201 18 178 45 178 100C178 139 197 208 235 307C243 328 247 345 247 357C247 407 213 442 163 442C119 442 84 417 59 367C39 326 29 300 29 287C29 278 34 273 45 273C58 273 60 279 64 293C87 373 119 413 160 413C173 413 180 404 180 385C180 369 175 347 164 318C127 219 108 152 108 115C108 64 125 29 159 10C186-4 214-11 243-11C332-11 394 85 420 162C452 256 468 325 468 369C468 418 452 442 421 442C396 442 369 416 369 391Z"/>
-          <path id="Q7-MJX-15-NCM-N-2062" d=""/>
-          <path id="Q7-MJX-15-NCM-I-1D452" d="M124 129C124 153 129 186 139 227L188 227C253 227 303 235 339 250C372 264 394 284 405 309C412 326 415 342 415 355C415 410 363 442 307 442C268 442 229 432 190 412C113 372 46 281 46 171C46 69 105-11 204-11C257-11 304 2 345 27C379 48 404 69 420 90C427 99 430 106 430 109C430 120 425 126 414 126C409 126 404 122 398 114C365 70 324 42 277 30C246 22 223 18 206 18C149 18 124 72 124 129M375 355C375 289 311 256 182 256L147 256C166 322 194 366 232 387C262 404 287 413 307 413C343 413 375 391 375 355Z"/>
-          <path id="Q7-MJX-15-NCM-I-1D450" d="M328 325C328 300 341 287 368 287C404 287 427 318 427 354C427 410 368 442 308 442C239 442 176 412 122 353C68 294 41 229 41 159C41 61 106-11 204-11C257-11 304 2 345 27C379 48 404 69 420 90C427 99 430 106 430 109C430 120 425 126 414 126C409 126 404 122 398 114C365 70 324 42 277 30C246 22 223 18 206 18C149 18 121 53 121 122C121 184 150 274 174 317C198 361 249 413 308 413C346 413 372 402 386 381C355 378 328 358 328 325Z"/>
           <path id="Q7-MJX-15-NCM-I-1D44C" d="M664 680C646 680 584 683 565 683C550 683 542 675 542 660C542 649 548 644 561 644C582 644 593 638 593 626C593 615 584 600 567 581L342 322L236 609C233 617 231 622 230 625C230 638 248 644 284 644C303 644 312 652 312 668C312 678 306 683 293 683L168 680C146 680 76 683 58 683C43 683 35 675 35 659C35 649 44 644 62 644C80 644 95 642 104 640C123 635 124 632 130 613L252 288C255 281 256 276 256 273L235 190C223 139 215 107 211 94C204 67 197 51 190 46C183 41 160 39 122 39C100 38 91 37 91 15C91 5 97 0 109 0L234 3L360 0C375-1 383 7 383 24C383 31 380 36 375 37C365 38 357 39 352 39C319 40 299 42 294 45C292 46 291 48 291 52C291 56 296 77 305 114L340 253C343 266 347 276 353 282L598 564L611 577C637 603 661 621 682 630C699 638 718 643 739 644C757 646 762 651 762 667C762 678 756 683 745 683C730 683 679 680 664 680Z"/>
           <path id="Q7-MJX-15-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+          <path id="Q7-MJX-15-NCM-N-20D7" d="M-69 599C-60 602-56 607-56 616C-56 625-60 630-69 633C-105 645-131 667-147 700C-150 707-156 711-163 711C-176 711-182 705-182 693C-182 678-169 658-143 634L-453 634C-466 634-472 628-472 616C-472 604-466 598-453 598L-143 598C-169 574-182 554-182 539C-182 527-176 521-163 521C-156 521-150 525-147 532C-131 565-105 587-69 599Z"/>
         </defs>
-        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(0.0181,-0.0181) translate(0, -750)">
-          <g data-mml-node="math" data-semantic-type="infixop" data-semantic-role="implicit" data-semantic-annotation="clearspeak:unit;depth:1" data-semantic-id="10" data-semantic-children="1,2,3,6" data-semantic-content="7,8,9" data-semantic-attributes="latex:\\vec{Y_2}" data-semantic-speech="v e c upper Y 2">
-            <g data-mjx-linestack="true">
-              <g data-mjx-linebox="true" data-mjx-lineno="0">
-                <g data-mml-node="mspace"/>
-              </g>
-              <g data-mjx-linebox="true" data-mjx-lineno="1" transform="translate(0,-1000)">
-                <g data-mml-node="mspace"/>
-                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="1" data-semantic-parent="10" data-semantic-attributes="latex:v" data-semantic-speech="v">
-                  <use data-c="1D463" xlink:href="#Q7-MJX-15-NCM-I-1D463"/>
-                </g>
-                <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:2" data-semantic-id="7" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(485,0)">
-                  <use data-c="2062" xlink:href="#Q7-MJX-15-NCM-N-2062"/>
-                </g>
-                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-id="2" data-semantic-parent="10" data-semantic-attributes="latex:e" data-semantic-speech="e" transform="translate(485,0)">
-                  <use data-c="1D452" xlink:href="#Q7-MJX-15-NCM-I-1D452"/>
-                </g>
-                <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:2" data-semantic-id="8" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(951,0)">
-                  <use data-c="2062" xlink:href="#Q7-MJX-15-NCM-N-2062"/>
-                </g>
-                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-id="3" data-semantic-parent="10" data-semantic-attributes="latex:c" data-semantic-speech="c" transform="translate(951,0)">
-                  <use data-c="1D450" xlink:href="#Q7-MJX-15-NCM-I-1D450"/>
-                </g>
-                <g data-mml-node="mo" data-semantic-type="operator" data-semantic-role="multiplication" data-semantic-annotation="depth:2" data-semantic-id="9" data-semantic-parent="10" data-semantic-added="true" data-semantic-operator="infixop,⁢" data-semantic-speech="times" transform="translate(1384,0)">
-                  <use data-c="2062" xlink:href="#Q7-MJX-15-NCM-N-2062"/>
-                </g>
-                <g data-mml-node="TeXAtom" data-mjx-texclass="ORD" transform="translate(1384,0)">
-                  <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-id="6" data-semantic-children="4,5" data-semantic-parent="10" data-semantic-attributes="latex:{Y_2};texclass:ORD" data-semantic-speech="upper Y 2">
-                    <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="4" data-semantic-parent="6" data-semantic-attributes="latex:Y" data-semantic-speech="upper Y" data-semantic-prefix="Base">
-                      <use data-c="1D44C" xlink:href="#Q7-MJX-15-NCM-I-1D44C"/>
-                    </g>
-                    <g data-mml-node="mn" transform="translate(614,-150) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="5" data-semantic-parent="6" data-semantic-attributes="latex:2" data-semantic-speech="2" data-semantic-prefix="Subscript">
-                      <use data-c="32" xlink:href="#Q7-MJX-15-NCM-N-32"/>
-                    </g>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="TeXAtom" data-mjx-texclass="ORD">
+              <g data-mml-node="mover" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="4" data-semantic-children="2,3" data-semantic-attributes="latex:\vec{Y_2};texclass:ORD" data-semantic-speech="ModifyingAbove upper Y 2 With right arrow">
+                <g data-mml-node="msub" data-semantic-type="subscript" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="4" data-semantic-attributes="latex:Y_2" data-semantic-speech="upper Y 2" data-semantic-prefix="Base">
+                  <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="0" data-semantic-parent="2" data-semantic-attributes="latex:Y" data-semantic-speech="upper Y" data-semantic-prefix="Base">
+                    <use data-c="1D44C" xlink:href="#Q7-MJX-15-NCM-I-1D44C"/>
                   </g>
+                  <g data-mml-node="mn" transform="translate(614,-150) scale(0.707)" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="1" data-semantic-parent="2" data-semantic-attributes="latex:2" data-semantic-speech="2" data-semantic-prefix="Subscript">
+                    <use data-c="32" xlink:href="#Q7-MJX-15-NCM-N-32"/>
+                  </g>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="overaccent" data-semantic-annotation="accent:arrow;depth:2" data-semantic-id="3" data-semantic-parent="4" data-semantic-speech="right arrow" data-semantic-prefix="Overscript" transform="translate(772.8,267)">
+                  <use data-c="20D7" xlink:href="#Q7-MJX-15-NCM-N-20D7"/>
                 </g>
               </g>
             </g>

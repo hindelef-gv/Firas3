@@ -1,0 +1,71 @@
+<diagram>
+  <annotations language="en">
+    <annotation id="Q7-figure" speech2="The graph of the two eigenvector lines">
+      <grouped>Q7-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>Q7-grid-axes</active>
+        <active>Q7-line-v1</active>
+      </children>
+      <components>
+        <active>Q7-grid-axes</active>
+        <active>Q7-line-v1</active>
+      </components>
+    </annotation>
+    <annotation id="Q7-grid-axes" speech2="The coordinate grid and axes">
+      <grouped>Q7-grid-axes</grouped>
+      <position>1</position>
+      <children>
+        <active>Q7-grid</active>
+        <active>Q7-axes</active>
+      </children>
+      <components>
+        <active>Q7-grid</active>
+        <active>Q7-axes</active>
+      </components>
+      <parents>
+        <grouped>Q7-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="Q7-grid" speech2="The coordinate grid">
+      <active>Q7-grid</active>
+      <position>1</position>
+      <parents>
+        <grouped>Q7-grid-axes</grouped>
+      </parents>
+    </annotation>
+    <annotation id="Q7-axes" speech2="The coordinate axes">
+      <active>Q7-axes</active>
+      <position>2</position>
+      <parents>
+        <grouped>Q7-grid-axes</grouped>
+      </parents>
+    </annotation>
+    <annotation id="Q7-line-v1" speech2="The graph of the eigenvector v1 from (0,0) to (2,1)" sonify="yes">
+      <grouped>Q7-line-v1</grouped>
+      <position>2</position>
+      <children>
+        <active>Q7-line-v2</active>
+      </children>
+      <components>
+        <active>Q7-line-v2</active>
+      </components>
+      <parents>
+        <grouped>Q7-figure</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>Q7-line-v1</ACTIVE>
+      </sonification>
+    </annotation>
+    <annotation id="Q7-line-v2" speech2="The graph of the eigenvector v2 from (0,0) to (1,2)" sonify="yes">
+      <active>Q7-line-v2</active>
+      <position>1</position>
+      <parents>
+        <grouped>Q7-line-v1</grouped>
+      </parents>
+      <sonification>
+        <ACTIVE>Q7-line-v2</ACTIVE>
+      </sonification>
+    </annotation>
+  </annotations>
+</diagram>
