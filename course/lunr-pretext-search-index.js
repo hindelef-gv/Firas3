@@ -1096,7 +1096,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Laplace Transform - Definition and Properties",
-  "body": " Laplace Transform - Definition and Properties     Introduce the concept of the Laplace transform and its basic properties.    Evaluate the Laplace transform of basic functions.      The main idea is to use the Laplace transform to convert the constant-coefficient differential equation for into a simpler algebraic equation for the Laplace-transformed function , solve this algebraic equation, and then transform back into via the inverse Laplace transform. The correct definition of the Laplace transform and the properties that this transform satisfies makes this solution method possible. An exponential is used in solving homogeneous constant-coefficient ODEs, and the exponential function correspondingly plays a key role in defining the Laplace transform.     The Laplace transform of , denoted by , is defined by the integral transform     The improper integral given by ( ) diverges if grows faster than for large . Accordingly, some restriction on the range of s may be required to guarantee convergence of ( ), and we will assume without further elaboration that these restrictions are always satisfied.    Show that the Laplace transform is a linear transformation . That is, show that for all functions and all constants , we have     By the definition of the Laplace transform, we have         Compute the Laplace transform of the function , where is a constant.    By the definition of the Laplace transform, we have       Compute the Laplace transform of the function , where is a constant.    By the definition of the Laplace transform, we have       Compute the Laplace transform of the function .    By the definition of the Laplace transform, we have       Compute the Laplace transform of the function .    By the definition of the Laplace transform, we have       Compute the Laplace transform of the function .    By the definition of the Laplace transform, we have       Conjecture the Laplace transform of the function .    By the pattern observed in the previous examples, we conjecture that       Compute the Laplace transform of the function and .    Note that and . Find the Laplace transform of first, and then take the imaginary and real parts respectively.      Compute the Laplace transform of the function .    Use integration by parts to compute the Laplace transform of , and the fact that .      Compute the Laplace transform of the function .    Use integration by parts to compute the Laplace transform of , and the fact that and .      Conjecture the Laplace transform of the function . You may assume that , , , and so on up to .    "
+  "body": " Laplace Transform - Definition and Properties     Introduce the concept of the Laplace transform and its basic properties.    Evaluate the Laplace transform of basic functions.      The main idea is to use the Laplace transform to convert the constant-coefficient differential equation for into a simpler algebraic equation for the Laplace-transformed function , solve this algebraic equation, and then transform back into via the inverse Laplace transform. The correct definition of the Laplace transform and the properties that this transform satisfies makes this solution method possible. An exponential is used in solving homogeneous constant-coefficient ODEs, and the exponential function correspondingly plays a key role in defining the Laplace transform.     The Laplace transform of , denoted by , is defined by the integral transform     The improper integral given by ( ) diverges if grows faster than for large . Accordingly, some restriction on the range of s may be required to guarantee convergence of ( ), and we will assume without further elaboration that these restrictions are always satisfied.    Show that the Laplace transform is a linear transformation . That is, show that for all functions and all constants , we have     By the definition of the Laplace transform, we have         Compute the Laplace transform of the function , where is a constant.    By the definition of the Laplace transform, we have       Compute the Laplace transform of the function , where is a constant.    By the definition of the Laplace transform, we have       Compute the Laplace transform of the function .    By the definition of the Laplace transform, we have       Compute the Laplace transform of the function .    By the definition of the Laplace transform, we have       Compute the Laplace transform of the function .    By the definition of the Laplace transform, we have       Conjecture the Laplace transform of the function .    By the pattern observed in the previous examples, we conjecture that       Compute the Laplace transform of the function and .    Note that and . Find the Laplace transform of first, and then take the imaginary and real parts respectively.      Compute the Laplace transform of the function and .    Note that and . Find the Laplace transform of first, and then take the imaginary and real parts respectively.      Compute the Laplace transform of the function .    Use integration by parts to compute the Laplace transform of , and the fact that .      Compute the Laplace transform of the function .    Use integration by parts to compute the Laplace transform of , and the fact that and .      Conjecture the Laplace transform of the function . You may assume that , , , and so on up to .    "
 },
 {
   "id": "activities-18-2",
@@ -1195,7 +1195,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "",
-  "body": "  Compute the Laplace transform of the function .    Use integration by parts to compute the Laplace transform of , and the fact that .   "
+  "body": "  Compute the Laplace transform of the function and .    Note that and . Find the Laplace transform of first, and then take the imaginary and real parts respectively.   "
 },
 {
   "id": "activities-18-15",
@@ -1204,7 +1204,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "",
-  "body": "  Compute the Laplace transform of the function .    Use integration by parts to compute the Laplace transform of , and the fact that and .   "
+  "body": "  Compute the Laplace transform of the function .    Use integration by parts to compute the Laplace transform of , and the fact that .   "
 },
 {
   "id": "activities-18-16",
@@ -1213,7 +1213,52 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "8",
   "title": "",
+  "body": "  Compute the Laplace transform of the function .    Use integration by parts to compute the Laplace transform of , and the fact that and .   "
+},
+{
+  "id": "activities-18-17",
+  "level": "2",
+  "url": "activities-18.html#activities-18-17",
+  "type": "Worksheet Exercise",
+  "number": "9",
+  "title": "",
   "body": "  Conjecture the Laplace transform of the function . You may assume that , , , and so on up to .   "
+},
+{
+  "id": "activities-19",
+  "level": "1",
+  "url": "activities-19.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Using Laplace transform to solve DE",
+  "body": " Using Laplace transform to solve DE     Using Laplace transform to solve differential equations.      We have been exploring the Laplace transform for some special functions and how to use it in solving differential equations. Here is a recap of what we learned so far:         Condition                                                    In this activity you will explore solving DE using the Laplace transform.     Solve the differential equation using the Laplace transform. and     Taking the Laplace transform of both sides of the differential equation, we get Substituting , we have Solving for , we get Using partial fraction decomposition, we can write Therefore, the inverse Laplace transform gives        In Chapter 4 the forced harmonic oscillator equation was introduced as a model of a mass attached to a spring sliding back and forth on a table with an external force caused by, for example, tilting the table. As a first example of the Laplace transform method for such an equation, consider the initial-value problem This equation models a unit mass sliding on a frictionless table with spring constant 4 and a periodic external forcing function of .  Use Laplace transform to solve this equation. How does this compare to what we learned in the previous chapter?     "
+},
+{
+  "id": "activities-19-2",
+  "level": "2",
+  "url": "activities-19.html#activities-19-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Using Laplace transform to solve differential equations.    "
+},
+{
+  "id": "activities-19-4",
+  "level": "2",
+  "url": "activities-19.html#activities-19-4",
+  "type": "Example",
+  "number": "60",
+  "title": "",
+  "body": "  Solve the differential equation using the Laplace transform. and     Taking the Laplace transform of both sides of the differential equation, we get Substituting , we have Solving for , we get Using partial fraction decomposition, we can write Therefore, the inverse Laplace transform gives    "
+},
+{
+  "id": "activities-19-5",
+  "level": "2",
+  "url": "activities-19.html#activities-19-5",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "   In Chapter 4 the forced harmonic oscillator equation was introduced as a model of a mass attached to a spring sliding back and forth on a table with an external force caused by, for example, tilting the table. As a first example of the Laplace transform method for such an equation, consider the initial-value problem This equation models a unit mass sliding on a frictionless table with spring constant 4 and a periodic external forcing function of .  Use Laplace transform to solve this equation. How does this compare to what we learned in the previous chapter?    "
 },
 {
   "id": "projects-2",
