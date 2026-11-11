@@ -1,0 +1,212 @@
+<worksheet>
+    <title>
+        Laplace Transform - Definition and Properties 
+    </title>
+
+    <objectives>
+        <ul>
+            
+            <li>
+                <p>
+                    Introduce the concept of the Laplace transform and its basic properties.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Evaluate the Laplace transform of basic functions.
+                </p>
+            </li>
+   
+        </ul>
+    </objectives>
+<introduction>
+    <p>
+        The main idea is to use the Laplace transform to convert the constant-coefficient differential equation
+for <m>y(t)</m> into a simpler algebraic equation for the Laplace-transformed function <m>Y(s)</m>,
+solve this algebraic equation, and then transform <m>Y(s)</m> back into <m>y(t)</m> via the inverse Laplace transform. The correct
+definition of the Laplace transform and the properties that this transform satisfies
+makes this solution method possible. An exponential  is used in solving homogeneous constant-coefficient ODEs,
+and the exponential function correspondingly plays a key role in defining the Laplace
+transform. 
+
+    </p>
+</introduction>
+<definition>
+    <statement>
+        <p>
+            The Laplace transform of <m>f (t)</m>, denoted by
+                        <m>F(s) = \mathcal{L}\left( f (t)\right)</m>, is defined by the integral
+                        transform
+                        <md xml:id="Lap" number="yes">
+                            F(s)=\int_{0}^{\infty} e^{-st}f(t)\,dt
+                        </md>
+        </p>
+    </statement>
+</definition>
+<p>
+    The improper integral given by (<xref ref="Lap"/>) diverges if <m>f (t)</m>
+        grows faster than <m>e^{st}</m> for large <m>t</m>.
+        Accordingly, some restriction on the range of s may be required to guarantee
+        convergence of (<xref ref="Lap"/>), and we will assume without further
+        elaboration that these restrictions are always satisfied.
+</p>
+<exercise workspace="0.8in">
+    <introduction>
+        <p>
+          Show that the Laplace transform is a <em>linear transformation</em>.
+                      That is, show that for all functions <m>f_{1}(t),f_{2}(t)</m> and all constants
+                      <m>c_{1},c_{2}</m>, we have
+                      <md>\mathcal{L}(c_{1}\cdot f_{1}(t)+c_{2}\cdot f_{2}(t))=c_{1}\mathcal{L}(f_{1}(t))+c_{2} \mathcal{L}(f_{2}(t)).</md>  
+        </p>
+    </introduction>
+    <solution>
+        <p>
+            By the definition of the Laplace transform, we have
+            <md>
+                \mathcal{L}(c_{1}\cdot f_{1}(t)+c_{2}\cdot f_{2}(t)) = \int_{0}^{\infty} e^{-st} (c_{1} f_{1}(t) + c_{2} f_{2}(t)) \, dt
+            </md>
+            <md>
+                = c_{1} \int_{0}^{\infty} e^{-st} f_{1}(t) \, dt + c_{2} \int_{0}^{\infty} e^{-st} f_{2}(t) \, dt
+            </md>
+            <md>
+                = c_{1} \mathcal{L}(f_{1}(t)) + c_{2} \mathcal{L}(f_{2}(t))
+            </md>
+        </p>
+    </solution>
+</exercise>
+<example workspace="0.8in">
+    <introduction>
+        <p>
+            Compute the Laplace transform of the function <m>f(t) = 1</m>, where <m>a</m> is a constant.
+        </p>
+    </introduction>
+    <solution>
+        <p>
+            By the definition of the Laplace transform, we have
+            <md>
+                \mathcal{L}(1) = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-st} \, dt = \lim_{b\rightarrow \infty}\left[ -\frac{1}{s} e^{-st} \right]_{0}^{b} = \lim_{b\rightarrow \infty}\left( -\frac{1}{s} e^{-sb} + \frac{1}{s} \right) = \frac{1}{s}
+            </md>
+        </p>
+    </solution>
+</example>
+<example workspace="0.8in">
+    <introduction>
+        <p>
+            Compute the Laplace transform of the function <m>f(t) = e^{at}</m>, where <m>a</m> is a constant.
+        </p>
+    </introduction>
+    <solution>
+        <p>
+            By the definition of the Laplace transform, we have     
+            <md>
+                \mathcal{L}(e^{at}) = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-st} e^{at} \, dt = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-(s-a)t} \, dt = \lim_{b\rightarrow \infty}\left[ -\frac{1}{s-a} e^{-(s-a)t} \right]_{0}^{b} = \lim_{b\rightarrow \infty}\left( -\frac{1}{s-a} e^{-(s-a)b} + \frac{1}{s-a} \right) = \frac{1}{s-a}
+            </md>
+        </p>
+    </solution>
+</example>
+<example workspace="0.8in">
+    <introduction>
+        <p>
+            Compute the Laplace transform of the function <m>f(t) = t</m>.
+        </p>
+    </introduction>
+    <solution>
+        <p>
+            By the definition of the Laplace transform, we have
+            <md>
+                \mathcal{L}(t) = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-st} t \, dt = \lim_{b\rightarrow \infty}\left[ -\frac{t}{s} e^{-st} - \frac{1}{s^{2}} e^{-st} \right]_{0}^{b} = \lim_{b\rightarrow \infty}\left( -\frac{b}{s} e^{-sb} - \frac{1}{s^{2}} e^{-sb} + \frac{1}{s^{2}} \right) = \frac{1}{s^{2}}
+            </md>
+        </p>
+    </solution>     
+</example>
+<exercise workspace="0.8in">
+    <introduction>
+        <p>
+            Compute the Laplace transform of the function <m>f(t) = t^{2}</m>.
+        </p>
+    </introduction>
+    <solution>
+        <p>
+            By the definition of the Laplace transform, we have
+            <md>
+                \mathcal{L}(t^{2}) = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-st} t^{2} \, dt = \lim_{b\rightarrow \infty}\left[ -\frac{t^{2}}{s} e^{-st} - \frac{2t}{s^{2}} e^{-st} - \frac{2}{s^{3}} e^{-st} \right]_{0}^{b} = \lim_{b\rightarrow \infty}\left( -\frac{b^{2}}{s} e^{-sb} - \frac{2b}{s^{2}} e^{-sb} - \frac{2}{s^{3}} e^{-sb} + \frac{2}{s^{3}} \right) = \frac{2}{s^{3}}
+            </md>
+        </p>
+    </solution>
+</exercise>
+<exercise workspace="0.8in">
+    <introduction>
+        <p>
+            Compute the Laplace transform of the function <m>f(t) = t^{3}</m>.
+        </p>
+    </introduction>
+    <solution>
+        <p>
+            By the definition of the Laplace transform, we have
+            <md>
+                \mathcal{L}(t^{3}) = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-st} t^{3} \, dt = \lim_{b\rightarrow \infty}\left[ -\frac{t^{3}}{s} e^{-st} - \frac{3t^{2}}{s^{2}} e^{-st} - \frac{6t}{s^{3}} e^{-st} - \frac{6}{s^{4}} e^{-st} \right]_{0}^{b} = \lim_{b\rightarrow \infty}\left( -\frac{b^{3}}{s} e^{-sb} - \frac{3b^{2}}{s^{2}} e^{-sb} - \frac{6b}{s^{3}} e^{-sb} - \frac{6}{s^{4}} e^{-sb} + \frac{6}{s^{4}} \right) = \frac{6}{s^{4}}
+            </md>
+        </p>
+    </solution>
+</exercise>
+<exercise workspace="0.8in">
+    <introduction>
+        <p>
+            Conjecture the Laplace transform of the function <m>f(t) = t^{n}</m>.
+        </p>
+    </introduction>
+    <solution>
+        <p>
+            By the pattern observed in the previous examples, we conjecture that
+            <md>
+                \mathcal{L}(t^{n}) = \frac{n!}{s^{n+1}}
+            </md>
+        </p>
+    </solution>
+</exercise>
+<exercise workspace="0.8in">
+    <introduction>
+        <p>
+            Compute the Laplace transform of the function <m>f(t) = \sin(bt)</m> and <m>g(t) = \cos(bt)</m>.
+        </p>
+    </introduction>
+    <hint>
+        <p>
+          Note that <m>\sin(bt)=\mbox{Im}(e^{ibt})</m> and <m>\cos(bt)=\mbox{Re}(e^{ibt})</m>. Find the Laplace transform of <m>e^{ibt}</m> first, and then take the imaginary and real parts respectively.
+        </p>
+    </hint>
+</exercise>
+<exercise workspace="0.8in">
+    <introduction>
+        <p>
+            Compute the Laplace transform of the function <m>f(t) = y^\prime(t)</m>.
+        </p>
+    </introduction>
+    <hint>
+        <p>
+            Use integration by parts to compute the Laplace transform of <m>y^\prime(t)</m>, and the fact that <m>y(0)=y_0</m> .
+        </p>
+    </hint>
+</exercise>
+<exercise>
+    <introduction>
+        <p>
+            Compute the Laplace transform of the function <m>f(t) = y^{\prime\prime}(t)</m>.
+        </p>
+    </introduction>
+    <hint>
+        <p>
+            Use integration by parts to compute the Laplace transform of <m>y^{\prime\prime}(t)</m>, and the fact that <m>y(0)=y_0</m> and <m>y^\prime(0)=y_0^\prime</m> .
+        </p>
+    </hint>
+</exercise>
+<exercise workspace="0.8in">
+    <introduction>
+        <p>
+            Conjecture the Laplace transform of the function <m>f(t) = y^{(n)}(t)</m>. You may assume that <m>y(0)=y_0</m>, <m>y^\prime(0)=y_0^\prime</m>, <m>y^{\prime\prime}(0)=y_0^{\prime\prime}</m>, and so on up to <m>y^{(n-1)}(0)=y_0^{(n-1)}</m>.
+        </p>
+    </introduction>
+    
+</exercise>
+    </worksheet>
