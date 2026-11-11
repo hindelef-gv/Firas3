@@ -1090,6 +1090,132 @@ var ptx_lunr_docs = [
   "body": "  Write down the form of the particular solution to for the following 's.                                                         "
 },
 {
+  "id": "activities-18",
+  "level": "1",
+  "url": "activities-18.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Laplace Transform - Definition and Properties",
+  "body": " Laplace Transform - Definition and Properties     Introduce the concept of the Laplace transform and its basic properties.    Evaluate the Laplace transform of basic functions.      The main idea is to use the Laplace transform to convert the constant-coefficient differential equation for into a simpler algebraic equation for the Laplace-transformed function , solve this algebraic equation, and then transform back into via the inverse Laplace transform. The correct definition of the Laplace transform and the properties that this transform satisfies makes this solution method possible. An exponential is used in solving homogeneous constant-coefficient ODEs, and the exponential function correspondingly plays a key role in defining the Laplace transform.     The Laplace transform of , denoted by , is defined by the integral transform     The improper integral given by ( ) diverges if grows faster than for large . Accordingly, some restriction on the range of s may be required to guarantee convergence of ( ), and we will assume without further elaboration that these restrictions are always satisfied.    Show that the Laplace transform is a linear transformation . That is, show that for all functions and all constants , we have     By the definition of the Laplace transform, we have         Compute the Laplace transform of the function , where is a constant.    By the definition of the Laplace transform, we have       Compute the Laplace transform of the function , where is a constant.    By the definition of the Laplace transform, we have       Compute the Laplace transform of the function .    By the definition of the Laplace transform, we have       Compute the Laplace transform of the function .    By the definition of the Laplace transform, we have       Compute the Laplace transform of the function .    By the definition of the Laplace transform, we have       Conjecture the Laplace transform of the function .    By the pattern observed in the previous examples, we conjecture that       Compute the Laplace transform of the function and .    Note that and . Find the Laplace transform of first, and then take the imaginary and real parts respectively.      Compute the Laplace transform of the function .    Use integration by parts to compute the Laplace transform of , and the fact that .      Compute the Laplace transform of the function .    Use integration by parts to compute the Laplace transform of , and the fact that and .      Conjecture the Laplace transform of the function . You may assume that , , , and so on up to .    "
+},
+{
+  "id": "activities-18-2",
+  "level": "2",
+  "url": "activities-18.html#activities-18-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Introduce the concept of the Laplace transform and its basic properties.    Evaluate the Laplace transform of basic functions.    "
+},
+{
+  "id": "activities-18-4",
+  "level": "2",
+  "url": "activities-18.html#activities-18-4",
+  "type": "Definition",
+  "number": "56",
+  "title": "",
+  "body": "  The Laplace transform of , denoted by , is defined by the integral transform    "
+},
+{
+  "id": "activities-18-6",
+  "level": "2",
+  "url": "activities-18.html#activities-18-6",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Show that the Laplace transform is a linear transformation . That is, show that for all functions and all constants , we have     By the definition of the Laplace transform, we have      "
+},
+{
+  "id": "activities-18-7",
+  "level": "2",
+  "url": "activities-18.html#activities-18-7",
+  "type": "Example",
+  "number": "57",
+  "title": "",
+  "body": "  Compute the Laplace transform of the function , where is a constant.    By the definition of the Laplace transform, we have    "
+},
+{
+  "id": "activities-18-8",
+  "level": "2",
+  "url": "activities-18.html#activities-18-8",
+  "type": "Example",
+  "number": "58",
+  "title": "",
+  "body": "  Compute the Laplace transform of the function , where is a constant.    By the definition of the Laplace transform, we have    "
+},
+{
+  "id": "activities-18-9",
+  "level": "2",
+  "url": "activities-18.html#activities-18-9",
+  "type": "Example",
+  "number": "59",
+  "title": "",
+  "body": "  Compute the Laplace transform of the function .    By the definition of the Laplace transform, we have    "
+},
+{
+  "id": "activities-18-10",
+  "level": "2",
+  "url": "activities-18.html#activities-18-10",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Compute the Laplace transform of the function .    By the definition of the Laplace transform, we have    "
+},
+{
+  "id": "activities-18-11",
+  "level": "2",
+  "url": "activities-18.html#activities-18-11",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Compute the Laplace transform of the function .    By the definition of the Laplace transform, we have    "
+},
+{
+  "id": "activities-18-12",
+  "level": "2",
+  "url": "activities-18.html#activities-18-12",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Conjecture the Laplace transform of the function .    By the pattern observed in the previous examples, we conjecture that    "
+},
+{
+  "id": "activities-18-13",
+  "level": "2",
+  "url": "activities-18.html#activities-18-13",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Compute the Laplace transform of the function and .    Note that and . Find the Laplace transform of first, and then take the imaginary and real parts respectively.   "
+},
+{
+  "id": "activities-18-14",
+  "level": "2",
+  "url": "activities-18.html#activities-18-14",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  Compute the Laplace transform of the function .    Use integration by parts to compute the Laplace transform of , and the fact that .   "
+},
+{
+  "id": "activities-18-15",
+  "level": "2",
+  "url": "activities-18.html#activities-18-15",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "  Compute the Laplace transform of the function .    Use integration by parts to compute the Laplace transform of , and the fact that and .   "
+},
+{
+  "id": "activities-18-16",
+  "level": "2",
+  "url": "activities-18.html#activities-18-16",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "",
+  "body": "  Conjecture the Laplace transform of the function . You may assume that , , , and so on up to .   "
+},
+{
   "id": "projects-2",
   "level": "1",
   "url": "projects-2.html",
