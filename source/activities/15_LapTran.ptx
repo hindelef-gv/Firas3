@@ -36,7 +36,7 @@ transform.
     <statement>
         <p>
             The Laplace transform of <m>f (t)</m>, denoted by
-                        <m>F(s) = \mathcal{L}\left( f (t)\right)</m>, is defined by the integral
+                        <m>F(s) = \mathscr{L}\left( f (t)\right)</m>, is defined by the integral
                         transform
                         <md xml:id="Lap" number="yes">
                             F(s)=\int_{0}^{\infty} e^{-st}f(t)\,dt
@@ -57,20 +57,20 @@ transform.
           Show that the Laplace transform is a <em>linear transformation</em>.
                       That is, show that for all functions <m>f_{1}(t),f_{2}(t)</m> and all constants
                       <m>c_{1},c_{2}</m>, we have
-                      <md>\mathcal{L}(c_{1}\cdot f_{1}(t)+c_{2}\cdot f_{2}(t))=c_{1}\mathcal{L}(f_{1}(t))+c_{2} \mathcal{L}(f_{2}(t)).</md>  
+                      <md>\mathscr{L}(c_{1}\cdot f_{1}(t)+c_{2}\cdot f_{2}(t))=c_{1}\mathscr{L}(f_{1}(t))+c_{2} \mathscr{L}(f_{2}(t)).</md>  
         </p>
     </introduction>
     <solution>
         <p>
             By the definition of the Laplace transform, we have
             <md>
-                \mathcal{L}(c_{1}\cdot f_{1}(t)+c_{2}\cdot f_{2}(t)) = \int_{0}^{\infty} e^{-st} (c_{1} f_{1}(t) + c_{2} f_{2}(t)) \, dt
+                \mathscr{L}(c_{1}\cdot f_{1}(t)+c_{2}\cdot f_{2}(t)) = \int_{0}^{\infty} e^{-st} (c_{1} f_{1}(t) + c_{2} f_{2}(t)) \, dt
             </md>
             <md>
                 = c_{1} \int_{0}^{\infty} e^{-st} f_{1}(t) \, dt + c_{2} \int_{0}^{\infty} e^{-st} f_{2}(t) \, dt
             </md>
             <md>
-                = c_{1} \mathcal{L}(f_{1}(t)) + c_{2} \mathcal{L}(f_{2}(t))
+                = c_{1} \mathscr{L}(f_{1}(t)) + c_{2} \mathscr{L}(f_{2}(t))
             </md>
         </p>
     </solution>
@@ -85,7 +85,7 @@ transform.
         <p>
             By the definition of the Laplace transform, we have
             <md>
-                \mathcal{L}(1) = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-st} \, dt = \lim_{b\rightarrow \infty}\left[ -\frac{1}{s} e^{-st} \right]_{0}^{b} = \lim_{b\rightarrow \infty}\left( -\frac{1}{s} e^{-sb} + \frac{1}{s} \right) = \frac{1}{s}
+                \mathscr{L}(1) = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-st} \, dt = \lim_{b\rightarrow \infty}\left[ -\frac{1}{s} e^{-st} \right]_{0}^{b} = \lim_{b\rightarrow \infty}\left( -\frac{1}{s} e^{-sb} + \frac{1}{s} \right) = \frac{1}{s}
             </md>
         </p>
     </solution>
@@ -100,7 +100,7 @@ transform.
         <p>
             By the definition of the Laplace transform, we have     
             <md>
-                \mathcal{L}(e^{at}) = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-st} e^{at} \, dt = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-(s-a)t} \, dt = \lim_{b\rightarrow \infty}\left[ -\frac{1}{s-a} e^{-(s-a)t} \right]_{0}^{b} = \lim_{b\rightarrow \infty}\left( -\frac{1}{s-a} e^{-(s-a)b} + \frac{1}{s-a} \right) = \frac{1}{s-a}
+                \mathscr{L}(e^{at}) = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-st} e^{at} \, dt = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-(s-a)t} \, dt = \lim_{b\rightarrow \infty}\left[ -\frac{1}{s-a} e^{-(s-a)t} \right]_{0}^{b} = \lim_{b\rightarrow \infty}\left( -\frac{1}{s-a} e^{-(s-a)b} + \frac{1}{s-a} \right) = \frac{1}{s-a}
             </md>
         </p>
     </solution>
@@ -115,7 +115,7 @@ transform.
         <p>
             By the definition of the Laplace transform, we have
             <md>
-                \mathcal{L}(t) = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-st} t \, dt = \lim_{b\rightarrow \infty}\left[ -\frac{t}{s} e^{-st} - \frac{1}{s^{2}} e^{-st} \right]_{0}^{b} = \lim_{b\rightarrow \infty}\left( -\frac{b}{s} e^{-sb} - \frac{1}{s^{2}} e^{-sb} + \frac{1}{s^{2}} \right) = \frac{1}{s^{2}}
+                \mathscr{L}(t) = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-st} t \, dt = \lim_{b\rightarrow \infty}\left[ -\frac{t}{s} e^{-st} - \frac{1}{s^{2}} e^{-st} \right]_{0}^{b} = \lim_{b\rightarrow \infty}\left( -\frac{b}{s} e^{-sb} - \frac{1}{s^{2}} e^{-sb} + \frac{1}{s^{2}} \right) = \frac{1}{s^{2}}
             </md>
         </p>
     </solution>     
@@ -130,7 +130,7 @@ transform.
         <p>
             By the definition of the Laplace transform, we have
             <md>
-                \mathcal{L}(t^{2}) = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-st} t^{2} \, dt = \lim_{b\rightarrow \infty}\left[ -\frac{t^{2}}{s} e^{-st} - \frac{2t}{s^{2}} e^{-st} - \frac{2}{s^{3}} e^{-st} \right]_{0}^{b} = \lim_{b\rightarrow \infty}\left( -\frac{b^{2}}{s} e^{-sb} - \frac{2b}{s^{2}} e^{-sb} - \frac{2}{s^{3}} e^{-sb} + \frac{2}{s^{3}} \right) = \frac{2}{s^{3}}
+                \mathscr{L}(t^{2}) = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-st} t^{2} \, dt = \lim_{b\rightarrow \infty}\left[ -\frac{t^{2}}{s} e^{-st} - \frac{2t}{s^{2}} e^{-st} - \frac{2}{s^{3}} e^{-st} \right]_{0}^{b} = \lim_{b\rightarrow \infty}\left( -\frac{b^{2}}{s} e^{-sb} - \frac{2b}{s^{2}} e^{-sb} - \frac{2}{s^{3}} e^{-sb} + \frac{2}{s^{3}} \right) = \frac{2}{s^{3}}
             </md>
         </p>
     </solution>
@@ -145,7 +145,7 @@ transform.
         <p>
             By the definition of the Laplace transform, we have
             <md>
-                \mathcal{L}(t^{3}) = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-st} t^{3} \, dt = \lim_{b\rightarrow \infty}\left[ -\frac{t^{3}}{s} e^{-st} - \frac{3t^{2}}{s^{2}} e^{-st} - \frac{6t}{s^{3}} e^{-st} - \frac{6}{s^{4}} e^{-st} \right]_{0}^{b} = \lim_{b\rightarrow \infty}\left( -\frac{b^{3}}{s} e^{-sb} - \frac{3b^{2}}{s^{2}} e^{-sb} - \frac{6b}{s^{3}} e^{-sb} - \frac{6}{s^{4}} e^{-sb} + \frac{6}{s^{4}} \right) = \frac{6}{s^{4}}
+                \mathscr{L}(t^{3}) = \lim_{b\rightarrow \infty}\int_{0}^{b} e^{-st} t^{3} \, dt = \lim_{b\rightarrow \infty}\left[ -\frac{t^{3}}{s} e^{-st} - \frac{3t^{2}}{s^{2}} e^{-st} - \frac{6t}{s^{3}} e^{-st} - \frac{6}{s^{4}} e^{-st} \right]_{0}^{b} = \lim_{b\rightarrow \infty}\left( -\frac{b^{3}}{s} e^{-sb} - \frac{3b^{2}}{s^{2}} e^{-sb} - \frac{6b}{s^{3}} e^{-sb} - \frac{6}{s^{4}} e^{-sb} + \frac{6}{s^{4}} \right) = \frac{6}{s^{4}}
             </md>
         </p>
     </solution>
@@ -160,12 +160,12 @@ transform.
         <p>
             By the pattern observed in the previous examples, we conjecture that
             <md>
-                \mathcal{L}(t^{n}) = \frac{n!}{s^{n+1}}
+                \mathscr{L}(t^{n}) = \frac{n!}{s^{n+1}}
             </md>
         </p>
     </solution>
 </exercise>
-<exercise workspace="0.8in">
+<exercise workspace="1.5in">
     <introduction>
         <p>
             Compute the Laplace transform of the function <m>f(t) = \sin(bt)</m> and <m>g(t) = \cos(bt)</m>.
@@ -174,6 +174,19 @@ transform.
     <hint>
         <p>
           Note that <m>\sin(bt)=\mbox{Im}(e^{ibt})</m> and <m>\cos(bt)=\mbox{Re}(e^{ibt})</m>. Find the Laplace transform of <m>e^{ibt}</m> first, and then take the imaginary and real parts respectively.
+        </p>
+    </hint>
+</exercise>
+
+<exercise workspace="1.8in">
+    <introduction>
+        <p>
+            Compute the Laplace transform of the function <m>f(t) = e^{\alpha t}\cdot\sin(bt)</m> and <m>g(t) = e^{\alpha t}\cdot\cos(bt)</m>.
+        </p>
+    </introduction>
+    <hint>
+        <p>
+          Note that <m>e^{\alpha t}\cdot\sin(bt)=\mbox{Im}(e^{(\alpha+ib)t})</m> and <m>e^{\alpha t}\cdot\cos(bt)=\mbox{Re}(e^{(\alpha+ib)t})</m>. Find the Laplace transform of <m>e^{(\alpha+ib)t}</m> first, and then take the imaginary and real parts respectively.
         </p>
     </hint>
 </exercise>

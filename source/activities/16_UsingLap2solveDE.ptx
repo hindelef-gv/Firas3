@@ -1,0 +1,154 @@
+<worksheet>
+    <title>
+        Using Laplace transform to solve DE
+    </title>
+
+    <objectives>
+        <ul>
+            
+            <li>
+                <p>
+                    Using Laplace transform to solve differential equations.
+                </p>
+            </li>
+
+   
+        </ul>
+    </objectives>
+<introduction>
+        <p>
+            We have been exploring the Laplace transform for some special functions and how to use it in solving differential equations. Here is a recap of what we learned so far:
+
+        </p>
+       
+               
+        
+                <tabular top="minor" left="minor">
+                    <col halign="center" right="minor"/>
+                    <col halign="center" right="minor"/>
+                    <col halign="center" right="minor"/>
+                    <row bottom="minor">
+                        <cell><m>f(t)</m></cell>
+                        <cell><m>F(s)=\mathscr{L}\left\{f(t)\right\}</m></cell>
+                        <cell>Condition</cell>
+                    </row>
+        
+                    <row bottom="minor">
+                        <cell><m>1</m></cell>
+                        <cell><m>\frac{1}{s}</m></cell>
+                        <cell><m>s&gt;0</m></cell>
+                    </row>
+        
+                    <row bottom="minor">
+                        <cell><m>t^{n}</m></cell>
+                        <cell><m>\frac{n!}{s^{n+1}}</m></cell>
+                        <cell><m>s&gt;0</m></cell>
+                    </row>
+        
+                    <row bottom="minor">
+                        <cell><m>e^{at}</m></cell>
+                        <cell><m>\frac{1}{s-a}</m></cell>
+                        <cell><m>s&gt;a</m></cell>
+                    </row>
+        
+                    <row bottom="minor">
+                        <cell><m>\sin(b t)</m></cell>
+                        <cell><m>\frac{b}{s^{2}+b^{2}}</m></cell>
+                        <cell><m>s&gt;0</m></cell>
+                    </row>
+        
+                    <row bottom="minor">
+                        <cell><m>\cos(b t)</m></cell>
+                        <cell><m>\frac{s}{s^{2}+b^{2}}</m></cell>
+                        <cell><m>s&gt;0</m></cell>
+                    </row>
+        
+                    <row bottom="minor">
+                        <cell><m>e^{\alpha t}\sin(b t)</m></cell>
+                        <cell><m>\frac{b}{(s-\alpha)^{2}+b^{2}}</m></cell>
+                        <cell><m>s&gt;\alpha</m></cell>
+                    </row>
+        
+                    <row bottom="minor">
+                        <cell><m>e^{\alpha t}\cos(b t)</m></cell>
+                        <cell><m>\frac{(s-\alpha)}{(s-\alpha)^{2}+b^{2}}</m></cell>
+                        <cell><m>s&gt;\alpha</m></cell  >
+                    </row>
+        
+                    <row bottom="minor">
+                        <cell><m>\displaystyle{\frac{dy}{dt}}</m></cell>
+                        <cell><m>sY-y(0)</m></cell>
+                        <cell><m>s&gt;0</m></cell>
+                    </row>
+        
+                    <row bottom="minor">
+                        <cell><m>\displaystyle{\frac{d^{2}y}{dt^{2}}}</m></cell>
+                        <cell><m>s^{2}Y-sy(0)-y^{\prime}(0)</m></cell>
+                        <cell><m>s&gt;0</m></cell>
+                    </row>
+        
+                    <row>
+                        <cell/>
+                    </row>
+                </tabular>
+                <p>
+                    In this activity you will explore solving DE using the Laplace transform. 
+                </p>
+    </introduction>
+    <example>
+<introduction>
+    <p>
+       Solve the differential equation using the Laplace transform.<md>\frac{dy}{dt}+y=t^2</md> and <m>y(0)=1</m>
+    </p>
+</introduction>
+<solution>
+    <p>
+        Taking the Laplace transform of both sides of the differential equation, we get
+        <md>
+            sY - y(0) + Y = \frac{2}{s^{3}}
+        </md>
+        Substituting <m>y(0)=1</m>, we have
+        <md>
+            sY - 1 + Y = \frac{2}{s^{3}}
+        </md>
+        Solving for <m>Y</m>, we get
+        <md>
+            Y = \frac{1}{s+1} + \frac{2}{s^{3}(s+1)}
+        </md>
+        Using partial fraction decomposition, we can write
+        <md>
+            \frac{2}{s^{3}(s+1)} = \frac{2}{s^{3}} - \frac{2}{s^{2}} + \frac{2}{s} - \frac{2}{s+1}
+        </md>
+        Therefore, the inverse Laplace transform gives
+        <md>
+            y(t) = e^{-t} + 2\left(\frac{t^{2}}{2} - t + 1 - e^{-t}\right) = t^{2} - 2t + 2 - e^{-t}
+        </md>
+        
+    </p>
+</solution>
+    </example>
+    <exercise>
+        <introduction>
+        <p>
+            <p>
+                            In Chapter 4 the forced harmonic oscillator equation was introduced as a
+                            model of a mass attached to a spring sliding back and forth on a table with
+                            an external force caused by, for example, tilting the table.
+                            As a first example of the Laplace transform method for such an equation,
+                            consider the initial-value problem
+                            <md>
+                                \frac{d^{2}y}{dt^{2}}+4y=3\cos(t), \quad\quad y(0)=y^{\prime}(0)=0
+                            </md>
+                            This equation models a unit mass sliding on a frictionless table with spring
+                            constant 4 and a periodic external forcing function of <m>3 \cos t</m>.
+                        </p>
+            
+                        <p>
+                            Use Laplace transform to solve this equation.
+                            How does this compare to what we learned in the previous chapter?
+                        </p>
+        </p>
+        </introduction>
+    </exercise>
+
+    </worksheet>

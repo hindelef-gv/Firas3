@@ -66,6 +66,8 @@
 <xi:include href="./activities/13_2ndorder_Homog.ptx"/>
 <xi:include href="./activities/14_2ndorder_Nonhomog.ptx"/>
 <xi:include href="./activities/15_LapTran.ptx"/>
+<xi:include href="./activities/16_UsingLap2solveDE.ptx"/>
+
     </chapter>
 
  
