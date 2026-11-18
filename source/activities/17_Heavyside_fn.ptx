@@ -56,25 +56,27 @@
 <section>
 <title>Shifting the origin on the <m>t-</m>Axis</title>
 <introduction>
-    <p>
-        Given a function <m>f(t)</m>, suppose that we wish to consider a function
-                <m>g(t)</m>, which is the same as the function <m>f (t)</m>, but shifted so that
-                time <m>t = 0</m> for <m>f</m> corresponds to some later time, say <m>t = a</m>,
-                for <m>g</m>.
-                For time <m>t &lt; a</m> we let <m>g(t) = 0</m>.
-                (So <m>g</m> is the same as <m>f</m> except that <m>g</m> is <q>turned on</q> at
-                time <m>t = a</m>.) An efficient way to write <m>g(t)</m> is
-                <md>
-                    g(t)=u_{a}(t)\cdot f(t-a)
-                </md>
-    </p>
-    <p>
-        <image source="13_1.jpg" width="75%">
-                <shortdescription>
-                    The graph of<m>f(t)=e^{-t}</m> and <m>g(t)=u_3(t)\cdot e^{-(t-3)}</m>.
-                </shortdescription>
-            </image>
-    </p>
+    <sidebyside>
+        <p>
+            Given a function <m>f(t)</m>, suppose that we wish to consider a function
+                    <m>g(t)</m>, which is the same as the function <m>f (t)</m>, but shifted so that
+                    time <m>t = 0</m> for <m>f</m> corresponds to some later time, say <m>t = a</m>,
+                    for <m>g</m>.
+                    For time <m>t &lt; a</m> we let <m>g(t) = 0</m>.
+                    (So <m>g</m> is the same as <m>f</m> except that <m>g</m> is <q>turned on</q> at
+                    time <m>t = a</m>.) An efficient way to write <m>g(t)</m> is
+                    <md>
+                        g(t)=u_{a}(t)\cdot f(t-a)
+                    </md>
+        </p>
+        <p>
+            <image source="13_1.jpg" width="75%">
+                    <shortdescription>
+                        The graph of<m>f(t)=e^{-t}</m> and <m>g(t)=u_3(t)\cdot e^{-(t-3)}</m>.
+                    </shortdescription>
+                </image>
+        </p>
+    </sidebyside>
 </introduction>
 <theorem>
     <statement>
@@ -179,7 +181,17 @@
 <exercise>
     <introduction>
         
-<p>Consider the RC circuit with voltage source <m>V(t)=u_{4}(t)e^{-(t-4)}</m>.
+<sidebyside>
+    <p>Consider the RC circuit with voltage source <md>V(t)=2u_{4}(t)\cdot e^{-(t-4)}</md>.</p>
+
+            <image source="13_2.jpg" width="75%">
+                    <shortdescription>
+                        The picture of an RC circuit and the graph of <m>V(t)=2u_{4}(t)e^{-(t-4)}</m>.
+                    </shortdescription>
+                </image>
+</sidebyside>
+    
+    <p>
 The voltage source turns on with a voltage 2 at time <m>t=4</m> and then decays
 exponentially as <m>t</m> increases.
 The differential equation for the voltage <m>v_{c}</m> across the capacitor is
@@ -190,16 +202,10 @@ Suppose that the initial voltage across the capacitor is <m>v_{c}(0)=5</m>.
 Taking the (unrealistic) values <m>R = 1</m> and <m>C = 1/3</m> and using
 <m>V(t)</m> given above, we have the initial-value problem
 <md>
-    \frac{1}{3}\frac{dv_{c}}{dt}+v_{c}=u_{4}(t)\cdot e^{-(t-4)},v_{c}(0)=5.
+    \frac{1}{3}\frac{dv_{c}}{dt}+v_{c}=2u_{4}(t)\cdot e^{-(t-4)},v_{c}(0)=5.
 </md>
 </p> </introduction>
-<p>
-        <image source="13_2.jpg" width="75%">
-                <shortdescription>
-                    The picture of an RC circuit and the graph of <m>V(t)=u_{4}(t)e^{-(t-4)}</m>.
-                </shortdescription>
-            </image>
-    </p>
+
 
    
 </exercise>
