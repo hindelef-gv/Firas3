@@ -1267,7 +1267,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Laplace transform for the Heaviside function",
-  "body": " Laplace transform for the Heaviside function     The Heaviside function geometrically and algebraically.    Laplace transform for the Heaviside function.    Using Laplace transform to solve differential equations with the heaviside function.       Let , the Heavyside function Named after the Eng. Oliver Heayvside , denoted by is defined by       Find the Laplace transform of the Heaviside function .    We have      Shifting the origin on the Axis    Given a function , suppose that we wish to consider a function , which is the same as the function , but shifted so that time for corresponds to some later time, say , for . For time we let . (So is the same as except that is turned on at time .) An efficient way to write is     The graph of and .        If then Similarly, if then     Find the Laplace transform of the following functions                          Find the inverse Laplace transform of the following functions                           Using Laplace to solve DE with the Heavyside function    Solve the following initial value problem using Laplace transform                     Consider the RC circuit with voltage source .   The picture of an RC circuit and the graph of .    The voltage source turns on with a voltage 2 at time and then decays exponentially as increases. The differential equation for the voltage across the capacitor is Suppose that the initial voltage across the capacitor is . Taking the (unrealistic) values and and using given above, we have the initial-value problem      "
+  "body": " Laplace transform for the Heaviside function     The Heaviside function geometrically and algebraically.    Laplace transform for the Heaviside function.    Using Laplace transform to solve differential equations with the heaviside function.       Let , the Heavyside function Named after the Eng. Oliver Heayvside , denoted by is defined by       Find the Laplace transform of the Heaviside function .    We have      Shifting the origin on the Axis    Given a function , suppose that we wish to consider a function , which is the same as the function , but shifted so that time for corresponds to some later time, say , for . For time we let . (So is the same as except that is turned on at time .) An efficient way to write is     The graph of and .        If then Similarly,      Find the Laplace transform of the following functions                          Find the inverse Laplace transform of the following functions                           Using Laplace to solve DE with the Heavyside function    Solve the following initial value problem using Laplace transform                     Consider the RC circuit with voltage source .   The picture of an RC circuit and the graph of .    The voltage source turns on with a voltage 2 at time and then decays exponentially as increases. The differential equation for the voltage across the capacitor is Suppose that the initial voltage across the capacitor is . Taking the (unrealistic) values and and using given above, we have the initial-value problem      "
 },
 {
   "id": "activities-20-2",
@@ -1303,7 +1303,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "63",
   "title": "",
-  "body": "  If then Similarly, if then   "
+  "body": "  If then Similarly,    "
 },
 {
   "id": "activities-20-5-4",
