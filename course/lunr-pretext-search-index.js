@@ -1477,6 +1477,78 @@ var ptx_lunr_docs = [
   "body": "   Section 4.3: #19.       "
 },
 {
+  "id": "homework-5",
+  "level": "1",
+  "url": "homework-5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Homework 4",
+  "body": " Homework 4    Instruction: This is a group assignment. You may choose your partner(s) up to no more than four people per group. You may use any technology tool for algebra related steps.     Section 6.1: # 20. Solve the following DE using Laplace transform.       Section 6.1: # 24. Solve the following DE using Laplace transform.       Section 6.2: # 11. Solve the following DE using Laplace transform.       Section 6.2: # 12. Solve the following DE using Laplace transform.       Section 6.3: # 6. Compute the Laplace transform of the given function.    One way to do this exercises is to use integration by parts. Alternately, differentiate both sides of the formula for with respect to .       Section 6.3: # 32. Solve the following DE using Laplace transform.       Section 6.3: # 34. Solve the following DE using Laplace transform.     "
+},
+{
+  "id": "homework-5-3",
+  "level": "2",
+  "url": "homework-5.html#homework-5-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Section 6.1: # 20. Solve the following DE using Laplace transform.    "
+},
+{
+  "id": "homework-5-4",
+  "level": "2",
+  "url": "homework-5.html#homework-5-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Section 6.1: # 24. Solve the following DE using Laplace transform.    "
+},
+{
+  "id": "homework-5-5",
+  "level": "2",
+  "url": "homework-5.html#homework-5-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Section 6.2: # 11. Solve the following DE using Laplace transform.    "
+},
+{
+  "id": "homework-5-6",
+  "level": "2",
+  "url": "homework-5.html#homework-5-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Section 6.2: # 12. Solve the following DE using Laplace transform.    "
+},
+{
+  "id": "homework-5-7",
+  "level": "2",
+  "url": "homework-5.html#homework-5-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Section 6.3: # 6. Compute the Laplace transform of the given function.    One way to do this exercises is to use integration by parts. Alternately, differentiate both sides of the formula for with respect to .    "
+},
+{
+  "id": "homework-5-8",
+  "level": "2",
+  "url": "homework-5.html#homework-5-8",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  Section 6.3: # 32. Solve the following DE using Laplace transform.    "
+},
+{
+  "id": "homework-5-9",
+  "level": "2",
+  "url": "homework-5.html#homework-5-9",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "  Section 6.3: # 34. Solve the following DE using Laplace transform.    "
+},
+{
   "id": "ws-LTlistF26",
   "level": "1",
   "url": "ws-LTlistF26.html",
