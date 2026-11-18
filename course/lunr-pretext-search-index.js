@@ -1261,6 +1261,87 @@ var ptx_lunr_docs = [
   "body": "   In Chapter 4 the forced harmonic oscillator equation was introduced as a model of a mass attached to a spring sliding back and forth on a table with an external force caused by, for example, tilting the table. As a first example of the Laplace transform method for such an equation, consider the initial-value problem This equation models a unit mass sliding on a frictionless table with spring constant 4 and a periodic external forcing function of .  Use Laplace transform to solve this equation. How does this compare to what we learned in the previous chapter?    "
 },
 {
+  "id": "activities-20",
+  "level": "1",
+  "url": "activities-20.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Laplace transform for the Heaviside function",
+  "body": " Laplace transform for the Heaviside function     The Heaviside function geometrically and algebraically.    Laplace transform for the Heaviside function.    Using Laplace transform to solve differential equations with the heaviside function.       Let , the Heavyside function Named after the Eng. Oliver Heayvside , denoted by is defined by       Find the Laplace transform of the Heaviside function .    We have      Shifting the origin on the Axis   Given a function , suppose that we wish to consider a function , which is the same as the function , but shifted so that time for corresponds to some later time, say , for . For time we let . (So is the same as except that is turned on at time .) An efficient way to write is     The graph of and .       If then Similarly, if then     Find the Laplace transform of the following functions                          Find the inverse Laplace transform of the following functions                           Using Laplace to solve DE with the Heavyside function    Solve the following initial value problem using Laplace transform                    Consider the RC circuit with voltage source . The voltage source turns on with a voltage 2 at time and then decays exponentially as increases. The differential equation for the voltage across the capacitor is Suppose that the initial voltage across the capacitor is . Taking the (unrealistic) values and and using given above, we have the initial-value problem     The picture of an RC circuit and the graph of .       "
+},
+{
+  "id": "activities-20-2",
+  "level": "2",
+  "url": "activities-20.html#activities-20-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   The Heaviside function geometrically and algebraically.    Laplace transform for the Heaviside function.    Using Laplace transform to solve differential equations with the heaviside function.    "
+},
+{
+  "id": "activities-20-3",
+  "level": "2",
+  "url": "activities-20.html#activities-20-3",
+  "type": "Definition",
+  "number": "61",
+  "title": "",
+  "body": "  Let , the Heavyside function Named after the Eng. Oliver Heayvside , denoted by is defined by    "
+},
+{
+  "id": "activities-20-4",
+  "level": "2",
+  "url": "activities-20.html#activities-20-4",
+  "type": "Example",
+  "number": "62",
+  "title": "",
+  "body": "  Find the Laplace transform of the Heaviside function .    We have    "
+},
+{
+  "id": "activities-20-5-3",
+  "level": "2",
+  "url": "activities-20.html#activities-20-5-3",
+  "type": "Theorem",
+  "number": "63",
+  "title": "",
+  "body": "  If then Similarly, if then   "
+},
+{
+  "id": "activities-20-5-4",
+  "level": "2",
+  "url": "activities-20.html#activities-20-5-4",
+  "type": "Example",
+  "number": "64",
+  "title": "",
+  "body": " Find the Laplace transform of the following functions                       "
+},
+{
+  "id": "activities-20-5-5",
+  "level": "2",
+  "url": "activities-20.html#activities-20-5-5",
+  "type": "Example",
+  "number": "65",
+  "title": "",
+  "body": "  Find the inverse Laplace transform of the following functions                        "
+},
+{
+  "id": "activities-20-6-2",
+  "level": "2",
+  "url": "activities-20.html#activities-20-6-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Solve the following initial value problem using Laplace transform                 "
+},
+{
+  "id": "activities-20-6-3",
+  "level": "2",
+  "url": "activities-20.html#activities-20-6-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Consider the RC circuit with voltage source . The voltage source turns on with a voltage 2 at time and then decays exponentially as increases. The differential equation for the voltage across the capacitor is Suppose that the initial voltage across the capacitor is . Taking the (unrealistic) values and and using given above, we have the initial-value problem     The picture of an RC circuit and the graph of .     "
+},
+{
   "id": "projects-2",
   "level": "1",
   "url": "projects-2.html",
@@ -1329,7 +1410,7 @@ var ptx_lunr_docs = [
   "url": "projects-3.html",
   "type": "Worksheet",
   "number": "",
-  "title": "The SIR Model of an Epidemic<details class=\"ptx-footnote\" aria-live=\"polite\" id=\"projects-3-1-1\"><summary class=\"ptx-footnote__number\" title=\"Footnote 2\"><sup> 2 <\/sup><\/summary>\n<div class=\"ptx-footnote__contents\" id=\"projects-3-1-1\">This handout is adapted from section 2.7 in your textbook.\n<\/div><\/details>",
+  "title": "The SIR Model of an Epidemic<details class=\"ptx-footnote\" aria-live=\"polite\" id=\"projects-3-1-1\"><summary class=\"ptx-footnote__number\" title=\"Footnote 3\"><sup> 3 <\/sup><\/summary>\n<div class=\"ptx-footnote__contents\" id=\"projects-3-1-1\">This handout is adapted from section 2.7 in your textbook.\n<\/div><\/details>",
   "body": " The SIR Model of an Epidemic This handout is adapted from section 2.7 in your textbook.   H1N1 flu, often called swine flu , caused a worldwide pandemic in 2009. The outbreak began in Mexico early in the year, and eventually the Mexican government closed many public and private facilities in Mexico City in an attempt to restrict the spread of the disease. Nevertheless, the virus spread worldwide. Against the advice of public health officials, some summer camps in the U.S. went so far as to use drugs such as Tamiflu in a prophylactic fashion. More typically, we were encouraged to wash our hands frequently, cough into our sleeves, and stay home during exams. The pandemic seemed to peak in November of 2009, and by spring of 2010 the number of cases was in rapid decline. The World Health Organization announced the end of the pandemic in August of 2010. To compare this pandemic to others, see the video Secrets of the Dead: Killer Flu (1918) at      Modeling and Epidemic  The spread of a contagious disease through a population involves intricate interactions from the level of populations down to the level of individual cells and viruses. However, it is still possible to learn interesting and useful information from relatively simple models. A classical model, introduced by Kermack and McKendrick in 1927 See A contribution to the mathematical theory of epidemics byW. O. Kermack and A. G. McKendrick, Proceedings Royal Society of London A 115, 1927, pp. 700--721. is called the SIR model. In this model, a population is divided into three groups---the susceptible individuals, the infected individuals, and the recovered individuals. In this model denotes the fraction of the population that can catch the disease at time , denotes the fraction of the population that has the disease and can spread it to the susceptible, and denotes the fraction of the population that has recovered from the disease and cannot catch it again. This model is appropriate for the spread of a flu epidemic since once a person has had a particular strain of flu, their immune system prevents them from catching that strain again. Since flu spreads fairly quickly, we can assume that time is measured in days. While most people recover from the flu fairly easily, there is a low mortality rate. Those who do not survive are included in . We assume everyone in the population is either susceptible, infected, or recovered, that is, for all . In addition, we assume that the disease spreads relatively quickly, so it is reasonable to assume that the only change in the size of these groups is due to the disease. To set up the model, we make some more specific assumptions. First, we assume that the rate that susceptible people and infected people interact is proportional to both the number of susceptible and the number of infected, that is, proportional to the product of and . Some fraction of these interactions lead to a susceptible becoming infected. We also assume that the infected individuals recover at a rate that is proportional to the number of infected. Based on these assumptions, our model is where is the contagion parameter and is the recovery parameter. If we know and , then . Consequently, we need only keep track of and , and we can consider the planar (i.e 2D ) system The equilibria of this system are the solutions of the simultaneous system of equations which is precisely the line . This makes sense since if there are no infected, then no one can catch the disease. Notice that if . In other words if , the vectors in the vector field are horizontal. To the right of the vertical line in the phase plane, , and the disease is spreading.To the left of the vertical line in the phase plane, , and the disease is decreasing. Hence, the value plays an important role in the evolution of the disease. It is called the threshold value of the model. Given values of and , if , then an epidemic occurs. If , then there is no epidemic.   Solution curves in the SI-phase plane that correspond to the initial condition with and . As increases, the maximum number of infecteds increases while the number of susceptibles that avoid the disease decreases. If you compare this figure with Figure 2.58, the solution curves corresponding to look different. This apparent difference is caused by the fact that the distance between 0 and 1 is the same on both axes in this figure while the distance between 0 and 1 is smaller on the vertical axis than on the horizontal axis in Figure 2.58.     Hey, I got Covid-19 THREE times!    One of the basic assumptions of the SIR model is that individuals who recover from the disease never get it again. However, diseases continually evolve, and new strains can emerge that can infect those who have recovered from the previous strain. In this project, we modify the SIR model so that recovered become susceptible again in a linear rate. We obtain the system of equations      Show that is a constant function of for this model.      Derive a system in the two dependent variables and using the fact that initially.      What are the equilibrium points for this model of the two variables and ? (Hint: Both and are nonnegative, and for all .)      Fix and . Assume that . Create tables using Euler's method for system with , run your table down until you see something interesting!   Write a conclusion statement.  Include in your write up the graphs of vs , vs , and vs .  Your Spreadsheet Headers should be                    where and .       "
 },
 {
