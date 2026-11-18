@@ -1483,7 +1483,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Homework 4",
-  "body": " Homework 4    Instruction: This is a group assignment. You may choose your partner(s) up to no more than four people per group. You may use any technology tool for algebra related steps.     Section 6.1: # 20. Solve the following DE using Laplace transform.       Section 6.1: # 24. Solve the following DE using Laplace transform.       Section 6.2: # 11. Solve the following DE using Laplace transform.       Section 6.2: # 12. Solve the following DE using Laplace transform.       Section 6.3: # 6. Compute the Laplace transform of the given function.    One way to do this exercises is to use integration by parts. Alternately, differentiate both sides of the formula for with respect to .       Section 6.3: # 32. Solve the following DE using Laplace transform.       Section 6.3: # 34. Solve the following DE using Laplace transform.     "
+  "body": " Homework 4    Instruction: This is a group assignment. You may choose your partner(s) up to no more than four people per group. You may use any technology tool for algebra related steps.     Section 6.1: # 20. Solve the following DE using Laplace transform.       Section 6.1: # 24. Solve the following DE using Laplace transform.       Section 6.2: # 11. Solve the following DE using Laplace transform.       Section 6.2: # 12. Solve the following DE using Laplace transform.       Section 6.3: # 6. Compute the Laplace transform of the given function.    One way to do this exercises is to use integration by parts. Alternately, differentiate both sides of the formula for with respect to .       Section 6.3: # 32. Solve the following DE using Laplace transform.       Section 6.3: # 34. Solve the following DE using Laplace transform.        Section 6.4: # 5. Solve the following DE using Laplace transform.     "
 },
 {
   "id": "homework-5-3",
@@ -1546,7 +1546,16 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "",
-  "body": "  Section 6.3: # 34. Solve the following DE using Laplace transform.    "
+  "body": "  Section 6.3: # 34. Solve the following DE using Laplace transform.     "
+},
+{
+  "id": "homework-5-10",
+  "level": "2",
+  "url": "homework-5.html#homework-5-10",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "",
+  "body": "  Section 6.4: # 5. Solve the following DE using Laplace transform.    "
 },
 {
   "id": "ws-LTlistF26",
