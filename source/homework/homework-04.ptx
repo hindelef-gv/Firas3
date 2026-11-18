@@ -1,0 +1,134 @@
+<worksheet>
+  <title>Homework 4</title>
+  <introduction>
+    <p>
+      <alert>Instruction:</alert> 
+      This is a   group assignment. You may choose your partner(s) up to no more than four people per group. You may use any technology tool for algebra related steps.  
+      </p>
+
+  </introduction>
+<exercise>
+<statement>
+<p>
+Section 6.1: # 20. Solve the following DE using Laplace transform.
+<md>
+    \frac{dy}{dt}=-y+2,\quad\quad\quad y(0)=4.
+</md>
+    </p>
+    </statement>
+</exercise>
+
+
+<exercise>
+    <statement>
+        <p>
+           Section 6.1: # 24. Solve the following DE using Laplace transform.
+            <md>
+                             \frac{dy}{dt}+4y=2+3t,\quad\quad\quad y(0)=1.
+                        </md>
+        </p>
+    </statement>
+</exercise>
+<exercise>
+    <statement>
+        <p>
+         
+                            Section 6.2: # 11. Solve the following DE using Laplace transform.
+                        
+                            <md>
+                                 \frac{dy}{dt}=-y+u_2(t)\cdot e^{-2(t-2)},\quad\quad\quad y(0)=1.
+                            </md>
+                       
+        </p>
+    </statement>
+</exercise>
+
+
+<exercise>
+    <statement>
+        <p>
+         
+                            Section 6.2: # 12. Solve the following DE using Laplace transform.
+                        
+                            <md>
+                                 \frac{dy}{dt}=-y+2u_3(t),\quad\quad\quad y(0)=4.
+                            </md>
+                       
+        </p>
+    </statement>
+</exercise>
+
+
+<exercise>
+    <statement>
+        <p>
+         
+                            Section 6.3: # 6. Compute the Laplace transform of the given function.
+                        
+                            <md>
+                                 \mathscr{L}\{t\cdot\sin(\omega t)\}
+                            </md>
+                       
+        </p>
+        <hint>
+            <p>
+                One way to do this exercises is to use integration by parts. Alternately,  differentiate both sides of the formula for <m>\mathscr{L}\{cos (ωt)\}</m> with respect to <m>\omega</m>. 
+            </p>
+            </hint>
+    </statement>
+</exercise>
+
+
+
+<exercise>
+    <statement>
+        <p>
+         
+                            Section 6.3: # 32. Solve the following DE using Laplace transform.
+                        
+                            <md>
+                                 \frac{d^2y}{dt^2}+3y=u_4(t)\cdot\cos(5(t-4)),\quad\quad\quad y(0)=0, y'(0)=-2.
+                            </md>
+                       
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+         
+                            Section 6.3: # 34. Solve the following DE using Laplace transform.
+                        
+                            <md>
+                                 \frac{d^2y}{dt^2}+3y=w(t),\quad\quad\quad y(0)=2, y'(0)=0, \mbox{ where }
+                            </md>
+   
+      
+  <me>
+  w(t) = \begin{cases}
+    t &amp; \text{if } 0\leq t\lt 1, \\
+    1 &amp; \text{if } t \geq 1.
+  \end{cases}
+</me>
+
+               
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+         
+                            Section 6.4: # 5. Solve the following DE using Laplace transform.
+                        
+                            <md>
+                                 \frac{d^2y}{dt^2}+2\frac{dy}{dt}+3y=\delta_1(t)-3\delta_4(t),\quad\quad\quad y(0)=0, y'(0)=0.
+                            </md>
+                       
+        </p>
+    </statement>
+</exercise>
+
+  </worksheet>
