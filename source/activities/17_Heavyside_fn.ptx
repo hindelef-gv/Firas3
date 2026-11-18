@@ -85,7 +85,7 @@
          <md>
         \mathscr{L}\{ f(t-a)\cdot u_a(t)\} = e^{-as}\cdot F(s).   
         </md>
-           Similarly, if <md>\mathscr{L}^{-1}\{e^{-as}\cdot F(s)\}=f(t-a)\cdot u_a(t)</md> then
+           Similarly,  <md>\mathscr{L}^{-1}\{e^{-as}\cdot F(s)\}=f(t-a)\cdot u_a(t)</md> 
 
         </p>
     </statement>
