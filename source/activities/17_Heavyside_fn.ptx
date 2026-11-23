@@ -92,7 +92,7 @@
 </theorem>
 <example>
     <introduction><p>Find the Laplace transform of the following functions</p></introduction>
-    <task workspace="0.5in">
+    <task>
         <statement>
             <p>
                <m>\mathscr{L}\{ (t+4)\cdot u_3(t)\}</m> 
@@ -101,7 +101,7 @@
         
     </task>
 
-    <task workspace="0.5in">
+    <task>
         <statement>
             <p>
                <m>\mathscr{L}\{ (t+4)^2\cdot u_3(t)\}</m> 
@@ -111,7 +111,7 @@
     </task>
 
 
-    <task workspace="0.5in">
+    <task>
         <statement>
             <p>
                <m>\mathscr{L}\{ e^{t+4}\cdot u_3(t)\}</m> 
@@ -126,7 +126,7 @@
             Find the inverse Laplace transform of the following functions
         </p>
     </introduction>
-    <task workspace="0.5in">
+    <task>
         <statement>
             <p>
                <m>\displaystyle{\mathscr{L}^{-1}\left\{41e^{-3s}\frac{1}{s^5}\right\}}</m> 
@@ -142,7 +142,7 @@
         </statement>
         </task>
 
-         <task workspace="0.5in">
+         <task>
         <statement>
             <p>
                <m>\displaystyle{\mathscr{L}^{-1}\left\{e^{-s}\frac{14}{(3s+2)(s-4)}\right\}}</m> 
@@ -161,7 +161,7 @@
             Solve the following initial value problem using Laplace transform
         </p>
     </introduction>
-    <task workspace="1.5in">
+    <task>
         <statement>
             <p>
                 <m>y'=-y+u_1(t)\cdot (t-1),  \mbox{ and  } \quad y(0)=2.</m>
@@ -169,7 +169,7 @@
         </statement>
     </task>
 
-    <task workspace="1.5in">
+    <task>
         <statement>
             <p>
                 <m>y'=-2y+u_2(t)\cdot e^{-t}, \mbox{ and  }\quad y(0)=3.</m>
