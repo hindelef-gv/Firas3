@@ -1342,6 +1342,60 @@ var ptx_lunr_docs = [
   "body": "   Consider the RC circuit with voltage source .   The picture of an RC circuit and the graph of .    The voltage source turns on with a voltage 2 at time and then decays exponentially as increases. The differential equation for the voltage across the capacitor is Suppose that the initial voltage across the capacitor is . Taking the (unrealistic) values and and using given above, we have the initial-value problem    "
 },
 {
+  "id": "activities-21",
+  "level": "1",
+  "url": "activities-21.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Laplace transform for Dirac Delta function",
+  "body": " Laplace transform for Dirac Delta function     Using Laplace transform to solve differential equations with Dirac Delta functions.      We have been exploring the Laplace transform for some special functions and how to use it in solving differential equations. Here is a recap of what we learned so far:         Condition                                                                            The Dirac Delta function, denoted by , is a mathematical function that is zero everywhere except at , where it is infinitely large in such a way that its integral over the entire real line is equal to one. It is often used to model an idealized impulse or point source in various fields of science and engineering.      The Laplace transform of the Dirac Delta function is given by:     To prove this, we can use the definition of the Laplace transform: Since the Dirac Delta function is zero everywhere except at , we can evaluate the integral as follows: Therefore, we have shown that the Laplace transform of the Dirac Delta function is indeed .      Use the Laplace transform to solve the following initial value problem.          Taking the Laplace transform of both sides of the equation: Substituting the initial conditions: Simplifying: Solving for Y: Taking the inverse Laplace transform: This can be split into two terms: The second term is straightforward: For the first term, we use the time-shift property: Therefore, the solution is:            Taking the Laplace transform of both sides of the equation: Substituting the initial conditions: Simplifying: Solving for Y: Taking the inverse Laplace transform: This can be split into two terms: The second term can be simplified by completing the square in the denominator: Therefore, we can rewrite the second term as: Taking the inverse Laplace transform of each term:  For the first term, we use the time-shift property: Therefore, the solution is:        Find Laplace inverse for the following functions.                                "
+},
+{
+  "id": "activities-21-2",
+  "level": "2",
+  "url": "activities-21.html#activities-21-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Using Laplace transform to solve differential equations with Dirac Delta functions.    "
+},
+{
+  "id": "activities-21-4",
+  "level": "2",
+  "url": "activities-21.html#activities-21-4",
+  "type": "Definition",
+  "number": "68",
+  "title": "",
+  "body": "  The Dirac Delta function, denoted by , is a mathematical function that is zero everywhere except at , where it is infinitely large in such a way that its integral over the entire real line is equal to one. It is often used to model an idealized impulse or point source in various fields of science and engineering.   "
+},
+{
+  "id": "activities-21-5",
+  "level": "2",
+  "url": "activities-21.html#activities-21-5",
+  "type": "Theorem",
+  "number": "69",
+  "title": "",
+  "body": "  The Laplace transform of the Dirac Delta function is given by:     To prove this, we can use the definition of the Laplace transform: Since the Dirac Delta function is zero everywhere except at , we can evaluate the integral as follows: Therefore, we have shown that the Laplace transform of the Dirac Delta function is indeed .   "
+},
+{
+  "id": "activities-21-6",
+  "level": "2",
+  "url": "activities-21.html#activities-21-6",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Use the Laplace transform to solve the following initial value problem.          Taking the Laplace transform of both sides of the equation: Substituting the initial conditions: Simplifying: Solving for Y: Taking the inverse Laplace transform: This can be split into two terms: The second term is straightforward: For the first term, we use the time-shift property: Therefore, the solution is:            Taking the Laplace transform of both sides of the equation: Substituting the initial conditions: Simplifying: Solving for Y: Taking the inverse Laplace transform: This can be split into two terms: The second term can be simplified by completing the square in the denominator: Therefore, we can rewrite the second term as: Taking the inverse Laplace transform of each term:  For the first term, we use the time-shift property: Therefore, the solution is:     "
+},
+{
+  "id": "activities-21-7",
+  "level": "2",
+  "url": "activities-21.html#activities-21-7",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Find Laplace inverse for the following functions.                               "
+},
+{
   "id": "projects-2",
   "level": "1",
   "url": "projects-2.html",
