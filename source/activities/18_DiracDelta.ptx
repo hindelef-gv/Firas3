@@ -182,23 +182,23 @@
                 </md>
                 Taking the inverse Laplace transform:
                 <md>
-                    y(t) = \mathcal{L}^{-1}\left\{\frac{e^{-2s} + 1}{s^2 + 4}\right\}
+                    y(t) = \mathscr{L}^{-1}\left\{\frac{e^{-2s} + 1}{s^2 + 4}\right\}
                 </md>
                 This can be split into two terms:
                 <md>
-                    y(t) = \mathcal{L}^{-1}\left\{\frac{e^{-2s}}{s^2 + 4}\right\} + \mathcal{L}^{-1}\left\{\frac{1}{s^2 + 4}\right\}
+                    y(t) = \mathscr{L}^{-1}\left\{\frac{e^{-2s}}{s^2 + 4}\right\} + \mathscr{L}^{-1}\left\{\frac{1}{s^2 + 4}\right\}
                 </md>
                 The second term is straightforward:
                 <md>
-                    \mathcal{L}^{-1}\left\{\frac{1}{s^2 + 4}\right\} = \frac{1}{2}\sin(2t)
+                    \mathscr{L}^{-1}\left\{\frac{1}{s^2 + 4}\right\} = \frac{1}{2}\sin(2t)
                 </md>
                 For the first term, we use the time-shift property:
                 <md>
-                    \mathcal{L}^{-1}\left\{\frac{e^{-2s}}{s^2 + 4}\right\} = \frac{1}{2}\sin(2(t-2))u(t-2)
+                    \mathscr{L}^{-1}\left\{\frac{e^{-2s}}{s^2 + 4}\right\} = \frac{1}{2}\sin(2(t-2))u_2(t)
                 </md>
                 Therefore, the solution is:
                 <md>
-                    y(t) = \frac{1}{2}\sin(2(t-2))u(t-2) + \frac{1}{2}\sin(2t)
+                    y(t) = \frac{1}{2}\sin(2(t-2))u_2(t) + \frac{1}{2}\sin(2t)
                 </md>   
             </p>
         </solution>
@@ -229,11 +229,11 @@
                 </md>
                 Taking the inverse Laplace transform:
                 <md>
-                    y(t) = \mathcal{L}^{-1}\left\{\frac{-2e^{-2s} + 2s + 4}{s^2 + 2s + 2}\right\}
+                    y(t) = \mathscr{L}^{-1}\left\{\frac{-2e^{-2s} + 2s + 4}{s^2 + 2s + 2}\right\}
                 </md>
                 This can be split into two terms:
                 <md>
-                    y(t) = \mathcal{L}^{-1}\left\{\frac{-2e^{-2s}}{s^2 + 2s + 2}\right\} + \mathcal{L}^{-1}\left\{\frac{2s + 4}{s^2 + 2s + 2}\right\}
+                    y(t) = \mathscr{L}^{-1}\left\{\frac{-2e^{-2s}}{s^2 + 2s + 2}\right\} + \mathscr{L}^{-1}\left\{\frac{2s + 4}{s^2 + 2s + 2}\right\}
                 </md>
                 The second term can be simplified by completing the square in the denominator:
                 <md>
@@ -245,23 +245,57 @@
                 </md>
                 Taking the inverse Laplace transform of each term:
                 <md>
-                    \mathcal{L}^{-1}\left\{2\frac{s + 1}{(s + 1)^2 + 1}\right\} = 2e^{-t}\cos(t)
+                    \mathscr{L}^{-1}\left\{2\frac{s + 1}{(s + 1)^2 + 1}\right\} = 2e^{-t}\cos(t)
                 </md>
                 <md>
-                    \mathcal{L}^{-1}\left\{2\frac{1}{(s + 1)^2 + 1}\right\} = 2e^{-t}\sin(t)
+                    \mathscr{L}^{-1}\left\{2\frac{1}{(s + 1)^2 + 1}\right\} = 2e^{-t}\sin(t)
                 </md>
                 For the first term, we use the time-shift property:
                 <md>
-                    \mathcal{L}^{-1}\left\{\frac{-2e^{-2s}}{s^2 + 2s + 2}\right\} = -2e^{-2}e^{-(t-2)}\sin(t-2)u(t-2)
+                    \mathscr{L}^{-1}\left\{\frac{-2e^{-2s}}{s^2 + 2s + 2}\right\} = -2e^{-2}e^{-(t-2)}\sin(t-2)u_2(t)
                 </md>
                 Therefore, the solution is:
                 <md>
-                    y(t) = -2e^{-2}e^{-(t-2)}\sin(t-2)u(t-2) + 2e^{-t}\cos(t) + 2e^{-t}\sin(t)
+                    y(t) = -2e^{-2}e^{-(t-2)}\sin(t-2)u_2(t) + 2e^{-t}\cos(t) + 2e^{-t}\sin(t)
                 </md>
             </p>
         </solution>
     </task>
-    
-</exercise>
 
+</exercise>
+<exercise>
+    <introduction>
+        <p>
+            Find Laplace inverse for the following functions.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                <m>\displaystyle{\mathscr{L}^{-1}\left\{ \frac{1}{s^4-81}\right\}}</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                <m>\displaystyle{\mathscr{L}^{-1}\left\{ \frac{7s}{(s^2+1)(s^2+3)(s^2+5)}\right\}}</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                <m>\displaystyle{\mathscr{L}^{-1}\left\{ \frac{5s+12}{s^2-5s+6}e^{-3s}\right\}}</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                <m>\displaystyle{\mathscr{L}^{-1}\left\{ \frac{3s+5}{s^4+6s^2+9}\right\}}</m>
+            </p>
+        </statement>
+    </task>
+</exercise>
                 </worksheet>
